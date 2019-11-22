@@ -88,3 +88,17 @@
 - [2018B11 Midazolam](intravenous_anaesthetics/2018B11_midazolam.htm)
 - [2019A11 Propofol TCI](intravenous_anaesthetics/2019A11_propofol_tci.htm)
 
+### Local anaesthetics
+- [2002A09 Local anaesthetic toxicity](local_anaesthetics/2002A09_local_anaesthetic_toxicity.htm)
+- [2003A03 Local anaesthetics - mechanism of action](local_anaesthetics/2003A03_local_anaesthetics_mechanism_of_action.htm)
+- [2004A03 Local anaesthetics - topical agents](local_anaesthetics/2004A02_local_anaesthetics_topical_agents.htm)
+- [2004B02 Ropivacaine](local_anaesthetics/2004B02_ropivacaine.htm)
+- [2005B03 Lignocaine - physicochemical characteristics](local_anaesthetics/2005B03_lignocaine_physicochemical_characteristics.htm)
+- [2007A02 Local anaesthetics - neuraxial pharmacokinetics](local_anaesthetics/2007A02_local_anaesthetics_neuraxial_pharmacokinetics.htm)
+- [2010A01 Local anaesthetics - structure-activity relationships](local_anaesthetics/2010A01_local_anaesthetics_structure_activity_relationships.htm)
+- [2011A01 Local anaesthetic systemic toxicity - risk factors](local_anaesthetics/2011A01_local_anaesthetic_systemic_toxicity_risk_factors.htm)
+- [2015A04 Local anaesthetics - nasal application](local_anaesthetics/2015A04_local_anaesthetics_nasal_application.htm)
+- [2016A06 Local anaesthetics - rate of onset](local_anaesthetics/2016A06_local_anaesthetics_rate_of_onset.htm)
+- [2017A12 Total spinal anaesthesia](local_anaesthetics_2017A12_total_spinal_anaesthesia.htm)
+- [2017B08 Local anaesthetics - rate of offset](local_anaesthetics/2017B08_local_anaesthetics_rate_of_offset.htm)
+- [2019A08 Local anaesthetic systemic toxicity - features](local_anaesthetics/2019A08_local_anaesthetic_systemic_toxicity_features.htm)

@@ -42,7 +42,7 @@ Recommended Reading
 - The Arterial System
 ## Anaesthetic Pharmacology - Evers & Maze
 - Pharmacokinetics of Opioids
-## Pharmacology for the ANZCA Primary Exam - Petkok
+## Pharmacology for the ANZCA Primary Exam - Petkov
 - Good for revision
 ## Equipment in Anaesthesia and Critical Care - Aston, Rivers & Dharmadasa
 

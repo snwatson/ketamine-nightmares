@@ -134,7 +134,7 @@
 - [2009B05 Non-depolarising relaxants - inter-individual variation](muscle_relaxants/2009B05_non_depolarising_relaxants_inter_individual_variation.htm)
 - [2010B05 Reversal - anti-cholinesterases](muscle_relaxants/2010B05_reversal_anticholinesterases.htm)
 - [2013C04 Relaxants - cardiovascular effects](muscle_relaxants/2013C04_relaxants_cardiovascular_effects.htm)
-- [2014A02 Non-depolarising relaxants - log dose response curve](muscle_relaxants/2014A02_non_depolarising_relaxants_log_dose_response_curve.htm(
+- [2014A02 Non-depolarising relaxants - log dose response curve](muscle_relaxants/2014A02_non_depolarising_relaxants_log_dose_response_curve.htm)
 - [2016A04 Non-depolarising relaxants - adverse effects](muscle_relaxants/2016A04_non_depolarising_relaxants_adverse_effects.htm)
 - [2016B10 Reversal - neostigmine](muscle_relaxants/2016B10_reversal_neostigmine.htm)
 - [2017A06 Suxamethonium - adverse effects](muscle_relaxants/2017A06_suxamethonium_adverse_effects.htm)

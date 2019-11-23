@@ -23,7 +23,5 @@ I would like to thank:
 - It should not be used to inform your own treatment, if that were even possible
 - There will be some mistakes as a result of ignorance, sleepiness, textbook disparity or fat fingers; if you find one, please let me know
 
-Best wishes with your studies
-Stuart Watson
-Anaesthesia Trainee
-Melbourne, Victoria, Australia
+
+Stuart N Watson December 2019

@@ -8,7 +8,7 @@
 - Well worth the money
 Recommended Reading
 
-#Textbooks and their best chapters
+# Textbooks and their best chapters
 
 ## West's Respiratory Physiology
 - Read it from cover to cover
@@ -46,7 +46,7 @@ Recommended Reading
 - Good for revision
 ## Equipment in Anaesthesia and Critical Care - Aston, Rivers & Dharmadasa
 
-#Online resources
+# Online resources
 
 ## Kerry Brandis
 - [Acid-Base Physiology](https://www.anaesthesiamcq.com/AcidBaseBook/ABindex.php)

@@ -126,17 +126,17 @@
 - [2019A13 Antibiotic chemoprophylaxis](miscellaneous_drugs/2019A13_antibiotic_chemoprophylaxis.htm)
 
 ### Muscle relaxants
-- [2000B16 Atracurium vs cisatracurium](muscle relaxants/2000B16_atracurium_vs_cisatracurium.htm)
+- [2000B16 Atracurium vs cisatracurium](muscle_relaxants/2000B16_atracurium_vs_cisatracurium.htm)
 - [2002B05 Suxamethonium - causes of prologned effect](muscle_relaxants/2002B05_suxamethonium_causes_of_prolonged_effect.htm)
 - [2004A02 Non-depolarising relaxants - rate of onset](muscle_relaxants/2004A02_non_depolarising_relaxants_rate_of_onset.htm)
 - [2006B04 Suxamethonium vs rocuronium - rapid sequence induction](muscle_relaxants/2006B04_suxamethonium_vs_rocuronium_rapid_sequence_induction.htm)
 - [2007B06 Suxamethonium - mechanisms of phase 1 and phase 2 block](muscle_relaxants/2007B06_suxamethonium_mechanisms_of_phase_1_and_phase_2_block.htm)
 - [2009B05 Non-depolarising relaxants - inter-individual variation](muscle_relaxants/2009B05_non_depolarising_relaxants_inter_individual_variation.htm)
-- [2010B05 Reversal - anti-cholinesterases](muscle relaxants/2010B05_reversal_anticholinesterases.htm)
+- [2010B05 Reversal - anti-cholinesterases](muscle_relaxants/2010B05_reversal_anticholinesterases.htm)
 - [2013C04 Relaxants - cardiovascular effects](muscle_relaxants/2013C04_relaxants_cardiovascular_effects.htm)
 - [2014A02 Non-depolarising relaxants - log dose response curve](muscle_relaxants/2014A02_non_depolarising_relaxants_log_dose_response_curve.htm(
 - [2016A04 Non-depolarising relaxants - adverse effects](muscle_relaxants/2016A04_non_depolarising_relaxants_adverse_effects.htm)
-- [2016B10 Reversal - neostigmine](muscle relaxants/2016B10_reversal_neostigmine.htm)
+- [2016B10 Reversal - neostigmine](muscle_relaxants/2016B10_reversal_neostigmine.htm)
 - [2017A06 Suxamethonium - adverse effects](muscle_relaxants/2017A06_suxamethonium_adverse_effects.htm)
 - [2018A12 Reversal - neostigmine vs sugammadex](muscle_relaxants/2018A12_reversal_neostigmine_vs_sugammadex.htm)
 - [2018B04 Suxamethonium vs rocuronium](muscle_relaxants/2018B04_suxamethonium_vs_rocuronium.htm)
@@ -160,7 +160,7 @@
 - [2011B02 Compartment modelling](pharamcokinetics/2011B02_compartment_modelling.htm)
 - [2012B13 Exponential functions](pharamcokinetics/2012B13_exponential functions.htm)
 - [2013C05 Volume of distribution](pharamcokinetics/2013C05_volume_of_distribution.htm)
-- [2015B04 Half-life vs context-sensitive half-time](pharamcokinetics/2015B04_half_life_vs_context_sensitive_half_time.htm)
+- [2015B04 Half-life vs context-sensitive half-time](pharmacokinetics/2015B04_half_life_vs_context_sensitive_half_time.htm)
 - [2017A04 CYP2D6](pharamcokinetics/2017A04_cyp2d6.htm)
 - [2018B14 Transdermal kinetics](pharamcokinetics/2018B14_transdermal_kinetics.htm)
 

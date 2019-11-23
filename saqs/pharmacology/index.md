@@ -162,5 +162,5 @@
 - [2013C05 Volume of distribution](pharamcokinetics/2013C05_volume_of_distribution.htm)
 - [2015B04 Half-life vs context-sensitive half-time](pharmacokinetics/2015B04_half_life_vs_context_sensitive_half_time.htm)
 - [2017A04 CYP2D6](pharamcokinetics/2017A04_cyp2d6.htm)
-- [2018B14 Transdermal kinetics](pharamcokinetics/2018B14_transdermal_kinetics.htm)
+- [2018B14 Transdermal kinetics](pharmacokinetics/2018B14_transdermal_kinetics.htm)
 

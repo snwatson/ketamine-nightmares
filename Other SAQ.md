@@ -1,12 +1,16 @@
 # Other SAQ
 
-### Anatomy
+<details><summary>Anatomy</summary><p>
+
 - [2013A08 Laryngeal anatomy](anatomy/2013A08_laryngeal_anatomy.htm)
 - [2014A07 Lumbar epidural anatomy](anatomy/2014A07_lumbar_epidural_anatomy.htm)
 - [2014B01 Cubital fossa anatomy](anatomy/2014B01_cubital_fossa_anatomy.htm)
 - [2016B09 Right internal jugular venous cannulation](anatomy/2016B09_right_internal_jugular_venous_cannulation.htm)
 
-### Clinical Measurement
+</p></details>
+
+<details><summary>Clinical Measurement</summary><p>
+
 - [1999A12 Neuromuscular monitoring - fade and post-tetanic potentiation](clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm)
 - [2008A08 Neuromuscular monitoring - diaphragm and larynx vs adductor pollicis](clinical_measurement/2008A08_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm)
 - [2004A13 Renal clearance](clinical_measurement/2004A13_renal_clearance.htm)
@@ -24,7 +28,10 @@
 - [2019A06 Renal function tests](clinical_measurement/2019A06_renal_function_tests.htm)
 - [2019A15 Pulse oximetry - sources of inaccuracy](clinical_measurement/2019A15_pulse_oximetry_sources_of_inaccuracy.htm)
 
-### Equipment
+</p></details>
+
+<details><summary>Equipment</summary><p>
+
 - [1999A05 Mercury thermometer vs thermistor, heat vs temperature](equipment/1999A05_mercury_thermometer_vs_thermistor_heat_and_temperature.htm)
 - [1999B07 Clark electrode](equipment/1999B07_clark_electrode.htm)
 - [2006A15 pH electrode](equipment/2006A15_ph_electrode.htm)
@@ -42,10 +49,18 @@
 - [2017B02 Variable bypass vapouriser - function and accuracy](equipment/2017B02_variable_bypass_vapouriser_function_and_accuracy.htm)
 - [2018A04 CO2 absorbents - hazards](equipment/2018A04_co2_absorbents_hazards.htm)
 
-### Physics
+</p></details>
+
+<details><summary>Physics</summary><p>
+
 - [2010B11 Ultrasonography - physical principles](physics/2010B11_ultrasonography_physical_principles.htm)
 - [2011A16 Flow physics](physics/2011A16_flow_physics.htm)
 - [2013B08 Resonance and damping](physics/2013B08_resonance_and_damping.htm)
 
-### Statistics
+</p></details>
+
+<details><summary>Statistics</summary><p>
+
 - [2017A09 Sensitivity and specificity](statistics/2017A09_sensitivity_and_specificity.htm)
+
+</p></details>

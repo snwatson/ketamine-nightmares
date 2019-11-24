@@ -73,7 +73,7 @@
 - [2003A10 Determinants of hepatic blood flow](gastroenterology/2003A10_determinants_of_hepatic_blood_flow.htm)
 - [2011A03 Liver failure - kinetics and dynamics](gastroenterology/2011A03_liver_failure_kinetics_and_dynamics.htm)
 - [2011A15 Functions of the gastric secretions](gastroenterology/2011A15_functions_of_the_gastric_secretions.htm)
-- [2015A03 Functions of the liver](gastroenterology/2015A03)functions_of_the_liver.htm)
+- [2015A03 Functions of the liver](gastroenterology/2015A03_functions_of_the_liver.htm)
 - [2015B12 Lower oesophageal sphincter](gastroenterology/2015B12_lower_oesophageal_sphincter.htm)
 - [2017B10 Gastric emptying rate](gastroenterology/2017B10_gastric_emptying_rate.htm)
 

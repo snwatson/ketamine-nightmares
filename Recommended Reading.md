@@ -72,7 +72,7 @@
 - The brainchild of Intensivist Alex Yartsev
 -  Google “Deranged Physiology” along with almost any topic of interest
 - [Effect of positive pressure ventilation on cardiovascular physiology](https://derangedphysiology.com/main/cicm-primary-exam/required-reading/respiratory-system/Chapter%20523/effects-positive-pressure-ventilation-cardiovascular-physiology)
-- [Manipulation of Fluid and Electrolytes – especially “response to infusion of X”](https://derangedphysiology.com/main/core-topics-intensive-care/manipulation-fluids-and-electrolytes)
+- [Manipulation of Fluid and Electrolytes](https://derangedphysiology.com/main/core-topics-intensive-care/manipulation-fluids-and-electrolytes) - especially "response to infusion of X"
 - [ Haemodynamic monitoring – especially sections on CVP and PCWP](https://derangedphysiology.com/main/core-topics-intensive-care/haemodynamic-monitoring)
 #### [Life in the fast lane](https://litfl.com/)
 - Google “LITFL” along with almost any topic of interest

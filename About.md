@@ -10,7 +10,7 @@ I would like to thank:
 - My wife Maria for her patience and wisdom
 - My mother (Margaret) and father (Harry) for all that I have
 - My colleague [Alexander Clarke](https://www.alexanderclarke.id.au) for helping a great deal with the website
-- My study companions Harsh Dubey, Perdita Gregory, Kevin Murphy, Lauren Smith and Tim Williams (in alphabetical order)
+- My study companions Perdita Gregory, Kevin Murphy, Lauren Smith and Tim Williams and Harsh Dubey
 - The Departments of Anaesthesia at Box Hill Hospital and St. Vincent’s Hospital
 - The convenors of the Primary Exam Course at the Waikato Hospital in Hamilton, New Zealand – Aidan O’Donnell, James Clark and Jeff Hoskins
  

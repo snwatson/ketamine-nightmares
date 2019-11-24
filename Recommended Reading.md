@@ -78,6 +78,10 @@
 - Google “LITFL” along with almost any topic of interest
 - The new “Part One” section by my fellow trainee Jake Barlow looks very good
 - [Alpha stat and pH stat section](https://litfl.com/arterial-blood-gas-in-hypothermia/) was useful to me
+#### [Primary daily learning outcomes](https://primarydailylo.wordpress.com)
+- An unofficial website run by several primary examiners
+- It will task you with excellent and interesting questions
+- Unfortunately the answers to those questions are not provided directly and can be difficult to track down
 #### Miscellaneous
 - [The Biophase Concept and Intravenous Anaesthesia](https://web.stanford.edu/~sshafer/LECTURES.DIR/Notes/Biophase%2520in%2520Anesthesia.doc+&cd=1&hl=en&ct=clnk&gl=au) by Steven Shafer
 - [The Drager Primus Anaesthetic Machine Animation](https://static.draeger.com/trainer/primus_ie_trainer_en/start.html#id=D1100)

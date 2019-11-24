@@ -2,6 +2,7 @@
  
 ## What is it?
 - It’s a resource for the Anaesthesia Primary Exam in Australia
+- Mostly it's a bank of my suggested answers to past SAQs
 - Anaesthesia trainees in other countries may benefit
 - Trainees in other critical care disciplines may benefit
  

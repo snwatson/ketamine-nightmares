@@ -18,7 +18,7 @@
 #### Pharmacology for Anaesthesia and Intensive Care - Peck & Hill
 - Read it from cover to cover
 - Be sure to understand Section 1 – Basic Principles
-- Great starter, but it alone is not enough
+- Great starter, but it alone is not enough for pharmacology
 #### Principles of Physiology for the Anaesthetist - Power & Kam
 - Physiology of Excitable Cells
 - Cardiovascular Physiology

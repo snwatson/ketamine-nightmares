@@ -25,7 +25,7 @@
 - [1999B12 Sodium nitroprusside](cardiovascular_drugs/1999B12_sodium_nitroprusside.htm)
 - [2001A15 Esmolol vs propranolol](cardiovascular_drugs/2001A15_esmolol_vs_propranolol.htm)
 - [2002B08 Vasopressin](cardiovascular_drugs/2002B08_vasopressin.htm)
-- [2004B06 Glyceryl tri-nitrate](cardiovascular_drugs/2004B06_glyceryl_trinitrate.htm)
+- [2004B06 Glyceryl trinitrate](cardiovascular_drugs/2004B06_glyceryl_trinitrate.htm)
 - [2006B01 Treatment of hypotension due to subarachnoid block](cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm)
 - [2006B07 Treatment of ventricular fibrillation](cardiovascular_drugs/2006B07_treatment_of_ventricular_fibrillation.htm)
 - [2007A08 Treatment of chronic LV failure](cardiovascular_drugs/2007A08_treatment_of_chronic_lv_failure.htm)

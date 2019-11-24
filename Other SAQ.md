@@ -1,12 +1,5 @@
 # Other SAQ
 
-## collapsible markdown?
-
-<details><summary>CLICK ME</summary>
-<p>
-
-#### yes, even hidden code blocks!
-
 ### Anatomy
 - [2013A08 Laryngeal anatomy](anatomy/2013A08_laryngeal_anatomy.htm)
 - [2014A07 Lumbar epidural anatomy](anatomy/2014A07_lumbar_epidural_anatomy.htm)

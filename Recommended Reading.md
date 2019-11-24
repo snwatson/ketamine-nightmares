@@ -3,7 +3,7 @@
 ## Recommended Reading
 
 ### Essentials
-#### [The primer](https://primarydailylo.files.wordpress.com/2018/03/a-primer-for-the-primary-fanzca-examination-1.pdf)
+#### [The Primer](https://primarydailylo.files.wordpress.com/2018/03/a-primer-for-the-primary-fanzca-examination-1.pdf)
 - Written by former chief examiner Mark Reeves
 - Make sure this is the first thing you read
 #### [MAK95](https://www.mak95.com)

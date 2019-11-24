@@ -13,7 +13,7 @@ I would like to thank:
 - My colleague [Alexander Clarke](https://www.alexanderclarke.id.au) for helping a great deal with the website
 - My study companions Perdita Gregory, Kevin Murphy, Lauren Smith and Tim Williams and Harsh Dubey
 - The Departments of Anaesthesia at Box Hill Hospital and St. Vincent’s Hospital
-- The convenors of the Primary Exam Course at the Waikato Hospital in Hamilton, New Zealand – Aidan O’Donnell, James Clark and Jeff Hoskins
+- The convenors of the Primary Exam Course at the Waikato Hospital in Hamilton, New Zealand – Aidan O’Donnell, James Clark and Jeffrey Hoskins
  
 ## Disclaimers:
 - This website is intended as an aid to exam preparation

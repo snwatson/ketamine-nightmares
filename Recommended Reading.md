@@ -2,7 +2,8 @@
 
 ## Recommended Reading
 
-### Essentials
+<details><summary>Essentials</summary><p>
+
 #### [The Primer](https://primarydailylo.files.wordpress.com/2018/03/a-primer-for-the-primary-fanzca-examination-1.pdf)
 - Written by former chief examiner Mark Reeves
 - Make sure this is the first thing you read
@@ -11,7 +12,9 @@
 - Contains many other resources
 - Well worth the money
 
-### Textbooks and their best chapters
+</p></details>
+
+<details><summary>Textbooks and their best chapters</summary><p>
 
 #### West's Respiratory Physiology
 - Read it from cover to cover
@@ -49,7 +52,9 @@
 - Good for revision
 #### Equipment in Anaesthesia and Critical Care - Aston, Rivers & Dharmadasa
 
-### Online resources
+</p></details>
+
+<details><summary>Online Resources</summary><p>
 
 #### Kerry Brandis
 - [Acid-Base Physiology](https://www.anaesthesiamcq.com/AcidBaseBook/ABindex.php)

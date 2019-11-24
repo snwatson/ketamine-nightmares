@@ -1,7 +1,7 @@
 # About Ketamine Nightmares
  
 ## What is it?
-- It’s a resource for ANZCA primary exam candidates
+- It’s a resource for the Australian anaesthesia primary exam
 - I plan to keep it up to date for as long as I am able
 - Anaesthesia trainees in other countries may benefit
 - Trainees in other critical care disciplines may benefit

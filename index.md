@@ -1,4 +1,4 @@
-# Ketamine Nighmares
+# Ketamine Nightmares
 
 A guide to the Anaesthesia Primary Exam  
 

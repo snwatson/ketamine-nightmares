@@ -2,7 +2,7 @@
 
 ## Recommended Reading
 
-###Essentials
+### Essentials
 
 #### [The Primer](https://primarydailylo.files.wordpress.com/2018/03/a-primer-for-the-primary-fanzca-examination-1.pdf)
 
@@ -71,7 +71,7 @@
 
 #### Equipment in Anaesthesia and Critical Care - Aston, Rivers & Dharmadasa
 
-###Online Resources
+### Online Resources
 
 #### Kerry Brandis
 

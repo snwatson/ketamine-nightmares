@@ -2,9 +2,9 @@
 
 A guide to the Anaesthesia Primary Exam  
 
-- [Physiology SAQ](saqs/physiology.md)
-- [Pharmacology SAQ](saqs/pharmacology.md)
-- [Other SAQ](saqs/other.md)
-- [Recommended Reading](recommended_reading.md)
-- [Study Advice](study_advice.md)
-- [About](about_ketamine_nightmares.md)
+- [Physiology SAQ](saqs/physiology/)
+- [Pharmacology SAQ](saqs/pharmacology/)
+- [Other SAQ](saqs/other/)
+- [Recommended Reading](recommended_reading/)
+- [Study Advice](study_advice/)
+- [About](about_ketamine_nightmares/)

@@ -32,7 +32,7 @@
 - [2008B14 Myocardial oxygen supply and demand - effect of aortic stenosis](cardiovascular/2008B14_myocardial_oxygen_supply_and_demand_effect_of_aortic_stenosis.htm)
 - [2009A13 Preload - the Frank-Starling mechanism](cardiovascular/2009A13_preload_the_frank_starling_mechanism.htm)
 - [2009B09 Post-op hypotension - causes](cardiovascular/2009B09_post_op_hypotension_causes.htm)
-- [2010B10 Myocardial oxygen supply and demand - determinants of coronary blood flow](cardiovascular_2010B10_myocardial_oxygen_supply_and_demand_determinants_of_coronary_blood_flow.htm)
+- [2010B10 Myocardial oxygen supply and demand - determinants of coronary blood flow](cardiovascular/2010B10_myocardial_oxygen_supply_and_demand_determinants_of_coronary_blood_flow.htm)
 - [2011A10 Afterload](cardiovascular/2011A10_afterload.htm)
 - [2012B11 Lymphatic circulation](cardiovascular/2012B11_lymphatic_circulation.htm)
 - [2013A12 Neuraxial blockade - cardiovascular effects](cardiovascular/2013A12_neuraxial_blockade_cardiovascular_effects.htm)

@@ -1,4 +1,4 @@
-# Ketamine Nighmares
+# Ketamine Nightmares
 
 ## Physiology SAQ
 

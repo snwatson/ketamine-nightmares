@@ -28,7 +28,7 @@
 - [1999B12 Sodium nitroprusside](cardiovascular_drugs/1999B12_sodium_nitroprusside.htm)
 - [2001A15 Esmolol vs propranolol](cardiovascular_drugs/2001A15_esmolol_vs_propranolol.htm)
 - [2002B08 Vasopressin](cardiovascular_drugs/2002B08_vasopressin.htm)
-- [2004B06 Glyceryl trinitrate](cardiovascular_drugs/2004B06_glyceryl_trinitrate.htm)
+- [2004A06 Glyceryl trinitrate](cardiovascular_drugs/2004A06_glyceryl_trinitrate.htm)
 - [2006B01 Treatment of hypotension due to subarachnoid block](cardiovascular_drugs/2006B01_treatment_of_hypotension_due_to_subarachnoid_block.htm)
 - [2006B07 Treatment of ventricular fibrillation](cardiovascular_drugs/2006B07_treatment_of_ventricular_fibrillation.htm)
 - [2007A08 Treatment of chronic LV failure](cardiovascular_drugs/2007A08_treatment_of_chronic_lv_failure.htm)
@@ -56,7 +56,7 @@
 - [2000A09 Volatile anaesthetics - cardiovascular effects](inhalational_anaesthetics/2000A09_volatile_anaesthetics_cardiovascular_effects.htm)
 - [2001A12 Volatile anaesthetics - respiratory effects](inhalational_anaesthetics/2001A12_volatile_anaesthetics_respiratory_effects.htm)
 - [2001B10 Nitrous oxide - adverse effects](inhalational_anaesthetics/2001B10_nitrous_oxide_adverse_effects.htm)
-- [2004A01 Isoflurane - CNS effects](inhalational_anaesthetics/2004A01_isoflurane_CNS_effects.htm)
+- [2004A01 Isoflurane - CNS effects](inhalational_anaesthetics/2004A01_isoflurane_cns_effects.htm)
 - [2005B01 Isoflurane - metabolism](inhalational_anaesthetics/2005B01_isoflurane_metabolism.htm)
 - [2009A01 Minimum alveolar concentration](inhalational_anaesthetics/2009A01_minimum_alveolar_concentration.htm)
 - [2010A03 Desflurane - adverse effects](inhalational_anaesthetics/2010A03_desflurane_adverse_effects.htm)
@@ -65,27 +65,27 @@
 - [2013C02 Xenon - advantages and disadvantages](inhalational_anaesthetics/2013C02_xenon_advantages_and_disadvantages.htm)
 - [2014B03 Malignant hyperthermia](inhalational_anaesthetics/2014B03_malignant_hyperthermia.htm)
 - [2015A07 Sevoflurane - effects on muscle](inhalational_anaesthetics/2015A07_sevoflurane_effects_on_muscle.htm)
-- [2017B05 Inhalational anaesthetics - rate of onset](inhalational_anaesthetics_2017B05_inhalational_anaesthetics_rate_of_onset.htm)
-- [2018A03 Volatile anaesthetics - mechanism of hypnosis](inhalational_anaesthetics_2018A03_volatile_anaesthetics_mechanism_of_hypnosis.htm)
+- [2017B05 Inhalational anaesthetics - rate of onset](inhalational_anaesthetics/2017B05_inhalational_anaesthetics_rate_of_onset.htm)
+- [2018A03 Volatile anaesthetics - mechanism of hypnosis](inhalational_anaesthetics/2018A03_volatile_anaesthetics_mechanism_of_hypnosis.htm)
 - [2018A06 Sevoflurane - rate of washout.htm](inhalational_anaesthetics/2018A06_sevoflurane_rate_of_washout.htm)
 - [2019A09 Inhalational anaesthetics - wash-in curves](inhalational_anaesthetics/2019A09_inhalational_anaesthetics_wash_in_curves.htm)
 - [2019A10 Sevoflurane - effects on regional circulations](inhalational_anaesthetics/2019A10_sevoflurane_regional_circulation_effects.htm)
 
 ### Intravenous Anaesthetics
 
-- [1999A16 Alpha 2 adrenoceptor agonist](intravenous_anaesthetics/1999A16_alpha_2_adrenoceptor_agonist.htm)
-- [2002A11 Thiopentone and ketamine - non-CNS effects](intravenous_anaesthetics/2002A11_thiopentone_and_ketamine_non_CNS_effects.htm)
+- [1999A16 Alpha 2 adrenoceptor agonist](intravenous_anaesthetics/1999A16_alpha_2_adrenoceptor_agonists.htm)
+- [2002A11 Thiopentone and ketamine - non-CNS effects](intravenous_anaesthetics/2002A11_thiopentone_and_ketamine_non_cns_effects.htm)
 - [2002A16 Flumazenil](intravenous_anaesthetics/2002A16_flumazenil.htm)
 - [2003B06 Alpha 2 adrenoceptor agonists - and limitations of clonidine](intravenous_anaesthetics/2003B06_alpha_2_adrenoceptor_agonists_and_limitations_of_clonidine.htm)
 - [2004B07 Propofol - inter-invididual variatation in elimination half life](intravenous_anaesthetics/2004B07_propofol_inter_individual_variation_in_elimination_half_life.htm)
-- [2006B03 Intravenous induction agents - inter-individual variation](intravenous_anaesthetics/2006B03_intravenous_induction_agents_inter_individual_variation.htm)
+- [2006B03 Intravenous induction agents - inter-individual variation](intravenous_anaesthetics/2006B03_intravenous_induction_inter_individual_variation.htm)
 - [2007A04 Propofol TIVA vs ketamine TIVA](intravenous_anaesthetics/2007A04_propofol_tiva_vs_ketamine_tiva.htm)
 - [2008A03 Ideal sedative](intravenous_anaesthetics/2008A03_ideal_sedative.htm)
 - [2008B02 Propofol TIVA](intravenous_anaesthetics/2008B02_propofol_tiva.htm)
 - [2008B03 Clonidine](intravenous_anaesthetics/2008B03_clonidine.htm)
 - [2009B02 Propofol - adverse effects](intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm)
 - [2012A07 Ketamine TIVA](intravenous_anaesthetics/2012A07_ketamine_tiva.htm)
-- [2012B02 Propofol vs sevoflurane - kinetics, CVS, CNS effects](intravenous_anaesthetics/2012B02_propofol_vs_sevoflurane_kinetics_cvs_cns_effects.htm)
+- [2012B02 Propofol vs sevoflurane - kinetics, CVS, CNS effects](intravenous_anaesthetics/2012B02_propofol_vs_sevoflurane_kinetics_cvs_and_cns_effects.htm)
 - [2015A12 Intravenous induction - rate of onset](intravenous_anaesthetics/2015A12_intravenous_induction_rate_of_onset.htm)
 - [2017B14 Propofol - non-CNS effects](intravenous_anaesthetics/2017B14_propofol_non_cns_effects.htm)
 - [2018A07 Intravenous induction - dosing in youth, old age and shock](intravenous_anaesthetics/2018A07_intravenous_induction_dosing_in_youth_old_age_and_shock.htm)
@@ -136,8 +136,8 @@
 - [2000B16 Atracurium vs cisatracurium](muscle_relaxants/2000B16_atracurium_vs_cisatracurium.htm)
 - [2002B05 Suxamethonium - causes of prologned effect](muscle_relaxants/2002B05_suxamethonium_causes_of_prolonged_effect.htm)
 - [2004A02 Non-depolarising relaxants - rate of onset](muscle_relaxants/2004A02_non_depolarising_relaxants_rate_of_onset.htm)
-- [2006B04 Suxamethonium vs rocuronium - rapid sequence induction](muscle_relaxants/2006B04_suxamethonium_vs_rocuronium_rapid_sequence_induction.htm)
-- [2007B06 Suxamethonium - mechanisms of phase 1 and phase 2 block](muscle_relaxants/2007B06_suxamethonium_mechanisms_of_phase_1_and_phase_2_block.htm)
+- [2006B04 Suxamethonium vs rocuronium - rapid sequence induction](muscle_relaxants/2006B04_suxamethonium_vs_rocuronium_in_rapid_sequence_induction.htm)
+- [2007B06 Suxamethonium - mechanisms of phase 1 and phase 2 block](muscle_relaxants/2007B06_suxamethonium_mechanisms_of_phase_1_and_phase_2_blockade.htm)
 - [2009B05 Non-depolarising relaxants - inter-individual variation](muscle_relaxants/2009B05_non_depolarising_relaxants_inter_individual_variation.htm)
 - [2010B05 Reversal - anti-cholinesterases](muscle_relaxants/2010B05_reversal_anticholinesterases.htm)
 - [2013C04 Relaxants - cardiovascular effects](muscle_relaxants/2013C04_relaxants_cardiovascular_effects.htm)
@@ -151,17 +151,17 @@
 
 ### Pharmaceutics
 
-- [2003A04 Intravenous drug additives](pharmaceutics/2003A03_intravenous_drug_additives.htm)
+- [2003A04 Intravenous drug additives](pharmaceutics/2003A04_intravenous_drug_additives.htm)
 - [2013C03 Isomerism](pharmaceutics/2013C03_isomerism.htm)
 
 ### Pharmacodynamics
 
 - [2002B06 Tolerance and dependence - opioids](pharmacodynamics/2002B06_tolerance_and_dependence_opioids.htm)
 - [2004B01 Mechanisms of drug action](pharmacodynamics/2004B01_mechanisms_of_drug_action.htm)
-- [2005B02 Dose-response curves](pharmacodynamics/2005B02_dose_response_curves.htm)
+- [2005B02 Dose-response curves - opioids](pharmacodynamics/2005B02_dose_response_curves_opioids.htm)
 - [2012B03 Tolerance and tachyphylaxis](pharmacodynamics/2012B03_tolerance_and_tachyphylaxis.htm)
 - [2015A05 Synergy - sevoflurane and fentanyl](pharmacodynamics/2015A05_synergy_sevoflurane_fentanyl.htm)
-- [2017A03 Synergy - propofol and remifentanil](pharmacodynamics/2017A03_synergy_propofol_remifentanil.htm)
+- [2017A03 Synergy - propofol and remifentanil](pharmacodynamics/2017A03_synergy_propofol_and_remifentanil_tci.htm)
 
 ### Pharmacokinetics
 

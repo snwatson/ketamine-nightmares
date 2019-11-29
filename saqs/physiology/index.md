@@ -117,7 +117,7 @@
 ### Neurophysiology
 
 - [2000B06 Determinants of intra-ocular pressure](neurophysiology/2000B06_determinants_of_intra_ocular_pressure.htm)
-- [2003A12 Cerebral blood flow autoregulation - during posture change](neurophysiology/2003A12_cerebral_blood_flow_autoregulation_during_posture_change.htm)
+- [2003A12 Cerebral blood flow regulation - during posture change](neurophysiology/2003A12_cerebral_blood_flow_regulation_during_posture_change.htm)
 - [2009A09 Determinants of intracranial pressure](neurophysiology/2009A09_determinants_of_intracranial_pressure.htm)
 - [2009B14 Cerebral effects of hypercapnoea](neurophysiology/2009B14_cns_effects_of_hypercapnoea.htm)
 - [2015B10 Cerebral effects of hypocapnoea](neurophysiology/2015B10_cns_effects_of_hypocapnoea.htm)

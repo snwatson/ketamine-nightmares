@@ -1,655 +1,706 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:0in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:1.0in 1.0in 1.0in 1.0in;}
+        {size:595.3pt 841.9pt;
+        margin:1.0in 1.0in 1.0in 1.0in;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 ul
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-GB>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2014A13 Compare
-and contrast the pharmacology of normal saline and 4% albumin.</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
-text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Physicochemical</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
-.0001pt;text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Pharmacokinetics</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom:.0001pt;
-text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Pharmacodynamics</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Physicochemical:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><b><span lang=EN-US>&nbsp;</span></b></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><b><span lang=EN-US>0.9% Normal saline</span></b></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><b><span lang=EN-US>4% albumin</span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Type</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Crystalloid = small, charged, dissolved particles</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>(leaks into ISF quickly)</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Colloid = large, dispersed particles</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>(stays in plasma longer)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Production</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Distilled water + pure NaCl</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Blood donation</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Pasteurisation (heat 60</span><span lang=EN-US>°</span><span
-  lang=EN-US>C 10 hours)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Cost</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Very low</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>High</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Storage</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>PVC</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Glass vial (breakable)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Contents</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>154mmol/L Na<sup>+</sup></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>154mmol/L Cl<sup>-</sup></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>(9 grams NaCl)</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Albumin 40g/L</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Na<sup>+</sup> 140 mmol/L</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Cl<sup>-</sup> 128 mmol/L</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Octanoate 6.4mmol/L</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Osmolality</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>308 predicted</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>290 measured</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>(not ideal solution)</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>260</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Tonicity</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Iso</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Hypo</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Oncotic pressure</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>0</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>20-30mmHg</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>-&gt;iso-oncotic</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>pH</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>5.5</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>7</span></p>
-  </td>
- </tr>
+<body lang="EN-GB">
+<div class="WordSection1">
+<h1><span lang="EN-US" style=
+'font-size:15.0pt;line-height:107%'>2014A13 Compare and contrast
+the pharmacology of normal saline and 4% albumin.</span></h1>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Physicochemical</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Pharmacokinetics</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Pharmacodynamics</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Physicochemical:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<b><span lang="EN-US">&nbsp;</span></b></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<b><span lang="EN-US">0.9% Normal saline</span></b></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<b><span lang="EN-US">4% albumin</span></b></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Type</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Crystalloid = small, charged, dissolved
+particles</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">(leaks into ISF quickly)</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Colloid = large, dispersed particles</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">(stays in plasma longer)</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Production</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Distilled water + pure NaCl</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Blood donation</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Pasteurisation (heat 60</span><span lang=
+"EN-US">&deg;</span><span lang="EN-US">C 10 hours)</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Cost</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Very low</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">High</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Storage</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">PVC</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Glass vial (breakable)</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Contents</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">154mmol/L Na<sup>+</sup></span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">154mmol/L Cl<sup>-</sup></span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">(9 grams NaCl)</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Albumin 40g/L</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Na<sup>+</sup> 140 mmol/L</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Cl<sup>-</sup> 128 mmol/L</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Octanoate 6.4mmol/L</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Osmolality</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">308 predicted</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">290 measured</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">(not ideal solution)</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">260</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Tonicity</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Iso</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Hypo</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Oncotic pressure</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">0</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">20-30mmHg</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">-&gt;iso-oncotic</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">pH</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">5.5</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">7</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Pharmacokinetics:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Feature</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Normal saline</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>4% albumin</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Absorption</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Distribution</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>-Where</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>ECF: plasma ¼, ISF ¾</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>(more in plasma if hypovolaemic)</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>ECF: plasma 70-100%, ISF rest </span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>(prefer if deplete)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>-How long plasma expansion lasts</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>30 minutes</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>12-24 hours</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Metabolism</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Nil</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Hepatic proteolysis</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Excretion</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Urine Na<sup>+</sup>, Cl<sup>-</sup>, H<sub>2</sub>O</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Urine Na<sup>+</sup>, Cl<sup>-</sup>, H<sub>2</sub>O</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Protein recycled</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Pharmacokinetics:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Feature</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Normal saline</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">4% albumin</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Absorption</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Distribution</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">-Where</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">ECF: plasma &frac14;, ISF &frac34;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">(more in plasma if hypovolaemic)</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">ECF: plasma 70-100%, ISF rest</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">(prefer if deplete)</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">-How long plasma expansion lasts</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">30 minutes</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">12-24 hours</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Metabolism</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Nil</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Hepatic proteolysis</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Excretion</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Urine Na<sup>+</sup>, Cl<sup>-</sup>,
+H<sub>2</sub>O</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Urine Na<sup>+</sup>, Cl<sup>-</sup>,
+H<sub>2</sub>O</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Protein recycled</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Pharmacodynamics:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Normal saline</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>4% albumin</span></p>
-  </td>
- </tr>
- <tr style='height:11.65pt'>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt;height:11.65pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Specific indications</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:11.65pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Resuscitation for hypovolaemia</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Neurosurgery</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt;height:11.65pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Liver failure</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Hypoalbuminaemia</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Haemorrhage</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Metabolic disturbance</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Hyperchloraemic acidosis (high [Cl<sup>-</sup>]
-  -&gt; &#8595;SID -&gt; &#8593;dissociation of H<sub>2</sub>O -&gt; acidosis</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>(for preservation of electrical neutrality</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Anaphylaxis</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>No</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>1 in 10,000</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Infection</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>No</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Unlikely - pasteurized</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>APO</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>More likely</span></p>
-  </td>
-  <td width=252 valign=top style='width:189.0pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Less likely</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Pharmacodynamics:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Normal saline</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">4% albumin</span></p>
+</td>
+</tr>
+<tr style='height:11.65pt'>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt;height:11.65pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Specific indications</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt;height:11.65pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Resuscitation for hypovolaemia</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Neurosurgery</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt;height:11.65pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Liver failure</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Hypoalbuminaemia</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Haemorrhage</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Metabolic disturbance</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Hyperchloraemic acidosis (high [Cl<sup>-</sup>]
+-&gt; &DownArrow;SID -&gt; &ShortUpArrow;dissociation of
+H<sub>2</sub>O -&gt; acidosis</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">(for preservation of electrical
+neutrality</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Anaphylaxis</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">No</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">1 in 10,000</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Infection</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">No</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Unlikely - pasteurized</span></p>
+</td>
+</tr>
+<tr>
+<td width="114" valign="top" style=
+'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">APO</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">More likely</span></p>
+</td>
+<td width="252" valign="top" style=
+'width:189.0pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Less likely</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

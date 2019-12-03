@@ -1,553 +1,613 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:0in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:1.0in 1.0in 1.0in 1.0in;}
+        {size:595.3pt 841.9pt;
+        margin:1.0in 1.0in 1.0in 1.0in;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 ul
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-GB>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2003B03 Outline
-GABA’s role as a neurotransmitter and indicate how its actions may be modified
-by pharmacological agents.</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>GABA</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>GABA-A</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>GABA-B</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Drugs</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>GABA: (</span><span
-lang=EN-US style='font-size:13.0pt;line-height:107%'>&#947;</span><span
-lang=EN-US style='font-size:13.0pt;line-height:107%'>-aminobutyric acid)</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Type of neurotransmitter</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
-  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Inhibitory</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Location</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Brain &gt; spinal cord &gt; peripheral sites</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Especially hippocampus, other limbic structures, brainstem</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Production</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Glutamic acid -&gt; GABA</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Enzyme: glutamic acid decarboxylase</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Cofactor: vitamin B6</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Degradation</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>GABA -&gt; glutamate or succinate</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Enzyme: GABA transaminase (inhibited by some anticonvulsants)</span></p>
-  </td>
- </tr>
+<body lang="EN-GB">
+<div class="WordSection1">
+<h1><span lang="EN-US" style=
+'font-size:15.0pt;line-height:107%'>2003B03 Outline
+GABA&CloseCurlyQuote;s role as a neurotransmitter and indicate how
+its actions may be modified by pharmacological agents.</span></h1>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">GABA</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">GABA-A</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">GABA-B</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Drugs</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>GABA: (</span><span lang=
+"EN-US" style=
+'font-size:13.0pt;line-height:107%'>&gamma;</span><span lang=
+"EN-US" style='font-size:13.0pt;line-height:107%'>-aminobutyric
+acid)</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Type of neurotransmitter</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Inhibitory</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Location</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Brain &gt; spinal cord &gt; peripheral
+sites</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Especially hippocampus, other limbic structures,
+brainstem</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Production</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Glutamic acid -&gt; GABA</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Enzyme: glutamic acid decarboxylase</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Cofactor: vitamin B6</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Degradation</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">GABA -&gt; glutamate or succinate</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Enzyme: GABA transaminase (inhibited by some
+anticonvulsants)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>GABA-A receptor:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Diagramme</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><img width=251 height=223 id="Content Placeholder 4"
-  src="2003B03_cell_signalling_gaba_ergic_transmission_files/image001.jpg"></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US style='font-size:9.0pt'>(Pharmacology and Physiology
-  for Anaesthesia – Hemmings and Egan)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Structure</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Pentameric ligand-gated ion channel</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#945;<sub>1</sub></span><span lang=EN-US>&#946;<sub>1</sub></span><span
-  lang=EN-US>&#945;<sub>2</sub></span><span lang=EN-US>&#946;<sub>2</sub></span><span
-  lang=EN-US>&#947;</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Location</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
-  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Mostly pre-synaptic</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Activation</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;Cl<sup>-</sup> conductance, prevention of action potential</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>(no hyperpolarization since RMP -70mV, Cl- Nernst potential -65mV)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Rapid onset and offset (milliseconds)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Subtypes</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#945;</span><sub><span lang=EN-US>1</span></sub><span lang=EN-US>:
-  sedation, amnesia, anticonvulsant</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#945;<sub>2</sub>, </span><span lang=EN-US>&#945;</span><sub><span
-  lang=EN-US>3</span></sub><span lang=EN-US>: muscle relaxation, anxiolysis</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>GABA-A receptor:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Diagramme</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<img width="251" height="223" id="Content Placeholder 4" src=
+"2003B03_cell_signalling_gaba_ergic_transmission_files/image001.jpg"></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US" style='font-size:9.0pt'>(Pharmacology and
+Physiology for Anaesthesia &ndash; Hemmings and Egan)</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Structure</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Pentameric ligand-gated ion channel</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&alpha;<sub>1</sub></span><span lang=
+"EN-US">&beta;<sub>1</sub></span><span lang=
+"EN-US">&alpha;<sub>2</sub></span><span lang=
+"EN-US">&beta;<sub>2</sub></span><span lang=
+"EN-US">&gamma;</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Location</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Mostly pre-synaptic</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Activation</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Cl<sup>-</sup> conductance,
+prevention of action potential</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">(no hyperpolarization since RMP -70mV, Cl-
+Nernst potential -65mV)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Rapid onset and offset (milliseconds)</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Subtypes</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&alpha;</span><sub><span lang=
+"EN-US">1</span></sub><span lang="EN-US">: sedation, amnesia,
+anticonvulsant</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&alpha;<sub>2</sub>,</span> <span lang=
+"EN-US">&alpha;</span><sub><span lang=
+"EN-US">3</span></sub><span lang="EN-US">: muscle relaxation,
+anxiolysis</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>GABA-B receptor:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Type</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
-  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Metabotropic G protein coupled receptor</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Location</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
-  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Mostly pre-synaptic</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Activation</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;K<sup>+</sup> efflux, hyperpolarization, &#8595;action
-  potential</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Slower onset (seconds) and offset</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>GABA-B receptor:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Type</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Metabotropic G protein coupled
+receptor</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Location</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Mostly pre-synaptic</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Activation</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;K<sup>+</sup> efflux,
+hyperpolarization, &DownArrow;action potential</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Slower onset (seconds) and offset</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Drugs at GABA-A
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Drugs at GABA-A
 receptor:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Benzodiazepines</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>e.g. midazolam</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Binds BDZ site at </span><span lang=EN-US>&#945;-</span><span
-  lang=EN-US>&#947;</span><span lang=EN-US> interface</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;probability of adopting active conformation once GABA bound</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Note flumazenil competitive antagonist at same site</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Propofol</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Thiopentone</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Volatile agents</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Bind A-B interface</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8595;rate of dissociation of GABA from its receptor</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Baclofen</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Derivative of GABA</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Active at GABA-A</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Gamma hydroxybutyrate</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Precursor to GABA</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Weak agonist at GABA-A</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Alcohol</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Etomidate</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
-  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Unknown</span></p>
-  </td>
- </tr>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Benzodiazepines</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">e.g. midazolam</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Binds BDZ site at</span> <span lang=
+"EN-US">&alpha;-</span><span lang="EN-US">&gamma;</span>
+<span lang="EN-US">interface</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;probability of adopting active
+conformation once GABA bound</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Note flumazenil competitive antagonist at same
+site</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Propofol</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Thiopentone</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Volatile agents</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Bind A-B interface</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;rate of dissociation of GABA from its
+receptor</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Baclofen</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Derivative of GABA</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Active at GABA-A</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Gamma hydroxybutyrate</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Precursor to GABA</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Weak agonist at GABA-A</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Alcohol</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Etomidate</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Unknown</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

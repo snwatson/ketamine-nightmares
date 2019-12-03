@@ -1,576 +1,619 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:0in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:1.0in 1.0in 1.0in 1.0in;}
+        {size:595.3pt 841.9pt;
+        margin:1.0in 1.0in 1.0in 1.0in;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 ul
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-GB>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2003A15 Describe
-the physiological actions of thyroid hormones.</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
-text-align:justify;text-indent:-.25in'><span lang=EN-US style='font-family:
-Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Intro</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
-.0001pt;text-align:justify;text-indent:-.25in'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Metabolic effects</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom:.0001pt;
-text-align:justify;text-indent:-.25in'><span lang=EN-US style='font-family:
-Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Organ system effects</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Intro:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Structure</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Polypeptide</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Contains iodine</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Synthesis</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:
-  -9.0pt;line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>In follicular cells</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Axis</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US><img width=428 height=48
-  id="Picture 27" src="2003A15_thyroid_hormones_files/image001.jpg"></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>&nbsp;</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>&nbsp;</span></p>
-  <p class=MsoNormal align=center style='margin-bottom:0in;margin-bottom:.0001pt;
-  text-align:center;line-height:normal'><span lang=EN-US><img width=170
-  height=39 id="Picture 31" src="2003A15_thyroid_hormones_files/image002.jpg"></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Thyroid hormone comparison</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>93% T4, 1x activity</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>7% T3, 3-5x activity</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>rT3 inactive</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Mechanism of action</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Multiple receptor subtypes</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Receptors are nuclear transcription factor, binds THRE</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593; or &#8595; gene expression</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Time course</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Onset of action: 6-8 hours IV, 3-5 days oral</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Duration of effect: T3 1 day, T4 7 days</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Longer if hypothyroid</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Shorter if</span><span lang=EN-US> hyperthyroid</span></p>
-  </td>
- </tr>
+<body lang="EN-GB">
+<div class="WordSection1">
+<h1><span lang="EN-US" style=
+'font-size:15.0pt;line-height:107%'>2003A15 Describe the
+physiological actions of thyroid hormones.</span></h1>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-align:justify;text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Intro</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0in;margin-bottom: .0001pt;text-align:justify;text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Metabolic effects</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-align:justify;text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Organ system effects</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Intro:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Structure</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Polypeptide</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Contains iodine</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Synthesis</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;text-indent: -9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">In follicular cells</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Axis</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US"><img width="428" height="48" id="Picture 27"
+src="2003A15_thyroid_hormones_files/image001.jpg"></span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" align="center" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-align:center;line-height:normal'>
+<span lang="EN-US"><img width="170" height="39" id="Picture 31"
+src="2003A15_thyroid_hormones_files/image002.jpg"></span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Thyroid hormone comparison</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">93% T4, 1x activity</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">7% T3, 3-5x activity</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">rT3 inactive</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Mechanism of action</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Multiple receptor subtypes</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Receptors are nuclear transcription factor,
+binds THRE</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow; or &DownArrow; gene
+expression</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Time course</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Onset of action: 6-8 hours IV, 3-5 days
+oral</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Duration of effect: T3 1 day, T4 7
+days</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Longer if hypothyroid</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Shorter if</span> <span lang=
+"EN-US">hyperthyroid</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Metabolic
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Metabolic effects:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Overall</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Effects are dose-dependent</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Metabolic rate (max 2x)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang=
+"EN-US">&ShortUpArrow;Na<sup>+</sup>K<sup>+</sup>ATPase
+activity</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">&ShortUpArrow;Catecholamine
+release</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Permissive effects</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Exempt tissues: uterus, testes, spleen, anterior
+pituitary</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Liver</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Glycolysis, glycogenolysis,
+gluconeogenesis, lipolysis</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Protein: synthesis if &LeftRightArrow;thyroid,
+breakdown and myopathy if &ShortUpArrow;thyroid</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Muscle</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Glycogenolysis,
+glycolysis</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Protein: synthesis if</span> <span lang=
+"EN-US">&LeftRightArrow;</span><span lang="EN-US">thyroid,
+breakdown if &ShortUpArrow;thyroid (-&gt; wasting)</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Adipose</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;text-indent: -9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Lipolysis -&gt; fat
+loss</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Bone</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;text-indent: -9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Formation if
+&LeftRightArrow;thyroid, &ShortUpArrow;breakdown if
+&ShortUpArrow;thyroid (-&gt; osteoporosis)</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">GIT</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;text-indent: -9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Carbohydrate absorption</span></p>
+</td>
+</tr>
+</table>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Organ system
 effects:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Overall</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Effects are dose-dependent</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;Metabolic rate (max 2x)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>&#8593;Na<sup>+</sup>K<sup>+</sup>ATPase activity</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>&#8593;Catecholamine release</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Permissive effects</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Exempt tissues: uterus, testes, spleen, anterior pituitary</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Liver</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;Glycolysis, glycogenolysis, gluconeogenesis, lipolysis</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Protein: synthesis if &#8596;thyroid, breakdown and myopathy if
-  &#8593;thyroid</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Muscle</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;Glycogenolysis, glycolysis</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Protein: synthesis if </span><span lang=EN-US>&#8596;</span><span
-  lang=EN-US>thyroid, breakdown if &#8593;thyroid (-&gt; wasting)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Adipose</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:
-  -9.0pt;line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;Lipolysis -&gt; fat loss</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Bone</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:
-  -9.0pt;line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;Formation if &#8596;thyroid, &#8593;breakdown if
-  &#8593;thyroid (-&gt; osteoporosis)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>GIT</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;text-indent:
-  -9.0pt;line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;Carbohydrate absorption</span></p>
-  </td>
- </tr>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Cardiovascular</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;HR, CO, &DownArrow;SVR,
+MvO<sub>2</sub>, CBF (BP may be unchanged)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Metabolic autoregulation -&gt;
+vasodilatation -&gt; &ShortUpArrow;venous return</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&ShortUpArrow;Catecholamines</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Permissive effect on
+catecholamines</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&ShortUpArrow;Number of myocardial</span>
+<span lang="EN-US">&beta;</span><sub><span lang=
+"EN-US">1</span></sub> <span lang="EN-US">adrenoceptors</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Respiratory</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;RR and TV</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&ShortUpArrow;Metabolic rate -&gt;
+&ShortUpArrow;VCO<sub>2</sub> (Krebs cycle)</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">CNS</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">In utero:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Necessary for normal brain growth and
+development</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">In adults: &ShortUpArrow;thyroid
+-&gt;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Anxiety, restlessness, tremor
+(brain)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Hyperreflexia (&ShortUpArrow;spinal cord
+excitability)</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Other</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;Thyroid -&gt; dry skin, thinning
+hair</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Thyroid -&gt; proptosis,
+&ShortUpArrow;LPS activity, thyroid stare</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Organ system
-effects:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Cardiovascular</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;HR, CO, &#8595;SVR, MvO<sub>2</sub>, CBF (BP may be
-  unchanged)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Metabolic
-  autoregulation -&gt; vasodilatation -&gt; &#8593;venous return</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8593;Catecholamines</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Permissive
-  effect on catecholamines</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8593;Number
-  of myocardial </span><span lang=EN-US>&#946;</span><sub><span lang=EN-US>1</span></sub><span
-  lang=EN-US> adrenoceptors</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Respiratory</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;RR and TV</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8593;Metabolic
-  rate -&gt; &#8593;VCO<sub>2</sub> (Krebs cycle)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>CNS</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>In utero:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Necessary
-  for normal brain growth and development</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>In adults: &#8593;thyroid -&gt; </span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Anxiety,
-  restlessness, tremor (brain)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:43.95pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Hyperreflexia
-  (&#8593;spinal cord excitability)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Other</span></p>
-  </td>
-  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8595;Thyroid -&gt; dry skin, thinning hair</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.45pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;Thyroid -&gt; proptosis, &#8593;LPS activity, thyroid stare</span></p>
-  </td>
- </tr>
-</table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

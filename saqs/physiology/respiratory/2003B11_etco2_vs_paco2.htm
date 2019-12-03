@@ -1,564 +1,601 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:0in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:1.0in 1.0in 1.0in 1.0in;}
+        {size:595.3pt 841.9pt;
+        margin:1.0in 1.0in 1.0in 1.0in;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 ul
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-GB>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2003B11 Briefly
-describe the potential causes of a difference between measured end-tidal and
+<body lang="EN-GB">
+<div class="WordSection1">
+<h1><span lang="EN-US" style=
+'font-size:15.0pt;line-height:107%'>2003B11 Briefly describe the
+potential causes of a difference between measured end-tidal and
 arterial partial pressure of carbon dioxide.</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Causes:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
-text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Alveolar dead space</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
-.0001pt;text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Incomplete alveolar emptying</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom:.0001pt;
-text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Measurement error</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Alveolar dead
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Causes:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Alveolar dead space</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Incomplete alveolar emptying</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Measurement error</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Alveolar dead
 space:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Definition</span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Volume of air in non-perfused alveoli</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>West zone 1 of lung: PA &gt; Pa &gt; Pv<br>
-  (Small volume near apices in health)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Effect on etCO<sub>2</sub></span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Ideal alveolus: PaCO<sub>2</sub> = PACO<sub>2</sub> (i.e.
-  ventilation = perfusion)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Alveolar dead space: PACO<sub>2</sub> very low</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>End-tidal air = ideal + dead space; hence etCO<sub>2</sub> &lt;
-  PaCO<sub>2</sub></span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Normal 2-5mmHg difference. Due to V/Q scatter by gravity -&gt;
-  high V/Q ratio at apex</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Causes of &#8593;</span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593; PA:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>IPPV,
-  PEEP</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8595;Pa: (&#8595;RV output, &#8595;mPAP)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Pulmonary
-  vasodilators (e.g. milrinone)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Negative
-  inotropes (e.g. propofol)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Reduced
-  venous return (e.g. hypovolaemia)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Measurement</span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Alveolar dead space = physiological - anatomical<br>
-  <br>
-  </span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Physiological dead space: Bohr equation V<sub>D</sub>/V<sub>T</sub>
-  = (PACO<sub>2</sub> – PECO<sub>2</sub>) / PACO<sub>2</sub></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Enghoff:
-  substitute PaCO<sub>2</sub> for PACO<sub>2</sub> assuming steady state and
-  minimal shunt</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Anatomical dead space: from Fowler’s method</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US><img width=251 height=190 id="Picture 1"
-  src="2003B11_etco2_vs_paco2_files/image001.jpg"></span></p>
-  </td>
- </tr>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Definition</span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Volume of air in non-perfused alveoli</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">West zone 1 of lung: PA &gt; Pa &gt; Pv<br>
+(Small volume near apices in health)</span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Effect on etCO<sub>2</sub></span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Ideal alveolus: PaCO<sub>2</sub> =
+PACO<sub>2</sub> (i.e. ventilation = perfusion)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Alveolar dead space: PACO<sub>2</sub> very
+low</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">End-tidal air = ideal + dead space; hence
+etCO<sub>2</sub> &lt; PaCO<sub>2</sub></span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Normal 2-5mmHg difference. Due to V/Q scatter by
+gravity -&gt; high V/Q ratio at apex</span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Causes of &ShortUpArrow;</span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow; PA:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">IPPV, PEEP</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;Pa: (&DownArrow;RV output,
+&DownArrow;mPAP)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Pulmonary vasodilators (e.g.
+milrinone)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Negative inotropes (e.g.
+propofol)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Reduced venous return (e.g.
+hypovolaemia)</span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Measurement</span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Alveolar dead space = physiological -
+anatomical<br>
+<br></span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Physiological dead space: Bohr equation
+V<sub>D</sub>/V<sub>T</sub> = (PACO<sub>2</sub> &ndash;
+PECO<sub>2</sub>) / PACO<sub>2</sub></span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Enghoff: substitute PaCO<sub>2</sub> for
+PACO<sub>2</sub> assuming steady state and minimal shunt</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Anatomical dead space: from
+Fowler&CloseCurlyQuote;s method</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US"><img width="251" height="190" id="Picture 1"
+src="2003B11_etco2_vs_paco2_files/image001.jpg"></span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Incomplete
-alveolar emptying:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Causes</span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593; </span><span lang=EN-US>variation in time constants (e.g.
-  asthma, COPD)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8595; expiratory time (&#8593;RR, &#8595;IE ratio)<br>
-  (especially if both)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&#8593;Variation in time constants</span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Time constant (</span><span lang=EN-US>&#964;</span><span
-  lang=EN-US>) = resistance x compliance</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8593;R,&#8593;C -&gt; &#8593;T:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Slow
-  rate of change</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8595;Ventilation</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8593;pCO<sub>2</sub></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><i><span lang=EN-US>                Empties late in expiration</span></i></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>&#8595;R,&#8595;C -&gt; &#8595;T:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Fast
-  rate of change</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8593;Ventilation</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8593;pCO<sub>2</sub></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Empties
-  early in expiration</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Hence variation -&gt; &#8593;</span><span lang=EN-US>&#945;</span><span
-  lang=EN-US> angle</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US><img width=304 height=180 id="Picture 2"
-  src="2003B11_etco2_vs_paco2_files/image002.jpg"></span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Incomplete alveolar
+emptying:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Causes</span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;</span> <span lang=
+"EN-US">variation in time constants (e.g. asthma, COPD)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow; expiratory time (&ShortUpArrow;RR,
+&DownArrow;IE ratio)<br>
+(especially if both)</span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&ShortUpArrow;Variation in time
+constants</span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Time constant (</span><span lang=
+"EN-US">&tau;</span><span lang="EN-US">) = resistance x
+compliance</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;R,&ShortUpArrow;C -&gt;
+&ShortUpArrow;T:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Slow rate of change</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&DownArrow;Ventilation</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&ShortUpArrow;pCO<sub>2</sub></span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<i><span lang=
+"EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+Empties late in expiration</span></i></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;R,&DownArrow;C -&gt;
+&DownArrow;T:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Fast rate of change</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&ShortUpArrow;Ventilation</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&ShortUpArrow;pCO<sub>2</sub></span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Empties early in expiration</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Hence variation -&gt;
+&ShortUpArrow;</span><span lang="EN-US">&alpha;</span> <span lang=
+"EN-US">angle</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US"><img width="304" height="180" id="Picture 2"
+src="2003B11_etco2_vs_paco2_files/image002.jpg"></span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Measurement
-error:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Machine</span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Confusion</span><span lang=EN-US> with other gas</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>N<sub>2</sub>O
-  4.5nm, CO 4.7nM (causes falsely high pCO<sub>2</sub>) </span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>H<sub>2</sub>O
-  vapour absorbs widely (causes falsely high pCO<sub>2</sub>)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Inhaler
-  propellant and halothane</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>FIX:
-  reference chamber AND water trap</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Collision</span><span lang=EN-US> broadening</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Widening
-  of the absorption peak for a gas when in the presence of another</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Due to
-  collision between molecules raising their energy level</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>50% N<sub>2</sub>O
-  widens CO<sub>2</sub>’s absorption peak by 10%</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>FIX: use
-  reference chambers</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Ram-gas effect</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Pressure-drop
-  across the sampling line</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8595;
-  total pressure inside sample chamber -&gt; &#8595; CO<sub>2</sub> partial
-  pressure</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Lack of calibration</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>FIX:
-  auto regular three point calibration</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Sampling</span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Dilution by FGF</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Sampling
-  of FGF may occur in expiration if high RR and low VT</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>e.g.
-  neonates and young children</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Sampling line disconnection</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Complete
-  disconnection: ambient air</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Partial
-  disconnection: entrainment of some room air</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Blockage by water condensation</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Patient</span></p>
-  </td>
-  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Cardiogenic oscillation (if apnoeic)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>(Also: if tidal volume very small, etCO2 may be very low due to
-  anatomical deadspace)</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Measurement error:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Machine</span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Confusion</span> <span lang="EN-US">with other
+gas</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">N<sub>2</sub>O 4.5nm, CO 4.7nM (causes
+falsely high pCO<sub>2</sub>)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">H<sub>2</sub>O vapour absorbs widely
+(causes falsely high pCO<sub>2</sub>)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Inhaler propellant and
+halothane</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">FIX: reference chamber AND water
+trap</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Collision</span> <span lang=
+"EN-US">broadening</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Widening of the absorption peak for a gas
+when in the presence of another</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Due to collision between molecules
+raising their energy level</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">50% N<sub>2</sub>O widens
+CO<sub>2</sub>&CloseCurlyQuote;s absorption peak by 10%</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">FIX: use reference chambers</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Ram-gas effect</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Pressure-drop across the sampling
+line</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&DownArrow; total pressure inside sample
+chamber -&gt; &DownArrow; CO<sub>2</sub> partial
+pressure</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Lack of calibration</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">FIX: auto regular three point
+calibration</span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Sampling</span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Dilution by FGF</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Sampling of FGF may occur in expiration
+if high RR and low VT</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">e.g. neonates and young
+children</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Sampling line disconnection</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Complete disconnection: ambient
+air</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Partial disconnection: entrainment of
+some room air</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Blockage by water condensation</span></p>
+</td>
+</tr>
+<tr>
+<td width="102" valign="top" style=
+'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Patient</span></p>
+</td>
+<td width="499" valign="top" style=
+'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Cardiogenic oscillation (if apnoeic)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">(Also: if tidal volume very small, etCO2 may be
+very low due to anatomical deadspace)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

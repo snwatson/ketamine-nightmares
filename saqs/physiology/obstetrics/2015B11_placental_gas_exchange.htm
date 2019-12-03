@@ -1,670 +1,731 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:0in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:0in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:0in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:0in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:0in;
-	margin-left:.5in;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:0in;
+        margin-left:.5in;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0in;
-	margin-right:0in;
-	margin-bottom:8.0pt;
-	margin-left:.5in;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0in;
+        margin-right:0in;
+        margin-bottom:8.0pt;
+        margin-left:.5in;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:1.0in 1.0in 1.0in 1.0in;}
+        {size:595.3pt 841.9pt;
+        margin:1.0in 1.0in 1.0in 1.0in;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 ul
-	{margin-bottom:0in;}
+        {margin-bottom:0in;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-GB>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2015B11 Explains
-the mechanisms whereby oxygen transfer is facilitated at the placenta.</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
-text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Intro</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
-.0001pt;text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Foetal Hb</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
-.0001pt;text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Double Bohr</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
-.0001pt;text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Double Haldane</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom:.0001pt;
-text-indent:-.25in'><span lang=EN-US style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Maternal hyperventilation</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Intro:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Placental gas exchange</span></p>
-  </td>
-  <td width=493 valign=top style='width:370.05pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Supplies
-  O<sub>2</sub> and removes CO<sub>2</sub> instead of lungs</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Foetal
-  VO<sub>2</sub> 17mL/min</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Placental
-  VO<sub>2</sub> 6mL/min</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Net
-  diffusion down partial pressure gradients</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Placenta cf. lung</span></p>
-  </td>
-  <td width=493 valign=top style='width:370.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US><img width=327 height=66 id="Picture 6"
-  src="2015B11_placental_gas_exchange_files/image001.jpg"></span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Area:
-                   15m<sup>2</sup> (cf. 80m<sup>2</sup>)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Thickness:
-         3.5&#956;m (cf. 0.5&#956;m)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>i.e.
-  significantly slower diffusion rate</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Favourable adaptations</span></p>
-  </td>
-  <td width=493 valign=top style='width:370.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Foetal
-  </span><span lang=EN-US>haemoglobin</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Double
-  Bohr effect</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Double
-  Haldane effect</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Maternal
-  hyperventilation</span></p>
-  </td>
- </tr>
+<body lang="EN-GB">
+<div class="WordSection1">
+<h1><span lang="EN-US" style=
+'font-size:15.0pt;line-height:107%'>2015B11 Explains the mechanisms
+whereby oxygen transfer is facilitated at the placenta.</span></h1>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Intro</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Foetal Hb</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Double Bohr</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Double Haldane</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Maternal hyperventilation</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Intro:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Placental gas exchange</span></p>
+</td>
+<td width="493" valign="top" style=
+'width:370.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Supplies O<sub>2</sub> and removes CO<sub>2</sub> instead
+of lungs</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Foetal VO<sub>2</sub> 17mL/min</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Placental VO<sub>2</sub>
+6mL/min</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Net diffusion down partial pressure gradients</span></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Placenta cf. lung</span></p>
+</td>
+<td width="493" valign="top" style=
+'width:370.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US"><img width="327" height="66" id="Picture 6" src=
+"2015B11_placental_gas_exchange_files/image001.jpg"></span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Area:
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+15m<sup>2</sup> (cf. 80m<sup>2</sup>)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Thickness: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.5&mu;m
+(cf. 0.5&mu;m)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">i.e. significantly slower diffusion rate</span></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Favourable adaptations</span></p>
+</td>
+<td width="493" valign="top" style=
+'width:370.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Foetal</span> <span lang="EN-US">haemoglobin</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Double Bohr effect</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Double Haldane effect</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Maternal hyperventilation</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Foetal vs. adult
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Foetal vs. adult
 haemoglobin:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><b><span lang=EN-US>Foetal</span></b></p>
-  </td>
-  <td width=259 valign=top style='width:194.55pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><b><span lang=EN-US>Adult</span></b></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Globin chains</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&#945;<sub>2</sub></span><span lang=EN-US>&#947;<sub>2</sub></span></p>
-  </td>
-  <td width=259 valign=top style='width:194.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&#945;<sub>2</sub></span><span lang=EN-US>&#946;<sub>2</sub>
-  &gt;&gt; </span><span lang=EN-US>&#945;<sub>2</sub></span><span lang=EN-US>&#948;<sub>2</sub></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Concentration</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>18g/dL</span></p>
-  </td>
-  <td width=259 valign=top style='width:194.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>15g/dL (12g/dL pregnant!)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>2,3-DPG affinity</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Low</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Neutrally charged serine at position 143</span></p>
-  </td>
-  <td width=259 valign=top style='width:194.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>High</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Positively charged histidine at position 143</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>p50</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>19mmHg</span></p>
-  </td>
-  <td width=259 valign=top style='width:194.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>26mmHg</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Implication</span></p>
-  </td>
-  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Very high CaO<sub>2</sub> for given PaO<sub>2</sub></span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Increased partial pressure gradient</span></p>
-  </td>
-  <td width=259 valign=top style='width:194.55pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>&nbsp;</span></p>
-  </td>
- </tr>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<b><span lang="EN-US">Foetal</span></b></p>
+</td>
+<td width="259" valign="top" style=
+'width:194.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<b><span lang="EN-US">Adult</span></b></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Globin chains</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&alpha;<sub>2</sub></span><span lang=
+"EN-US">&gamma;<sub>2</sub></span></p>
+</td>
+<td width="259" valign="top" style=
+'width:194.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&alpha;<sub>2</sub></span><span lang=
+"EN-US">&beta;<sub>2</sub> &gt;&gt;</span> <span lang=
+"EN-US">&alpha;<sub>2</sub></span><span lang=
+"EN-US">&delta;<sub>2</sub></span></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Concentration</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">18g/dL</span></p>
+</td>
+<td width="259" valign="top" style=
+'width:194.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">15g/dL (12g/dL pregnant!)</span></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">2,3-DPG affinity</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Low</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Neutrally charged serine at position
+143</span></p>
+</td>
+<td width="259" valign="top" style=
+'width:194.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">High</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Positively charged histidine at position
+143</span></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">p50</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">19mmHg</span></p>
+</td>
+<td width="259" valign="top" style=
+'width:194.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">26mmHg</span></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Implication</span></p>
+</td>
+<td width="234" valign="top" style=
+'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Very high CaO<sub>2</sub> for given
+PaO<sub>2</sub></span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Increased partial pressure gradient</span></p>
+</td>
+<td width="259" valign="top" style=
+'width:194.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">&nbsp;</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Bohr effect:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Description</span></p>
-  </td>
-  <td width=493 valign=top style='width:370.05pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>If
-  &#8595;pH, &#8593;pCO<sub>2</sub>:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8595;Affinity
-  of Hb for O<sub>2</sub></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Right shift
-  oxyhaemoglobin dissociation curve (OHDC)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Note
-  &#8593;temp and &#8593;2,3-DPG also cause right shift</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Note
-  opposite changes cause left shift</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Mechanism</span></p>
-  </td>
-  <td width=493 valign=top style='width:370.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Allosteric
-  interactions between haems:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8595;pH,
-  &#8593;pCO2 -&gt; relaxed (R) state -&gt; &#8593;affinity for O<sub>2</sub></span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>&#8593;pH,
-  &#8595;pCO2 -&gt; tense (T) state -&gt; &#8595;affinity for O<sub>2</sub></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=108 valign=top style='width:80.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Double Bohr effect</span></p>
-  </td>
-  <td width=493 valign=top style='width:370.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>As
-  HbF unloads CO<sub>2</sub>:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>a)&#8593;pCO<sub>2</sub>
-  in maternal lacuna -&gt; &#8595;HbA affinity for O<sub>2</sub> -&gt; UNLOAD</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>b)&#8595;pCO<sub>2</sub>
-  in foetal capillary -&gt; &#8593;HbF affinity for O<sub>2</sub> -&gt; LOAD</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US><img width=318 height=289 id="Picture 5"
-  src="2015B11_placental_gas_exchange_files/image002.jpg"></span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Bohr effect:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Description</span></p>
+</td>
+<td width="493" valign="top" style=
+'width:370.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">If &DownArrow;pH, &ShortUpArrow;pCO<sub>2</sub>:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&DownArrow;Affinity of Hb for
+O<sub>2</sub></span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Right shift oxyhaemoglobin dissociation
+curve (OHDC)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Note &ShortUpArrow;temp and &ShortUpArrow;2,3-DPG also
+cause right shift</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Note opposite changes cause left shift</span></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Mechanism</span></p>
+</td>
+<td width="493" valign="top" style=
+'width:370.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Allosteric interactions between haems:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&DownArrow;pH, &ShortUpArrow;pCO2 -&gt;
+relaxed (R) state -&gt; &ShortUpArrow;affinity for
+O<sub>2</sub></span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">&ShortUpArrow;pH, &DownArrow;pCO2 -&gt;
+tense (T) state -&gt; &DownArrow;affinity for
+O<sub>2</sub></span></p>
+</td>
+</tr>
+<tr>
+<td width="108" valign="top" style=
+'width:80.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Double Bohr effect</span></p>
+</td>
+<td width="493" valign="top" style=
+'width:370.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">As HbF unloads CO<sub>2</sub>:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">a)&ShortUpArrow;pCO<sub>2</sub> in
+maternal lacuna -&gt; &DownArrow;HbA affinity for O<sub>2</sub>
+-&gt; UNLOAD</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">b)&DownArrow;pCO<sub>2</sub> in foetal
+capillary -&gt; &ShortUpArrow;HbF affinity for O<sub>2</sub> -&gt;
+LOAD</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US"><img width="318" height="289" id="Picture 5"
+src="2015B11_placental_gas_exchange_files/image002.jpg"></span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Haldane effect:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Description</span></p>
-  </td>
-  <td width=505 valign=top style='width:379.05pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
-  0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;line-height:
-  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>HHb has higher affinity for CO<sub>2</sub>
-  than HbO<sub>2</sub></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Mechanism</span></p>
-  </td>
-  <td width=505 valign=top style='width:379.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>70%:
-  because HHb is 3.5x better at forming carbaminoHb</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>30%:
-  because &#8593;pKa of imidazoles to 8.2 enhances buffering of H<sup>+</sup>
-  formed by H<sub>2</sub>CO<sub>3</sub> dissociation</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Double Haldane effect</span></p>
-  </td>
-  <td width=505 valign=top style='width:379.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>As
-  HbA unloads O<sub>2</sub>:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>a)&#8593;pO<sub>2</sub>
-  in capillary -&gt; &#8595;HbF affinity for CO<sub>2</sub> (UNLOAD)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>b)&#8595;pO<sub>2</sub>
-  in lacuna -&gt; &#8593;HbA affinity for CO<sub>2</sub> (LOAD)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>This
-  amplifies the double Bohr effect, further improving foetal oxygenation</span></p>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US><img width=359 height=269 id="Picture 4"
-  src="2015B11_placental_gas_exchange_files/image003.jpg"></span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Haldane effect:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="96" valign="top" style=
+'width:71.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Description</span></p>
+</td>
+<td width="505" valign="top" style=
+'width:379.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;line-height: normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">HHb has higher affinity for CO<sub>2</sub> than
+HbO<sub>2</sub></span></p>
+</td>
+</tr>
+<tr>
+<td width="96" valign="top" style=
+'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Mechanism</span></p>
+</td>
+<td width="505" valign="top" style=
+'width:379.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">70%: because HHb is 3.5x better at forming
+carbaminoHb</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">30%: because &ShortUpArrow;pKa of imidazoles to 8.2
+enhances buffering of H<sup>+</sup> formed by
+H<sub>2</sub>CO<sub>3</sub> dissociation</span></p>
+</td>
+</tr>
+<tr>
+<td width="96" valign="top" style=
+'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Double Haldane effect</span></p>
+</td>
+<td width="505" valign="top" style=
+'width:379.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">As HbA unloads O<sub>2</sub>:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">a)&ShortUpArrow;pO<sub>2</sub> in
+capillary -&gt; &DownArrow;HbF affinity for CO<sub>2</sub>
+(UNLOAD)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">b)&DownArrow;pO<sub>2</sub> in lacuna
+-&gt; &ShortUpArrow;HbA affinity for CO<sub>2</sub>
+(LOAD)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">This amplifies the double Bohr effect, further improving
+foetal oxygenation</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US"><img width="359" height="269" id="Picture 4"
+src="2015B11_placental_gas_exchange_files/image003.jpg"></span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Maternal
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Maternal
 hyperventilation:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Description</span></p>
-  </td>
-  <td width=505 valign=top style='width:379.05pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>RR
-  &#8593;10%</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>V<sub>T</sub>
-  &#8593;35%</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>MV
-  and V<sub>A</sub> &#8593;50%</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Changes
-  present from early T1</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Mechanism</span></p>
-  </td>
-  <td width=505 valign=top style='width:379.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Sensitisation
-  of central chemoreceptors by progesterone</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>(but
-  note progesterone level normal in early pregnancy; ? enhanced sensitivity to
-  progesterone)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Effect</span></p>
-  </td>
-  <td width=505 valign=top style='width:379.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>&#8593;V<sub>A</sub>
-  -&gt; &#8595;PaCO<sub>2</sub> -&gt; &#8593;partial pressure for CO<sub>2</sub>
-  transfer</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
-  margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Amplifies
-  double Bohr effect -&gt; improves foetal oxygenation</span></p>
-  </td>
- </tr>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="96" valign="top" style=
+'width:71.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Description</span></p>
+</td>
+<td width="505" valign="top" style=
+'width:379.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">RR &ShortUpArrow;10%</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">V<sub>T</sub> &ShortUpArrow;35%</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">MV and V<sub>A</sub> &ShortUpArrow;50%</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Changes present from early T1</span></p>
+</td>
+</tr>
+<tr>
+<td width="96" valign="top" style=
+'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Mechanism</span></p>
+</td>
+<td width="505" valign="top" style=
+'width:379.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Sensitisation of central chemoreceptors by
+progesterone</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">(but note progesterone level normal in early pregnancy; ?
+enhanced sensitivity to progesterone)</span></p>
+</td>
+</tr>
+<tr>
+<td width="96" valign="top" style=
+'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Effect</span></p>
+</td>
+<td width="505" valign="top" style=
+'width:379.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">&ShortUpArrow;V<sub>A</sub> -&gt;
+&DownArrow;PaCO<sub>2</sub> -&gt; &ShortUpArrow;partial pressure
+for CO<sub>2</sub> transfer</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Amplifies double Bohr effect -&gt; improves foetal
+oxygenation</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
-lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>                                                                                                                                                                  </span></p>
-
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang=
+"EN-US">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

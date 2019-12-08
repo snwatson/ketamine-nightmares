@@ -8,7 +8,7 @@
 
 ## Why the name?
 - It's a tip-of-the-hat to [Propofol Dreams](https://propofoldreams.wordpress.com)
-- It's a propos, as any current or former victim of the exam will attest
+- It's à propos, as any current or former victim of the exam will attest
  
 ## Acknowledgements: 
 

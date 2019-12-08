@@ -29,6 +29,7 @@
 
 #### Principles of Physiology for the Anaesthetist - Power & Kam
 
+- All chapters are good, but the best ones are:
 - Physiology of Excitable Cells
 - Cardiovascular Physiology
 - Physiology of Blood
@@ -44,7 +45,7 @@
 
 #### Miller's Anaesthesia
 
--   Consciousness, Memory and Anaesthesia
+- Consciousness, Memory and Anaesthesia
 - Monitoring Brain State During General Anaesthesia and Sedation
 - Cerebral Physiology and the Effect of Anaesthetic drugs
 - Spinal, Epidural and Caudal Anaesthesia

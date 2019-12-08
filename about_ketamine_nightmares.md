@@ -24,7 +24,7 @@ I would like to thank:
  
 ## Disclaimers:
 - This website is intended as an aid to exam preparation
-- It should not be taken as gospel truth
+- It should not be considered gospel truth
 - It should not be taken as a guide to the practice of anaesthesia
 - It should not be used to inform your own treatment, if that were even possible
 - There will be some mistakes as a result of ignorance, fatigue, textbook disparity or fat fingers; if you find one, please [let me know](mailto:ketaminenightmares@gmail.com)

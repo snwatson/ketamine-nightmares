@@ -5,6 +5,6 @@
 - [Equipment Pictures](equipment_pictures.htm)
 - [General Pharmacology Graphs](general_pharmacology_graphs.htm)
 - [Miscellaneous Pharmacology Graphs](miscellaneous_pharmacology.htm)
-- [Neurophysiology and neuropharmacology](neurophysiology_and_neuropharmacology.htm)
+- [Neurophysiology and Neuropharmacology](neurophysiology_and_neuropharmacology.htm)
 - [Obstetric Physiology](obstetric_physiology.htm)
 - [Respiratory Physiology](respiratory_physiology.htm)

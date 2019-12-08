@@ -1,6 +1,6 @@
 # Ketamine Nightmares
 
-A prizewinner's guide to the Anaesthesia Primary Exam  
+A resource for the Anaesthesia Primary Exam  
 
 - [Physiology SAQ](saqs/physiology/)
 - [Pharmacology SAQ](saqs/pharmacology/)

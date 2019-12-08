@@ -74,8 +74,29 @@
 
 ### Online Resources
 
+#### [BJA Education](https://academic.oup.com/bjaed)
+
+- Google search "BJA Education" alongside almost any topic of interest
+- [Principles of TIVA: basic pharmacokinetics and model descriptions](https://academic.oup.com/bjaed/article/16/3/92/2897754)
+- [Pharmacokinetic models for propofol: defining and illuminating the devil in the detail](https://academic.oup.com/bja/article/103/1/26/462196)
+
+#### [Life in the fast lane](https://litfl.com/)
+
+- Google search “LITFL” alongside almost any topic of interest
+- [Alpha stat and pH stat section](https://litfl.com/arterial-blood-gas-in-hypothermia/) was particularly helpful to me
+- The [Part One](www.partone.lifeinthefastlane.com) section by my colleague Jake Barlow is an excellent and well-organised resource
+
+#### Deranged Physiology
+
+- The brainchild of Austrlian Intensivist Alex Yartsev
+- Google “Deranged Physiology” along with almost any topic of interest
+- [Effect of positive pressure ventilation on cardiovascular physiology](https://derangedphysiology.com/main/cicm-primary-exam/required-reading/respiratory-system/Chapter%20523/effects-positive-pressure-ventilation-cardiovascular-physiology)
+- [Manipulation of Fluid and Electrolytes](https://derangedphysiology.com/main/core-topics-intensive-care/manipulation-fluids-and-electrolytes) - especially "response to infusion of X"
+- [ Haemodynamic monitoring – especially sections on CVP and PCWP](https://derangedphysiology.com/main/core-topics-intensive-care/haemodynamic-monitoring)
+
 #### Kerry Brandis
 
+- You should need almost no other resource on these topics:
 - [Acid-Base Physiology](https://www.anaesthesiamcq.com/AcidBaseBook/ABindex.php)
 - [Fluid and Electrolyte Physiology](http://www.anaesthesiamcq.com/FluidBook/)
 
@@ -91,26 +112,6 @@
 - [Regulation of Glomerular filtration rate](https://www.youtube.com/watch?v=H6vLAG_0Trs) - note very long
 - [Urine concentration and dilution](https://www.youtube.com/watch?v=Mrg1SVPLhKs&t=5448s) - note very long
 - Liver histology [part 2](https://www.youtube.com/watch?v=XPyuRIUwjIE&t=7s) and [part 3](https://www.youtube.com/watch?v=EtaONYHNh6w) of 7
-
-#### [BJA Education](https://academic.oup.com/bjaed)
-
-- Google search "BJA Education" alongside almost any topic of interest
-- [Principles of TIVA: basic pharmacokinetics and model descriptions](https://academic.oup.com/bjaed/article/16/3/92/2897754)
-- [Pharmacokinetic models for propofol: defining and illuminating the devil in the detail](https://academic.oup.com/bja/article/103/1/26/462196)
-
-#### Deranged Physiology
-
-- The brainchild of Intensivist Alex Yartsev
-- Google “Deranged Physiology” along with almost any topic of interest
-- [Effect of positive pressure ventilation on cardiovascular physiology](https://derangedphysiology.com/main/cicm-primary-exam/required-reading/respiratory-system/Chapter%20523/effects-positive-pressure-ventilation-cardiovascular-physiology)
-- [Manipulation of Fluid and Electrolytes](https://derangedphysiology.com/main/core-topics-intensive-care/manipulation-fluids-and-electrolytes) - especially "response to infusion of X"
-- [ Haemodynamic monitoring – especially sections on CVP and PCWP](https://derangedphysiology.com/main/core-topics-intensive-care/haemodynamic-monitoring)
-
-#### [Life in the fast lane](https://litfl.com/)
-
-- Google “LITFL” along with almost any topic of interest
-- The [Part One](www.partone.lifeinthefastlane.com) section by my colleague Jake Barlow looks very tidy
-- [Alpha stat and pH stat section](https://litfl.com/arterial-blood-gas-in-hypothermia/) was useful to me
 
 #### [Primary daily learning outcomes](https://primarydailylo.wordpress.com)
 

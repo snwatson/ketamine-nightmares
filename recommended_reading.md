@@ -88,7 +88,7 @@
 
 #### Deranged Physiology
 
-- The brainchild of Austrlian Intensivist Alex Yartsev
+- The brainchild of Australian Intensivist Alex Yartsev
 - Google “Deranged Physiology” along with almost any topic of interest
 - [Effect of positive pressure ventilation on cardiovascular physiology](https://derangedphysiology.com/main/cicm-primary-exam/required-reading/respiratory-system/Chapter%20523/effects-positive-pressure-ventilation-cardiovascular-physiology)
 - [Manipulation of Fluid and Electrolytes](https://derangedphysiology.com/main/core-topics-intensive-care/manipulation-fluids-and-electrolytes) - especially "response to infusion of X"

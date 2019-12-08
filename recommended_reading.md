@@ -11,7 +11,7 @@
 
 #### [MAK95](https://www.mak95.com)
 
-- A programme neatly compiling all SAQs in living memory, along with examiners' reports and multiple sets of answers
+- A programme neatly compiling all ANZCA Primary SAQs in living memory, along with examiners' reports and multiple sets of answers
 - Contains many other resources
 - Well worth the money
 

@@ -109,7 +109,7 @@
 #### [Life in the fast lane](https://litfl.com/)
 
 - Google “LITFL” along with almost any topic of interest
-- The new “Part One” section by my fellow trainee Jake Barlow looks very good
+- The [Part One](www.partone.lifeinthefastlane.com) section by my colleague Jake Barlow looks very tidy
 - [Alpha stat and pH stat section](https://litfl.com/arterial-blood-gas-in-hypothermia/) was useful to me
 
 #### [Primary daily learning outcomes](https://primarydailylo.wordpress.com)

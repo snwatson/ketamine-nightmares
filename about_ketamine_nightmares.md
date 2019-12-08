@@ -2,10 +2,13 @@
  
 ## What is it?
 
-- It’s a resource for the Anaesthesia Primary Exam in Australia
-- Mostly it's a bank of my suggested answers to past SAQs
+- It’s bank of my answers to the Anaesthesia Primary Exam SAQs
 - Anaesthesia trainees in other countries may benefit
 - Trainees in other critical care disciplines may benefit
+
+## Why the name?
+- It's a tip-of-the-hat to [Propofol Dreams](https://propofoldreams.wordpress.com)
+- It's a propos, as any current or former victim of the exam will attest
  
 ## Acknowledgements: 
 

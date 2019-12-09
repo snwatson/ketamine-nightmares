@@ -121,5 +121,5 @@ You should need almost no other resource on the following topics:
 
 #### Miscellaneous
 
-- [The Biophase Concept and Intravenous Anaesthesia](https://web.stanford.edu/~sshafer/LECTURES.DIR/Notes/Biophase%2520in%2520Anesthesia.doc+&cd=1&hl=en&ct=clnk&gl=au) by Steven Shafer
+- [The Biophase Concept and Intravenous Anaesthesia](https://web.stanford.edu/~sshafer/LECTURES.DIR/Notes/Biophase%20in%20Anesthesia.doc) by Steven Shafer
 - [The Drager Primus Anaesthetic Machine Animation](https://static.draeger.com/trainer/primus_ie_trainer_en/start.html#id=D1100)

@@ -29,7 +29,7 @@
 
 #### Principles of Physiology for the Anaesthetist - Power & Kam
 
-- All chapters are good, but the best ones are:
+All chapters are good, but the best ones are:
 - Physiology of Excitable Cells
 - Cardiovascular Physiology
 - Physiology of Blood
@@ -92,11 +92,11 @@
 - Google “Deranged Physiology” along with almost any topic of interest
 - [Effect of positive pressure ventilation on cardiovascular physiology](https://derangedphysiology.com/main/cicm-primary-exam/required-reading/respiratory-system/Chapter%20523/effects-positive-pressure-ventilation-cardiovascular-physiology)
 - [Manipulation of Fluid and Electrolytes](https://derangedphysiology.com/main/core-topics-intensive-care/manipulation-fluids-and-electrolytes) - especially "response to infusion of X"
-- [ Haemodynamic monitoring – especially sections on CVP and PCWP](https://derangedphysiology.com/main/core-topics-intensive-care/haemodynamic-monitoring)
+- [ Haemodynamic monitoring](https://derangedphysiology.com/main/core-topics-intensive-care/haemodynamic-monitoring) – especially sections on CVP and PCWP
 
 #### Kerry Brandis
 
-- You should need almost no other resource on these topics:
+You should need almost no other resource on the following topics:
 - [Acid-Base Physiology](https://www.anaesthesiamcq.com/AcidBaseBook/ABindex.php)
 - [Fluid and Electrolyte Physiology](http://www.anaesthesiamcq.com/FluidBook/)
 

@@ -84,7 +84,7 @@
 
 - Google search “LITFL” alongside almost any topic of interest
 - [Alpha stat and pH stat section](https://litfl.com/arterial-blood-gas-in-hypothermia/) was particularly helpful to me
-- The [Part One](www.partone.lifeinthefastlane.com) section by my colleague Jake Barlow is an excellent and well-organised resource
+- The [Part One](www.partone.lifeinthefastlane.com) section by my colleague Jake Barlow is an excellent, well-organised and exam-orientated resource
 
 #### Deranged Physiology
 

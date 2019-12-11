@@ -37,7 +37,7 @@ All chapters are good, but the best ones are:
 
 #### Pharmacology and Physiology for Anaesthesia - Hemmings & Egan
 
-- Pharmacokinetic and Pharmacodynamic Principles for Intravenous anaesthetics
+- Pharmacokinetic and Pharmacodynamic Principles for Intravenous anaesthetics (unbeatable)
 - Pharmacokinetics of Inhaled Anaesthetics
 - Pharmacodynamic Drug Interactions
 - Pharmacology of Inhaled Anaesthetics
@@ -71,6 +71,10 @@ All chapters are good, but the best ones are:
 - Good for revision
 
 #### Equipment in Anaesthesia and Critical Care - Aston, Rivers & Dharmadasa
+
+#### Gerald Woerlee's Real World Guide to Pharmacokinetics and Other things
+
+- Chapter 2 "Asleep in ten seconds" contains an excellent explanation of induction kinetics
 
 ### Online Resources
 
@@ -123,3 +127,5 @@ You should need almost no other resource on the following topics:
 
 - [The Biophase Concept and Intravenous Anaesthesia](https://web.stanford.edu/~sshafer/LECTURES.DIR/Notes/Biophase%20in%20Anesthesia.doc) by Steven Shafer
 - [The Drager Primus Anaesthetic Machine Animation](https://static.draeger.com/trainer/primus_ie_trainer_en/start.html#id=D1100)
+- [Vasopressors - Paul Forrest, RPA](http://www.anaesthesia.med.usyd.edu.au/resources/lectures/pforrest/Vasopressor%20lecture%20-Part%201.htm)
+- [Diagram or Die - Adam Hollingworth](https://anzcaprimarynotes.files.wordpress.com/2014/05/diagram-or-die.pdf)

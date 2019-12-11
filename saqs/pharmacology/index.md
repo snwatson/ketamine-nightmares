@@ -134,7 +134,7 @@
 ### Muscle Relaxants
 
 - [2000B16 Atracurium vs cisatracurium](muscle_relaxants/2000B16_atracurium_vs_cisatracurium.htm)
-- [2002B05 Suxamethonium - causes of prologned effect](muscle_relaxants/2002B05_suxamethonium_causes_of_prolonged_effect.htm)
+- [2002B05 Suxamethonium - causes of prolonged effect](muscle_relaxants/2002B05_suxamethonium_causes_of_prolonged_effect.htm)
 - [2004A02 Non-depolarising relaxants - rate of onset](muscle_relaxants/2004A02_non_depolarising_relaxants_rate_of_onset.htm)
 - [2006B04 Suxamethonium vs rocuronium - rapid sequence induction](muscle_relaxants/2006B04_suxamethonium_vs_rocuronium_in_rapid_sequence_induction.htm)
 - [2007B06 Suxamethonium - mechanisms of phase 1 and phase 2 block](muscle_relaxants/2007B06_suxamethonium_mechanisms_of_phase_1_and_phase_2_blockade.htm)

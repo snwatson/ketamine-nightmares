@@ -3,7 +3,6 @@
 ## What is it?
 
 - It’s bank of my answers to the Australian Anaesthesia Primary Exam SAQs
-- These answers can also be found on Life In The Fast Lane's [Part One](http://www.partone.lifeinthefastlane.com/) section, courtesy of Jake Barlow
 - Anaesthesia trainees in other countries may benefit
 - Trainees in other critical care disciplines may benefit
 

@@ -66,6 +66,10 @@ All chapters are good, but the best ones are:
 
 - Pharmacokinetics of Opioids
 
+#### Stoelting's Pharmacology and Physiology in Anaesthetic Practice
+
+- Local Anaesthetics
+
 #### Pharmacology for the ANZCA Primary Exam - Petkov
 
 - Good for revision

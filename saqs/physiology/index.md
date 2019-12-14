@@ -59,6 +59,8 @@
 - [2009A12 Cell signalling - resting membrane potential](cellular/2009A12_cell_signalling_resting_membrane_potential.htm)
 - [2010A16 Membrane transport](cellular/2010A16_membrane_transport.htm)
 - [2011A12 Skeletal muscle - single twitch vs tetanic contraction](cellular/2011A12_skeletal_muscle_single_twitch_vs_tetanic_contraction.htm)
+- [2011B09 Prostaglandins](cellular/2011B09_prostaglandins.htm)
+- [2012A12 Chemical neurotransmitters](cellular/2012A12_chemical_neurotransmitters.htm)
 - [2013A14 Mitochondrion - structure and function](cellular/2013A14_mitochondrion_structure_and_function.htm)
 - [2018B15 Prostaglandins - effects on smooth muscle](cellular/2018B15_prostaglandins_effects_on_smooth_muscle.htm)
 
@@ -120,6 +122,8 @@
 - [2003A12 Cerebral blood flow regulation - during posture change](neurophysiology/2003A12_cerebral_blood_flow_regulation_during_posture_change.htm)
 - [2009A09 Determinants of intracranial pressure](neurophysiology/2009A09_determinants_of_intracranial_pressure.htm)
 - [2009B14 Cerebral effects of hypercapnoea](neurophysiology/2009B14_cns_effects_of_hypercapnoea.htm)
+- [2011B13 Cerebrospinal fluid](neurophysiology/2011B13_cerebrospinal_fluid.htm)
+- [2013B04 Blood-brain barrier](neurophysiology/2013B04_blood_brain_barrier.htm)
 - [2015B10 Cerebral effects of hypocapnoea](neurophysiology/2015B10_cns_effects_of_hypocapnoea.htm)
 - [2016B06 Determinants of spinal cord perfusion](neurophysiology/2016B06_determinants_of_spinal_cord_perfusion.htm)
 - [2019A05 Cerebral effects of prolonged GA in the Trendelenburg position](neurophysiology/2019A05_cns_effects_of_prolonged_ga_in_trendelenburg_position.htm)
@@ -140,6 +144,7 @@
 
 ### Pain
 
+- [2008A14 Referred pain](pain/2008A14_referred_pain.htm)
 - [2014B05 Nociceptive pathways - drug modulation](pain/2014B05_nociceptive_pathways_drug_modulation.htm)
 - [2016A13 Chronic pain - aetiology and prevention](pain/2016A13_chronic_pain_aetiology_and_prevention.htm)
 - [2017B01 Nociceptive pathways - in labour](pain/2017B01_nociceptive_pathways_in_labour.htm)
@@ -199,6 +204,7 @@
 
 - [2006A09 Cardiovascular response to exercise](special_physiology/2006A09_cardiovascular_response_to_exercise.htm)
 - [2009A16 High altitude physiology](special_physiology/2009A16_high_altitude_physiology.htm)
+- [2014B15 Sleep Physiology](special_physiology/2014B15_sleep_physiology.htm)
 
 ### Thermoregulation
 

@@ -27,7 +27,6 @@
 - [2003B09 Myocardial oxygen supply and demand - effect of tachycardia](cardiovascular/2003B09_myocardial_oxygen_supply_and_demand_effect_of_tachycardia.htm)
 - [2004A10 Endothelium-derived vasoactive substances](cardiovascular/2004A10_endothelium_derived_vasoactive_substances.htm)
 - [2004B10 Left atrial pressure](cardiovascular/2004B10_left_atrial_pressure.htm)
-- [2007B16 ECG - PR interval](cardiovascular/2007B16_ecg_pr_interval.htm)
 - [2008A09 Blood flow - skin vs kidneys vs carotid bodies](cardiovascular/2008A09_blood_flow_skin_vs_kidneys_vs_carotid_bodies.htm)
 - [2008B14 Myocardial oxygen supply and demand - effect of aortic stenosis](cardiovascular/2008B14_myocardial_oxygen_supply_and_demand_effect_of_aortic_stenosis.htm)
 - [2009A13 Preload - the Frank-Starling mechanism](cardiovascular/2009A13_preload_the_frank_starling_mechanism.htm)
@@ -35,7 +34,6 @@
 - [2010B10 Myocardial oxygen supply and demand - determinants of coronary blood flow](cardiovascular/2010B10_myocardial_oxygen_supply_and_demand_determinants_of_coronary_blood_flow.htm)
 - [2011A10 Afterload](cardiovascular/2011A10_afterload.htm)
 - [2012B11 Lymphatic circulation](cardiovascular/2012B11_lymphatic_circulation.htm)
-- [2013A12 Neuraxial blockade - cardiovascular effects](cardiovascular/2013A12_neuraxial_blockade_cardiovascular_effects.htm)
 - [2013C16 Isovolumic haemodilution](cardiovascular/2013C16_isovolumic_haemodilution.htm)
 - [2015A06 Baroreceptors](cardiovascular/2015A06_baroreceptors.htm)
 - [2015A14 Venous return - effect of general anaesthesia](cardiovascular/2015A14_venous_return_and_effect_of_general_anaesthesia.htm)
@@ -45,6 +43,8 @@
 - [2018A10 Myocardial oxygen supply and demand - left ventricule](cardiovascular/2018A10_myocardial_oxygen_supply_and_demand_left_ventricle.htm)
 - [2018B09 Autonomic innervation of the heart](cardiovascular/2018B09_autonomic_innervation_of_the_heart.htm)
 - [2019A01 Intermittent positive pressure ventilation - effect on cardiac output](cardiovascular/2019A01_intermittent_positive_pressure_ventilation_effect_on_cardiac_output.htm)
+- [2019B03 ECG - PR interval](cardiovascular/2019B03_ecg_pr_interval.htm)
+- [2019B08 Neuraxial blockade - cardiovascular effects](cardiovascular/2019B08_neuraxial_blockade_cardiovascular_effects.htm)
 
 ### Cellular
 
@@ -127,6 +127,8 @@
 - [2015B10 Cerebral effects of hypocapnoea](neurophysiology/2015B10_cns_effects_of_hypocapnoea.htm)
 - [2016B06 Determinants of spinal cord perfusion](neurophysiology/2016B06_determinants_of_spinal_cord_perfusion.htm)
 - [2019A05 Cerebral effects of prolonged GA in the Trendelenburg position](neurophysiology/2019A05_cns_effects_of_prolonged_ga_in_trendelenburg_position.htm)
+- [2019B02 Determinants of cerebral perfusion](neurophysiology/2019B02_determinants_of_cerebral_perfusion.htm)
+- [2019B13 Hypothalamus](neurophysiology/2019B13_hypothalamus.htm)
 
 ### Obesity
 
@@ -134,6 +136,7 @@
 - [2015B05 Obesity - effect on rate of offset of inhalational anaesthetics](obesity/2015B05_obesity_effect_on_rate_of_offset_of_inhalational_anaesthetics.htm)
 - [2017B06 Obesity - respiratory effects](obesity/2017B06_obesity_respiratory_effects.htm)
 - [2018A02 Obesity - cardiovascular effects](obesity/2018A02_obesity_cardiovascular_effects.htm)
+- [2019B07 Obesity - effect on rate of washout of inhalational anaesthetics](obesity/2019B07_obesity_effect_on_rate_of_washout_of_inhalational_anaesthetics.htm)
 
 ### Obstetrics
 

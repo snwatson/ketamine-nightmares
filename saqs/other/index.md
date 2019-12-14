@@ -7,7 +7,7 @@
 - [2013A08 Laryngeal anatomy](anatomy/2013A08_laryngeal_anatomy.htm)
 - [2014A07 Lumbar epidural anatomy](anatomy/2014A07_lumbar_epidural_anatomy.htm)
 - [2014B01 Cubital fossa anatomy](anatomy/2014B01_cubital_fossa_anatomy.htm)
-- [2016B09 Right internal jugular venous cannulation](anatomy/2016B09_right_internal_jugular_venous_cannulation.htm)
+- [2019B15 Right internal jugular venous cannulation](anatomy/2019B15_right_internal_jugular_venous_cannulation.htm)
 
 ### Clinical Measurement
 
@@ -35,7 +35,6 @@
 - [2006A15 pH electrode](equipment/2006A15_ph_electrode.htm)
 - [2008B09 Hygrometers and humidity](equipment/2008B09_hygrometers_and_humidity.htm)
 - [2012A10 Pneumotachographs](equipment/2012A10_pneumotachographs.htm)
-- [2014A03 Variable bypass vapourisers - safety features](equipment/2014A03_variable_bypass_vapouriser_safety_features.htm)
 - [2014A08 Surgical diathermy](equipment/2014A08_surgical_diathermy.htm)
 - [2014B04 Anaesthetic gas scavenging](equipment/2014B04_anaesthetic_gas_scavenging.htm)
 - [2015B13 Fuel cell and paramagnetic oxygen analyser](equipment/2015B13_fuel_cell_and_paramagnetic_oxygen_analyser.htm)
@@ -46,6 +45,7 @@
 - [2017A02 Oxygen delivery devices](equipment/2017A02_oxygen_delivery_devices.htm)
 - [2017B02 Variable bypass vapouriser - function and accuracy](equipment/2017B02_variable_bypass_vapouriser_function_and_accuracy.htm)
 - [2018A04 CO2 absorbents - hazards](equipment/2018A04_co2_absorbents_hazards.htm)
+- [2019B05 Variable bypass vapourisers - safety features](equipment/2019B05_variable_bypass_vapouriser_safety_features.htm)
 
 ### Physics
 

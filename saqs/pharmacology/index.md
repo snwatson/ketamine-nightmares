@@ -22,6 +22,7 @@
 - [2017B15 Tramadol](analgesics/2017B15_tramadol.htm)
 - [2018A05 Opioids - therapeutic and adverse effects](analgesics/2018A05_opioids_therapeutic_and_adverse_effects.htm)
 - [2019A14 Tramadol - metabolism and excretion](analgesics/2019A14_tramadol_metabolism_and_excretion.htm)
+- [2019B14 Paracetamol - role and toxicity](analgesics/2019B14_paracetamol_role_and_toxicity.htm)
 
 ### Cardiovascular Drugs
 
@@ -66,10 +67,10 @@
 - [2014B03 Malignant hyperthermia](inhalational_anaesthetics/2014B03_malignant_hyperthermia.htm)
 - [2015A07 Sevoflurane - effects on muscle](inhalational_anaesthetics/2015A07_sevoflurane_effects_on_muscle.htm)
 - [2017B05 Inhalational anaesthetics - rate of onset](inhalational_anaesthetics/2017B05_inhalational_anaesthetics_rate_of_onset.htm)
-- [2018A03 Volatile anaesthetics - mechanism of hypnosis](inhalational_anaesthetics/2018A03_volatile_anaesthetics_mechanism_of_hypnosis.htm)
 - [2018A06 Sevoflurane - rate of washout.htm](inhalational_anaesthetics/2018A06_sevoflurane_rate_of_washout.htm)
 - [2019A09 Inhalational anaesthetics - wash-in curves](inhalational_anaesthetics/2019A09_inhalational_anaesthetics_wash_in_curves.htm)
 - [2019A10 Sevoflurane - effects on regional circulations](inhalational_anaesthetics/2019A10_sevoflurane_regional_circulation_effects.htm)
+- [2019B04 Volatile anaesthetics - mechanism of hypnosis](inhalational_anaesthetics/2019B04_volatile_anaesthetics_mechanism_of_hypnosis.htm)
 
 ### Intravenous Anaesthetics
 
@@ -107,6 +108,7 @@
 - [2017A12 Total spinal anaesthesia](local_anaesthetics/2017A12_total_spinal_anaesthesia.htm)
 - [2017B08 Local anaesthetics - rate of offset](local_anaesthetics/2017B08_local_anaesthetics_rate_of_offset.htm)
 - [2019A08 Local anaesthetic systemic toxicity - features](local_anaesthetics/2019A08_local_anaesthetic_systemic_toxicity_features.htm)
+- [2019B09 Local anaesthetics - rate of onset and offset](local_anaesthetics/2019B09_local_anaesthetics_rate_of_onset_and_offset.htm)
 
 ### Miscellaneous Drugs
 
@@ -144,10 +146,10 @@
 - [2014A02 Non-depolarising relaxants - log dose response curve](muscle_relaxants/2014A02_non_depolarising_relaxants_log_dose_response_curve.htm)
 - [2016A04 Non-depolarising relaxants - adverse effects](muscle_relaxants/2016A04_non_depolarising_relaxants_adverse_effects.htm)
 - [2016B10 Reversal - neostigmine](muscle_relaxants/2016B10_reversal_neostigmine.htm)
-- [2017A06 Suxamethonium - adverse effects](muscle_relaxants/2017A06_suxamethonium_adverse_effects.htm)
 - [2018A12 Reversal - neostigmine vs sugammadex](muscle_relaxants/2018A12_reversal_neostigmine_vs_sugammadex.htm)
 - [2018B04 Suxamethonium vs rocuronium](muscle_relaxants/2018B04_suxamethonium_vs_rocuronium.htm)
 - [2019A12 Non-depolarising relaxants - rate of offset](muscle_relaxants/2019A12_non_depolarising_relaxants_rate_of_offset.htm)
+- [2019B01 Suxamethonium - adverse effects](muscle_relaxants/2019B01_suxamethonium_adverse_effects.htm)
 
 ### Pharmaceutics
 
@@ -161,7 +163,7 @@
 - [2005B02 Dose-response curves - opioids](pharmacodynamics/2005B02_dose_response_curves_opioids.htm)
 - [2012B03 Tolerance and tachyphylaxis](pharmacodynamics/2012B03_tolerance_and_tachyphylaxis.htm)
 - [2015A05 Synergy - sevoflurane and fentanyl](pharmacodynamics/2015A05_synergy_sevoflurane_fentanyl.htm)
-- [2017A03 Synergy - propofol and remifentanil](pharmacodynamics/2017A03_synergy_propofol_and_remifentanil_tci.htm)
+- [2019B06 Synergy - propofol and remifentanil](pharmacodynamics/2019B06_synergy_propofol_and_remifentanil_tci.htm)
 
 ### Pharmacokinetics
 

@@ -60,7 +60,7 @@
 - [2010A16 Membrane transport](cellular/2010A16_membrane_transport.htm)
 - [2011A12 Skeletal muscle - single twitch vs tetanic contraction](cellular/2011A12_skeletal_muscle_single_twitch_vs_tetanic_contraction.htm)
 - [2011B09 Prostaglandins](cellular/2011B09_prostaglandins.htm)
-- [2012A12 Chemical neurotransmitters](cellular/2012A12_chemical_neurotransmitters.htm)
+- [2012A12 Cell signalling - chemical neurotransmitters](cellular/2012A12_cell_signalling_chemical_neurotransmitters.htm)
 - [2013A14 Mitochondrion - structure and function](cellular/2013A14_mitochondrion_structure_and_function.htm)
 - [2018B15 Prostaglandins - effects on smooth muscle](cellular/2018B15_prostaglandins_effects_on_smooth_muscle.htm)
 

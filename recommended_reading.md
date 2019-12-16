@@ -131,5 +131,5 @@ You should need almost no other resource on the following topics:
 
 - [The Biophase Concept and Intravenous Anaesthesia](https://web.stanford.edu/~sshafer/LECTURES.DIR/Notes/Biophase%20in%20Anesthesia.doc) by Steven Shafer
 - [The Drager Primus Anaesthetic Machine Animation](https://static.draeger.com/trainer/primus_ie_trainer_en/start.html#id=D1100)
-- [Vasopressors - Paul Forrest, RPA](http://www.anaesthesia.med.usyd.edu.au/resources/lectures/pforrest/Vasopressor%20lecture%20-Part%201.htm)
-- [Diagram or Die - Adam Hollingworth](https://anzcaprimarynotes.files.wordpress.com/2014/05/diagram-or-die.pdf)
+- [Vasopressors](http://www.anaesthesia.med.usyd.edu.au/resources/lectures/pforrest/Vasopressor%20lecture%20-Part%201.htm) by Paul Forrest, RPA
+- [Diagram or Die](https://anzcaprimarynotes.files.wordpress.com/2014/05/diagram-or-die.pdf) by Adam Hollingworth

@@ -132,6 +132,7 @@
 - [2016B15 Anti-emetics](miscellaneous_drugs/2016B15_anti_emetics.htm)
 - [2018B13 Oxytocics and tocolytics](miscellaneous_drugs/2018B13_oxytocics_and_tocolytics.htm)
 - [2019A13 Antibiotic chemoprophylaxis](miscellaneous_drugs/2019A13_antibiotic_chemoprophylaxis.htm)
+- [2019B10 Effects of CSL infusion](miscellaneous_drugs/2019B10_effects_of_csl_infusion.htm)
 
 ### Muscle Relaxants
 

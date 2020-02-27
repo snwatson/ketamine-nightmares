@@ -1,556 +1,512 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:0in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:1.0in 1.0in 1.0in 1.0in;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-GB">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2018B14 Describe the factors
-determining transdermal uptake of drugs (50%). Briefly outline the
-advantages and disadvantages of this route.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Intro</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Factors increasing rate of uptake</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Logistics: pros and cons</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Kinetics: pros and cons</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Intro:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Definition</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Absorbed through the skin</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Path of drug</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Patch -&gt; epidermis -&gt; dermis -&gt; blood
-vessel</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Multiple lipid membranes</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Locally acting</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Lignocaine/prilocaine, amethocaine</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Systemically acting</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Fentanyl, buprenorphine, GTN,
-nicotine</span></p>
-</td>
-</tr>
+
+<body lang=EN-AU>
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2018B14 Describe
+the factors determining transdermal uptake of drugs (50%). <br>
+Briefly outline the advantages and disadvantages of this route.</span></h1>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Intro</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Factors increasing rate of uptake</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Logistics: pros and cons</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Kinetics: pros and cons</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Intro:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Definition</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Absorbed through the skin</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Path of drug</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Patch -&gt; epidermis -&gt; dermis -&gt; blood
+  vessel</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Multiple lipid membranes</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Locally acting</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Lignocaine/prilocaine, amethocaine</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Systemically acting</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Fentanyl, buprenorphine, GTN, nicotine</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Factors increasing rate of
-uptake:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Fick&CloseCurlyQuote;s law of
-diffusion</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US"><img width="240" height="61" id="Picture 15"
-src="2018B14_transdermal_kinetics_files/image001.jpg"></span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;C<sub>1</sub></span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. lignocaine 2% cf. 1%</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. EMLA eutectic mix 1:1 -&gt; mutual liquid
-dissolution -&gt; allows high concentration (2.5% ea)</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&DownArrow;C<sub>2</sub></span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;Tissue blood flow rate</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(note slow if hypovolaemia,
-hypothermia)</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;Area</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;Patch area</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&DownArrow;Thickness</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Flexor skin (e.g. abdomen) cf. extensor skin
-(back)</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(note epidermis 0.5centimetre cf. lung
-0.5micrometre)</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;Lipid solubility</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. fentanyl 600x morphine 1x</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&DownArrow;Molecular weight</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">The &OpenCurlyQuote;500 Dalton
-rule&CloseCurlyQuote;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. amethocaine 264 Da</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;%Unionised</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. amethocaine: 40%, highest of all local
-anaesthetics</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. EMLA: added OH -&gt; &ShortUpArrow;pH -&gt;
-&ShortUpArrow;%unionised lignocaine and prilocaine</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Factors increasing
+rate of uptake:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Fick’s law of diffusion</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US><img width=240 height=61 id="Picture 15"
+  src="2018B14_transdermal_kinetics_files/image001.jpg"></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑C<sub>1</sub></span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. lignocaine 2% cf. 1%</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. EMLA eutectic mix 1:1 -&gt; mutual liquid
+  dissolution -&gt; allows high concentration (2.5% ea)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↓C<sub>2</sub></span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑Tissue blood flow rate</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(note slow if hypovolaemia, hypothermia)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑Area</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑Patch area</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↓Thickness</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Flexor skin (e.g. abdomen) cf. extensor skin (back)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(note epidermis 0.5centimetre cf. lung
+  0.5micrometre)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑Lipid solubility</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. fentanyl 600x morphine 1x</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↓Molecular weight</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>The ‘500 Dalton rule’</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. amethocaine 264 Da</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑%Unionised</span></p>
+  </td>
+  <td width=469 valign=top style='width:352.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. amethocaine: 40%, highest of all local
+  anaesthetics</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. EMLA: added OH -&gt; ↑pH -&gt; ↑%unionised
+  lignocaine and prilocaine</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Logistics:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">Pros</span></b></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">Cons</span></b></p>
-</td>
-</tr>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Painless</span></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Risk of inadvertent removal</span></p>
-</td>
-</tr>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Non-invasive</span></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Often hidden</span></p>
-</td>
-</tr>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Convenient</span></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Risk of adverse reaction to carrier</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Logistics:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>Pros</span></b></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>Cons</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Painless</span></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Risk of inadvertent removal</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Non-invasive</span></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Often hidden</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Convenient</span></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Risk of adverse reaction to carrier</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Pharmacokinetics:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">Pros</span></b></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">Cons</span></b></p>
-</td>
-</tr>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Not reliant on gut absorption</span></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Slow and variable onset, long time to peak
-effect</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Risk of dose stacking and toxicity</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. &gt;24 hours for fentanyl</span></p>
-</td>
-</tr>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">No first pass hepatic metabolism</span></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Slow offset -&gt; long duration of
-toxicity</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(e.g. &gt;24h for fentanyl)</span></p>
-</td>
-</tr>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">High bioavailability</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. GTN near 100% cf. oral near 0%</span></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-</tr>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Constant plasma concentration once at steady
-state</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Quasi IV infusion</span></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-</tr>
-<tr>
-<td width="276" valign="top" style=
-'width:206.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Slow offset -&gt; infrequent dosing</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">e.g. buprenorphine 7 days</span></p>
-</td>
-<td width="325" valign="top" style=
-'width:244.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Pharmacokinetics:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>Pros</span></b></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>Cons</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Not reliant on gut absorption</span></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Slow and variable onset, long time to peak effect</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Risk of dose stacking and toxicity</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. &gt;24 hours for fentanyl</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>No first pass hepatic metabolism</span></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Slow offset -&gt; long duration of toxicity</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(e.g. &gt;24h for fentanyl)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>High bioavailability</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. GTN near 100% cf. oral near 0%</span></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Constant plasma concentration once at steady state</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Quasi IV infusion</span></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=276 valign=top style='width:206.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Slow offset -&gt; infrequent dosing</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>e.g. buprenorphine 7 days</span></p>
+  </td>
+  <td width=325 valign=top style='width:244.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
 </div>
+
 </body>
+
 </html>

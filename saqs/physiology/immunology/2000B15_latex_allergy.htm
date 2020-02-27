@@ -1,587 +1,547 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:0in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:1.0in 1.0in 1.0in 1.0in;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-GB">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2000B15 Write brief notes on
-latex allergy.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Intro</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Type 1 reaction</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Type 4 reaction</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Intro:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Definition</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Hypersensitivity to latex a natural derivative
-of the rubber tree</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Risk factors</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Atopy (asthma, eczema, allergic
-rhinitis)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Frequent exposure (i.e. health care
-workers)</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Severity</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Varies from mild to life-threatening</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Source</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Hospitals: disposable gloves, urine catheters,
-anaesthetic tubing</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Anywhere: rubber bands, shoes</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Cross-sensitivity: banana, kiwifruit,
-avocado</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Implication</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Minimise exposure: stock latex-only gloves and
-other products</span></p>
-</td>
-</tr>
+
+<body lang=EN-AU>
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2000B15 Write
+brief notes on latex allergy.</span></h1>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Intro</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Type 1 reaction</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Type 4 reaction</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Intro:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Definition</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Hypersensitivity to latex a natural derivative
+  of the rubber tree</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Risk factors</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Atopy (asthma, eczema, allergic rhinitis)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Frequent exposure (i.e. health care workers)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Severity</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Varies from mild to life-threatening</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Source</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Hospitals: disposable gloves, urine catheters, anaesthetic tubing</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Anywhere: rubber bands, shoes</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Cross-sensitivity: banana, kiwifruit, avocado</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Implication</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Minimise exposure: stock latex-only gloves and
+  other products</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Type 1: anaphylaxis</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Characteristics</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">All-or-nothing</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Immediate</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Life-threatening</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Aetiology</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">First exposure -&gt; sensitization (10-14
-days)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Antigen presenting cell engulfs antigen,
-presents on MHC-II</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">APC activates specific T cell</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">T cell activates specific B
-cell</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">B cell produces specific IgE</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">IgE fixes to mast cells and
-basophils</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">10-14 day process</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Second exposure -&gt; systemic degranulation
-(seconds)</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Pathophysiology</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Early mediators: histamine, serotonin,
-tryptase</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Late mediators: leukotrienes, prostaglandins,
-bradykinin, platelet factor 4</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Vasodilation, capillary leak</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Angioedema, upper airway obstruction</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Hypotension, arrest</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Bronchospasm</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Treatment</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Adrenaline</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&alpha;</span><sub><span lang=
-"EN-US">1</span></sub><span lang="EN-US">: vasoconstriction -&gt;
-&ShortUpArrow;SVR -&gt; &ShortUpArrow;mAP</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&beta;</span><sub><span lang=
-"EN-US">1</span></sub><span lang="EN-US">: &ShortUpArrow;heart
-rate, contractility -&gt; &ShortUpArrow;mAP</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&beta;</span><sub><span lang=
-"EN-US">2</span></sub><span lang="EN-US">: bronchodilatation,
-stabilize mast cells</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Glucocorticoid:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&DownArrow;Late mediator
-production</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Antihistamine</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&DownArrow;Vasodilation, capillary
-leak</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Test</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Prick skin -&gt;apply latex solution -&gt;
-observe for weal and flare</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Radioallergosorbent assay</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Serial tryptase (+1h, +6h)</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Type 1:
+anaphylaxis</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Characteristics</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>All-or-nothing</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Immediate</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Life-threatening</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Aetiology</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>First exposure -&gt; sensitization (10-14 days)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Antigen
+  presenting cell engulfs antigen, presents on MHC-II</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>APC activates
+  specific T cell</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>T cell
+  activates specific B cell</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>B cell
+  produces specific IgE</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>IgE
+  fixes to mast cells and basophils</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>10-14
+  day process</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Second exposure -&gt; systemic degranulation (seconds)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Pathophysiology</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Early mediators: histamine, serotonin, tryptase</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Late mediators: leukotrienes, prostaglandins, bradykinin, platelet
+  factor 4</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Vasodilation, capillary leak</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Angioedema, upper airway obstruction</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Hypotension, arrest</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Bronchospasm</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Treatment</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Adrenaline</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>α</span><sub><span
+  lang=EN-US>1</span></sub><span lang=EN-US>: vasoconstriction -&gt; ↑SVR -&gt;
+  ↑mAP</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>β</span><sub><span
+  lang=EN-US>1</span></sub><span lang=EN-US>: ↑heart rate, contractility -&gt;
+  ↑mAP</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>β</span><sub><span
+  lang=EN-US>2</span></sub><span lang=EN-US>: bronchodilatation, stabilize mast
+  cells</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Glucocorticoid:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↓Late
+  mediator production</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Antihistamine</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↓Vasodilation,
+  capillary leak</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Test</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Prick skin -&gt;apply latex solution -&gt; observe for weal and
+  flare</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Radioallergosorbent assay</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Serial tryptase (+1h, +6h)</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Type 4: delayed type
-hypersensitivity, contact dermatitis</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Key features</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Slower</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Generally less severe</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Aetiology / pathophysiology</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Antigen presented to T lymphocyte</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Cytokine release</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Local activation of macrophages</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Well demarcated erythematous urticarial
-rash</span></p>
-</td>
-</tr>
-<tr>
-<td width="132" valign="top" style=
-'width:98.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Test</span></p>
-</td>
-<td width="469" valign="top" style=
-'width:352.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Apply skin patch with antigen for 24 hours -&gt;
-observe for reaction</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Type 4: delayed
+type hypersensitivity, contact dermatitis</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Key features</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Slower</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Generally less severe</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Aetiology / pathophysiology</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Antigen presented to T lymphocyte</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Cytokine release</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Local activation of macrophages</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Well demarcated erythematous urticarial rash</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=132 valign=top style='width:98.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Test</span></p>
+  </td>
+  <td width=482 valign=top style='width:361.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.9pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Apply skin patch with antigen for 24 hours
+  -&gt; observe for reaction</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
 </div>
+
 </body>
+
 </html>

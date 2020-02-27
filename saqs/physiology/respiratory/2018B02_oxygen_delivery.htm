@@ -1,646 +1,590 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:0in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:1.0in 1.0in 1.0in 1.0in;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-GB">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2018B02 Discuss the factors
-that affect oxygen transport from the alveoli to the
-tissues.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Intro</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Alveolus -&gt; pulmonary capillary</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Pulmonary capillary -&gt; systemic arterial
+
+<body lang=EN-AU>
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2018B02 Discuss
+the factors that affect oxygen transport from the alveoli to the tissues.</span></h1>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Intro</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
+.0001pt;text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Alveolus -&gt; pulmonary capillary</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
+.0001pt;text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Pulmonary capillary -&gt; systemic arterial
 blood</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Systemic arterial blood -&gt; tissues</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Intro:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">O<sub>2</sub> cascade</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US"><img width="464" height="163" id="Picture 2"
-src="2018B02_oxygen_delivery_files/image001.jpg"></span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">O<sub>2</sub> content</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">CaO<sub>2</sub> = [Hb] x SaO<sub>2</sub> x 1.34
-+ 0.003 x PaO<sub>2</sub> (per 100mL blood)</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">O<sub>2</sub> delivery</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">DO<sub>2</sub> = CaO<sub>2</sub> x CO</span></p>
-</td>
-</tr>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Systemic arterial blood -&gt; tissues</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Intro:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>O<sub>2</sub> cascade</span></p>
+  </td>
+  <td width=643 valign=top style='width:482.6pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US><img width=511 height=180 id="Picture 2"
+  src="2018B02_oxygen_delivery_files/image001.jpg"></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>O<sub>2</sub> content</span></p>
+  </td>
+  <td width=643 valign=top style='width:482.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>CaO<sub>2</sub> = [Hb] x SaO<sub>2</sub> x
+  1.34 + 0.003 x PaO<sub>2</sub> (per 100mL blood)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>O<sub>2</sub> delivery</span></p>
+  </td>
+  <td width=643 valign=top style='width:482.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>DO<sub>2</sub> = CaO<sub>2</sub> x CO</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Alveolus -&gt; pulmonary
-capillary:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Fick&CloseCurlyQuote;s law</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US"><img width="284" height="51" id="Picture 8" src=
-"2018B02_oxygen_delivery_files/image002.jpg"></span></p>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Hence factors increasing O<sub>2</sub> transfer
-rate: &ShortUpArrow;P<sub>1</sub>, &DownArrow;P<sub>2</sub>,
-&ShortUpArrow;area, &DownArrow;thickness</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;P<sub>1</sub></span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Alveolar gas equation: PAO<sub>2</sub>
-(P<sub>1</sub>) = FiO<sub>2</sub>(Patm &ndash; P<sub>SVP-H2O</sub>)
-&ndash; PaCO<sub>2</sub> / RQ)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;FiO<sub>2</sub> (i.e.
-supplementation)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;P<sub>atm</sub> (i.e.
-hyperbaric)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&DownArrow;PaCO<sub>2</sub>
-(&ShortUpArrow;ratio alveolar ventilation: CO<sub>2</sub>
-production)</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&DownArrow;P<sub>2</sub></span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Cardiac output (Note: perfusion
-limitation if at rest, at sea level, healthy lungs)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Pulmonary capillary blood
-volume</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;[Hb]</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;Area</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">i.e. lack of oedema, fibrosis</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&DownArrow;Thickness</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">i.e. lack of</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Tissue loss</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Shunt (e.g. atelectasis)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Dead space (e.g. pulmonary
-embolus)</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Alveolus -&gt;
+pulmonary capillary:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Fick’s law</span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US><img width=284 height=51 id="Picture 8"
+  src="2018B02_oxygen_delivery_files/image002.jpg"></span></p>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Hence factors increasing O<sub>2</sub>
+  transfer rate: ↑P<sub>1</sub>, ↓P<sub>2</sub>, ↑area, ↓thickness</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑P<sub>1</sub></span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Alveolar gas equation: PAO<sub>2</sub> (P<sub>1</sub>) = FiO<sub>2</sub>(Patm
+  – P<sub>SVP-H2O</sub>) – PaCO<sub>2</sub> / RQ)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑FiO<sub>2</sub>
+  (i.e. supplementation)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑P<sub>atm</sub>
+  (i.e. hyperbaric)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↓PaCO<sub>2</sub>
+  (↑ratio alveolar ventilation: CO<sub>2</sub> production)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↓P<sub>2</sub></span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Cardiac output (Note: perfusion limitation if at rest, at sea
+  level, healthy lungs)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Pulmonary capillary blood volume</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑[Hb]</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑Area</span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>i.e. lack of oedema, fibrosis</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↓Thickness</span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>i.e. lack of</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Tissue
+  loss</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Shunt
+  (e.g. atelectasis)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Dead
+  space (e.g. pulmonary embolus)</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Pulmonary capillary blood -&gt;
-systemic arterial blood:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Venous admixture</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">The amount of mixed venous (pulmonary arterial)
-blood that would need to be added to end-pulmonary capillary blood
-to account for the observed &DownArrow; pO<sub>2</sub> from
-end-pulmonary capillary to systemic artery.</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Comprises:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Low VQ regions</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Shunt</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Shunt equation: calculates venous admixture as a
-proportion</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Qs/Qt = (CcO<sub>2</sub> &ndash;
-CaO<sub>2</sub>) / (CcO<sub>2</sub> &ndash;
-CvO<sub>2</sub>)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Normal: ~0.04</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Low V/Q</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Where a region of lung is hypoventilated
-relative to its perfusion</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Physiological: V and Q scatter due to
-gravity</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Pathological: lung disease (e.g. COPD),
-vasodilators impairing HPV</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Shunt</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Where blood returns to LV without any
-oxygenation</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Physiological: bronchial veins 1%, Thebesian
-veins 0.3%</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Lung pathology: e.g. atelectasis</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Cardiac pathology: e.g. VSD</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Pulmonary
+capillary blood -&gt; systemic arterial blood:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Venous admixture</span></p>
+  </td>
+  <td width=643 valign=top style='width:482.6pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>The amount of mixed venous (pulmonary arterial)
+  blood that would need to be added to end-pulmonary capillary blood to account
+  for the observed ↓ pO<sub>2</sub> from end-pulmonary capillary to systemic
+  artery.</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Comprises:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Low VQ
+  regions</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Shunt</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Shunt equation: calculates venous admixture as a proportion</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Qs/Qt =
+  (CcO<sub>2</sub> – CaO<sub>2</sub>) / (CcO<sub>2</sub> – CvO<sub>2</sub>)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Normal:
+  ~0.04</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Low V/Q</span></p>
+  </td>
+  <td width=643 valign=top style='width:482.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Where a region of lung is hypoventilated relative to its perfusion</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Physiological: V and Q scatter due to gravity</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Pathological: lung disease (e.g. COPD), vasodilators impairing HPV</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Shunt</span></p>
+  </td>
+  <td width=643 valign=top style='width:482.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Where blood returns to LV without any oxygenation</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Physiological: bronchial veins 1%, Thebesian veins 0.3%</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Lung pathology: e.g. atelectasis</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Cardiac pathology: e.g. VSD</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Systemic arterial blood -&gt;
-tissues:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Fick&CloseCurlyQuote;s law</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US"><img width="284" height="51" id="Picture 9" src=
-"2018B02_oxygen_delivery_files/image002.jpg"></span></p>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Hence factors increasing O<sub>2</sub>
-extraction: &ShortUpArrow;P<sub>1</sub>, &DownArrow;P<sub>2</sub>,
-&ShortUpArrow;area, &DownArrow;thickness</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;P<sub>1</sub></span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;VO<sub>2</sub> -&gt; right shift
-oxyhaemoglobin dissociation curve -&gt; &ShortUpArrow;O<sub>2</sub>
-offloading</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Bohr effect:
-&ShortUpArrow;pCO<sub>2</sub>, &DownArrow;pH</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;2,3-DPG</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;temperature</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Hb -&gt; &ShortUpArrow;size of
-O<sub>2</sub> reservoir</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Capillary blood volume -&gt;
-&ShortUpArrow;size of O<sub>2</sub> reservoir</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Cardiac output -&gt;
-&ShortUpArrow;rate of O<sub>2</sub> replenishment</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&DownArrow;P<sub>2</sub></span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;VO<sub>2</sub></span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;[Myoglobin]</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&ShortUpArrow;Area</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Capillarisation (e.g. adaptation
-to aerobic exercise)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Recruitment and distension (e.g.
-exercise)</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&DownArrow;Thickness</span></p>
-</td>
-<td width="517" valign="top" style=
-'width:388.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Capillarisation -&gt;
-&DownArrow;diffusion distance</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Systemic
+arterial blood -&gt; tissues:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Fick’s law</span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US><img width=284 height=51 id="Picture 9"
+  src="2018B02_oxygen_delivery_files/image003.jpg"></span></p>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Hence factors increasing O<sub>2</sub>
+  extraction: ↑P<sub>1</sub>, ↓P<sub>2</sub>, ↑area, ↓thickness</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑P<sub>1</sub></span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑VO<sub>2</sub> -&gt; right shift oxyhaemoglobin dissociation
+  curve -&gt; ↑O<sub>2</sub> offloading</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Bohr
+  effect: ↑pCO<sub>2</sub>, ↓pH</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑2,3-DPG</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑temperature</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Hb -&gt; ↑size of O<sub>2</sub> reservoir</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Capillary blood volume -&gt; ↑size of O<sub>2</sub> reservoir</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Cardiac output -&gt; ↑rate of O<sub>2</sub> replenishment</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↓P<sub>2</sub></span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑VO<sub>2</sub></span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑[Myoglobin]</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↑Area</span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Capillarisation (e.g. adaptation to aerobic exercise)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Recruitment and distension (e.g. exercise)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=85 valign=top style='width:64.05pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↓Thickness</span></p>
+  </td>
+  <td width=642 valign=top style='width:481.3pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.65pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>↑Capillarisation -&gt; ↓diffusion distance</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
 </div>
+
 </body>
+
 </html>

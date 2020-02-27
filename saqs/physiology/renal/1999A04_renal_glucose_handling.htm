@@ -1,452 +1,410 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:0in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
-a:link, span.MsoHyperlink
-        {color:#0563C1;
-        text-decoration:underline;}
-a:visited, span.MsoHyperlinkFollowed
-        {color:#954F72;
-        text-decoration:underline;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:1.0in 1.0in 1.0in 1.0in;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-GB" link="#0563C1" vlink="#954F72">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>1999A04 Explain how the kidney
-handles glucose. Describe the physiological consequences of
-glycosuria.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Renal handling</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Consequences of glycosuria</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Renal handling:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="102" valign="top" style=
-'width:76.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Filtration</span></p>
-</td>
-<td width="499" valign="top" style=
-'width:374.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Polar but small molecule 180g/mol</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Freely filtered</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Normal plasma concentration 4mM, hence
-900mM/day</span></p>
-</td>
-</tr>
-<tr>
-<td width="102" valign="top" style=
-'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Reabsorption</span></p>
-</td>
-<td width="499" valign="top" style=
-'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Near 100%</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">From urine into cell:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Via sodium-glucose cotransporter-1
-(SGLT1) in proximal straight tubule</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Via SGLT2 in proximal convoluted
-tubule</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Gradient established by basolateral
-Na<sup>+</sup>K<sup>+</sup>ATPase</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">i.e. secondary active
-transport</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">From cell into interstitium:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Via GLUT-2 (i.e. facilitated
-diffusion)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Water follows by osmosis</span></p>
-</td>
-</tr>
-<tr>
-<td width="102" valign="top" style=
-'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Graph</span></p>
-</td>
-<td width="499" valign="top" style=
-'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US"><img width="340" height="207" id="Picture 1"
-src="1999A04_renal_glucose_handling_files/image001.jpg"></span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&nbsp;</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Transport maximum (T<sub>M</sub>):</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Due to limited number and capacity of
-SGLT2</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Splay: due to differential reabsorptive capacity
-of nephrons</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Predicted threshold: 375/125/180 =
-0.0167M = 16.7mM</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Actual threshold: 10mM</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Effect of SGLT-2 inhibitor: (my thoughts
-only!)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Downward shift of
-T<sub>M</sub></span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Hence leftward shift of excretion
-curve</span></p>
-</td>
-</tr>
+
+<body lang=EN-AU link="#0563C1" vlink="#954F72">
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>1999A04 Explain
+how the kidney handles glucose. Describe the physiological <br>
+consequences of glycosuria.</span></h1>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Renal handling</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Consequences of glycosuria</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Renal handling:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Filtration</span></p>
+  </td>
+  <td width=499 valign=top style='width:374.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Polar but small molecule 180g/mol</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Freely filtered</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Normal plasma concentration 4mM, hence 900mM/day</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Reabsorption</span></p>
+  </td>
+  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Near 100%</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>From urine into cell:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Via
+  sodium-glucose cotransporter-1 (SGLT1) in proximal straight tubule</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Via
+  SGLT2 in proximal convoluted tubule</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Gradient
+  established by basolateral Na<sup>+</sup>K<sup>+</sup>ATPase</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>i.e. secondary
+  active transport</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>From cell into interstitium:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Via
+  GLUT-2 (i.e. facilitated diffusion)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Water follows by osmosis</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Graph</span></p>
+  </td>
+  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US><img width=340 height=207 id="Picture 1"
+  src="1999A04_renal_glucose_handling_files/image001.jpg"></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Transport maximum (T<sub>M</sub>):</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Due to
+  limited number and capacity of SGLT2</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Splay: due to differential reabsorptive capacity of nephrons</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Predicted
+  threshold: 375/125/180 = 0.0167M = 16.7mM</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Actual
+  threshold: 10mM</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Effect of SGLT-2 inhibitor: (my thoughts only!)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Downward
+  shift of T<sub>M</sub></span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:35.2pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Hence
+  leftward shift of excretion curve</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Consequences of
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Consequences of
 glycosuria:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="102" valign="top" style=
-'width:76.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Renal</span></p>
-</td>
-<td width="499" valign="top" style=
-'width:374.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Tubular and urinary
-[glucose]</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Osmotic diuresis</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Washout of hypertonic medullary
-interstitium</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Na<sup>+</sup>/K<sup>+</sup>
-antiport in distal nephron</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Risk UTI</span></p>
-</td>
-</tr>
-<tr>
-<td width="102" valign="top" style=
-'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Systemic</span></p>
-</td>
-<td width="499" valign="top" style=
-'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Dehydration, &ShortUpArrow;osmolality</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&DownArrow;blood volume, &DownArrow;mAP,
-&DownArrow;organ perfusion, &DownArrow;pH, organ
-dysfunction</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Loss of nutrient and energy</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Loss of Na<sup>+</sup>: due to medullary
-washout</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Loss of K<sup>+</sup>: due to medullary washout
-and &ShortUpArrow;Na<sup>+</sup>/K<sup>+</sup> antiport in distal
-nephron (aldosterone)</span></p>
-</td>
-</tr>
-<tr>
-<td width="102" valign="top" style=
-'width:76.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Compensatory responses</span></p>
-</td>
-<td width="499" valign="top" style=
-'width:374.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">To hyperosmolality: &ShortUpArrow;ADH</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">To hypovolaemia: &ShortUpArrow;ADH,
-&DownArrow;ANP</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">To hypotension: &ShortUpArrow;SNS,
-&ShortUpArrow;RAAS, &ShortUpArrow;ADH</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Renal</span></p>
+  </td>
+  <td width=499 valign=top style='width:374.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Tubular and urinary [glucose]</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Osmotic diuresis</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Washout of hypertonic medullary interstitium</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Na<sup>+</sup>/K<sup>+</sup> antiport in distal nephron</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Risk UTI</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Systemic</span></p>
+  </td>
+  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Dehydration, ↑osmolality</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↓blood volume, ↓mAP, ↓organ perfusion, ↓pH, organ dysfunction</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Loss of nutrient and energy</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Loss of Na<sup>+</sup>: due to medullary washout</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Loss of K<sup>+</sup>: due to medullary washout and ↑Na<sup>+</sup>/K<sup>+</sup>
+  antiport in distal nephron (aldosterone)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=102 valign=top style='width:76.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Compensatory responses</span></p>
+  </td>
+  <td width=499 valign=top style='width:374.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>To hyperosmolality: ↑ADH</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>To hypovolaemia: ↑ADH, ↓ANP</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.7pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>To hypotension: ↑SNS, ↑RAAS, ↑ADH</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
 </div>
+
 </body>
+
 </html>

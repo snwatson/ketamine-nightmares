@@ -1,808 +1,675 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.6.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:0in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:1.0in 1.0in 1.0in 1.0in;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0in;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-GB">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2019A01 Explain the effects of
-intermittent positive pressure ventilation on cardiac
-output.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Intro</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Right heart</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Left heart</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Indirect effects</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Hormonal effects</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Intro:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="126" valign="top" style=
-'width:94.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Determinants of cardiac output</span></p>
-</td>
-<td width="475" valign="top" style=
-'width:356.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Factors increasing it:</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Preload (PL)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&DownArrow;Afterload (AL)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Heart rate (HR)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;Contractility (CY)</span></p>
-</td>
-</tr>
-<tr>
-<td width="126" valign="top" style=
-'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Bivalent effect of IPPV</span></p>
-</td>
-<td width="475" valign="top" style=
-'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&DownArrow;LV output if healthy LV</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&DownArrow;Preload
-predominates</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;LV output if failing/overloaded
-LV</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&DownArrow;Transmural pressure
-predominates</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Inspiration: &ShortUpArrow;LV output,
-&DownArrow;RV output</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;Intrathoracic
-pressure</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Opposite to spont vent</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Expiration: &DownArrow;LV output,
-&ShortUpArrow;RV output</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&DownArrow;Intrathoracic
-pressure</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Opposite to spont vent</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<img width="185" height="160" src=
-"2019A01_intermittent_positive_pressure_ventilation_effect_on_cardiac_output_files/image001.jpg"
-align="left" hspace="12"></p>
-</td>
-</tr>
-<tr>
-<td width="126" valign="top" style=
-'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Exacerbating factors</span></p>
-</td>
-<td width="475" valign="top" style=
-'width:356.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&DownArrow;Preload exaggerated by:</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">PEEP (compression of great veins)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Hypovolaemia (&DownArrow;MSFP,
-&DownArrow;VR)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Reverse Trendelenburg (venous
-pooling)</span></p>
-</td>
-</tr>
+
+<body lang=EN-AU>
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2019A01 Explain
+the effects of intermittent positive pressure ventilation on cardiac output.</span></h1>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Intro</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
+.0001pt;text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Right heart</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
+.0001pt;text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Left heart</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
+.0001pt;text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Indirect effects</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Hormonal effects</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Intro:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Determinants of cardiac output</span></p>
+  </td>
+  <td width=611 valign=top style='width:458.2pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Factors increasing it:</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Preload</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↓Afterload</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Heart rate</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Contractility</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Bivalent effect of IPPV</span></p>
+  </td>
+  <td width=611 valign=top style='width:458.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↓LV output if healthy LV</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↓Preload
+  predominates</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑LV output if failing/overloaded LV</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↓Transmural
+  pressure predominates</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Inspiration: ↑LV output, ↓RV output</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑Intrathoracic
+  pressure</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Opposite
+  to spont vent</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Expiration: ↓LV output, ↑RV output</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↓Intrathoracic
+  pressure</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Opposite
+  to spont vent</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><img width=185 height=160
+  src="2019A01_intermittent_positive_pressure_ventilation_effect_on_cardiac_output_files/image001.jpg"
+  align=left hspace=12></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Exacerbating factors</span></p>
+  </td>
+  <td width=611 valign=top style='width:458.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>↓Preload exaggerated by:</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>PEEP (compression of great veins)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Hypovolaemia (↓MSFP, ↓VR)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Reverse Trendelenburg (venous pooling)</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Right ventricle:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="42" valign="top" style=
-'width:31.2pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>&nbsp;</span></p>
-</td>
-<td width="264" valign="top" style=
-'width:198.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>Inspiration:
-&ShortUpArrow;ITP (intrathoracic pressure)</span></p>
-</td>
-<td width="295" valign="top" style=
-'width:221.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>Expiration:
-&DownArrow;ITP</span></p>
-</td>
-</tr>
-<tr>
-<td width="42" valign="top" style=
-'width:31.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>PL</span></p>
-</td>
-<td width="264" valign="top" style=
-'width:198.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Early</span></u><span lang="EN-US" style=
-'font-size:10.0pt'>:</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress great veins
--&gt; emptying -&gt; &ShortUpArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress RV -&gt;
-&DownArrow;compliance -&gt; &DownArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Late</span></u><span lang="EN-US" style=
-'font-size:10.0pt'>:</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress great veins
--&gt; collapse -&gt; &DownArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress RV -&gt;
-same</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-&ShortUpArrow;LV vol
--&gt; &DownArrow;RV compliance -&gt; &DownArrow;PL
-(interdependence)</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Other:</span></u></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Loss of diaphragm pump
--&gt; &DownArrow;PL</span></p>
-</td>
-<td width="295" valign="top" style=
-'width:221.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Early</span></u><span lang="EN-US" style=
-'font-size:10.0pt'>:</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax great veins
--&gt; pooling -&gt; &DownArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax RV -&gt;
-&ShortUpArrow;compliance -&gt; &ShortUpArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style='font-size:10.0pt'>Late:</span></u></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax great veins
--&gt; &ShortUpArrow;venous return -&gt; &ShortUpArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax RV -&gt;
-same</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-&DownArrow;LV vol
--&gt; &ShortUpArrow;PL (interdep.)</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Other:</span></u></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Loss of diaphragm pump
--&gt; &DownArrow;PL</span></p>
-</td>
-</tr>
-<tr>
-<td width="42" valign="top" style=
-'width:31.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>AL</span></p>
-</td>
-<td width="264" valign="top" style=
-'width:198.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress RV -&gt;
-&DownArrow;transmural pressure -&gt; &DownArrow;AL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress lung vessels
--&gt; &ShortUpArrow;AL</span></p>
-</td>
-<td width="295" valign="top" style=
-'width:221.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax RV -&gt;
-&ShortUpArrow;AL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax lung vessels
--&gt; &DownArrow;AL</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Right ventricle:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=42 valign=top style='width:31.2pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=345 valign=top style='width:259.0pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Inspiration: ↑ITP (intrathoracic pressure)</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Expiration: ↓ITP</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=42 valign=top style='width:31.2pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>PL</span></p>
+  </td>
+  <td width=345 valign=top style='width:259.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Early</span></u><span lang=EN-US>:</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress great veins -&gt; emptying -&gt; ↑preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress RV -&gt; ↓compliance -&gt; ↓preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Late</span></u><span lang=EN-US>:</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress great veins -&gt; collapse -&gt; ↓preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress RV -&gt; same</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-↑LV vol -&gt; ↓RV compliance -&gt; ↓preload
+  (interdependence)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Other:</span></u></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Loss of diaphragm pump -&gt; ↓preload</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Early</span></u><span lang=EN-US>:</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax great veins -&gt; pooling -&gt; ↓preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax RV -&gt; ↑compliance -&gt; ↑preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Late:</span></u></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax great veins -&gt; ↑venous return -&gt; ↑preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax RV -&gt; same</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-↓LV vol -&gt; ↑preload (interdep.)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Other:</span></u></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Loss of diaphragm pump -&gt; ↓preload</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=42 valign=top style='width:31.2pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>AL</span></p>
+  </td>
+  <td width=345 valign=top style='width:259.0pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress RV -&gt; ↓transmural pressure -&gt; ↓afterload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress lung vessels -&gt; ↑afterload</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax RV -&gt; ↑afterload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax lung vessels -&gt; ↓afterload</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang="EN-US" style=
-'font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Left ventricle:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="42" valign="top" style=
-'width:31.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>&nbsp;</span></p>
-</td>
-<td width="264" valign="top" style=
-'width:2.75in;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>Inspiration:
-&ShortUpArrow;ITP</span></p>
-</td>
-<td width="295" valign="top" style=
-'width:221.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>Expiration:
-&DownArrow;ITP</span></p>
-</td>
-</tr>
-<tr>
-<td width="42" valign="top" style=
-'width:31.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>PL</span></p>
-</td>
-<td width="264" valign="top" style=
-'width:2.75in;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Early:</span></u></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress lung vessels
--&gt; emptying -&gt; &ShortUpArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress LV -&gt;
-&DownArrow;compliance -&gt; &DownArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Late</span></u><span lang="EN-US" style=
-'font-size:10.0pt'>:</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress LV -&gt;
-&DownArrow;compliance -&gt; &DownArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress lung vessels
--&gt; collapse -&gt; &DownArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-&DownArrow;RV vol
--&gt; &ShortUpArrow;LV compliance -&gt; &ShortUpArrow;PL
-(interdep.)</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-&DownArrow;RV output
--&gt; &DownArrow;LVEDP -&gt; &DownArrow;PL</span></p>
-</td>
-<td width="295" valign="top" style=
-'width:221.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Early</span></u><span lang="EN-US" style=
-'font-size:10.0pt'>:</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax lung vessels
--&gt; pooling -&gt; &DownArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax LV -&gt;
-&ShortUpArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<u><span lang="EN-US" style=
-'font-size:10.0pt'>Late</span></u><span lang="EN-US" style=
-'font-size:10.0pt'>:</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax LV -&gt;
-&ShortUpArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax lung vessels
--&gt; &ShortUpArrow;venous return -&gt; &ShortUpArrow;PL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-&ShortUpArrow;RV
-output -&gt; &ShortUpArrow;PL (interdep).</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-&ShortUpArrow;RV vol
--&gt; &DownArrow;PL</span></p>
-</td>
-</tr>
-<tr>
-<td width="42" valign="top" style=
-'width:31.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>AL</span></p>
-</td>
-<td width="264" valign="top" style=
-'width:2.75in;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress LV -&gt;
-&DownArrow;transmural pressure -&gt; &DownArrow;AL (more
-important)</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Compress great
-arteries -&gt; &ShortUpArrow;AL (less important)</span></p>
-</td>
-<td width="295" valign="top" style=
-'width:221.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax LV -&gt;
-&ShortUpArrow;AL</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:10.0pt'>-Relax great arteries
--&gt; &DownArrow;AL</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US style='font-size:12.0pt;line-height:107%'>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Left ventricle:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=42 valign=top style='width:31.25pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=345 valign=top style='width:258.95pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Inspiration: ↑ITP</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Expiration: ↓ITP</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=42 valign=top style='width:31.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>PL</span></p>
+  </td>
+  <td width=345 valign=top style='width:258.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Early:</span></u></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress lung vessels -&gt; emptying -&gt; ↑preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress LV -&gt; ↓compliance -&gt; ↓preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Late</span></u><span lang=EN-US>:</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress LV -&gt; ↓compliance -&gt; ↓preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress lung vessels -&gt; collapse -&gt; ↓preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-↓RV vol -&gt; ↑LV compliance -&gt; ↑preload
+  (interdep.)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-↓RV output -&gt; ↓LVEDP -&gt; ↓preload</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Early</span></u><span lang=EN-US>:</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax lung vessels -&gt; pooling -&gt; ↓preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax LV -&gt; ↑preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><u><span lang=EN-US>Late</span></u><span lang=EN-US>:</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax LV -&gt; ↑preload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax lung vessels -&gt; ↑venous return -&gt; ↑prelaad</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-↑RV output -&gt; ↑preload (interdep).</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-↑RV vol -&gt; ↓preload</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=42 valign=top style='width:31.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>AL</span></p>
+  </td>
+  <td width=345 valign=top style='width:258.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress LV -&gt; ↓transmural pressure -&gt; ↓afterload
+  (more important)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Compress great arteries -&gt; ↑afterload (less
+  important)</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax LV -&gt; ↑afterload</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>-Relax great arteries -&gt; ↓afterload</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Indirect effects:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Baroreceptor response</span></p>
-</td>
-<td width="457" valign="top" style=
-'width:343.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&DownArrow;CO -&gt; &DownArrow;mAP -&gt;
-&DownArrow;baroreceptor stretch -&gt;
-&ShortUpArrow;SNS/&DownArrow;PSNS output</span></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Bainbridge effect</span></p>
-</td>
-<td width="457" valign="top" style=
-'width:343.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&DownArrow;PL -&gt; &DownArrow;atrial stretch
--&gt; &DownArrow;HR</span></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Bowditch effect</span></p>
-</td>
-<td width="457" valign="top" style=
-'width:343.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&ShortUpArrow;HR -&gt; &DownArrow;time for
-Na<sup>+</sup> efflux by Na<sup>+</sup>K<sup>+</sup>ATPase -&gt;
-&ShortUpArrow;Ca<sup>2+</sup> influx by
-Na<sup>+</sup>/Ca<sup>2+</sup> exchanger -&gt;
-&ShortUpArrow;CY</span></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Anrep effect</span></p>
-</td>
-<td width="457" valign="top" style=
-'width:343.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&DownArrow;AL -&gt; &DownArrow;activation of
-tension-dependent Na<sup>+</sup>/H<sup>+</sup> channel -&gt;
-&DownArrow;Ca<sup>2+</sup> extrusion -&gt; &DownArrow;CY</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Indirect
+effects:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Baroreceptor response</span></p>
+  </td>
+  <td width=593 valign=top style='width:444.7pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>↓CO -&gt; ↓mAP -&gt; ↓baroreceptor stretch
+  -&gt; ↑SNS/↓PSNS output</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Bainbridge effect</span></p>
+  </td>
+  <td width=593 valign=top style='width:444.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>↓PL -&gt; ↓atrial stretch -&gt; ↓HR</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Bowditch effect</span></p>
+  </td>
+  <td width=593 valign=top style='width:444.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>↑HR -&gt; ↓time for Na<sup>+</sup> efflux by
+  Na<sup>+</sup>K<sup>+</sup>ATPase -&gt; ↑Ca<sup>2+</sup> influx by Na<sup>+</sup>/Ca<sup>2+</sup>
+  exchanger -&gt; ↑contractility</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Anrep effect</span></p>
+  </td>
+  <td width=593 valign=top style='width:444.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>↓AL -&gt; ↓activation of tension-dependent Na<sup>+</sup>/H<sup>+</sup>
+  channel -&gt; ↓Ca<sup>2+</sup> extrusion -&gt; ↓contractility</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Hormonal effects:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Renin-angiotensin system</span></p>
-</td>
-<td width="457" valign="top" style=
-'width:343.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US"><img width="388" height="80" id="Picture 15"
-src="2019A01_intermittent_positive_pressure_ventilation_effect_on_cardiac_output_files/image002.jpg"></span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Activation:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&DownArrow;mAP -&gt; &DownArrow;renal
-baroreceptor stretch -&gt; &ShortUpArrow;renin release</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Angiotensin effects:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Peripheral vasoconstriction -&gt;
-&ShortUpArrow;AL</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;Na<sup>+</sup>,
-H<sub>2</sub>O reabsorption from prox tubule -&gt;
-&ShortUpArrow;blood volume -&gt; &ShortUpArrow;PL</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Aldosterone effects:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;Na<sup>+</sup>
-reabsorption</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Indirect H<sub>2</sub>O reabsorption via
-&ShortUpArrow;ECF osmolality -&gt; &ShortUpArrow;ADH</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Net effect</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;Blood volume -&gt;
-&ShortUpArrow;PL, &ShortUpArrow;CO, &ShortUpArrow;mAP</span></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Atrial natriuretic peptide</span></p>
-</td>
-<td width="457" valign="top" style=
-'width:343.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">PPV -&gt; &ShortUpArrow;CVP -&gt;
-&ShortUpArrow;stretch right atrium -&gt; &ShortUpArrow;ANP
-release</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;HR -&gt;
-&ShortUpArrow;CO</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:1.0in;margin-bottom:.0001pt;text-indent:-32.65pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">&ShortUpArrow;natriuresis</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Hormonal
+effects:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Renin-angiotensin system</span></p>
+  </td>
+  <td width=593 valign=top style='width:444.7pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US><img width=554 height=114 id="Picture 15"
+  src="2019A01_intermittent_positive_pressure_ventilation_effect_on_cardiac_output_files/image002.jpg"></span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Activation:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↓mAP
+  -&gt; ↓renal baroreceptor stretch -&gt; ↑renin release</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Angiotensin effects:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Peripheral
+  vasoconstriction -&gt; ↑AL</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑Na<sup>+</sup>,
+  H<sub>2</sub>O reabsorption from prox tubule -&gt; ↑blood volume -&gt; ↑preload</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Aldosterone effects:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑Na<sup>+</sup>
+  reabsorption</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Indirect
+  H<sub>2</sub>O reabsorption via ↑ECF osmolality -&gt; ↑ADH</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Net effect</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑Blood
+  volume -&gt; ↑PL, ↑CO, ↑mAP</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Atrial natriuretic peptide</span></p>
+  </td>
+  <td width=593 valign=top style='width:444.7pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.35pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>PPV -&gt; ↑CVP -&gt; ↑stretch right atrium -&gt; ↑ANP release</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑HR
+  -&gt; ↑CO</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:72.0pt;margin-bottom:.0001pt;text-indent:-32.65pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>↑natriuresis</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
 </div>
+
 </body>
+
 </html>

@@ -24,7 +24,7 @@
 #### Pharmacology for Anaesthesia and Intensive Care - Peck & Hill
 
 - Read it from cover to cover
-- Be sure to understand Section 1 – Basic Principles
+- Be sure to understand the pharmacokinetics part in Section 1 – Basic Principles
 - Great starter, but it alone is not enough for pharmacology
 
 #### Principles of Physiology for the Anaesthetist - Power & Kam
@@ -119,7 +119,6 @@ You should need almost no other resource on the following topics:
 
 - [Regulation of Glomerular filtration rate](https://www.youtube.com/watch?v=H6vLAG_0Trs) - note very long
 - [Urine concentration and dilution](https://www.youtube.com/watch?v=Mrg1SVPLhKs&t=5448s) - note very long
-- Liver histology [part 2](https://www.youtube.com/watch?v=XPyuRIUwjIE&t=7s) and [part 3](https://www.youtube.com/watch?v=EtaONYHNh6w) of 7
 
 #### [Primary daily learning outcomes](https://primarydailylo.wordpress.com)
 

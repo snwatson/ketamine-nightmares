@@ -5,7 +5,7 @@ A resource for the Anaesthesia Primary Exam
 - [Physiology SAQ](saqs/physiology/)
 - [Pharmacology SAQ](saqs/pharmacology/)
 - [Other SAQ](saqs/other/)
-- [Lectures - NEW!](lectures.md)
+- [Lectures](lectures.md)
 - [Graphs](graphs/)
 - [Tables](tables/)
 - [Recommended Reading](recommended_reading.md)

@@ -22,3 +22,8 @@
 - [Drug-drug interactions](https://www.youtube.com/watch?v=z_aK2-kXJ6I)
 - [MAC](https://www.youtube.com/watch?v=LZey0YzzDQU)
 - [General anaesthesia concepts](https://www.youtube.com/watch?v=fxPIpWV_83M)
+
+### Miscellaneous
+
+- [Neuromuscular monitoring](https://www.youtube.com/watch?v=WVAjvcUsEAA)
+

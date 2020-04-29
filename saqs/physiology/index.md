@@ -45,7 +45,7 @@
 - [2019A01 Intermittent positive pressure ventilation - effect on cardiac output](cardiovascular/2019A01_intermittent_positive_pressure_ventilation_effect_on_cardiac_output.htm)
 - [2019B03 ECG - PR interval](cardiovascular/2019B03_ecg_pr_interval.htm)
 - [2019B08 Neuraxial blockade - cardiovascular effects](cardiovascular/2019B08_neuraxial_blockade_cardiovascular_effects.htm)
-- [2019B11 Pneumoperitoneum - cardiovascular effects[(cardiovascular/2019B11_pneumoperitoneum_cardiovascular_effects.htm)
+- [2019B11 Pneumoperitoneum - cardiovascular effects](cardiovascular/2019B11_pneumoperitoneum_cardiovascular_effects.htm)
 
 ### Cellular
 

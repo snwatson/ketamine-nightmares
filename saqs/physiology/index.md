@@ -203,6 +203,7 @@
 - [2018A13 Lung compliance](respiratory/2018A13_lung_compliance.htm)
 - [2018B02 Oxygen delivery](respiratory/2018B02_oxygen_delivery.htm)
 - [2019A04 CO2 carriage in blood](respiratory/2019A04_co2_carriage_in_blood.htm)
+- [2019B12 O2-Hb and CO2-Hb dissociation curves](respiratory/2019B12_o2_co2_hb_dissociation_curves.htm)
 
 ### Special Physiology
 

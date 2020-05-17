@@ -2,6 +2,8 @@
 
 ## Pharmacology SAQ
 
+### [Download combined PDFs](pharmacology_saq.zip)
+
 ### Analgesics
 
 - [2000A15 Opioids - Respiratory Effects](analgesics/2000A15_opioids_respiratory_effects.htm)

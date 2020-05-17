@@ -2,8 +2,6 @@
 
 ## Physiology SAQ
 
-### [Download combined PDFs](physiology_saq.zip)
-
 ### Acid-Base
   
 - [2007A11 Metabolic acidosis - physiological response](acid_base/2007A11_metabolic_acidosis_physiological_response.htm)

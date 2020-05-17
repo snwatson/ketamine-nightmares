@@ -2,8 +2,6 @@
 
 ## Other SAQs
 
-### [Download combined PDFs](other_saq.zip)
-
 ### Anatomy
 
 - [2013A08 Laryngeal anatomy](anatomy/2013A08_laryngeal_anatomy.htm)

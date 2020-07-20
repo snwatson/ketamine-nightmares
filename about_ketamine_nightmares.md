@@ -20,7 +20,7 @@ I would like to thank:
 - My study companions Perdita Gregory, Kevin Murphy, Lauren Smith and Tim Williams and Harsh Dubey
 - The Departments of Anaesthesia at Box Hill Hospital and St. Vincent’s Hospital
 - The convenors of the Primary Exam Course at the Waikato Hospital in Hamilton, New Zealand – Aidan O’Donnell, James Clark and Jeffrey Hoskins
-- All those who have contributed amendments - Craig Beaman, Jin Toh (3), Thomas Pearson, Tim Hall, Pat Lloyd-Donald, Pat Stapleton (2), Simon Leckenby (2), Kieran Bates (11), Emma Paxton (3), Maggie Forbes (12), Christine Ma, Wei Ling Law (2), Tim Basevi
+- All those who have contributed amendments - Craig Beaman, Jin Toh (3), Thomas Pearson, Tim Hall, Pat Lloyd-Donald, Pat Stapleton (2), Simon Leckenby (2), Kieran Bates (15), Emma Paxton (3), Maggie Forbes (12), Christine Ma, Wei Ling Law (2), Tim Basevi
  
 ## Disclaimers:
 - This website is intended as an aid to exam preparation

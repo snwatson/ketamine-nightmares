@@ -18,9 +18,9 @@ I would like to thank:
 - My mother (Margaret) and father (Harry) for all that I am
 - My colleague [Alexander Clarke](https://alexanderclarke.id.au/) for helping a great deal with the website
 - My study companions Perdita Gregory, Kevin Murphy, Lauren Smith and Tim Williams and Harsh Dubey
+- My de facto editors-in-chief - Maggie Forbes (20) and Kieran Bates (15)
 - The Departments of Anaesthesia at Box Hill Hospital and St. Vincent’s Hospital
 - The convenors of the Primary Exam Course at the Waikato Hospital in Hamilton, New Zealand – Aidan O’Donnell, James Clark and Jeffrey Hoskins
-- My de facto editors-in-chief - Maggie Forbes (19) and Kieran Bates (15)
 - All others who have contributed amendments - Emma Paxton (3), Jin Sern Toh (3), Wei Ling Law (2), Simon Leckenby (2), Pat Stapleton (2), Tim Basevi, Craig Beaman, Tim Hall, Pat Lloyd-Donald, Christine Ma, Thomas Pearson
  
 ## Disclaimers:

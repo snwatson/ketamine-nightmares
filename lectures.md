@@ -2,9 +2,9 @@
 
 ## Lectures
 
-### [Preparing for the Anaesthesia Primary Exam](https://www.youtube.com/watch?v=6TUm1KnnHCU&list=PLP1Dt3RlsU6UD1GmjgaW0dSmVhkDxDBYo)
+### [Preparing for the Anaesthesia Primary Exam](https://www.youtube.com/watch?v=xxgbYVZ40Pw&list=PLP1Dt3RlsU6UD1GmjgaW0dSmVhkDxDBYo)
 
-- [General Advice](https://www.youtube.com/watch?v=6TUm1KnnHCU)
+- [General Advice](https://www.youtube.com/watch?v=xxgbYVZ40Pw)
 - [Specific Advice](https://www.youtube.com/watch?v=A47qIv3-9b8)
 
 ### [Pharmacokinetics Series](https://www.youtube.com/watch?v=UfX1yh5SOSg&list=PLP1Dt3RlsU6XN3MHtYRGJ7shv8xACYcUZ)

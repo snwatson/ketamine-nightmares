@@ -2,6 +2,10 @@
 
 ## Recommended Reading
 
+### The Prizewinner's perspective
+- [2019A](https://www.ketaminenightmares@gmail.com)
+- [2019B](misc/nathaniel_hiscock_advice.pdf)
+
 ### Essentials
 
 #### [The Primer](https://primarydailylo.files.wordpress.com/2018/03/a-primer-for-the-primary-fanzca-examination-1.pdf)

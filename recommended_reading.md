@@ -3,7 +3,7 @@
 ## Recommended Reading
 
 ### The Prizewinner's perspective
-- [2019A](https://www.ketaminenightmares.com)
+- [2019A](https://www.youtube.com/watch?v=xxgbYVZ40Pw&list=PLP1Dt3RlsU6UD1GmjgaW0dSmVhkDxDBYo)
 - [2019B](misc/nathaniel_hiscock_advice.pdf)
 
 ### Essentials

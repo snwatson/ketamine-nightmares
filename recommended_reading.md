@@ -2,10 +2,6 @@
 
 ## Recommended Reading
 
-### The Prizewinner's perspective
-- [2019A](https://www.youtube.com/watch?v=xxgbYVZ40Pw&list=PLP1Dt3RlsU6UD1GmjgaW0dSmVhkDxDBYo)
-- [2019B](misc/nathaniel_hiscock_advice.pdf)
-
 ### Essentials
 
 #### [The Primer](https://primarydailylo.files.wordpress.com/2018/03/a-primer-for-the-primary-fanzca-examination-1.pdf)
@@ -139,3 +135,7 @@ You should need almost no other resource on the following topics:
 - [The Biophase Concept and Intravenous Anaesthesia](https://web.stanford.edu/~sshafer/LECTURES.DIR/Notes/Biophase%20in%20Anesthesia.doc) by Steven Shafer
 - [The Drager Primus Anaesthetic Machine Animation](https://static.draeger.com/trainer/primus_ie_trainer_en/start.html#id=D1100)
 - [Diagram or Die](https://anzcaprimarynotes.files.wordpress.com/2014/05/diagram-or-die.pdf) by Adam Hollingworth
+
+### The prizewinner's perspective
+- [2019A](https://www.youtube.com/watch?v=xxgbYVZ40Pw&list=PLP1Dt3RlsU6UD1GmjgaW0dSmVhkDxDBYo)
+- [2019B](misc/nathaniel_hiscock_advice.pdf)

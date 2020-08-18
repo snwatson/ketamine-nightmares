@@ -7,7 +7,7 @@
 - [Pharmacology SAQ](saqs/pharmacology/)
 - [Other SAQ](saqs/other/)
 
-### Other
+### Other resources
 - [Lectures](lectures.md)
 - [Graphs](graphs/)
 - [Tables](tables/)

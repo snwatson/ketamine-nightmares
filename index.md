@@ -13,11 +13,11 @@
 - [Tables](tables/)
 - [Recommended Reading](recommended_reading.md)
 
-### Administration
-- [About](about_ketamine_nightmares.md)
-- [Contact](contact.md)
-- [Legal](legal.md)
-
 ## Anaesthesia Final Exam Resources
 
 - Work in progress
+
+## Administration
+- [About](about_ketamine_nightmares.md)
+- [Contact](contact.md)
+- [Legal](legal.md)

@@ -1,6 +1,8 @@
-# Lectures
+# Anaesthesia Primary Exam
 
-## [Pharmacodynamics Series](https://www.youtube.com/playlist?list=PLP1Dt3RlsU6W96ensvf-JSPs1DrVyHtqU)
+## Lectures
+
+### [Pharmacodynamics Series](https://www.youtube.com/playlist?list=PLP1Dt3RlsU6W96ensvf-JSPs1DrVyHtqU)
 
 - [Recommended reading](https://www.youtube.com/watch?v=o9uA89QIKfI)
 - [Drug-receptor interactions](https://www.youtube.com/watch?v=5yS_2v82nYY)

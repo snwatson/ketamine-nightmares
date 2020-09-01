@@ -1,6 +1,8 @@
-# Lectures
+# Anaesthesia Primary Exam
 
-## [Pharmacokinetics Series](https://www.youtube.com/watch?v=UfX1yh5SOSg&list=PLP1Dt3RlsU6XN3MHtYRGJ7shv8xACYcUZ)
+## Lectures
+
+### [Pharmacokinetics Series](https://www.youtube.com/watch?v=UfX1yh5SOSg&list=PLP1Dt3RlsU6XN3MHtYRGJ7shv8xACYcUZ)
 
 - [Recommended reading](https://www.youtube.com/watch?v=NTKMh3Ai0ZQ&t=1s)
 - [Relevant maths](https://www.youtube.com/watch?v=R6CUqDLH7jw)

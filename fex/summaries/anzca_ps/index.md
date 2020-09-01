@@ -35,14 +35,14 @@
 - [PS51 2017: Medication Safety](anzca_ps51_2017_medication_safety.htm)
 - [PS52 2015: Transport](anzca_ps52_2015_transport.htm)
 - [PS53 2013: Handover](anzca_ps53_2013_handover.htm)
-- [PS54 2013: Anaesthesia workstation](ps54_2013_anaesthesia_workstation.htm)
-- [PS55 2012: Minimum safe facilities](ps55_2012_minimum_safe_facilities.htm)
+- [PS54 2013: Anaesthesia workstation](anzca_ps54_2013_anaesthesia_workstation.htm)
+- [PS55 2012: Minimum safe facilities](anzca_ps55_2012_minimum_safe_facilities.htm)
 - [PS56 2012: Difficult airway equipment](anzca_ps56_2012_difficult_airway_equipment.htm)
 - PS57 2014: Anaesthetists' duties
 - [PS58 2018: Quality assurance and quality improvement](anzca_ps58_2018_qa_qi.htm)
 - PS59 2015: Anaesthetists' periop responsibilities
 - PS60 2015: Chlorhexidine hypersensitivity
-- [PS61 2016: CICO](anzca_ps61_2016_cico.htm)
+- [PS61 2016: CICO](anzca_ps61_2017_cico.htm)
 - PS62 2016: Cultural competence
 - [PS63 2019: Acute behavioural disturbance](anzca_ps63_2019_acute_behavioural_disturbance.htm)
 - PS64 2019: Environmental sustainability

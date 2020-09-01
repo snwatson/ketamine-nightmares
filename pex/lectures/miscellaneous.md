@@ -1,8 +1,6 @@
-# Ketamine Nightmares
+# Lectures
 
-## Lectures
-
-### Miscellaneous
+## Miscellaneous
 
 - [Neuromuscular monitoring](https://www.youtube.com/watch?v=WVAjvcUsEAA)
 

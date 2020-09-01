@@ -1,8 +1,10 @@
 # Ketamine Nightmares
 
-## Pharmacology SAQ
+## Anaesthesia Primary Exam
 
-### Analgesics
+### Pharmacology SAQ
+
+#### Analgesics
 
 - [2000A15 Opioids - Respiratory Effects](analgesics/2000A15_opioids_respiratory_effects.htm)
 - [2006A07 Naloxone](analgesics/2006A07_naloxone.htm)
@@ -24,7 +26,7 @@
 - [2019A14 Tramadol - metabolism and excretion](analgesics/2019A14_tramadol_metabolism_and_excretion.htm)
 - [2019B14 Paracetamol - role and toxicity](analgesics/2019B14_paracetamol_role_and_toxicity.htm)
 
-### Cardiovascular Drugs
+#### Cardiovascular Drugs
 
 - [1999B12 Sodium nitroprusside](cardiovascular_drugs/1999B12_sodium_nitroprusside.htm)
 - [2001A15 Esmolol vs propranolol](cardiovascular_drugs/2001A15_esmolol_vs_propranolol.htm)
@@ -42,7 +44,7 @@
 - [2018A08 Metoprolol](cardiovascular_drugs/2018A08_metoprolol.htm)
 - [2018B10 Inotropes](cardiovascular_drugs/2018B10_inotropes.htm)
 
-### Haemostasis drugs
+#### Haemostasis drugs
 
 - [2004A08 Unfractionated heparin - adverse effects](haemostasis_drugs/2004A08_unfractionated_heparin_adverse_effects.htm)
 - [2008B07 Anti-platelets](haemostasis_drugs/2008B07_anti_platelets.htm)
@@ -51,7 +53,7 @@
 - [2014B08 Bridging from warfarin to low molecular weight heparins](haemostasis_drugs/2014B08_bridging_from_warfarin_to_low_molecular_weight_heparins.htm)
 - [2017A08 Unfractionated heparin vs low molecular weight heparins](haemostasis_drugs/2017A08_unfractionated_heparin_vs_low_molecular_weight_heparins.htm)
 
-### Inhalational Anaesthetics
+#### Inhalational Anaesthetics
 
 - [1999A14 Volatile anaesthetics - renal effects](inhalational_anaesthetics/1999A14_volatile_anaesthetics_renal_effects.htm)
 - [2000A09 Volatile anaesthetics - cardiovascular effects](inhalational_anaesthetics/2000A09_volatile_anaesthetics_cardiovascular_effects.htm)
@@ -72,7 +74,7 @@
 - [2019A10 Sevoflurane - effects on regional circulations](inhalational_anaesthetics/2019A10_sevoflurane_regional_circulation_effects.htm)
 - [2019B04 Volatile anaesthetics - mechanism of hypnosis](inhalational_anaesthetics/2019B04_volatile_anaesthetics_mechanism_of_hypnosis.htm)
 
-### Intravenous Anaesthetics
+#### Intravenous Anaesthetics
 
 - [1999A16 Alpha 2 adrenoceptor agonist](intravenous_anaesthetics/1999A16_alpha_2_adrenoceptor_agonists.htm)
 - [2002A11 Thiopentone and ketamine - non-CNS effects](intravenous_anaesthetics/2002A11_thiopentone_and_ketamine_non_cns_effects.htm)
@@ -93,7 +95,7 @@
 - [2018B11 Midazolam](intravenous_anaesthetics/2018B11_midazolam.htm)
 - [2019A11 Propofol TCI](intravenous_anaesthetics/2019A11_propofol_tci.htm)
 
-### Local Anaesthetics
+#### Local Anaesthetics
 
 - [2002A09 Local anaesthetic toxicity](local_anaesthetics/2002A09_local_anaesthetic_toxicity.htm)
 - [2003A03 Local anaesthetics - mechanism of action](local_anaesthetics/2003A03_local_anaesthetics_mechanism_of_action.htm)
@@ -110,7 +112,7 @@
 - [2019A08 Local anaesthetic systemic toxicity - features](local_anaesthetics/2019A08_local_anaesthetic_systemic_toxicity_features.htm)
 - [2019B09 Local anaesthetics - rate of onset and offset](local_anaesthetics/2019B09_local_anaesthetics_rate_of_onset_and_offset.htm)
 
-### Miscellaneous Drugs
+#### Miscellaneous Drugs
 
 - [2000A12 Oxytocin](miscellaneous_drugs/2000A12_oxytocin.htm)
 - [2000A14 Ester drugs](miscellaneous_drugs/2000A14_ester_drugs.htm)
@@ -134,7 +136,7 @@
 - [2019A13 Antibiotic chemoprophylaxis](miscellaneous_drugs/2019A13_antibiotic_chemoprophylaxis.htm)
 - [2019B10 Effects of CSL infusion](miscellaneous_drugs/2019B10_effects_of_csl_infusion.htm)
 
-### Muscle Relaxants
+#### Muscle Relaxants
 
 - [2000B16 Atracurium vs cisatracurium](muscle_relaxants/2000B16_atracurium_vs_cisatracurium.htm)
 - [2002B05 Suxamethonium - causes of prolonged effect](muscle_relaxants/2002B05_suxamethonium_causes_of_prolonged_effect.htm)
@@ -152,12 +154,12 @@
 - [2019A12 Non-depolarising relaxants - rate of offset](muscle_relaxants/2019A12_non_depolarising_relaxants_rate_of_offset.htm)
 - [2019B01 Suxamethonium - adverse effects](muscle_relaxants/2019B01_suxamethonium_adverse_effects.htm)
 
-### Pharmaceutics
+#### Pharmaceutics
 
 - [2003A04 Intravenous drug additives](pharmaceutics/2003A04_intravenous_drug_additives.htm)
 - [2013C03 Isomerism](pharmaceutics/2013C03_isomerism.htm)
 
-### Pharmacodynamics
+#### Pharmacodynamics
 
 - [2002B06 Tolerance and dependence - opioids](pharmacodynamics/2002B06_tolerance_and_dependence_opioids.htm)
 - [2004B01 Mechanisms of drug action](pharmacodynamics/2004B01_mechanisms_of_drug_action.htm)
@@ -166,7 +168,7 @@
 - [2015A05 Synergy - sevoflurane and fentanyl](pharmacodynamics/2015A05_synergy_sevoflurane_fentanyl.htm)
 - [2019B06 Synergy - propofol and remifentanil](pharmacodynamics/2019B06_synergy_propofol_and_remifentanil_tci.htm)
 
-### Pharmacokinetics
+#### Pharmacokinetics
 
 - [2001B09 Clearance](pharmacokinetics/2001B09_clearance.htm)
 - [2002A10 Rate of offset after a drug infusion](pharmacokinetics/2002A10_rate_of_offset_after_a_drug_infusion.htm)

@@ -1,32 +1,49 @@
 # Ketamine Nightmares
 
-## Anaesthesia Primary Exam Resources
+## Anaesthesia Primary Exam
 
 ### Short Answer Questions
-- [Physiology SAQ](saqs/physiology/)
-- [Pharmacology SAQ](saqs/pharmacology/)
-- [Other SAQ](saqs/other/)
+- [Physiology SAQ](pex/saqs/physiology/)
+- [Pharmacology SAQ](pex/saqs/pharmacology/)
+- [Other SAQ](pex/saqs/other/)
 
-### Other resources
-- [Lectures](lectures.md)
-- [Graphs](graphs/)
-- [Tables](tables/)
-- [Recommended Reading](recommended_reading.md)
+### YouTube Lectures
+- [Study advice](pex/lectures/study_advice.md)
+- [Pharmacokinetics Series](pex/lectures/pharmacokinetics_series.md)
+- [Pharmacodynamics Series](pex/lectures/pharmacodynamics_series.md)
+- [Miscellaneous](pex/lectures/miscellaneous.md)
 
-## Anaesthesia Final Exam Resources (coming soon)
+### Other Resources
+- [Recommended Reading](pex/other/recommended_reading.md)
+- [Graphs](pex/other/graphs/)
+- [Tables](pex/other/tables/)
 
-- [Classic Medical Conditions]
-- [Classic Surgical Procedures]
-- [Classic Anaesthetic Emergencies]
-- [Landmark Clinical Trials]
-- [National Audit Projects]
-- [ANZCA Position Statements]
-- [ANZCA Blue Books]
-- [Physical Examination]
-- [Research and Statistics]
-- [Memorisation Material]
+## Anaesthesia Final Exam (under construction)
+
+*N.B. these documents are drafts and are online mostly for my own reference*
+
+### Classic topics
+- Classic Medical Conditions
+- Classic Surgical Procedures
+- Classic Anaesthetic Emergencies
+
+### Document Summaries
+- [ANZCA Position Statements](fex/summaries/anzca_ps/)
+- [FPM Position Statements](fex/summaries/fpm_ps/)
+- ANZCA Blue Books
+- [Landmark Clinical Trials](fex/summaries/trials/)
+- [National Audit Projects](fex/summaries_nap/)
+- [Patient Blood Management](fex/pbm/)
+
+### Miscellaneous
+- Physical Examinations
+- Research and Statistics
+
+### Other Resources
+- Regional Quick Hits (will need permission)
+- Memorisation Material
 
 ## Administration
-- [About](about_ketamine_nightmares.md)
-- [Contact](contact.md)
-- [Legal](legal.md)
+- [About](admin/about_ketamine_nightmares.md)
+- [Contact](admin/contact.md)
+- [Legal](admin/legal.md)

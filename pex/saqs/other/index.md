@@ -4,11 +4,11 @@
 
 ### Short Answer Questions
 
-#### Other SAQs
+#### [Other SAQs](pex/saqs/other/)
 
-- [Anatomy](pex/saqs/anatomy/)
-- [Clinical Measurement](pex/saqs/clinical_measurement/)
-- [Equipment](pex/saqs/equipment/)
-- [Physics](pex/saqs/physics/)
-- [Statistics](pex/saqs/statistics/)
+- [Anatomy](pex/saqs/other/anatomy/)
+- [Clinical Measurement](pex/saqs/other/clinical_measurement/)
+- [Equipment](pex/saqs/other/equipment/)
+- [Physics](pex/saqs/other/physics/)
+- [Statistics](pex/saqs/other/statistics/)
 

@@ -2,7 +2,7 @@
 
 ## Short Answer Questions
 
-### Other SAQs
+### [Other SAQs](pex/saqs/other/)
 
 #### Statistics
 

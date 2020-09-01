@@ -32,8 +32,8 @@
 - [FPM Position Statements](fex/summaries/fpm_ps/)
 - ANZCA Blue Books
 - [Landmark Clinical Trials](fex/summaries/trials/)
-- [National Audit Projects](fex/summaries_nap/)
-- [Patient Blood Management](fex/summaries_pbm/)
+- [National Audit Projects](fex/summaries/nap/)
+- [Patient Blood Management](fex/summaries/pbm/)
 
 ### Miscellaneous
 - Physical Examinations

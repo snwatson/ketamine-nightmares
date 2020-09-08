@@ -38,7 +38,7 @@
 - Research and Statistics
 
 ### Resources
-- [Regional Quick Hits](fex/resources/regional_quick_hits/index.md)
+- Regional Quick Hits(fex/resources/regional_quick_hits/index.md)
 - Memorisation Material
 
 ## Administration

@@ -29,6 +29,7 @@
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)
 - [FPM Position Statements](fex/summaries/fpm_ps/)
 - ANZCA Blue Books
+- [Difficult Airway Society Guidelines](fex/summaries/das)
 - [Landmark Clinical Trials](fex/summaries/trials/)
 - [National Audit Projects](fex/summaries/nap/)
 - [Patient Blood Management](fex/summaries/pbm/)
@@ -38,8 +39,8 @@
 - Research and Statistics
 
 ### Resources
-- [Curriculum](fex/resources/curriculum/index.md)
-- [Regional Quick Hits](fex/resources/regional_quick_hits/index.md)
+- [Curriculum](fex/resources/curriculum/)
+- [Regional Quick Hits](fex/resources/regional_quick_hits/)
 - [Memorisation Material](fex/resources/miscellaneous/memorisation_nick_eaddy.pdf)
 
 ## Administration

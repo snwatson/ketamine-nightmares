@@ -38,7 +38,7 @@
 - Research and Statistics
 
 ### Resources
-- Regional Quick Hits(fex/resources/regional_quick_hits/index.md)
+- [Regional Quick Hits](fex/resources/regional_quick_hits/index.md)
 - Memorisation Material(fex/resources/miscellaneous/memorisation_nick_eaddy.pdf)
 
 ## Administration

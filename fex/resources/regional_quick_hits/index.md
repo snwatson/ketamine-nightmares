@@ -4,6 +4,8 @@
 
 #### Regional Quick Hits
 
+With thanks to Prof. Michael Barrington and Dr. Daniel Wong
+
 - [Summary](summary.pdf)
 - [Anterior abdomen](anterior_abdomen.pdf)
 - [Axillary](axillary)

@@ -20,7 +20,7 @@
 
 *N.B. these documents are drafts and are online mostly for my own reference*
 
-### Classic topics
+### Classic Topics
 - Classic Medical Conditions
 - Classic Surgical Procedures
 - Classic Anaesthetic Emergencies
@@ -33,12 +33,12 @@
 - [National Audit Projects](fex/summaries/nap/)
 - [Patient Blood Management](fex/summaries/pbm/)
 
-### Miscellaneous
+### Miscellaneous Notes
 - Physical Examinations
 - Research and Statistics
 
-### Other Resources
-- Regional Quick Hits (will need permission)
+### Resources
+- [Regional Quick Hits](fex/resources/regional_quick_hits/index.md)
 - Memorisation Material
 
 ## Administration

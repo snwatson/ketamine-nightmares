@@ -1,5 +1,3 @@
-# Ketamine Nightmares
-
 ## Final Exam
 
 ### Document Summaries

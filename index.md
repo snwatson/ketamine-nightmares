@@ -39,7 +39,7 @@
 
 ### Resources
 - Regional Quick Hits(fex/resources/regional_quick_hits/index.md)
-- Memorisation Material
+- Memorisation Material(fex/resources/miscellaneous/memorisation_nick_eaddy.pdf)
 
 ## Administration
 - [About](admin/about_ketamine_nightmares.md)

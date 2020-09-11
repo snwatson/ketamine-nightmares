@@ -8,5 +8,5 @@ With thanks to Dr. Adam Scorer
 
 - [Study Planning](study_planning.xlsx)
 - [Learning Outcomes](learning_outcomes.xlsx)
-- [SAQs](saqs.xlsx)
-- [Learning Outcomes and SAQs](learning_outcomes_saqs.xslsx)
+- [SAQs by topic](saqs_by_topic.xlsx)
+- [SAQs by date](saqs_by_date.xslsx)

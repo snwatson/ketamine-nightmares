@@ -28,7 +28,7 @@
 ### Document Summaries
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)
 - [FPM Position Statements](fex/summaries/fpm_ps/)
-- [ANZCA Blue Book 2019](fex/summaries_anzca_blue_book_2019/)
+- [ANZCA Blue Book 2019](fex/summaries/bb_2019/)
 - ANZCA Blue Book 2017
 - [Difficult Airway Society Guidelines](fex/summaries/das)
 - [Landmark Clinical Trials](fex/summaries/trials/)

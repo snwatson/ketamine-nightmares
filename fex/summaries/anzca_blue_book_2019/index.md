@@ -22,3 +22,6 @@
 ##### Blood
 - Massive Transfusion Protocol
 - [Pre-operative anaemia](2019bb_blood_preoperative_anaemia.htm)
+
+##### Regional
+- [Rib fractures](2019bb_regional_rib_fractures.htm)

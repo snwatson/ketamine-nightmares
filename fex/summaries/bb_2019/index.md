@@ -25,3 +25,9 @@
 
 ##### Regional
 - [Rib fractures](2019bb_regional_rib_fractures.htm)
+
+##### Pain
+- [Complex regional pain syndrome](2019bb_pain_crps.htm)
+
+##### Neuro
+- [Post-operative delirium](2019bb_neuro_delirium.htm)

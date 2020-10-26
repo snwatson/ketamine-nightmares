@@ -138,4 +138,4 @@ You should need almost no other resource on the following topics:
 
 ### The prizewinner's perspective
 - [2019A](https://www.youtube.com/watch?v=xxgbYVZ40Pw&list=PLP1Dt3RlsU6UD1GmjgaW0dSmVhkDxDBYo)
-- [2019B](2019b_nathaniel_hiscock.pdf)
+- [2019B](misc/2019b_nathaniel_hiscock.pdf)

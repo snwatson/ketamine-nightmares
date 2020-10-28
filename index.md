@@ -5,16 +5,10 @@
 - [Pharmacology SAQ](pex/saqs/pharmacology/)
 - [Other SAQ](pex/saqs/other/)
 
-### YouTube Lectures
-- [Study advice](pex/lectures/study_advice.md)
-- [Pharmacokinetics Series](pex/lectures/pharmacokinetics_series.md)
-- [Pharmacodynamics Series](pex/lectures/pharmacodynamics_series.md)
-- [Miscellaneous](pex/lectures/miscellaneous.md)
-
 ### Other Resources
+- [YouTube Lectures](pex_other_lectures.md)
 - [Recommended Reading](pex/other/recommended_reading.md)
-- [Graphs](pex/other/graphs/)
-- [Tables](pex/other/tables/)
+- [Memorisation material](pex/other/memorisation_material/index.md)
 
 ## Anaesthesia Final Exam (under construction)
 

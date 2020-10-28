@@ -21,12 +21,11 @@
 
 ### Document Summaries
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)
-- [ANZCA Blue Book 2019](fex/summaries/bb_2019/)
-- ANZCA Blue Book 2017
+- [ANZCA Blue Books](fex/summaries/blue_books/)
 - [Landmark Clinical Trials](fex/summaries/trials/)
-- [Other](fex/summaries/other)
+- [Other documents](fex/summaries/other)
 
-### Other Totes
+### Other notes
 - Physical Examinations
 - Research and Statistics
 - [Curriculum](fex/other/curriculum/)

@@ -6,7 +6,7 @@
 - [Other SAQ](pex/saqs/other/)
 
 ### Other Resources
-- [YouTube Lectures](pex_other_lectures.md)
+- [YouTube Lectures](pex/other/lectures.md)
 - [Recommended Reading](pex/other/recommended_reading.md)
 - [Memorisation material](pex/other/memorisation_material/index.md)
 

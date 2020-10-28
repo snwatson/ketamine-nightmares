@@ -46,10 +46,9 @@
 - PS64 2019: Environmental sustainability
 - PS65 2018: Peer performance assessment
 
-
-
-
-
-
-
-
+#### FPM Position Statements
+- [PM01 2020: Opioids](fpm_pm01_2020_opioids.htm)
+- [PM10 2019: Cannabis](fpm_pm10_2019_cannabis.htm)
+- [PM11 2019: Procedures](fpm_pm11_2019_procedures.htm)
+- [PMXX 2018: OIVI](fpm_pmxx_2018_oivi.htm)
+- [PMXX 2016: Ketamine](fpm_pmxx_2016_ketamine.htm)

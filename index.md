@@ -26,14 +26,12 @@
 - [Landmark Clinical Trials](fex/summaries/trials/)
 - [Other](fex/summaries/other)
 
-### Miscellaneous Notes
+### Other Totes
 - Physical Examinations
 - Research and Statistics
-
-### Resources
-- [Curriculum](fex/resources/curriculum/)
-- [Regional Quick Hits](fex/resources/regional_quick_hits/)
-- [Memorisation Material](fex/resources/miscellaneous/memorisation_nick_eaddy.pdf)
+- [Curriculum](fex/other/curriculum/)
+- [Regional Quick Hits](fex/other/regional_quick_hits/)
+- [Memorisation Material](fex/other/misc/memorisation_nick_eaddy.pdf)
 
 ## Administration
 - [About](admin/about_ketamine_nightmares.md)

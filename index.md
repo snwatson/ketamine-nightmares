@@ -25,7 +25,7 @@
 - [Landmark Clinical Trials](fex/summaries/trials/)
 - [Other documents](fex/summaries/other)
 
-### Other notes
+### Other Resources
 - Physical Examinations
 - Research and Statistics
 - [Curriculum](fex/other/curriculum/)

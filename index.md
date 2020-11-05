@@ -18,6 +18,7 @@
 - Classic Medical Conditions
 - Classic Surgical Procedures
 - Classic Anaesthetic Emergencies
+- Classic Non-Clinical Problems
 
 ### Document Summaries
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)

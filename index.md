@@ -15,10 +15,10 @@
 *N.B. these documents are drafts and are online mostly for my own reference*
 
 ### Classic Topics
-- [Classic Medical Conditions](fex/classics/medical/index.htm)
-- [Classic Surgical Procedures](fex/classics/surgical/index.htm)
-- [Classic Anaesthetic Disasters](fex/classics/disasters/index.htm)
-- [Classic Non-Clinical Problems](fex/classics/non_clinical/index.htm)
+- [Classic Medical Conditions](fex/classics/medical/index.md)
+- [Classic Surgical Procedures](fex/classics/surgical/index.md)
+- [Classic Anaesthetic Disasters](fex/classics/disasters/index.md)
+- [Classic Non-Clinical Problems](fex/classics/non_clinical/index.md)
 
 ### Document Summaries
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)

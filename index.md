@@ -27,11 +27,10 @@
 - [Other Documents](fex/summaries/other)
 
 ### Other Resources
-- Physical Examinations
-- Research and Statistics
 - [Curriculum](fex/other/curriculum/)
+- [Physical Examinations](fex/other/physical_examinations/)
 - [Regional Quick Hits](fex/other/regional_quick_hits/)
-- [Memorisation Material](fex/other/misc/memorisation_nick_eaddy.pdf)
+- [Miscellaneous](fex/other/miscellaneous/)
 
 ## Administration
 - [About](admin/about_ketamine_nightmares.md)

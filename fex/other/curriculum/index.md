@@ -1,6 +1,6 @@
 ## Final Exam
 
-### Resources
+### Other Resources
 
 #### Curriculum
 

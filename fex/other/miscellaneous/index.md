@@ -4,4 +4,4 @@
 
 #### Miscellaneous
 
--[Memorisation material by Nick Eaddy)[memorisation_nick_eaddy.pdf)
+-[Memorisation material by Nick Eaddy](memorisation_nick_eaddy.pdf)

@@ -9,7 +9,6 @@
 - [2007A03 Opioids - inter-individual variation](analgesics/2007A03_opioids_inter_individual_variation.htm)
 - [2007B03 Opioids - transition from IV to oral](analgesics/2007B03_opioids_transition_from_iv_to_oral.htm)
 - [2008B04 Ketamine - use in post-op analgesia](analgesics/2008B04_ketamine_use_in_post_op_analgesia.htm)
-- [2009A05 Intrathecal opioids](analgesics/2009A05_intrathecal_opioids.htm)
 - [2010B01 Morphine vs oxycodone](analgesics/2010B01_morphine_vs_oxycodone.htm)
 - [2011A06 Remifentanil](analgesics/2011A06_remifentanil.htm)
 - [2013B12 Alfentanil vs fentanyl](analgesics/2013B12_alfentanil_vs_fentanyl.htm)
@@ -23,6 +22,7 @@
 - [2018A05 Opioids - therapeutic and adverse effects](analgesics/2018A05_opioids_therapeutic_and_adverse_effects.htm)
 - [2019A14 Tramadol - metabolism and excretion](analgesics/2019A14_tramadol_metabolism_and_excretion.htm)
 - [2019B14 Paracetamol - role and toxicity](analgesics/2019B14_paracetamol_role_and_toxicity.htm)
+- [2020A09 Intrathecal opioids](analgesics/2020A09_intrathecal_opioids.htm)
 
 ### Cardiovascular Drugs
 
@@ -50,6 +50,7 @@
 - [2012B01 Warfarin](haemostasis_drugs/2012B01_warfarin.htm)
 - [2014B08 Bridging from warfarin to low molecular weight heparins](haemostasis_drugs/2014B08_bridging_from_warfarin_to_low_molecular_weight_heparins.htm)
 - [2017A08 Unfractionated heparin vs low molecular weight heparins](haemostasis_drugs/2017A08_unfractionated_heparin_vs_low_molecular_weight_heparins.htm)
+- [2020A06 Warfarin reversal](haemostasis_drugs/2020A06_warfarin_reversal.htm)
 
 ### Inhalational Anaesthetics
 
@@ -71,6 +72,8 @@
 - [2019A09 Inhalational anaesthetics - wash-in curves](inhalational_anaesthetics/2019A09_inhalational_anaesthetics_wash_in_curves.htm)
 - [2019A10 Sevoflurane - effects on regional circulations](inhalational_anaesthetics/2019A10_sevoflurane_regional_circulation_effects.htm)
 - [2019B04 Volatile anaesthetics - mechanism of hypnosis](inhalational_anaesthetics/2019B04_volatile_anaesthetics_mechanism_of_hypnosis.htm)
+- [2020A04 Sevoflurane vs nitrous oxide - cardiovascular effects](inhalational_anaesthetics/2020A04_sevoflurane_nitrous_oxide_cardiovascular.htm)
+- [2020A07 Desflurane washout](inhalational_anaesthetics/2020A07_desflurane_washout.htm)
 
 ### Intravenous Anaesthetics
 
@@ -87,11 +90,11 @@
 - [2009B02 Propofol - adverse effects](intravenous_anaesthetics/2009B02_propofol_adverse_effects.htm)
 - [2012A07 Ketamine TIVA](intravenous_anaesthetics/2012A07_ketamine_tiva.htm)
 - [2012B02 Propofol vs sevoflurane - kinetics, CVS, CNS effects](intravenous_anaesthetics/2012B02_propofol_vs_sevoflurane_kinetics_cvs_and_cns_effects.htm)
-- [2015A12 Intravenous induction - rate of onset](intravenous_anaesthetics/2015A12_intravenous_induction_rate_of_onset.htm)
 - [2017B14 Propofol - non-CNS effects](intravenous_anaesthetics/2017B14_propofol_non_cns_effects.htm)
 - [2018A07 Intravenous induction - dosing in youth, old age and shock](intravenous_anaesthetics/2018A07_intravenous_induction_dosing_in_youth_old_age_and_shock.htm)
 - [2018B11 Midazolam](intravenous_anaesthetics/2018B11_midazolam.htm)
 - [2019A11 Propofol TCI](intravenous_anaesthetics/2019A11_propofol_tci.htm)
+- [2020A13 Intravenous induction - rate of onset](intravenous_anaesthetics/2020A13_intravenous_induction_rate_of_onset.htm)
 
 ### Local Anaesthetics
 
@@ -133,11 +136,11 @@
 - [2018B13 Oxytocics and tocolytics](miscellaneous_drugs/2018B13_oxytocics_and_tocolytics.htm)
 - [2019A13 Antibiotic chemoprophylaxis](miscellaneous_drugs/2019A13_antibiotic_chemoprophylaxis.htm)
 - [2019B10 Effects of CSL infusion](miscellaneous_drugs/2019B10_effects_of_csl_infusion.htm)
+- [2020A02 Povidone iodine vs alcoholic chlorhexidine](miscellaneous_drugs/2020A02_povidone_iodine_vs_alcoholic_chlorhexidine.htm)
 
 ### Muscle Relaxants
 
 - [2000B16 Atracurium vs cisatracurium](muscle_relaxants/2000B16_atracurium_vs_cisatracurium.htm)
-- [2002B05 Suxamethonium - causes of prolonged effect](muscle_relaxants/2002B05_suxamethonium_causes_of_prolonged_effect.htm)
 - [2004A02 Non-depolarising relaxants - rate of onset](muscle_relaxants/2004A02_non_depolarising_relaxants_rate_of_onset.htm)
 - [2006B04 Suxamethonium vs rocuronium - rapid sequence induction](muscle_relaxants/2006B04_suxamethonium_vs_rocuronium_in_rapid_sequence_induction.htm)
 - [2007B06 Suxamethonium - mechanisms of phase 1 and phase 2 block](muscle_relaxants/2007B06_suxamethonium_mechanisms_of_phase_1_and_phase_2_blockade.htm)
@@ -151,6 +154,7 @@
 - [2018B04 Suxamethonium vs rocuronium](muscle_relaxants/2018B04_suxamethonium_vs_rocuronium.htm)
 - [2019A12 Non-depolarising relaxants - rate of offset](muscle_relaxants/2019A12_non_depolarising_relaxants_rate_of_offset.htm)
 - [2019B01 Suxamethonium - adverse effects](muscle_relaxants/2019B01_suxamethonium_adverse_effects.htm)
+- [2020A14 Neostigmine - adverse effects](muscle_relaxants/2020A14_neostigmine_adverse_effects.htm)
 
 ### Pharmaceutics
 

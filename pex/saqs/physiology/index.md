@@ -17,6 +17,7 @@
 - [2008B15 Ageing - oxygen delivery during exercise](ageing/2008B15_ageing_oxygen_delivery_during_exercise.htm)
 - [2014A12 Ageing - nervous system effects](ageing/2014A12_ageing_nervous_system_effects.htm)
 - [2019A02 Ageing - cardiovascular effects](ageing/2019A02_ageing_cardiovascular_effects.htm)
+- [2020A15 Ageing - respiratory effects](ageing/2020A15_ageing_respiratory_effects.htm)
 
 
 ### Cardiovascular
@@ -46,6 +47,8 @@
 - [2019B03 ECG - PR interval](cardiovascular/2019B03_ecg_pr_interval.htm)
 - [2019B08 Neuraxial blockade - cardiovascular effects](cardiovascular/2019B08_neuraxial_blockade_cardiovascular_effects.htm)
 - [2019B11 Pneumoperitoneum - cardiovascular effects](cardiovascular/2019B11_pneumoperitoneum_cardiovascular_effects.htm)
+- [2020A08 Cardiac output coupling](cardiovascular/2020A08_cardiac_output_coupling.htm)
+- [2020A10 Sino-atrial node](cardiovascular/2020A10_sino_atrial_node.htm)
 
 ### Cellular
 
@@ -110,6 +113,7 @@
 - [2014A14 Fasting - 6 hours vs 24 hours](metabolism_and_endocrinology/2014A14_fasting_6_hours_vs_24_hours.htm)
 - [2017A14 Aldosterone and cortisol](metabolism_and_endocrinology/2017A14_aldosterone_and_cortisol.htm)
 - [2018B12 Glucose homeostasis](metabolism_and_endocrinology/2018B12_glucose_homeostasis.htm)
+- [2020A11 Glucose metabolism](metabolism_and_endocrinology/2020A11_glucose_metabolism.htm)
 
 ### Neonatology
 
@@ -141,10 +145,10 @@
 
 ### Obstetrics
 
-- [2015B11 Placental gas exchange](obstetrics/2015B11_placental_gas_exchange.htm)
 - [2016B13 Pregnancy - effects on wash-in of volatile anaesthetics](obstetrics/2016B13_pregnancy_effects_on_wash_in_of_volatile_anaesthetics.htm)
 - [2018B05 Pregnancy - cardiovascular effects](obstetrics/2018B05_pregnancy_cardiovascular_effects.htm)
 - [2019A03 Pregnancy - respiratory effects](obstetrics/2019A03_pregnancy_respiratory_effects.htm)
+- [2020A05 Placental gas exchange](obstetrics/2020A05_placental_gas_exchange.htm)
 
 ### Pain
 
@@ -177,7 +181,6 @@
 
 ### Respiratory
 
-- [2003B11 etCO2 vs PaCO2](respiratory/2003B11_etco2_vs_paco2.htm)
 - [2003B12 Diffusion limitation vs perfusion limitation of gas exchange](respiratory/2003B12_diffusion_limitation_vs_perfusion_limitation_of_gas_exchange.htm)
 - [2003B13 Airway resistance](respiratory/2003B13_airway_resistance.htm)
 - [2004B09 Carbon dioxide production and transport](respiratory/2004B09_carbon_dioxide_production_and_transport.htm)
@@ -204,6 +207,7 @@
 - [2018B02 Oxygen delivery](respiratory/2018B02_oxygen_delivery.htm)
 - [2019A04 CO2 carriage in blood](respiratory/2019A04_co2_carriage_in_blood.htm)
 - [2019B12 O2-Hb and CO2-Hb dissociation curves](respiratory/2019B12_o2_co2_hb_dissociation_curves.htm)
+- [2020A03 etCO2 vs PaCO2](respiratory/2020A03_etCO2_vs_paco2.htm)
 
 ### Special Physiology
 

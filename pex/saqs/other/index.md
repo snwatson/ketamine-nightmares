@@ -46,6 +46,7 @@
 - [2017B02 Variable bypass vapouriser - function and accuracy](equipment/2017B02_variable_bypass_vapouriser_function_and_accuracy.htm)
 - [2018A04 CO2 absorbents - hazards](equipment/2018A04_co2_absorbents_hazards.htm)
 - [2019B05 Variable bypass vapourisers - safety features](equipment/2019B05_variable_bypass_vapouriser_safety_features.htm)
+- [2020A12 Bag valve mask resuscitator](equipment/2020A12_bag_valve_mask.htm)
 
 ### Physics
 

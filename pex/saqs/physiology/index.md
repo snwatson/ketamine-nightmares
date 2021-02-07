@@ -207,7 +207,7 @@
 - [2018B02 Oxygen delivery](respiratory/2018B02_oxygen_delivery.htm)
 - [2019A04 CO2 carriage in blood](respiratory/2019A04_co2_carriage_in_blood.htm)
 - [2019B12 O2-Hb and CO2-Hb dissociation curves](respiratory/2019B12_o2_co2_hb_dissociation_curves.htm)
-- [2020A03 etCO2 vs PaCO2](respiratory/2020A03_etCO2_vs_paco2.htm)
+- [2020A03 etCO2 vs PaCO2](respiratory/2020A03_etco2_vs_paco2.htm)
 
 ### Special Physiology
 

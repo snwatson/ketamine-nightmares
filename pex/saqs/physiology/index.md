@@ -19,7 +19,6 @@
 - [2019A02 Ageing - cardiovascular effects](ageing/2019A02_ageing_cardiovascular_effects.htm)
 - [2020A15 Ageing - respiratory effects](ageing/2020A15_ageing_respiratory_effects.htm)
 
-
 ### Cardiovascular
 
 - [2002A02 Action potentials - ventricular myocyte](cardiovascular/2002A02_action_potentials_ventricular_myocyte.htm)
@@ -40,15 +39,15 @@
 - [2015A14 Venous return - effect of general anaesthesia](cardiovascular/2015A14_venous_return_and_effect_of_general_anaesthesia.htm)
 - [2015B09 Systemic circulation vs pulmonary circulation](cardiovascular/2015B09_systemic_circulation_vs_pulmonary_circulation.htm)
 - [2016B02 Action potentials - pacemaker cell vs ventricular myocyte](cardiovascular/2016B02_action_potentials_pacemaker_cell_vs_ventricular_myocyte.htm)
-- [2017B03 Major blood loss - effect of general anaesthesia](cardiovascular/2017B03_major_blood_loss_and_effect_of_general_anaesthesia.htm)
-- [2018A10 Myocardial oxygen supply and demand - left ventricule](cardiovascular/2018A10_myocardial_oxygen_supply_and_demand_left_ventricle.htm)
 - [2018B09 Autonomic innervation of the heart](cardiovascular/2018B09_autonomic_innervation_of_the_heart.htm)
 - [2019A01 Intermittent positive pressure ventilation - effect on cardiac output](cardiovascular/2019A01_intermittent_positive_pressure_ventilation_effect_on_cardiac_output.htm)
-- [2019B03 ECG - PR interval](cardiovascular/2019B03_ecg_pr_interval.htm)
 - [2019B08 Neuraxial blockade - cardiovascular effects](cardiovascular/2019B08_neuraxial_blockade_cardiovascular_effects.htm)
 - [2019B11 Pneumoperitoneum - cardiovascular effects](cardiovascular/2019B11_pneumoperitoneum_cardiovascular_effects.htm)
 - [2020A08 Cardiac output coupling](cardiovascular/2020A08_cardiac_output_coupling.htm)
 - [2020A10 Sino-atrial node](cardiovascular/2020A10_sino_atrial_node.htm)
+- [2020B01 Haemorrhagic shock and anaesthesia](cardiovascular/2020B01_haemorrhagic_shock_and_anaesthesia.htm)
+- [2020B02 ECG lead 2](cardiovascular/2020B02_ecg_lead_2.htm)
+- [2020B05 Myocardial oxygen supply and demand - left ventricule](cardiovascular/2020B05_myocardial_oxygen_supply_and_demand_left_ventricle.htm)
 
 ### Cellular
 
@@ -67,6 +66,7 @@
 - [2012A12 Cell signalling - chemical neurotransmitters](cellular/2012A12_cell_signalling_chemical_neurotransmitters.htm)
 - [2013A14 Mitochondrion - structure and function](cellular/2013A14_mitochondrion_structure_and_function.htm)
 - [2018B15 Prostaglandins - effects on smooth muscle](cellular/2018B15_prostaglandins_effects_on_smooth_muscle.htm)
+- [2020B10 NMDA receptor and ketamine](cellular/2020B10_nmda_receptor_ketamine.htm)
 
 ### Gastrointestinal
 
@@ -145,10 +145,10 @@
 
 ### Obstetrics
 
-- [2016B13 Pregnancy - effects on wash-in of volatile anaesthetics](obstetrics/2016B13_pregnancy_effects_on_wash_in_of_volatile_anaesthetics.htm)
 - [2018B05 Pregnancy - cardiovascular effects](obstetrics/2018B05_pregnancy_cardiovascular_effects.htm)
 - [2019A03 Pregnancy - respiratory effects](obstetrics/2019A03_pregnancy_respiratory_effects.htm)
 - [2020A05 Placental gas exchange](obstetrics/2020A05_placental_gas_exchange.htm)
+- [2020B07 Pregnancy - effects on wash-in of volatile anaesthetics](obstetrics/2020B07_pregnancy_effects_on_wash_in_of_volatile_anaesthetics.htm)
 
 ### Pain
 
@@ -175,9 +175,9 @@
 - [2011B15 Causes of oliguria intra-operatively](renal/2011B15_causes_of_oliguria_intra_operatively.htm)
 - [2012B10 Role of the kidney in potassium homeostasis](renal/2012B10_role_of_the_kidney_in_potassium_homeostasis.htm)
 - [2013B05 Renal regulation of total body water](renal/2013B05_renal_regulation_of_total_body_water.htm)
-- [2017A13 Mechanism of urine concentration](renal/2017A13_mechanism_of_urine_concentration.htm)
 - [2018A09 Determinants of renal blood flow](renal/2018A09_determinants_of_renal_blood_flow.htm)
 - [2018B08 Functions of the kidney](renal/2018B08_functions_of_the_kidney.htm)
+- [2020B04 Urine concentration and dilution](renal/2020B04_urine_concentration_and_dilution.htm)
 
 ### Respiratory
 
@@ -192,7 +192,6 @@
 - [2007A09 Venous admixture](respiratory/2007A09_venous_admixture.htm)
 - [2008B13 Alveolar time constants](respiratory/2008B13_alveolar_time_constants.htm)
 - [2010A09 Mixed venous saturation](respiratory/2010A09_mixed_venous_saturation.htm)
-- [2010B09 Respiratory system compliance](respiratory/2010B09_respiratory_system_compliance.htm)
 - [2010B12 Muscles involved in ventilation](respiratory/2010B12_muscles_involved_in_ventilation.htm)
 - [2011A13 Work of breathing](respiratory/2011A13_work_of_breathing.htm)
 - [2012B12 Causes of post-op hypoxaemia](respiratory/2012B12_causes_of_post_op_hypoxaemia.htm)
@@ -208,6 +207,8 @@
 - [2019A04 CO2 carriage in blood](respiratory/2019A04_co2_carriage_in_blood.htm)
 - [2019B12 O2-Hb and CO2-Hb dissociation curves](respiratory/2019B12_o2_co2_hb_dissociation_curves.htm)
 - [2020A03 etCO2 vs PaCO2](respiratory/2020A03_etco2_vs_paco2.htm)
+- [2020B03 Respiratory system compliance](respiratory/2020B03_respiratory_system_compliance.htm)
+
 
 ### Special Physiology
 

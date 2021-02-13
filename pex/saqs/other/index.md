@@ -27,6 +27,7 @@
 - [2018B01 Non-invasive blood pressure measurement](clinical_measurement/2018B01_non_invasive_blood_pressure_measurement.htm)
 - [2019A06 Renal function tests](clinical_measurement/2019A06_renal_function_tests.htm)
 - [2019A15 Pulse oximetry - sources of inaccuracy](clinical_measurement/2019A15_pulse_oximetry_sources_of_inaccuracy.htm)
+- [2020B06 Capnograph](clinical_measurement/2020B06_capnograph.htm)
 
 ### Equipment
 
@@ -47,6 +48,7 @@
 - [2018A04 CO2 absorbents - hazards](equipment/2018A04_co2_absorbents_hazards.htm)
 - [2019B05 Variable bypass vapourisers - safety features](equipment/2019B05_variable_bypass_vapouriser_safety_features.htm)
 - [2020A12 Bag valve mask resuscitator](equipment/2020A12_bag_valve_mask.htm)
+- [2020B13 Arterial line](equipment/2020B13_arterial_line.htm)
 
 ### Physics
 

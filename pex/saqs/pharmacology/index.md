@@ -112,6 +112,7 @@
 - [2017B08 Local anaesthetics - rate of offset](local_anaesthetics/2017B08_local_anaesthetics_rate_of_offset.htm)
 - [2019A08 Local anaesthetic systemic toxicity - features](local_anaesthetics/2019A08_local_anaesthetic_systemic_toxicity_features.htm)
 - [2019B09 Local anaesthetics - rate of onset and offset](local_anaesthetics/2019B09_local_anaesthetics_rate_of_onset_and_offset.htm)
+- [2020B09 Topical local anaesthetic toxicity](local_anaesthetics/2020B09_topical_local_anaesthetic_toxicity.htm)
 
 ### Miscellaneous Drugs
 
@@ -130,13 +131,13 @@
 - [2013C01 Oral hypoglycaemics](miscellaneous_drugs/2013C01_oral_hypoglycaemics.htm)
 - [2014A06 Bronchodilators](miscellaneous_drugs/2014A06_bronchodilators.htm)
 - [2014A13 Normal saline vs 4% albumin](miscellaneous_drugs/2014A13_normal_saline_vs_4pc_albumin.htm)
-- [2014B14 Mannitol](miscellaneous_drugs/2014B14_mannitol.htm)
 - [2016B11 Gentamicin](miscellaneous_drugs/2016B11_gentamicin.htm)
 - [2016B15 Anti-emetics](miscellaneous_drugs/2016B15_anti_emetics.htm)
 - [2018B13 Oxytocics and tocolytics](miscellaneous_drugs/2018B13_oxytocics_and_tocolytics.htm)
 - [2019A13 Antibiotic chemoprophylaxis](miscellaneous_drugs/2019A13_antibiotic_chemoprophylaxis.htm)
 - [2019B10 Effects of CSL infusion](miscellaneous_drugs/2019B10_effects_of_csl_infusion.htm)
 - [2020A02 Povidone iodine vs alcoholic chlorhexidine](miscellaneous_drugs/2020A02_povidone_iodine_vs_alcoholic_chlorhexidine.htm)
+- [2020B12 Mannitol](miscellaneous_drugs/2020B12_mannitol.htm)
 
 ### Muscle Relaxants
 
@@ -165,10 +166,10 @@
 
 - [2002B06 Tolerance and dependence - opioids](pharmacodynamics/2002B06_tolerance_and_dependence_opioids.htm)
 - [2004B01 Mechanisms of drug action](pharmacodynamics/2004B01_mechanisms_of_drug_action.htm)
-- [2005B02 Dose-response curves - opioids](pharmacodynamics/2005B02_dose_response_curves_opioids.htm)
 - [2012B03 Tolerance and tachyphylaxis](pharmacodynamics/2012B03_tolerance_and_tachyphylaxis.htm)
 - [2015A05 Synergy - sevoflurane and fentanyl](pharmacodynamics/2015A05_synergy_sevoflurane_fentanyl.htm)
 - [2019B06 Synergy - propofol and remifentanil](pharmacodynamics/2019B06_synergy_propofol_and_remifentanil_tci.htm)
+- [2020B11 Dose-response curves - opioids](pharmacodynamics/2020B11_dose_response_curves_opioids.htm)
 
 ### Pharmacokinetics
 
@@ -180,3 +181,5 @@
 - [2015B04 Half-life vs context-sensitive half-time](pharmacokinetics/2015B04_half_life_vs_context_sensitive_half_time.htm)
 - [2017A04 CYP2D6](pharmacokinetics/2017A04_cyp2d6.htm)
 - [2018B14 Transdermal kinetics](pharmacokinetics/2018B14_transdermal_kinetics.htm)
+- [2020B15 Pharmacokinetics of chronic kidney disease](pharmacokinetics/2020B15_chronic_kidney_disease_pharmacokinetics.htm)
+

@@ -108,10 +108,6 @@ You should need almost no other resource on the following topics:
 - [Acid-Base Physiology](https://www.anaesthesiamcq.com/AcidBaseBook/ABindex.php)
 - [Fluid and Electrolyte Physiology](http://www.anaesthesiamcq.com/FluidBook/)
 
-#### [University of Sydney Department of Anaesthesia](http://www.anaesthesia.med.usyd.edu.au/resources/lectures/)
-- [Vasopressors](http://www.anaesthesia.med.usyd.edu.au/resources/lectures/pforrest/Vasopressor%20lecture%20-Part%201.htm)
-- [Anaesthesia - a modern concept](http://www.anaesthesia.med.usyd.edu.au/resources/lectures/rtraill/Anaesthesia_The_Concept.pdf)
-
 #### Strong Medicine
 - [Haemostasis](https://www.youtube.com/playlist?list=PLYojB5NEEakW19w1r2T-QKQLrlO-kaXws)
 - [ABG Interpretation](https://www.youtube.com/playlist?list=PLFDCF820E88FC83ED)

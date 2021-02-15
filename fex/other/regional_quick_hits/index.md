@@ -8,7 +8,7 @@ With thanks to Prof. Michael Barrington and Dr. Daniel Wong
 
 - [Summary](summary.pdf)
 - [Anterior abdomen](anterior_abdomen.pdf)
-- [Axillary](axillary)
+- [Axillary](axillary.pdf)
 - [Femoral triangle](femoral_triangle.pdf)
 - [Infraclavicular](infraclavicular.pdf)
 - [Interscalene](interscalene.pdf)

@@ -22,9 +22,7 @@
 
 ### Document Summaries
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)
-- [ANZCA Blue Books](fex/summaries/blue_books/)
 - [Landmark Clinical Trials](fex/summaries/trials/)
-- [Other Documents](fex/summaries/other)
 
 ### Other Resources
 - [Curriculum](fex/other/curriculum/)

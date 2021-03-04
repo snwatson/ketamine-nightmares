@@ -6,9 +6,9 @@
 - [Other SAQ](pex/saqs/other/)
 
 ### Other Resources
-- [YouTube Lectures](pex/other/lectures.md)
-- [Recommended Reading](pex/other/recommended_reading.md)
+- [YouTube lectures](pex/other/lectures.md)
 - [Memorisation material](pex/other/memorisation_material/index.md)
+- [Recommended reading](pex/other/recommended/recommended_reading.md)
 
 ## Anaesthesia Final Exam (under construction)
 

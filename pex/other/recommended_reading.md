@@ -15,6 +15,11 @@
 - Contains many other resources
 - Well worth the money
 
+#### [Part One](www.partone.lifeinthefastlane.com)
+- Written and freely shared by Jake Barlow
+- Concise summary of the entire curriculum and pharmacopoiea 
+- Reader-friendly, well-organised, exam-orientated
+
 ### Textbooks and their best chapters
 
 #### West's Respiratory Physiology
@@ -92,7 +97,6 @@ All chapters are good, but the best ones are:
 
 - Google search “LITFL” alongside almost any topic of interest
 - [Alpha stat and pH stat section](https://litfl.com/arterial-blood-gas-in-hypothermia/) was particularly helpful to me
-- The [Part One](www.partone.lifeinthefastlane.com) section by my colleague Jake Barlow is an excellent, well-organised and exam-orientated resource
 
 #### Deranged Physiology
 

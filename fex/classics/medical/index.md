@@ -4,8 +4,9 @@
 
 #### Classic Medical Conditions
 
-##### Cardiovascular
-- [Pulmonary hypertension](cardiovascular/pulmonary_hypertension.htm)
-
-##### Metabolic
-- [Morbid obesity](metabolic/morbid_obesity.htm)
+- [Anterior mediastinal mass](anterior_mediastinal_mass.htm)
+- [Morbid obesity](morbid_obesity.htm)
+- [Paediatric airway syndromes](paed_airway_syndromes.htm)
+- [Pre-eclampsia](pre_eclampsia.htm)
+- [Pulmonary hypertension](pulmonary_hypertension.htm)
+- [Subarachnoid haemorrhage](subarachnoid_haemorrhage.htm)

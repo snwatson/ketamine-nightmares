@@ -23,6 +23,7 @@
 ### Document Summaries
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)
 - [Landmark Clinical Trials](fex/summaries/trials/)
+- [Other documents](fex/summaries/other/)
 
 ### Other Resources
 - [Curriculum](fex/other/curriculum/)

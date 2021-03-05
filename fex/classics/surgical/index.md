@@ -4,8 +4,6 @@
 
 #### Classic Surgical Procedures
 
-##### Orthopaedic surgery
-- [Fractured NOF](orthopaedics/fractured_nof.htm)
-
-##### Vascular surgery
+- [Caesarean section - neuraxial](caesarean_section_neuraxial)
 - [Carotid endarterectomy](vascular/carotid_endarterectomy.htm)
+- [Fractured NOF](orthopaedics/fractured_nof.htm)

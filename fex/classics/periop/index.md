@@ -1,8 +1,8 @@
-## Final Exam
+# Anaesthesia Final Exam
 
-### Classic Topics
+## Classic Topics
 
-#### Classic Peri-op Problems
+### Classic Peri-operative Problems
 
 - [Airway assessment](airway_assessment.htm)
 - [Alcohol abuse](alcohol.htm)

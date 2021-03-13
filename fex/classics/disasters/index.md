@@ -1,8 +1,8 @@
-## Final Exam
+# Anaesthesia Final Exam
 
-### Classic Topics
+## Classic Topics
 
-#### Classic Anaesthetic Disasters
+### Classic Anaesthetic Disasters
 
 - [Airway disaster on the ward](airway_disaster_ward.htm)
 - [Anaphylaxis](anaphylaxis.htm)

@@ -1,7 +1,7 @@
-## Final Exam
+# Anaesthesia Final Exam
 
-### Other Resources
+## Other Resources
 
-#### Miscellaneous
+### Miscellaneous
 
 -[Memorisation material by Nick Eaddy](memorisation_nick_eaddy.pdf)

@@ -8,7 +8,7 @@
 - [Anaphylaxis](anaphylaxis.htm)
 - [Burns](burns.htm)
 - [Failed emergence](failed_emergence.htm)
-- [Hypoxia](hypoxia.htm)
+- [Hypoxaemia](hypoxaemia.htm)
 - [Massive bleeding](massive_bleeding.htm)
 - [Obstructed ventilation](obstructed_ventilation.htm)
 - [Peripheral nerve injury](peripheral_nerve_injury.htm)

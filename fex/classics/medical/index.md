@@ -4,8 +4,12 @@
 
 ### Classic Medical Conditions
 
+- [Acromegaly](acromegaly.htm)
 - [Anterior mediastinal mass](anterior_mediastinal_mass.htm)
 - [Aortic stenosis](aortic_stenosis.htm)
+- [Cerebral palsy](cerebral_palsy.htm)
+- [Downs' syndrome](downs_syndrome.htm)
+- [Hypertrophic cardiomyopathy](hcm.htm)
 - [Morbid obesity](morbid_obesity.htm)
 - [Paediatric airway syndromes](paed_airway_syndromes.htm)
 - [Pre-eclampsia](pre_eclampsia.htm)

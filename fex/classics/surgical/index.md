@@ -9,3 +9,4 @@
 - [Carotid endarterectomy](carotid_endarterectomy.htm)
 - [Fractured NOF](fractured_nof.htm)
 - [MRI anaesthesia](mri_anaesthesia.htm)
+- [Pyloromyotomy](pyloromyotomy.htm)

@@ -9,4 +9,6 @@
 - [Carotid endarterectomy](carotid_endarterectomy.htm)
 - [Fractured NOF](fractured_nof.htm)
 - [MRI anaesthesia](mri_anaesthesia.htm)
+- [Paediatrics - post-tonsillectomy haemorrhage](paediatric_post_tonsillectomy_haemorrhage.htm)
 - [Pyloromyotomy](pyloromyotomy.htm)
+- [Remote environment](remote_environment.htm)

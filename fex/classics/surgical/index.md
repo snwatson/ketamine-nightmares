@@ -4,7 +4,9 @@
 
 ### Classic Surgical Procedures
 
-- [Abdominal aortic aneurysm](abdominal_aortic_aneurysm.htm)
+- [Abdominal aortic aneurysm - open](aaa_open.htm)
+- [Abdominal aortic aneurysm - EVAR](aaa_evar.htm)
+- [Abdominal aortic aneurysm - ruptured](aaa_ruptured.htm)
 - [Caesarean section - neuraxial](caesarean_section_neuraxial)
 - [Carotid endarterectomy](carotid_endarterectomy.htm)
 - [Fractured NOF](fractured_nof.htm)

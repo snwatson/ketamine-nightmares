@@ -13,7 +13,7 @@
 - [PS08 2016: Anaesthesia assistant](anzca/anzca_ps08_2016_anaesthesia_assistant.htm)
 - [PS09 2014: Sedation](anzca/anzca_ps09_2014_sedation.htm)
 - [PS12 2014: Smoking](anzca/anzca_ps12_2014_smoking.htm)
-- [PS15 2018: Day Surgery](anzca/anzca_ps09_2014_sedation.htm)
+- [PS15 2018: Day Surgery](anzca/anzca_ps15_day_surgery.htm)
 - [PS18 2017: Monitoring](anzca/anzca_ps18_2017_monitoring.htm)
 - [PS19 2020: Monitored Care](anzca/anzca_ps19_2020_monitored_care.htm)
 - [PS26 2005: Consent](anzca/anzca_ps26_2005_consent.htm)

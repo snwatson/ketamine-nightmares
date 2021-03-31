@@ -6,9 +6,9 @@
 - [Other SAQ](pex/saqs/other/)
 
 ### Other Resources
-- [YouTube lectures](pex/other/lectures.md)
-- [Memorisation material](pex/other/memorisation_material/index.md)
-- [Recommended reading](pex/other/recommended/recommended_reading.htm)
+- [YouTube Lectures](pex/other/lectures.md)
+- [Memorisation Material](pex/other/memorisation_material/index.md)
+- [Recommended Reading](pex/other/recommended/recommended_reading.htm)
 
 ## Anaesthesia Final Exam (under construction)
 
@@ -24,9 +24,9 @@
 
 ### Document Summaries
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)
-- [ANZCA Blue books](fex/summaries/blue_books/)
+- [ANZCA Blue Books](fex/summaries/blue_books/)
 - [Landmark Clinical Trials](fex/summaries/trials/)
-- [Other documents](fex/summaries/other/)
+- [Other Documents](fex/summaries/other/)
 
 ### Other Resources
 - [Curriculum](fex/other/curriculum/)

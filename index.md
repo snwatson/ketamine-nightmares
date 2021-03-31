@@ -16,10 +16,10 @@
 
 ### Classic Topics
 - [Classic Medical Conditions](fex/classics/medical/index.md)
-- [Classic Anaesthetic Procedures](fex/classics/anaesthetic.md)
 - [Classic Surgical Procedures](fex/classics/surgical/index.md)
+- [Classic Anaesthetic Procedures](fex/classics/anaesthetic/index.md)
 - [Classic Anaesthetic Disasters](fex/classics/disasters/index.md)
-- [Classic Peri-operative problems](fex/classics/periop/index.md)
+- [Classic Peri-operative Problems](fex/classics/periop/index.md)
 - [Classic Non-Clinical Problems](fex/classics/non_clinical/index.md)
 
 ### Document Summaries

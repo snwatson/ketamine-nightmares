@@ -16,7 +16,7 @@ I would like to thank:
 
 - My wife Maria for her patience and wisdom
 - My mother (Margaret) and father (Harry) for all that I am
-- My colleague [Alexander Clarke](https://alexanderclarke.id.au/) for helping a great deal with the website
+- My colleague [Alexander Clarke](https://alexanderclarke.id.au/) for building the website
 - My de facto editors-in-chief - Kieran Bates and Maggie Forbes
 - My study companions Perdita Gregory, Kevin Murphy, Lauren Smith and Tim Williams and Harsh Dubey
 - The Departments of Anaesthesia at Box Hill Hospital and St. Vincent’s Hospital

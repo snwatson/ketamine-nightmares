@@ -7,6 +7,7 @@
 - [Airway disaster on the ward](airway_disaster_ward.htm)
 - [Anaphylaxis](anaphylaxis.htm)
 - [Antepartum haemorrhage](aph.htm)
+- [Accidental awareness](awareness.htm)
 - [Burns](burns.htm)
 - [Eclampsia](eclampsia.htm)
 - [Failed emergence](failed_emergence.htm)

@@ -21,7 +21,6 @@
 - [Myasthaenia gravis](myasthaenia_gravis.htm)
 - [Neonates](neonates.htm)
 - [Paediatric airway syndromes](paed_airway_syndromes.htm)
-- [Paediatrics - URTI](paediatrics_urti.htm)
 - [Parkinson's disease](parkinsons_disease.htm)
 - [Pre-eclampsia](pre_eclampsia.htm)
 - [Pulmonary hypertension](pulmonary_hypertension.htm)

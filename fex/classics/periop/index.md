@@ -13,5 +13,6 @@
 - [Paediatrics - autism](paediatrics_autism.htm)
 - [Paediatrics - murmur](paediatrics_murmur.htm)
 - [Paediatrics - needle phobia](paediatrics_needle_phobia.htm)
+- [Paediatrics - URTI](paediatrics_urti.htm)
 - [Pregnancy - cardiac disease](pregnancy_cardiac_disease.htm)
 - [Thoracic surgery - peri-operative considerations](thoracic_surgery_periop.htm)

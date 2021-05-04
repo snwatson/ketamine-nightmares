@@ -10,6 +10,7 @@
 - [Accidental awareness](awareness.htm)
 - [Burns](burns.htm)
 - [Eclampsia](eclampsia.htm)
+- [Emergence delirium](emergence_delirium.htm)
 - [Failed emergence](failed_emergence.htm)
 - [Hypoxaemia](hypoxaemia.htm)
 - [Hypoxaemia - one lung ventilation](hypoxaemia_olv.htm)

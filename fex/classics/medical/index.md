@@ -10,6 +10,7 @@
 - [Aortic regurgitation](aortic_regurgitation.htm)
 - [Aortic stenosis](aortic_stenosis.htm)
 - [Asthma](asthma.htm)
+- [Bronchiectasis](bronchiectasis.htm)
 - [Cardiac lesions - haemodynamic goals](cardiac_lesions.htm)
 - [Cerebral palsy](cerebral_palsy.htm)
 - [Congenital heart disease](congenital_heart_disease.htm)

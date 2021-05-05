@@ -18,6 +18,7 @@
 - [Massive transfusion](massive_transfusion.htm)
 - [Massive transfusion simplified](massive_transfusion_simplified.htm)
 - [Maternal collapse](maternal_collapse.htm)
+- [Neonatal resuscitation](neonatal_resuscitation.htm)
 - [Obstructed ventilation](obstructed_ventilation.htm)
 - [Peripheral nerve injury](peripheral_nerve_injury.htm)
 - [Post-partum haemorrhage](pph.htm)

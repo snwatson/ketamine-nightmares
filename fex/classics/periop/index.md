@@ -15,4 +15,4 @@
 - [Paediatrics - needle phobia](paediatrics_needle_phobia.htm)
 - [Paediatrics - URTI](paediatrics_urti.htm)
 - [Pregnancy - cardiac disease](pregnancy_cardiac_disease.htm)
-- [Thoracic surgery - peri-operative considerations](thoracic_surgery_periop.htm)
+- [Thoracic surgery](thoracic_surgery.htm)

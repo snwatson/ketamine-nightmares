@@ -14,5 +14,7 @@
 - [Paediatrics - murmur](paediatrics_murmur.htm)
 - [Paediatrics - needle phobia](paediatrics_needle_phobia.htm)
 - [Paediatrics - URTI](paediatrics_urti.htm)
+- [Research](research.htm)
+- [Statistics](statistics.htm)
 - [Pregnancy - cardiac disease](pregnancy_cardiac_disease.htm)
 - [Thoracic surgery](thoracic_surgery.htm)

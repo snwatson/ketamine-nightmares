@@ -15,16 +15,16 @@
 *N.B. these documents are drafts and are online mostly for my own reference*
 
 ### Classic Topics
-- [Classic Medical Conditions](fex/classics/medical/index.md)
-- [Classic Surgical Procedures](fex/classics/surgical/index.md)
-- [Classic Anaesthetic Procedures](fex/classics/anaesthetic/index.md)
-- [Classic Anaesthetic Disasters](fex/classics/disasters/index.md)
-- [Classic Peri-operative Topics](fex/classics/periop/index.md)
-- [Classic Non-Clinical Problems](fex/classics/non_clinical/index.md)
+- [Medical Conditions](fex/classics/medical/index.md)
+- [Surgical Procedures](fex/classics/surgical/index.md)
+- [Anaesthetic Procedures](fex/classics/anaesthetic/index.md)
+- [Anaesthetic Disasters](fex/classics/disasters/index.md)
+- [Peri-operative Medicine](fex/classics/periop/index.md)
 
 ### Document Summaries
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)
 - [ANZCA Blue Books](fex/summaries/blue_books/)
+- [ANZCA Welfare SIG](fex/summaries/anzca_welfare_sig/]
 - [Landmark Clinical Trials](fex/summaries/trials/)
 - [Other Documents](fex/summaries/other/)
 

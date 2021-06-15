@@ -25,6 +25,7 @@
 - [Neonates](neonates.htm)
 - [Paediatric airway syndromes](paed_airway_syndromes.htm)
 - [Parkinson's disease](parkinsons_disease.htm)
+- [Phaeochromocytoma](phaeo.htm)
 - [Pre-eclampsia](pre_eclampsia.htm)
 - [Pulmonary hypertension](pulmonary_hypertension.htm)
 - [Sleep-disordered breathing](sleep_disordered_breathing.htm)

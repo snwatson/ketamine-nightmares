@@ -28,6 +28,7 @@
 - [Phaeochromocytoma](phaeo.htm)
 - [Pre-eclampsia](pre_eclampsia.htm)
 - [Pulmonary hypertension](pulmonary_hypertension.htm)
+- [Rheumatoid arthritis](rheumatoid_arthritis.htm)
 - [Sleep-disordered breathing](sleep_disordered_breathing.htm)
 - [Spinal cord injury](spinal_cord_injury.htm)
 - [Subarachnoid haemorrhage](subarachnoid_haemorrhage.htm)

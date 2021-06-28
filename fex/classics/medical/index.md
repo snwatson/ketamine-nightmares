@@ -32,6 +32,7 @@
 - [Parkinson's disease](parkinsons_disease.htm)
 - [Phaeochromocytoma](phaeo.htm)
 - [Pre-eclampsia](pre_eclampsia.htm)
+- [Pulmonary fibrosis](pulmonary_fibrosis.htm)
 - [Pulmonary hypertension](pulmonary_hypertension.htm)
 - [Rheumatoid arthritis](rheumatoid_arthritis.htm)
 - [Sleep-disordered breathing](sleep_disordered_breathing.htm)

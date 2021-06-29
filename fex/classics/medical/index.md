@@ -16,6 +16,7 @@
 - [Cerebral palsy](cerebral_palsy.htm)
 - [Congenital heart disease](congenital_heart_disease.htm)
 - [COPD](copd.htm)
+- [Cushing syndrome](cushing_syndrome.htm)
 - [Downs' syndrome](downs_syndrome.htm)
 - [Guillain Barre syndrome](guillain_barre.htm)
 - [Hypertrophic cardiomyopathy](hcm.htm)

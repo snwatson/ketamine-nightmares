@@ -10,5 +10,6 @@
 - [Caudal block](caudal_block.htm)
 - [One lung ventilation](one_lung_ventilation.htm)
 - [Positioning - beach chair](positioning_beach_chair.htm)
+- [Positioining - prone](positioning_prone.htm)
 - [Positioning - steep Trendelenburg](positioning_steep_trendelenburg.htm)
 - [Regional anaesthesia](regional_anaesthesia.htm)

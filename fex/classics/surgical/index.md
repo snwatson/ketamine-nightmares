@@ -1,4 +1,5 @@
-# Anaesthesia Final Exam
+
+-# Anaesthesia Final Exam
 
 ## Classic Topics
 
@@ -15,6 +16,7 @@
 - [MRI anaesthesia](mri_anaesthesia.htm)
 - [Paediatrics - tonsillectomy](paediatrics_tonsillectomy.htm)
 - [Paediatrics - post-tonsillectomy haemorrhage](paediatrics_bleeding_tonsil.htm)
+- [Pituitary surgery](pituitary_surgery.htm)
 - [Pyloromyotomy](pyloromyotomy.htm)
 - [Remote environment](remote_environment.htm)
 - [TAVI](tavi.htm)

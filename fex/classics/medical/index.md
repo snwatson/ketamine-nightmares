@@ -12,6 +12,7 @@
 - [Aortic stenosis](aortic_stenosis.htm)
 - [Asthma](asthma.htm)
 - [Bronchiectasis](bronchiectasis.htm)
+- [Carcinoid](carcinoid.htm)
 - [Cardiac lesions - haemodynamic goals](cardiac_lesions.htm)
 - [Cerebral palsy](cerebral_palsy.htm)
 - [Congenital heart disease](congenital_heart_disease.htm)

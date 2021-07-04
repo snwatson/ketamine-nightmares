@@ -25,6 +25,7 @@
 - [ANZCA Position Statements](fex/summaries/anzca_ps/)
 - [ANZCA Blue Books](fex/summaries/blue_books/)
 - [ANZCA Welfare SIG](fex/summaries/anzca_welfare_sig/)
+- [AHA/CCA Guidelines](fex/summaries/aha_cca/)
 - [Landmark Clinical Trials](fex/summaries/trials/)
 - [Other Documents](fex/summaries/other/)
 

@@ -33,6 +33,7 @@
 - [Curriculum](fex/other/curriculum/)
 - [Physical Examinations](fex/other/physical_examinations/)
 - [Regional Quick Hits](fex/other/regional_quick_hits/)
+- [ECG](fex/other/ecg/)
 - [Miscellaneous](fex/other/miscellaneous/)
 
 ## Administration

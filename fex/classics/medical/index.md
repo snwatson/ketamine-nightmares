@@ -34,6 +34,7 @@
 - [Parkinson's disease](parkinsons_disease.htm)
 - [Phaeochromocytoma](phaeo.htm)
 - [Pre-eclampsia](pre_eclampsia.htm)
+- [Prolonged QT syndrome](prolonged_qt.htm)
 - [Pulmonary fibrosis](pulmonary_fibrosis.htm)
 - [Pulmonary hypertension](pulmonary_hypertension.htm)
 - [Rheumatoid arthritis](rheumatoid_arthritis.htm)

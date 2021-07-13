@@ -18,5 +18,6 @@
 - [Paediatrics - needle phobia](paediatrics_needle_phobia.htm)
 - [Paediatrics - URTI](paediatrics_urti.htm)
 - [Research](research.htm)
+- [Sodium disorders](sodium_disorders.htm)
 - [Statistics](statistics.htm)
 - [Thoracic surgery](thoracic_surgery.htm)

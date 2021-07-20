@@ -4,8 +4,7 @@
 
 ### Classic Peri-operative Problems
 
-- [AHA/CCA Guidelines](aha_cca_guidelines.htm)
-- [AHA/CCA Cardiac Risk Assessment](aha_cca_cardiac_risk_assessment.htm)
+- [ABG interpretation](ABG_interpretation.htm)
 - [Airway assessment](airway_assessment.htm)
 - [Alcohol abuse](alcohol.htm)
 - [Aspirin](aspirin.htm)

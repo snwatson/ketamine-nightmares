@@ -4,7 +4,6 @@
 
 ### Classic Peri-operative Problems
 
-- [ABG interpretation](ABG_interpretation.htm)
 - [Airway assessment](airway_assessment.htm)
 - [Alcohol abuse](alcohol.htm)
 - [Aspirin](aspirin.htm)

@@ -9,6 +9,7 @@
 - [Antepartum haemorrhage](aph.htm)
 - [Accidental awareness](awareness.htm)
 - [Burns](burns.htm)
+- [Cardiac arrest](cardiac_arrest.htm)
 - [Eclampsia](eclampsia.htm)
 - [Emergence delirium](emergence_delirium.htm)
 - [Failed emergence](failed_emergence.htm)

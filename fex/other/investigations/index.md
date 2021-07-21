@@ -15,4 +15,4 @@
 - [Miscellaneous](ecg_miscellaneous.htm)
 
 #### Other
-- [ABG interpretation](abg_interpretation)
+- [ABG interpretation](abg_interpretation.htm)

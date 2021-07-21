@@ -32,8 +32,8 @@
 ### Other Resources
 - [Curriculum](fex/other/curriculum/)
 - [Physical Examinations](fex/other/physical_examinations/)
-- [Regional Quick Hits](fex/other/regional_quick_hits/)
 - [Investigations](fex/other/investigations/)
+- [Regional Quick Hits](fex/other/regional_quick_hits/)
 - [Miscellaneous](fex/other/miscellaneous/)
 
 ## Administration

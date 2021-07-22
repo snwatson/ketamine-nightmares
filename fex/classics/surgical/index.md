@@ -14,6 +14,7 @@
 - [Electroconvulsive therapy](ect.htm)
 - [Fractured NOF](fractured_nof.htm)
 - [MRI anaesthesia](mri_anaesthesia.htm)
+- [Paediatrics - epiglottitis](paediatrics_epiglottitis.htm)
 - [Paediatrics - tonsillectomy](paediatrics_tonsillectomy.htm)
 - [Paediatrics - post-tonsillectomy haemorrhage](paediatrics_bleeding_tonsil.htm)
 - [Pituitary surgery](pituitary_surgery.htm)

@@ -5,6 +5,7 @@
 ### Classic Anaesthetic Disasters
 
 - [Airway disaster on the ward](airway_disaster_ward.htm)
+- [Airway fire](airway_fire.htm)
 - [Anaphylaxis](anaphylaxis.htm)
 - [Antepartum haemorrhage](aph.htm)
 - [Accidental awareness](awareness.htm)

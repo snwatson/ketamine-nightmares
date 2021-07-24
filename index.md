@@ -1,7 +1,21 @@
 ## Anaesthesia Primary Exam
 
+
+
+
+
+
+
+
 ***ATTENTION PRIMARY CANDIDATES***
 I've just added my answers to the 2021A SAQs
+
+
+
+
+
+
+
 
 ### Short Answer Questions
 - [Physiology SAQ](pex/saqs/physiology/)

@@ -12,7 +12,6 @@
 ### Clinical Measurement
 
 - [1999A12 Neuromuscular monitoring - fade and post-tetanic potentiation](clinical_measurement/1999A12_neuromuscular_monitoring_fade_and_post_tetanic_potentiation.htm)
-- [2003A08 Neuromuscular monitoring - diaphragm and larynx vs adductor pollicis](clinical_measurement/2003A08_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm)
 - [2004A13 Renal clearance](clinical_measurement/2004A13_renal_clearance.htm)
 - [2004B11 Oximetry](clinical_measurement/2004B11_oximetry.htm)
 - [2005A16 Cardiac output monitoring - doppler ultrasonography](clinical_measurement/2005A16_cardiac_output_monitoring_doppler_ultrasonography.htm)
@@ -28,6 +27,7 @@
 - [2019A06 Renal function tests](clinical_measurement/2019A06_renal_function_tests.htm)
 - [2019A15 Pulse oximetry - sources of inaccuracy](clinical_measurement/2019A15_pulse_oximetry_sources_of_inaccuracy.htm)
 - [2020B06 Capnograph](clinical_measurement/2020B06_capnograph.htm)
+- [2021A09 Neuromuscular monitoring - diaphragm and larynx vs adductor pollicis](clinical_measurement/2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm)
 
 ### Equipment
 
@@ -49,6 +49,7 @@
 - [2019B05 Variable bypass vapourisers - safety features](equipment/2019B05_variable_bypass_vapouriser_safety_features.htm)
 - [2020A12 Bag valve mask resuscitator](equipment/2020A12_bag_valve_mask.htm)
 - [2020B13 Arterial line](equipment/2020B13_arterial_line.htm)
+- [2021A11 Pulse oximeter](equipment/2021A11_pulse_oximeter.htm)
 
 ### Physics
 

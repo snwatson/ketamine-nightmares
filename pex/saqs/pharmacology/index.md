@@ -17,12 +17,12 @@
 - [2014A11 Aspirin overdose vs paracetamol overdose](analgesics/2014A11_aspirin_overdose_vs_paracetamol_overdose.htm)
 - [2015A11 Morphine PCA vs fentanyl PCA](analgesics/2015A11_morphine_pca_vs_fentanyl_pca.htm)
 - [2016B12 Opioids - mechanism of analgesia](analgesics/2016B12_opioids_mechanism_of_analgesia.htm)
-- [2017B12 Non-steroidal anti-inflammatory drugs](analgesics/2017B12_nsaids.htm)
 - [2017B15 Tramadol](analgesics/2017B15_tramadol.htm)
 - [2018A05 Opioids - therapeutic and adverse effects](analgesics/2018A05_opioids_therapeutic_and_adverse_effects.htm)
 - [2019A14 Tramadol - metabolism and excretion](analgesics/2019A14_tramadol_metabolism_and_excretion.htm)
 - [2019B14 Paracetamol - role and toxicity](analgesics/2019B14_paracetamol_role_and_toxicity.htm)
 - [2020A09 Intrathecal opioids](analgesics/2020A09_intrathecal_opioids.htm)
+- [2021A10 Non-steroidal anti-inflammatory drugs](analgesics/2021A10_nsaids.htm)
 
 ### Cardiovascular Drugs
 
@@ -41,6 +41,7 @@
 - [2017B07 Ephedrine vs noradrenaline](cardiovascular_drugs/2017B07_ephedrine_vs_noradrenaline.htm)
 - [2018A08 Metoprolol](cardiovascular_drugs/2018A08_metoprolol.htm)
 - [2018B10 Inotropes](cardiovascular_drugs/2018B10_inotropes.htm)
+- [2021A06 Metaraminol vs noradrenaline](cardiovascular_drugs/2021A06_metaraminol_vs_adrenaline.htm)
 
 ### Haemostasis drugs
 
@@ -62,7 +63,6 @@
 - [2005B01 Isoflurane - metabolism](inhalational_anaesthetics/2005B01_isoflurane_metabolism.htm)
 - [2009A01 Minimum alveolar concentration](inhalational_anaesthetics/2009A01_minimum_alveolar_concentration.htm)
 - [2010A03 Desflurane - adverse effects](inhalational_anaesthetics/2010A03_desflurane_adverse_effects.htm)
-- [2011A07 Nitrous oxide - advantages and disadvantages](inhalational_anaesthetics/2011A07_nitrous_oxide_advantages_and_disadvantages.htm)
 - [2012A02 Nitrous oxide - pharmacokinetics](inhalational_anaesthetics/2012A02_nitrous_oxide_pharmacokinetics.htm)
 - [2013C02 Xenon - advantages and disadvantages](inhalational_anaesthetics/2013C02_xenon_advantages_and_disadvantages.htm)
 - [2014B03 Malignant hyperthermia](inhalational_anaesthetics/2014B03_malignant_hyperthermia.htm)
@@ -74,6 +74,7 @@
 - [2019B04 Volatile anaesthetics - mechanism of hypnosis](inhalational_anaesthetics/2019B04_volatile_anaesthetics_mechanism_of_hypnosis.htm)
 - [2020A04 Sevoflurane vs nitrous oxide - cardiovascular effects](inhalational_anaesthetics/2020A04_sevoflurane_nitrous_oxide_cardiovascular.htm)
 - [2020A07 Desflurane washout](inhalational_anaesthetics/2020A07_desflurane_washout.htm)
+- [2021A01 Nitrous oxide - advantages and disadvantages](inhalational_anaesthetics/2021A01_nitrous_oxide_advantages_and_disadvantages.htm)
 
 ### Intravenous Anaesthetics
 
@@ -95,6 +96,7 @@
 - [2018B11 Midazolam](intravenous_anaesthetics/2018B11_midazolam.htm)
 - [2019A11 Propofol TCI](intravenous_anaesthetics/2019A11_propofol_tci.htm)
 - [2020A13 Intravenous induction - rate of onset](intravenous_anaesthetics/2020A13_intravenous_induction_rate_of_onset.htm)
+- [2021A02 Propofol vs sevoflurane - neurophysiology](intravenous_anaesthetics/2021A02_propofol_sevoflurane_neurophysiology.htm)
 
 ### Local Anaesthetics
 
@@ -128,7 +130,6 @@
 - [2010A07 Drugs acting at the nicotinic cholinergic receptor](miscellaneous_drugs/2010A07_drugs_acting_at_the_nicotinic_cholinergic_receptor.htm)
 - [2010A08 Anti-depressants](miscellaneous_drugs/2010A08_anti_depressants.htm)
 - [2012A03 Anti-aspiration drugs](miscellaneous_drugs/2012A03_anti_aspiration_drugs.htm)
-- [2013C01 Oral hypoglycaemics](miscellaneous_drugs/2013C01_oral_hypoglycaemics.htm)
 - [2014A06 Bronchodilators](miscellaneous_drugs/2014A06_bronchodilators.htm)
 - [2014A13 Normal saline vs 4% albumin](miscellaneous_drugs/2014A13_normal_saline_vs_4pc_albumin.htm)
 - [2016B11 Gentamicin](miscellaneous_drugs/2016B11_gentamicin.htm)
@@ -138,6 +139,7 @@
 - [2019B10 Effects of CSL infusion](miscellaneous_drugs/2019B10_effects_of_csl_infusion.htm)
 - [2020A02 Povidone iodine vs alcoholic chlorhexidine](miscellaneous_drugs/2020A02_povidone_iodine_vs_alcoholic_chlorhexidine.htm)
 - [2020B12 Mannitol](miscellaneous_drugs/2020B12_mannitol.htm)
+- [2021A13 Oral hypoglycaemics](miscellaneous_drugs/2021A13_oral_hypoglycaemics.htm)
 
 ### Muscle Relaxants
 
@@ -167,10 +169,10 @@
 
 - [2002B06 Tolerance and dependence - opioids](pharmacodynamics/2002B06_tolerance_and_dependence_opioids.htm)
 - [2004B01 Mechanisms of drug action](pharmacodynamics/2004B01_mechanisms_of_drug_action.htm)
-- [2012B03 Tolerance and tachyphylaxis](pharmacodynamics/2012B03_tolerance_and_tachyphylaxis.htm)
 - [2015A05 Synergy - sevoflurane and fentanyl](pharmacodynamics/2015A05_synergy_sevoflurane_fentanyl.htm)
 - [2019B06 Synergy - propofol and remifentanil](pharmacodynamics/2019B06_synergy_propofol_and_remifentanil_tci.htm)
 - [2020B11 Dose-response curves - opioids](pharmacodynamics/2020B11_dose_response_curves_opioids.htm)
+- [2021A12 Tolerance and tachyphylaxis](pharmacodynamics/2021A12_tolerance_and_tachyphylaxis.htm)
 
 ### Pharmacokinetics
 

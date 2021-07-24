@@ -4,12 +4,12 @@
 
 ### Acid-Base
   
-- [2007A11 Metabolic acidosis - physiological response](acid_base/2007A11_metabolic_acidosis_physiological_response.htm)
 - [2008A11 Diabetic ketoacidosis](acid_base/2008A11_diabetic_ketoacidosis.htm)
 - [2010B15 Buffering - haemoglobin](acid_base/2010B15_buffering_haemoglobin.htm)
 - [2012A15 Acid-base homeostasis - role of the kidneys](acid_base/2012A15_acid_base_homeostasis_role_of_the_kidneys.htm)
 - [2013C13 Acid-base homeostasis - effects of hypothermia](acid_base/2013C13_acid_base_homeostasis_effects_of_hypothermia.htm)
 - [2019A07 Metabolic acidosis - in hypovolaemic shock](acid_base/2019A07_metabolic_acidosis_in_hypovolaemic_shock.htm)
+- [2021A14 Metabolic acidosis - physiological response](acid_base/2021A14_metabolic_acidosis_physiological_response.htm)
 
 ### Ageing
   
@@ -48,6 +48,7 @@
 - [2020B01 Haemorrhagic shock and anaesthesia](cardiovascular/2020B01_haemorrhagic_shock_and_anaesthesia.htm)
 - [2020B02 ECG lead 2](cardiovascular/2020B02_ecg_lead_2.htm)
 - [2020B05 Myocardial oxygen supply and demand - left ventricule](cardiovascular/2020B05_myocardial_oxygen_supply_and_demand_left_ventricle.htm)
+- [2021A04 Afterload - RV vs LV](cardiovascular/2021A04_afterload_lv_vs_rv.htm)
 
 ### Cellular
 
@@ -89,9 +90,9 @@
 - [2011B12 Myoglobin vs haemoglobin](haematology/2011B12_myoglobin_vs_haemoglobin.htm)
 - [2013B06 Haemoglobin breakdown](haematology/2013B06_haemoglobin_breakdown.htm)
 - [2014B13 Blood transfusion - storage lesion](haematology/2014B13_blood_transfusion_storage_lesion.htm)
-- [2016B04 Blood transfusion - O negative red cells](haematology/2016B04_blood_transfusion_o_negative_red_cells.htm)
 - [2018A15 Haemostasis - role of platelets](haematology/2018A15_haemostasis_role_of_platelets.htm)
 - [2018B06 Blood transfusion - adverse effects](haematology/2018B06_blood_transfusion_adverse_effects.htm)
+- [2021A03 Blood transfusion - O negative red cells](haematology/2021A03_blood_transfusion_o_negative_red_cells.htm)
 
 ### Immunology
 
@@ -120,6 +121,7 @@
 - [2008B05 Neonate - pharmacokinetics](neonatology/2008B05_neonate_pharmacokinetics.htm)
 - [2010B13 Neonate - cardiovascular changes at birth](neonatology/2010B13_neonate_cardiovascular_changes_at_birth.htm)
 - [2013A11 Neonate - respiratory physiology](neonatology/2013A11_neonate_respiratory_physiology.htm)
+- [2021A07 Neonate - airway](neonatology/2021A07_neonate_airway.htm)
 
 ### Neurophysiology
 
@@ -156,6 +158,7 @@
 - [2014B05 Nociceptive pathways - drug modulation](pain/2014B05_nociceptive_pathways_drug_modulation.htm)
 - [2016A13 Chronic pain - aetiology and prevention](pain/2016A13_chronic_pain_aetiology_and_prevention.htm)
 - [2017B01 Nociceptive pathways - in labour](pain/2017B01_nociceptive_pathways_in_labour.htm)
+- [2021A05 Nociceptive pathways](pain/2017B01_nociceptive_pathways_in_labour.htm)
 
 ### Renal
 
@@ -201,13 +204,14 @@
 - [2015A09 Functional residual capacity](respiratory/2015A09_functional_residual_capacity.htm)
 - [2015B03 Thoracic anaesthesia](respiratory/2015B03_thoracic_anaesthesia.htm)
 - [2016B01 Positive end-expiratory pressure](respiratory/2016B01_positive_end_expiratory_pressure.htm)
-- [2018A11 Response to hypoxaemia - awake and anaesthetised](respiratory/2018A11_response_to_hypoxaemia_awake_and_anaesthetised.htm)
 - [2018A13 Lung compliance](respiratory/2018A13_lung_compliance.htm)
 - [2018B02 Oxygen delivery](respiratory/2018B02_oxygen_delivery.htm)
 - [2019A04 CO2 carriage in blood](respiratory/2019A04_co2_carriage_in_blood.htm)
 - [2019B12 O2-Hb and CO2-Hb dissociation curves](respiratory/2019B12_o2_co2_hb_dissociation_curves.htm)
 - [2020A03 etCO2 vs PaCO2](respiratory/2020A03_etco2_vs_paco2.htm)
 - [2020B03 Respiratory system compliance](respiratory/2020B03_respiratory_system_compliance.htm)
+- [2021A08 Regional gas exchange](respiratory/2021A08_regional_gas_exchange.htm)
+- [2021A15 Response to hypoxaemia - awake and anaesthetised](respiratory/2021A15_response_to_hypoxaemia_awake_and_anaesthetised.htm)
 
 
 ### Special Physiology

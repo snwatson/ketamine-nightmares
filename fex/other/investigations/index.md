@@ -1,10 +1,10 @@
-# Anaesthesia Final Exam
+## Anaesthesia Final Exam
 
-## Other Resources
+### Other Resources
 
-### Investigations
+#### Investigations
 
-#### ECG
+##### ECG
 
 - [Normal values](ecg_normal_values.htm)
 - [Approach](ecg_approach.htm)
@@ -14,5 +14,5 @@
 - [Ischaemia](ecg_ischaemia.htm)
 - [Miscellaneous](ecg_miscellaneous.htm)
 
-#### Other
+##### Other
 - [ABG interpretation](abg_interpretation.htm)

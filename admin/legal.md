@@ -1,4 +1,4 @@
-# Ketamine Nightmares
+## Legal
 
 ## Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 
@@ -190,6 +190,8 @@ b. if You include all or a substantial portion of the database contents in a dat
 c. You must comply with the conditions in Section 3(a) if You Share all or a substantial portion of the contents of the database.
 
 For the avoidance of doubt, this Section 4 supplements and does not replace Your obligations under this Public License where the Licensed Rights include other Copyright and Similar Rights.
+
+##Legal
 
 Section 5 -- Disclaimer of Warranties and Limitation of Liability.
 

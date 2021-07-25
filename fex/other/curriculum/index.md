@@ -1,8 +1,8 @@
-# Anaesthesia Final Exam
+## Anaesthesia Final Exam
 
-## Other Resources
+### Other Resources
 
-### Curriculum
+#### Curriculum
 
 With thanks to Dr. Adam Scorer
 

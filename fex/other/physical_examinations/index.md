@@ -1,8 +1,8 @@
-# Anaesthesia Final Exam
+## Anaesthesia Final Exam
 
-## Other Resources
+### Other Resources
 
-### Physical Examinations
+#### Physical Examinations
 
 - [Cardiovascular examination](cardiovascular_examination.htm)
 - [Respiratory examination](respiratory_examination.htm)

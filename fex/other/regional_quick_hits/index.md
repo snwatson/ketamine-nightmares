@@ -1,8 +1,8 @@
-# Anaesthesia Final Exam
+## Anaesthesia Final Exam
 
-## Other Resources
+### Other Resources
 
-### Regional Quick Hits
+#### Regional Quick Hits
 
 With thanks to Prof. Michael Barrington and Dr. Daniel Wong
 

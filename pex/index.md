@@ -40,7 +40,7 @@
 - [Statistics](saq/other/statistics/index.md)
 
 ### YouTube videos
-- [Preparing for the anaesthesia primary exam](videos/exam_preparation.md)
+- [Exam preparation](videos/exam_preparation.md)
 - [Pharmacokinetics series](videos/pharmacokinetics.md)
 - [Pharmacodynamics series](videos/pharmacodynamics.md)
 - [Miscellaneous videos](videos/miscellaneous.md)

@@ -19,7 +19,7 @@
 - [RD13 2016 Impaired colleague](RD13_2016_impaired_colleague.htm)
 - [RD14 2016 Medico-legal issues](RD14_2016_medicolegal_issues.htm)
 - RD15 2016 Family
-- [RD16 2016 Well-being](RD16_2016_wellbeing.htm)
+- [RD16 2016 Well-being](RD16_2019_wellbeing.htm)
 - [RD17 2011 Infectious diseases](RD17_2011_infectious_diseases.htm)
 - [RD18 2017 Latex allergy](RD18_2017_latex_allergy.htm)
 - RD19 2011 Ergonomics
@@ -30,6 +30,6 @@
 - RD25 2017 Disruptive behaviour
 - [RD26 2015 Welfare advocate](RD26_2015_welfare_advocate.htm)
 - [RD27 2017 Sudden death](RD27_2017_sudden_death.htm)
-- [RD28 2019 Trainee returning](RD29_2019_trainee_returning.htm)
+- [RD28 2019 Trainee returning](RD28_2019_trainee_returning.htm)
 - [RD29 2019 Pregnancy](RD29_2019_pregnancy.htm)
 - [RDXX Catastrophe](RDXX_catastrophe.htm)

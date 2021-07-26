@@ -6,7 +6,7 @@
 
 - [Airway - trauma](2019bb/2019bb_airway_trauma.htm)
 - [Airway - vortex](2019bb/2019bb_airway_vortex.htm)
-- [Blood - pre-operative anaemia](2019bb/2019bb_blood_preoperative anaemia.htm)
+- [Blood - pre-operative anaemia](2019bb/2019bb_blood_preoperative_anaemia.htm)
 - [Breathing - hyperbaric](2019bb/2019bb_breathing_hyperbaric.htm)
 - [Circulation - heart transplant](2019bb/2019bb_circulation_heart_transplant.htm)
 - [Circulation - IV CVC complications](2019bb/2019bb_circulation_ij_cvc.htm)
@@ -30,4 +30,4 @@
 - [Coagulation - fibrinogen concentrate](2017bb/2017bb_coagulation_fibconc.htm)
 - [Metabolic - hyperglycaemia](2017bb/2017bb_metabolic_hyperglycaemia.htm)
 - [Metabolic - liver disease](2017bb/2017bb_metabolic_liver_disease.htm)
-- [Regional - thoracic epidural](2017bb/2017bb_thoracic_epidural.htm)
+- [Regional - thoracic epidural](2017bb/2017bb_regional_thoracic_epidural.htm)

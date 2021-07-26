@@ -10,7 +10,7 @@
 - [Implantable cardiac devices - pacemakers and defibrillators](implantable_cardiac_devices.htm)
 - [Obstetrics - breastfeeding and analgesia](obstetrics_breastfeeding_analgesia.htm)
 - [Obstetrics - cardiac disease](obstetrics_cardiac_disease.htm)
-- [Obstetric - monitoring](obstetric_monitoring.htm)
+- [Obstetric - monitoring](obstetrics_monitoring.htm)
 - [Paediatrics - autism](paediatrics_autism.htm)
 - [Paediatrics - murmur](paediatrics_murmur.htm)
 - [Paediatrics - needle phobia](paediatrics_needle_phobia.htm)

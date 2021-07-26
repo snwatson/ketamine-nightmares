@@ -49,6 +49,6 @@
 
 ### Other resources
 - [Recommended reading](other/recommended_reading.htm)
-- [Memorisation material](other/memorisation_material.htm)
+- [Memorisation material](other/memorisation_material/index.md)
 - [Prizewinner's perspective](other/prizewinners/index.md)
 

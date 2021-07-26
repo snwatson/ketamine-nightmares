@@ -5,5 +5,3 @@
 ## [About](admin/about.md)
 
 ## [Contact](mailto:ketaminenightmares@gmail.com)
-
-## [Legal](admin/legal.md)

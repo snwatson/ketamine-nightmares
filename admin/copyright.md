@@ -1,4 +1,4 @@
-## Legal
+## Copyright
 
 ## Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International Public License
 

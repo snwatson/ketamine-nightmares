@@ -30,6 +30,9 @@ I would like to thank:
 - It should not be used to inform your own treatment, if that were even possible
 - There will be some mistakes as a result of ignorance, fatigue, textbook disparity or fat fingers; if you find one, please [let me know](mailto:ketaminenightmares@gmail.com)
 
+### Copyright:
+- [Creative Commons License](copyright.md)
+
 ___________________________________________________________________________________________________________________________________________
 
 Stuart N Watson

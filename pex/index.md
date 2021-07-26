@@ -35,7 +35,7 @@
 - [Pharmacokinetics](saq/pharmacology/pharmacokinetics/index.md)
 
 ### Other SAQ
-- [Anatomy](saq/saq/other/anatomy/index.md)
+- [Anatomy](saq/other/anatomy/index.md)
 - [Clinical measurement](saq/other/clinical_measurement/index.md)
 - [Equipment](saq/other/equipment/index.md)
 - [Physics](saq/other/physics/index.md)

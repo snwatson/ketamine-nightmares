@@ -1,4 +1,4 @@
-## [Anaesthesia Final Exam](https://ketmaminenightmares.com/fex)
+## [Anaesthesia Final Exam](https://ketaminenightmares.com/fex)
 
 ### Document Summaries
 

@@ -11,6 +11,7 @@
 - [Obstetrics - breastfeeding and analgesia](obstetrics_breastfeeding_analgesia.htm)
 - [Obstetrics - cardiac disease](obstetrics_cardiac_disease.htm)
 - [Obstetric - monitoring](obstetrics_monitoring.htm)
+- [Pacemakers and defibrillators](pacemakers_and_defibrillators.htm)
 - [Paediatrics - autism](paediatrics_autism.htm)
 - [Paediatrics - murmur](paediatrics_murmur.htm)
 - [Paediatrics - needle phobia](paediatrics_needle_phobia.htm)

@@ -9,6 +9,7 @@
 - [Abdominal aortic aneurysm - ruptured](aaa_ruptured.htm)
 - [Caesarean section - neuraxial](caesarean_section_neuraxial.htm)
 - [Carotid endarterectomy](carotid_endarterectomy.htm)
+- [Clot retrieval](clot_retrieval.htm)
 - [Craniotomy - aneurysm clipping](craniotomy_aneurysm_clipping.htm)
 - [Electroconvulsive therapy](ect.htm)
 - [Fractured NOF](fractured_nof.htm)

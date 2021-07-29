@@ -3,7 +3,7 @@
 ***ATTENTION PRIMARY CANDIDATES***
 - Sorry for the broken links. The website, MAK95 links and google searches should all work now.
 - I have added my answers to the 2021A SAQ
-- Other major updates: 2002A04 PVR, 2011A10 afterload, 2017B04 EEG monitoring
+- Other major updates: 2002A04 PVR, 2011A10 Afterload, 2017B04 EEG monitoring
 - May the odds be ever in your favour
 
 ### Physiology SAQ

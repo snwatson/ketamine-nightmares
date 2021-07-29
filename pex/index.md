@@ -1,6 +1,10 @@
 ## [Anaesthesia Primary Exam](https://ketaminenightmares.com/pex)
 
-***PRIMARY CANDIDATES*** Please note I have added my answers to the 2021A SAQ
+***ATTENTION PRIMARY CANDIDATES***
+- Sorry for the broken links. The website, MAK95 links and google searches should all work now.
+- I have added my answers to the 2021A SAQ
+- Other major updates: 2002A04 PVR, 2011A10 afterload, 2017B04 EEG monitoring
+- May the odds be ever in your favour
 
 ### Physiology SAQ
 - [Acid-base](saq/physiology/acid_base/index.md)

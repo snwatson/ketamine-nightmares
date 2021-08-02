@@ -16,4 +16,4 @@
 
 ##### Other
 - [ABG interpretation](abg_interpretation.htm)
-- [RFT interpretation[(rft_interpretation.htm)
+- [RFT interpretation](rft_interpretation.htm)

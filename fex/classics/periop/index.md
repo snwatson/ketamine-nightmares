@@ -18,4 +18,5 @@
 - [Paediatrics - URTI](paediatrics_urti.htm)
 - [Potassium disorders](potassium_disorders.htm)
 - [Sodium disorders](sodium_disorders.htm)
-- [Thoracic surgery](thoracic_surgery.htm)
+- [Thoracics - assessment](thoracics_assessment.htm)
+- [Thoracics - miscellaneous]thoracics_miscellaneous.htm)

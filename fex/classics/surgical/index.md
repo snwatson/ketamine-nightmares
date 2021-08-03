@@ -7,6 +7,7 @@
 - [Abdominal aortic aneurysm - open](aaa_open.htm)
 - [Abdominal aortic aneurysm - EVAR](aaa_evar.htm)
 - [Abdominal aortic aneurysm - ruptured](aaa_ruptured.htm)
+- [Bronchoscopy](bronchoscopy.htm)
 - [Caesarean section - neuraxial](caesarean_section_neuraxial.htm)
 - [Carotid endarterectomy](carotid_endarterectomy.htm)
 - [Clot retrieval](clot_retrieval.htm)

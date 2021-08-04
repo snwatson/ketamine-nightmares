@@ -15,6 +15,6 @@
 - [Miscellaneous](ecg_miscellaneous.htm)
 
 ##### Other
-- [Arterial blood gas](abg_interpretation.htm)
-- [Respiratory function tests](rft_interpretation.htm)
+- [Arterial blood gas](abg.htm)
+- [Respiratory function tests](rft.htm)
 - [TEG and ROTEM](teg_and_rotem.htm)

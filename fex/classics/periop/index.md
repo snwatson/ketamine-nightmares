@@ -19,4 +19,4 @@
 - [Potassium disorders](potassium_disorders.htm)
 - [Sodium disorders](sodium_disorders.htm)
 - [Thoracics - assessment](thoracics_assessment.htm)
-- [Thoracics - miscellaneous]thoracics_miscellaneous.htm)
+- [Thoracics - miscellaneous](thoracics_miscellaneous.htm)

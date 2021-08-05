@@ -10,6 +10,7 @@
 - [Awake video laryngoscopy](awake_video_laryngoscopy.htm)
 - [Brachial plexus blocks](brachial_plexus_blocks.htm)
 - [Caudal block](caudal_block.htm)
+- [Laryngeal mask airway](lma.htm)
 - [One lung ventilation](one_lung_ventilation.htm)
 - [Positioning - beach chair](positioning_beach_chair.htm)
 - [Positioining - prone](positioning_prone.htm)

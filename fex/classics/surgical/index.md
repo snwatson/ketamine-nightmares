@@ -14,6 +14,7 @@
 - [Craniotomy - aneurysm clipping](craniotomy_aneurysm_clipping.htm)
 - [Electroconvulsive therapy](ect.htm)
 - [Fractured NOF](fractured_nof.htm)
+- [Laparoscopy](laparoscopy.htm)
 - [MRI anaesthesia](mri_anaesthesia.htm)
 - [Obstetrics - patient for non-obstetric surgery](obstetrics_non_obstetric_surgery.htm)
 - [Paediatrics - airway foreign body](paediatrics_airway_foreign_body.htm)

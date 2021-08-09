@@ -14,6 +14,7 @@
 - [Eclampsia](eclampsia.htm)
 - [Emergence delirium](emergence_delirium.htm)
 - [Failed emergence](failed_emergence.htm)
+- [Fire in the OR](fire_in_or.htm)
 - [Hypoxaemia](hypoxaemia.htm)
 - [Hypoxaemia - one lung ventilation](hypoxaemia_olv.htm)
 - [Laryngospasm and bronchospasm](laryngospasm_and_bronchospasm.htm)

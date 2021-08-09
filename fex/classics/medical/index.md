@@ -19,6 +19,7 @@
 - [COPD](copd.htm)
 - [Cushing syndrome](cushing_syndrome.htm)
 - [Downs' syndrome](downs_syndrome.htm)
+- [Eisenmenger syndrome](eisenmenger.htm)
 - [Guillain Barre syndrome](guillain_barre.htm)
 - [Hypertrophic cardiomyopathy](hcm.htm)
 - [Lung transplant](lung_transplant.htm)

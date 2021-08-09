@@ -2,7 +2,7 @@
 
 ***Recent major updates***
 - All SAQs from 2021A
-- Others: 2006B03 IV induction agents, 2002A04 PVR, 2011A10 Afterload, 2017B04 EEG monitoring
+- Others: 2006B03 IV induction, 2020A13 IV induction, 2002A04 PVR, 2011A10 Afterload, 2017B04 EEG monitoring
 
 ### Physiology SAQ
 - [Acid-base](saqs/physiology/acid_base/index.md)

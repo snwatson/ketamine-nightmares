@@ -9,6 +9,7 @@
 - [Aspirin](aspirin.htm)
 - [Hypertension](hypertension.htm)
 - [Methamphetamine](methamphetamine.htm)
+- [Neuraxial procedures and anticoagulation](neuraxial_anticoag.htm)
 - [Implantable cardiac devices - pacemakers and defibrillators](implantable_cardiac_devices.htm)
 - [Obstetrics - breastfeeding and analgesia](obstetrics_breastfeeding_analgesia.htm)
 - [Obstetrics - cardiac disease](obstetrics_cardiac_disease.htm)

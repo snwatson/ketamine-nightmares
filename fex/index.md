@@ -22,6 +22,6 @@
 - [Physical Examinations](other/physical_examinations/index.md)
 - [Investigations](other/investigations/index.md)
 - [Regional Quick Hits](other/regional_quick_hits/index.md)
-- [Research and stats](other/research_and_statistics/index.md)
+- [Medico-legal issues](other/medico_legal/index.md)
 - [Miscellaneous](other/miscellaneous/index.md)
 

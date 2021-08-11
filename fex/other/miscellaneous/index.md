@@ -5,6 +5,8 @@
 #### Miscellaneous
 
 - [Memorisation material](memorisation_eaddy.pdf) by Nick Eaddy
+- [Research - KN notes](research_kn.htm)
+- [Statistics - KN notes](statistics_kn.htm)
 - [Statistics](statistics_mclintic.pdf) by [Alan McLintic](https://www.heraldscotland.com/opinion/18815592.obituary-dr-alan-mclintic-accomplished-all-rounder-made-career-new-zealand/)
 - [Statistics for the FRCA by Ian Wrench](statistics_ian_wrench.pdf)
 - [Statistics by anonymous](statistics_anonymous.pdf)

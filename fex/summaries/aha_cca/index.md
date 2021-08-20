@@ -5,7 +5,7 @@
 #### AHA/CCA guidelines
 
 - [Cardiac risk assessment](aha_cca_cardiac_risk_assessment.htm)
-- [Dual antiplatelet therapy](aha_cca_dat.htm)
+- [Dual antiplatelet therapy](aha_cca_dapt.htm)
 - [Hypertrophic cardiomyopathy](aha_cca_hcm.htm)
 - [Heart failure](aha_cca_hfref.htm)
 - [Implantable cardiac devices](aha_cca_icd.htm)

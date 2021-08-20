@@ -11,7 +11,6 @@
 - [Aspirin](aspirin.htm)
 - [Hypertension](hypertension.htm)
 - [Methamphetamine](methamphetamine.htm)
-- [Implantable cardiac devices - pacemakers and defibrillators](pacemakers_and_defibrillators.htm)
 - [Obstetrics - breastfeeding and analgesia](obstetrics_breastfeeding_analgesia.htm)
 - [Obstetrics - cardiac disease](obstetrics_cardiac_disease.htm)
 - [Obstetric - monitoring](obstetrics_monitoring.htm)

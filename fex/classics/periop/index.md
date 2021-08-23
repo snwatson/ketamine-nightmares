@@ -6,6 +6,7 @@
 
 - [Airway assessment](airway_assessment.htm)
 - [Alcohol abuse](alcohol.htm)
+- [Anaemia](anaemia.htm)
 - [Anticoagulants - neuraxial procedures](anticoagulants_neuraxial.htm)
 - [Anticoagulants - NOACs](anticoagulants_noac.htm)
 - [Aspirin](aspirin.htm)

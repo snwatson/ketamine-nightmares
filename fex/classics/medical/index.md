@@ -27,6 +27,7 @@
 - [Mitral regurgitation](mitral_regurgitation.htm)
 - [Mitral stenosis](mitral_stenosis.htm)
 - [Multiple sclerosis](multiple_sclerosis.htm)
+- [Muscular dystrophy](muscular_dystrophy.htm)
 - [Myasthaenia gravis](myasthaenia_gravis.htm)
 - [Myotonic dystrophy](myotonic_dystrophy.htm)
 - [Neonates](neonates.htm)

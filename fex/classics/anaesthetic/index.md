@@ -17,4 +17,4 @@
 - [Positioning - steep Trendelenburg](positioning_steep_trendelenburg.htm)
 - [Regional anaesthesia - approach](regional_approach.htm)
 - [Regional anaesthesia - complications](regional_complications.htm)
-- [Regional anaesthesia - brachial plexus block](regional_brachial_plexus.htm)
+- [Regional anaesthesia - brachial plexus blocks](regional_brachial_plexus_blocks.htm)

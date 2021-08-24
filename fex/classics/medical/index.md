@@ -42,6 +42,7 @@
 - [Pulmonary fibrosis](pulmonary_fibrosis.htm)
 - [Pulmonary hypertension](pulmonary_hypertension.htm)
 - [Rheumatoid arthritis](rheumatoid_arthritis.htm)
+- [Scleroderma](scleroderma.htm)
 - [Spinal cord injury](spinal_cord_injury.htm)
 - [Subarachnoid haemorrhage](subarachnoid_haemorrhage.htm)
 - [Tamponade](tamponade.htm)

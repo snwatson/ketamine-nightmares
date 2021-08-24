@@ -13,4 +13,4 @@
 - [Evidence-based medicine](https://partone.litfl.com/evidence-based_medicine.html#id) by Jake Barlow
 - [Chang Kim's med viva - dual Merit Winner](changs_medical_viva.pdf)
 - [Anonymous med viva notes](med_viva_anonymous.pdf)
-- [SOBA guidelines](SOBA_guidelines.pdf)
+- [SOBA guidelines](soba_guidelines.pdf)

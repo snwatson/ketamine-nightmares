@@ -1,8 +1,6 @@
 ## [Anaesthesia Primary Exam](https://ketaminenightmares.com/pex)
 
-***Recent major updates***
-- All SAQs from 2021A
-- Others: 2006B03 IV induction, 2020A13 IV induction, 2002A04 PVR, 2011A10 Afterload, 2017B04 EEG monitoring
+***The Ketamine Nightmares SAQs can also be viewed on [LITFL](https://partone.litfl.com/)***
 
 ### Physiology SAQ
 - [Acid-base](saqs/physiology/acid_base/index.md)

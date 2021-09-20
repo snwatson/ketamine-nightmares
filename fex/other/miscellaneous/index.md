@@ -14,3 +14,4 @@
 - [Chang Kim's med viva - dual Merit Winner](changs_medical_viva.pdf)
 - [Anonymous med viva notes](med_viva_anonymous.pdf)
 - [SOBA guidelines](soba_guidelines.pdf)
+- [Viva pageantry - KN notes](viva_pageantry.htm)

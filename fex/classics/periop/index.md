@@ -19,6 +19,7 @@
 - [Paediatrics - autism](paediatrics_autism.htm)
 - [Paediatrics - murmur](paediatrics_murmur.htm)
 - [Paediatrics - needle phobia](paediatrics_needle_phobia.htm)
+- [Paediatrics - numbers](paediatrics_numbers.htm)
 - [Paediatrics - URTI](paediatrics_urti.htm)
 - [Potassium disorders](potassium_disorders.htm)
 - [Sodium disorders](sodium_disorders.htm)

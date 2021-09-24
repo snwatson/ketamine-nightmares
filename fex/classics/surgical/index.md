@@ -26,3 +26,4 @@
 - [Pyloromyotomy](pyloromyotomy.htm)
 - [Remote environment](remote_environment.htm)
 - [TAVI](tavi.htm)
+- [TIPS](tips.htm)

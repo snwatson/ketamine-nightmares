@@ -15,6 +15,7 @@
 - [Emergence delirium](emergence_delirium.htm)
 - [Failed emergence](failed_emergence.htm)
 - [Fire in the OR](fire_in_or.htm)
+- [Hyperkalaemia](hyperkalaemia.htm)
 - [Hypertension and hypotension](hypertension_and_hypotension.htm)
 - [Hypoxaemia](hypoxaemia.htm)
 - [Hypoxaemia - one lung ventilation](hypoxaemia_olv.htm)

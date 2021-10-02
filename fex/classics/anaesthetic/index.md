@@ -6,6 +6,7 @@
 
 - [Airway management - throat surgery](airway_throat_surgery.htm)
 - [Airway management - trauma](airway_trauma.htm)
+- [Aspiration](aspiration.htm)
 - [Awake fibreoptic intubation](awake_fibreoptic_intubation.htm)
 - [Awake video laryngoscopy](awake_video_laryngoscopy.htm)
 - [Caudal block](caudal_block.htm)

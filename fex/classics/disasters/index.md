@@ -25,6 +25,7 @@
 - [Massive transfusion simplified](massive_transfusion_simplified.htm)
 - [Maternal collapse](maternal_collapse.htm)
 - [Malignant hyperthermia](mh.htm)
+- [Myocardial ischaemia](myocardial_ischaemia.htm)
 - [Neonatal resuscitation](neonatal_resuscitation.htm)
 - [Obstructed ventilation](obstructed_ventilation.htm)
 - [Peripheral nerve injury](peripheral_nerve_injury.htm)

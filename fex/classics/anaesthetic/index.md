@@ -20,3 +20,4 @@
 - [Regional anaesthesia - approach](regional_approach.htm)
 - [Regional anaesthesia - complications](regional_complications.htm)
 - [Regional anaesthesia - brachial plexus blocks](regional_brachial_plexus_blocks.htm)
+- [Regional anaesthesia - labour epidural](regional_labour_epidural.htm)

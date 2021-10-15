@@ -18,6 +18,7 @@
 - [Congenital heart disease](congenital_heart_disease.htm)
 - [COPD](copd.htm)
 - [Cushing syndrome](cushing_syndrome.htm)
+- [Diabetes](diabetes.htm)
 - [Downs' syndrome](downs_syndrome.htm)
 - [Eisenmenger syndrome](eisenmenger.htm)
 - [Guillain Barre syndrome](guillain_barre.htm)
@@ -46,4 +47,5 @@
 - [Spinal cord injury](spinal_cord_injury.htm)
 - [Subarachnoid haemorrhage](subarachnoid_haemorrhage.htm)
 - [Tamponade](tamponade.htm)
+- [Twins](twins.htm)
 - [Von Willebrand disease](vwd.htm)

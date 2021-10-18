@@ -15,6 +15,7 @@
 - [Obstetrics - breastfeeding and analgesia](obstetrics_breastfeeding_analgesia.htm)
 - [Obstetrics - cardiac disease](obstetrics_cardiac_disease.htm)
 - [Obstetric - monitoring](obstetrics_monitoring.htm)
+- [Obstetrics - teratogenicity](obstetrics_teratogenicity.htm)
 - [Pacemakers and defibrillators](pacemakers_and_defibrillators.htm)
 - [Paediatrics - autism](paediatrics_autism.htm)
 - [Paediatrics - murmur](paediatrics_murmur.htm)

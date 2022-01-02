@@ -23,3 +23,5 @@
 - [2019A11 Propofol TCI](2019A11_propofol_tci.htm)
 - [2020A13 Intravenous induction rate of onset](2020A13_intravenous_induction_rate_of_onset.htm)
 - [2021A02 Propofol vs sevoflurane - neurophysiology](2021A02_propofol_sevoflurane_neurophysiology.htm)
+- [2021B04 Dexmedetomidine](2021B04_dexmedetomidine.htm)
+- [2021B15 Propofol - time to emergence](2021B15_propofol_time_to_emergence.htm)

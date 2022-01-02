@@ -32,3 +32,4 @@
 - [2020B02 ECG lead 2](2020B02_ecg_lead_2.htm)
 - [2020B05 Myocardial oxygen supply and demand - left ventricule](2020B05_myocardial_oxygen_supply_and_demand_left_ventricle.htm)
 - [2021A04 Afterload - RV vs LV](2021A04_afterload_lv_vs_rv.htm)
+- [2021B01 Intermittent positive pressure ventilation - effect on cardiac output](2021B01_ippv_cardiac_output.htm)

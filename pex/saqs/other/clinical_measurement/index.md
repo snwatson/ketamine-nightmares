@@ -21,3 +21,4 @@
 - [2019A15 Pulse oximetry - sources of inaccuracy](2019A15_pulse_oximetry_sources_of_inaccuracy.htm)
 - [2020B06 Capnograph](2020B06_capnograph.htm)
 - [2021A09 Neuromuscular monitoring - diaphragm and larynx vs adductor pollicis](2021A09_neuromuscular_monitoring_diaphragm_and_larynx_vs_adductor_pollicis.htm)
+- [2021B05 Pulmonary artery catheter insertion](2021B05_pa_catheter_insertion.htm)

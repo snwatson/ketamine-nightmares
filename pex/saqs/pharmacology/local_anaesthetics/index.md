@@ -19,3 +19,4 @@
 - [2019A08 Local anaesthetic systemic toxicity - features](2019A08_local_anaesthetic_systemic_toxicity_features.htm)
 - [2019B09 Local anaesthetics - rate of onset and offset](2019B09_local_anaesthetics_rate_of_onset_and_offset.htm)
 - [2020B09 Topical local anaesthetic toxicity](2020B09_topical_local_anaesthetic_toxicity.htm)
+- [2021B06 Local anaesthetics - mechanism of action](2021B06_local_anaesthetic_moa.htm)

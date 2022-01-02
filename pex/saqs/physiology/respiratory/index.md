@@ -32,3 +32,7 @@
 - [2020B03 Respiratory system compliance](2020B03_respiratory_system_compliance.htm)
 - [2021A08 Regional gas exchange](2021A08_regional_gas_exchange.htm)
 - [2021A15 Response to hypoxaemia - awake and anaesthetised](2021A15_response_to_hypoxaemia_awake_and_anaesthetised.htm)
+- [2021B10 PaCO2 vs etCO2](2021B10_paco2_vs_etco2.htm)
+- [2021B11 Effects of hypercapnoea](2021B11_hypercapnoea.htm)
+
+

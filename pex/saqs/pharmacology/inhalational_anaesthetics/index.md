@@ -24,3 +24,4 @@
 - [2020A04 Sevoflurane vs nitrous oxide - cardiovascular effects](2020A04_sevoflurane_nitrous_oxide_cardiovascular.htm)
 - [2020A07 Desflurane washout](2020A07_desflurane_washout.htm)
 - [2021A01 Nitrous oxide - advantages and disadvantages](2021A01_nitrous_oxide_advantages_and_disadvantages.htm)
+- [2021B08 Sevoflurane - respiratory effects](2021B08_sevoflurane_respiratory_effects.htm)

@@ -23,3 +23,4 @@
 - [2020A12 Bag valve mask resuscitator](2020A12_bag_valve_mask.htm)
 - [2020B13 Arterial line](2020B13_arterial_line.htm)
 - [2021A11 Pulse oximeter](2021A11_pulse_oximeter.htm)
+- [2021B13 Oxygen safety](2021B13_oxygen_safety.htm)

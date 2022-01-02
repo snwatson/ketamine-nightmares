@@ -23,3 +23,4 @@
 - [2019B14 Paracetamol - role and toxicity](2019B14_paracetamol_role_and_toxicity.htm)
 - [2020A09 Intrathecal opioids](2020A09_intrathecal_opioids.htm)
 - [2021A10 Non-steroidal anti-inflammatory drugs](2021A10_nsaids.htm)
+- [2021B09 Morphine vs fentanyl PCA](2021B09_morphine_vs_fentanyl_pca.htm)

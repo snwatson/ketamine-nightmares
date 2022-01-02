@@ -15,7 +15,6 @@
 - [2013C08 Opioid metabolism - morphine, pethidine and codeine](2013C08_opioid_metabolism_morphine_pethidine_and_codeine.htm)
 - [2014A10 Morphine vs tramadol](2014A10_morphine_vs_tramadol.htm)
 - [2014A11 Aspirin overdose vs paracetamol overdose](2014A11_aspirin_overdose_vs_paracetamol_overdose.htm)
-- [2015A11 Morphine PCA vs fentanyl PCA](2015A11_morphine_pca_vs_fentanyl_pca.htm)
 - [2016B12 Opioids - mechanism of analgesia](2016B12_opioids_mechanism_of_analgesia.htm)
 - [2017B15 Tramadol](2017B15_tramadol.htm)
 - [2018A05 Opioids - therapeutic and adverse effects](2018A05_opioids_therapeutic_and_adverse_effects.htm)

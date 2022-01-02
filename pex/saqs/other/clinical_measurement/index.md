@@ -11,7 +11,6 @@
 - [2010A02 Neuromuscular monitoring - methods](2010A02_neuromuscular_monitoring_methods.htm)
 - [2010A15 Cardiac output monitoring - thermodilution](2010A15_cardiac_output_monitoring_thermodilution.htm)
 - [2011B14 Respiratory function tests - small airway obstruction](2011B14_respiratory_function_tests_small_airway_obstruction.htm)
-- [2012B09 Pulmonary artery catheter insertion - waveforms and pressures](2012B09_pulmonary_artery_catheter_insertion_waveforms_and_pressures.htm)
 - [2017A10 Arterial pressure waveforms](2017A10_arterial_pressure_waveforms.htm)
 - [2017A11 Respiratory flow-volume loops](2017A11_respiratory_flow_volume_loops.htm)
 - [2017A15 Liver function tests](2017A15_liver_function_tests.htm)

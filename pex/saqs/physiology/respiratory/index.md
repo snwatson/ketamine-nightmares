@@ -28,11 +28,10 @@
 - [2018B02 Oxygen delivery](2018B02_oxygen_delivery.htm)
 - [2019A04 CO2 carriage in blood](2019A04_co2_carriage_in_blood.htm)
 - [2019B12 O2-Hb and CO2-Hb dissociation curves](2019B12_o2_co2_hb_dissociation_curves.htm)
-- [2020A03 etCO2 vs PaCO2](2020A03_etco2_vs_paco2.htm)
 - [2020B03 Respiratory system compliance](2020B03_respiratory_system_compliance.htm)
 - [2021A08 Regional gas exchange](2021A08_regional_gas_exchange.htm)
 - [2021A15 Response to hypoxaemia - awake and anaesthetised](2021A15_response_to_hypoxaemia_awake_and_anaesthetised.htm)
-- [2021B10 PaCO2 vs etCO2](2021B10_paco2_vs_etco2.htm)
+- [2021B10 etCO2 vs PaCO2](2021B10_etco2_vs_paco2.htm)
 - [2021B11 Effects of hypercapnoea](2021B11_hypercapnoea.htm)
 
 

@@ -12,7 +12,6 @@
 - [2006B07 Treatment of ventricular fibrillation](2006B07_treatment_of_ventricular_fibrillation.htm)
 - [2007A08 Treatment of chronic LV failure](2007A08_treatment_of_chronic_lv_failure.htm)
 - [2008A08 Treatment of myocardial ischaemia](2008A08_treatment_of_myocardial_ischaemia.htm)
-- [2012B05 Drugs acting on the renin-angiotensin system](2012B05_drugs_acting_on_the_renin_angiotensin_system.htm)
 - [2015A08 Treatment of intra-operative hypertension](2015A08_treatment_of_intra_operative_hypertension.htm)
 - [2016A08 Treatment of hypertension in pregnancy](2016A08_treatment_of_hypertension_in_pregnancy.htm)
 - [2016A09 Amiodarone](2016A09_amiodarone.htm)

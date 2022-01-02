@@ -13,6 +13,5 @@
 - [2015B10 Cerebral effects of hypocapnoea](2015B10_cns_effects_of_hypocapnoea.htm)
 - [2016B06 Determinants of spinal cord blood flow](2016B06_determinants_of_spinal_cord_blood_flow.htm)
 - [2019A05 Cerebral effects of prolonged GA in the Trendelenburg position](2019A05_cns_effects_of_prolonged_ga_in_trendelenburg_position.htm)
-- [2019B02 Determinants of cerebral blood flow](2019B02_determinants_of_cerebral_blood_flow.htm)
 - [2019B13 Hypothalamus](2019B13_hypothalamus.htm)
 - [2021B07 Cerebral blood flow regulation](2021B07_cerebral_blood_flow_regulation.htm)

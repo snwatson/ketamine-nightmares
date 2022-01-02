@@ -5,7 +5,6 @@
 #### Local Anaesthetics
 
 - [2002A09 Local anaesthetic toxicity](2002A09_local_anaesthetic_toxicity.htm)
-- [2003A03 Local anaesthetics - mechanism of action](2003A03_local_anaesthetics_mechanism_of_action.htm)
 - [2004A03 Local anaesthetics - topical agents](2004A03_local_anaesthetics_topical_agents.htm)
 - [2004B02 Ropivacaine](2004B02_ropivacaine.htm)
 - [2005B03 Lignocaine - physicochemical characteristics](2005B03_lignocaine_physicochemical_characteristics.htm)

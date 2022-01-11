@@ -4,13 +4,16 @@
 
 #### Classic Anaesthetic Procedures
 
+- [Airway management - C-spine surgery](airway_cervical_spine_surgery.htm)
 - [Airway management - throat surgery](airway_throat_surgery.htm)
 - [Airway management - trauma](airway_trauma.htm)
+- [Airway management trauma 2](airway_trauma_2.htm)
+- [Airway management - vortex approach](airway_vortex.htm)
 - [Aspiration](aspiration.htm)
 - [Awake fibreoptic intubation](awake_fibreoptic_intubation.htm)
 - [Awake video laryngoscopy](awake_video_laryngoscopy.htm)
 - [Caudal block](caudal_block.htm)
-- [Deep hypothermic circulatory arrest](dhca.htm)
+- [Central venous cannulation - complications](central_venous_cannulation.htm)
 - [Emergency Caesarean](emergency_caesarean.htm)
 - [Laryngeal mask airway](lma.htm)
 - [Nasal intubation](nasal_intubation.htm)
@@ -21,4 +24,7 @@
 - [Regional anaesthesia - approach](regional_approach.htm)
 - [Regional anaesthesia - complications](regional_complications.htm)
 - [Regional anaesthesia - brachial plexus blocks](regional_brachial_plexus_blocks.htm)
+- [Regional anaesthesia - erector spinae block](regional_erector_spinae_block.htm)
 - [Regional anaesthesia - labour epidural](regional_labour_epidural.htm)
+- [Regional anaesthesia - rib fractures](regional_rib_fractures.htm)
+- [Thoracic epidural](thoracic_epidural.htm)

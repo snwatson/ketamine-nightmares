@@ -23,7 +23,7 @@
 - [Laryngospasm and bronchospasm](laryngospasm_and_bronchospasm.htm)
 - [Local anaesthetic systemic toxicity](last.htm)
 - [Massive transfusion - management](massive_transfusion_management.htm)
-- [Massive transfusion - appendix(massive_transfusion_appendix.htm)
+- [Massive transfusion - appendix](massive_transfusion_appendix.htm)
 - [Maternal collapse](maternal_collapse.htm)
 - [Malignant hyperthermia](mh.htm)
 - [Myocardial ischaemia](myocardial_ischaemia.htm)

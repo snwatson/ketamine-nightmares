@@ -27,4 +27,5 @@
 - [Regional anaesthesia - erector spinae block](regional_erector_spinae_block.htm)
 - [Regional anaesthesia - labour epidural](regional_labour_epidural.htm)
 - [Regional anaesthesia - rib fractures](regional_rib_fractures.htm)
+- [Regional anaesthesia - thoracic epidural](regional_thoracic_epidural.htm)
 - [Thoracic epidural](thoracic_epidural.htm)

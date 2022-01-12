@@ -1,6 +1,6 @@
 ## [Anaesthesia Final Exam](https://ketaminenightmares.com/fex)
 
-*N.B. these documents are drafts and are online mostly for my own reference*
+*N.B. this section is still in progress*
 
 ### Classic Topics
 - [Medical Conditions](classics/medical/index.md)

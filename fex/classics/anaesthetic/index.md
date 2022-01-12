@@ -7,7 +7,6 @@
 - [Airway management - C-spine surgery](airway_cervical_spine_surgery.htm)
 - [Airway management - throat surgery](airway_throat_surgery.htm)
 - [Airway management - trauma](airway_trauma.htm)
-- [Airway management trauma 2](airway_trauma_2.htm)
 - [Airway management - vortex approach](airway_vortex.htm)
 - [Aspiration](aspiration.htm)
 - [Awake fibreoptic intubation](awake_fibreoptic_intubation.htm)

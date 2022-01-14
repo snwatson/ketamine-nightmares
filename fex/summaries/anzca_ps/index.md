@@ -7,8 +7,6 @@
 ** Clinical - high yield **
 
 - [PS03 2014: Regional Anaesthesia](anzca/anzca_ps03_2014_regional_anaesthesia.htm)
-- [PS04 2018: Recovery Unit](anzca/anzca_ps04_2018_recovery_unit.htm)
-- [PS12 2014: Smoking](anzca/anzca_ps12_2014_smoking.htm)
 - [PS15 2018: Day Surgery](anzca/anzca_ps15_2018_day_surgery.htm)
 - [PS18 2017: Monitoring](anzca/anzca_ps18_2017_monitoring.htm)
 - [PS26 2005: Consent](anzca/anzca_ps26_2005_consent.htm)
@@ -20,10 +18,11 @@
 
 ** Clinical - low yield **
 
+- [PS04 2018: Recovery Unit](anzca/anzca_ps04_2018_recovery_unit.htm)
 - [PS06 2019: Anaesthesia record](anzca/anzca_ps06_2019_anaesthesia_record.htm)
 - [PS07 2017: Pre-anaesthesia consult](anzca/anzca_ps07_2017_pre_anaesthesia_consult.htm)
-- [PS08 2016: Anaesthesia assistant](anzca/anzca_ps08_2016_anaesthesia_assistant.htm)
 - [PS09 2014: Sedation](anzca/anzca_ps09_2014_sedation.htm)
+- [PS12 2014: Smoking](anzca/anzca_ps12_2014_smoking.htm)
 - [PS19 2020: Monitored Care](anzca/anzca_ps19_2020_monitored_care.htm)
 - PS27 2015: Major Extracorporeal Perfusion
 - [PS28 2015: Infection Control](anzca/anzca_ps28_2015_infection_control.htm)
@@ -46,6 +45,7 @@
 ** Organisational - low yield **
 
 - [PS01 2010: GP Anaesthetist Training](anzca/anzca_ps01_2010_gp_anaesthetist_training.htm)
+- [PS08 2016: Anaesthesia assistant](anzca/anzca_ps08_2016_anaesthesia_assistant.htm)
 - [PS02 2018: Credentialling](anzca/anzca_ps02_2018_credentialling.htm)
 - PS40 2012: Health Industry
 - PS42 2017: Department Staffing

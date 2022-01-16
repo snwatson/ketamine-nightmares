@@ -1,6 +1,6 @@
 ## [Anaesthesia Final Exam](https://ketaminenightmares.com/fex)
 
-*N.B. this section is still in progress*
+** N.B. this section is still in progress. Suggestions for extra pages are welcome **
 
 ### Classic Topics
 - [Medical Conditions](classics/medical/index.md)
@@ -8,6 +8,7 @@
 - [Anaesthetic Procedures](classics/anaesthetic/index.md)
 - [Anaesthetic Crises](classics/crises/index.md)
 - [Peri-operative Medicine](classics/periop/index.md)
+- [Viva questions](classics/viva/index.md)
 
 ### Document Summaries
 - [ANZCA Position Statements](summaries/anzca_ps/index.md)

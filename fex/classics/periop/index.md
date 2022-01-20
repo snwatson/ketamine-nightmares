@@ -14,6 +14,7 @@
 - [Delirium](delirium.htm)
 - [DHCA](dhca.htm)
 - [ECMO](ecmo.htm)
+- [Fasting](fasting.htm)
 - [Hyperbaric medicine](hyperbaric_medicine.htm)
 - [Hyperglycaemia](hyperglycaemia.htm)
 - [Hypertension](hypertension.htm)

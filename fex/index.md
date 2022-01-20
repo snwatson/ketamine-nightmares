@@ -3,11 +3,11 @@
 ** N.B. this section is still in progress. Suggestions for extra pages are welcome **
 
 ### Classic Topics
-- [Medical Conditions](classics/medical/index.md)
-- [Surgical Procedures](classics/surgical/index.md)
-- [Anaesthetic Procedures](classics/anaesthetic/index.md)
-- [Anaesthetic Crises](classics/crises/index.md)
-- [Peri-operative Medicine](classics/periop/index.md)
+- [Medical conditions](classics/medical/index.md)
+- [Surgical procedures](classics/surgical/index.md)
+- [Anaesthetic procedures](classics/anaesthetic/index.md)
+- [Anaesthetic crises](classics/crises/index.md)
+- [Peri-operative issues](classics/periop/index.md)
 - [Viva questions](classics/viva/index.md)
 
 ### Document Summaries

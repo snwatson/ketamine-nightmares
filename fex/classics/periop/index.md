@@ -20,7 +20,7 @@
 - [Hypertension](hypertension.htm)
 - [Methamphetamine](methamphetamine.htm)
 - [Midodrine](midodrine.htm)
-- [Obstetrics - breastfeeding and analgesia](obstetrics_breastfeeding_analgesia.htm)
+- [Obstetrics - breastfeeding](obstetrics_breastfeeding.htm)
 - [Obstetrics - cardiac disease](obstetrics_cardiac_disease.htm)
 - [Obstetric - monitoring](obstetrics_monitoring.htm)
 - [Obstetrics - teratogenicity](obstetrics_teratogenicity.htm)

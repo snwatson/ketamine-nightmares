@@ -6,7 +6,6 @@
 
 ** Clinical - high yield **
 
-- [PS03 2014: Regional Anaesthesia](anzca/anzca_ps03_2014_regional_anaesthesia.htm)
 - [PS15 2018: Day Surgery](anzca/anzca_ps15_2018_day_surgery.htm)
 - [PS18 2017: Monitoring](anzca/anzca_ps18_2017_monitoring.htm)
 - [PS26 2005: Consent](anzca/anzca_ps26_2005_consent.htm)
@@ -18,6 +17,7 @@
 
 ** Clinical - low yield **
 
+- [PS03 2014: Regional Anaesthesia](anzca/anzca_ps03_2014_regional_anaesthesia.htm)
 - [PS04 2018: Recovery Unit](anzca/anzca_ps04_2018_recovery_unit.htm)
 - [PS06 2019: Anaesthesia record](anzca/anzca_ps06_2019_anaesthesia_record.htm)
 - [PS07 2017: Pre-anaesthesia consult](anzca/anzca_ps07_2017_pre_anaesthesia_consult.htm)
@@ -36,9 +36,6 @@
 
 ** Organisational - high yield **
 
-- [PS41 2013: Acute Pain Management](anzca/anzca_ps41_2013_acute_pain_management.htm)
-- [PS43 2019: Fatigue](anzca/anzca_ps43_2019_fatigue.htm)
-- [PS50 2017: Return to practice](anzca/anzca_ps50_2017_return_to_practice.htm)
 - [PS55 2012: Minimum safe facilities](anzca/anzca_ps55_2012_minimum_safe_facilities.htm)
 - [PS58 2018: Quality assurance and quality improvement](anzca/anzca_ps58_2018_qa_qi.htm)
 
@@ -48,9 +45,12 @@
 - [PS08 2016: Anaesthesia assistant](anzca/anzca_ps08_2016_anaesthesia_assistant.htm)
 - [PS02 2018: Credentialling](anzca/anzca_ps02_2018_credentialling.htm)
 - PS40 2012: Health Industry
+- [PS41 2013: Acute Pain Management](anzca/anzca_ps41_2013_acute_pain_management.htm)
 - PS42 2017: Department Staffing
+- [PS43 2019: Fatigue](anzca/anzca_ps43_2019_fatigue.htm)d
 - PS45 2010: Patients' rights
 - PS49 2010: Doctors' health
+- [PS50 2017: Return to practice](anzca/anzca_ps50_2017_return_to_practice.htm)
 - PS57 2014: Anaesthetists' duties
 - PS59 2015: Anaesthetists' periop responsibilities
 - PS62 2016: Cultural competence

@@ -12,7 +12,6 @@
 - [PS29 2019: Paediatric Anaesthesia](anzca/anzca_ps29_2019_paediatric_anaesthesia.htm)
 - [PS52 2015: Transport](anzca/anzca_ps52_2015_transport.htm)
 - [PS53 2013: Handover](anzca/anzca_ps53_2013_handover.htm)
-- [PS56 2012: Difficult airway equipment](anzca/anzca_ps56_2012_difficult_airway_equipment.htm)
 - [PS63 2019: Acute behavioural disturbance](anzca/anzca_ps63_2019_acute_behavioural_disturbance.htm)
 
 ** Clinical - low yield **
@@ -20,7 +19,7 @@
 - [PS03 2014: Regional Anaesthesia](anzca/anzca_ps03_2014_regional_anaesthesia.htm)
 - [PS04 2018: Recovery Unit](anzca/anzca_ps04_2018_recovery_unit.htm)
 - [PS06 2019: Anaesthesia record](anzca/anzca_ps06_2019_anaesthesia_record.htm)
-- [PS07 2017: Pre-anaesthesia consult](anzca/anzca_ps07_2017_pre_anaesthesia_consult.htm)
+- [PS07 2021: Pre-anaesthesia consult](anzca/anzca_ps07_2021_pre_anaesthesia_consult.htm)
 - [PS09 2014: Sedation](anzca/anzca_ps09_2014_sedation.htm)
 - [PS12 2014: Smoking](anzca/anzca_ps12_2014_smoking.htm)
 - [PS19 2020: Monitored Care](anzca/anzca_ps19_2020_monitored_care.htm)
@@ -31,6 +30,7 @@
 - PS46 2014: Periop cardiac ultrasound
 - [PS51 2017: Medication Safety](anzca/anzca_ps51_2017_medication_safety.htm)
 - [PS54 2013: Anaesthesia workstation](anzca/anzca_ps54_2013_anaesthesia_workstation.htm)
+- [PS56 2021: Difficult airway equipment](anzca/anzca_ps56_2021_difficult_airway_equipment.htm)
 - PS60 2015: Chlorhexidine hypersensitivity
 - [PS61 2016: CICO](anzca/anzca_ps61_2017_cico.htm)
 
@@ -61,5 +61,5 @@
 - [PM01 2020: Opioids](fpm/fpm_pm01_2020_opioids.htm)
 - [PM10 2019: Cannabis](fpm/fpm_pm10_2019_cannabis.htm)
 - [PM11 2019: Procedures](fpm/fpm_pm11_2019_procedures.htm)
+- [PM12 2021: Ketamine](fpm/fpm_pm12_2021_ketamine.htm)
 - [PMXX 2018: OIVI](fpm/fpm_pmxx_2018_oivi.htm)
-- [PMXX 2016: Ketamine](fpm/fpm_pmxx_2016_ketamine.htm)

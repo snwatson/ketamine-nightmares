@@ -2,23 +2,6 @@
 
 ***The Ketamine Nightmares SAQs can also be viewed on [LITFL](https://partone.litfl.com/)***
 
-2021B answers uploaded:
-- [2021B01 Intermittent positive pressure ventilation - effect on cardiac output](saqs/physiology/cardiovascular/2021B01_ippv_cardiac_output.htm)
-- [2021B02 ACEi and ARB](saqs/pharmacology/cardiovascular_drugs/2021B02_ace_arb.htm)
-- [2021B03 Volume of distribution](saq/pharmacology/pharmacokinetics/2021B02_volume_of_distribution.htm)
-- [2021B04 Dexmedetomidine](saqs/pharmacology/intravenous_anaesthetics/2021B04_dexmedetomidine.htm)
-- [2021B05 Pulmonary artery catheter insertion](saqs/other/clinical_measurement/2021B05_pa_catheter_insertion.htm)
-- [2021B06 Local anaesthetics - mechanism of action](saqs/pharmacology/local_anaesthetics/2021B06_local_anaesthetic_moa.htm)
-- [2021B07 Cerebral blood flow regulation](saqs/physiology/neurophysiology/2021B07_cerebral_blood_flow_regulation.htm)
-- [2021B08 Sevoflurane - respiratory effects](saqs/pharmacology/inhalational_anaesthetics/2021B08_sevoflurane_respiratory_effects.htm)
-- [2021B09 Morphine vs fentanyl PCA](saqs/pharmacology/analgesics/2021B09_morphine_vs_fentanyl_pca.htm)
-- [2021B10 PaCO2 vs etCO2](saqs/physiology/respiratory/2021B10_paco2_vs_etco2.htm)
-- [2021B11 Effects of hypercapnoea](saqs/physiology/respiratory/2021B11_hypercapnoea.htm)
-- [2021B12 Effects of hypothermia](saqs/physiology/thermoregulation/2021B12_hypothermia.htm)
-- [2021B13 Oxygen safety](saqs/other/equipment/2021B13_oxygen_safety.htm)
-- [2021B14 RBC transfusion - immunological effects](saqs/physiology/haematology/2021B14_rbc_transfusion_immunological.htm)
-- [2021B15 Propofol - time to emergence](saqs/pharmacology/intravenous_anaesthetics/2021B15_propofol_time_to_emergence.htm)
-
 ### Physiology SAQ
 - [Acid-base](saqs/physiology/acid_base/index.md)
 - [Ageing](saqs/physiology/ageing/index.md)

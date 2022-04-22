@@ -7,6 +7,6 @@
 - [Assessment](assessment.htm)
 - [Preparation](prepration.htm)
 - [Anaesthesia](anaesthesia.htm)
-- [Crisis](crisis.htm)
+- [Crises](crises.htm)
 - [Paediatrics](paediatrics.htm)
 - [Regional](regional.htm)

@@ -5,7 +5,7 @@
 #### Classic Viva Questions
 
 - [Assessment](assessment.htm)
-- [Preparation](prepration.htm)
+- [Preparation](preparation.htm)
 - [Anaesthesia](anaesthesia.htm)
 - [Crises](crises.htm)
 - [Paediatrics](paediatrics.htm)

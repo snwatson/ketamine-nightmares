@@ -1,7 +1,5 @@
 ## [Anaesthesia Final Exam](https://ketaminenightmares.com/fex)
 
-** N.B. this section is still in progress. Suggestions for extra pages are welcome **
-
 ### Classic Topics
 - [Medical conditions](classics/medical/index.md)
 - [Surgical procedures](classics/surgical/index.md)

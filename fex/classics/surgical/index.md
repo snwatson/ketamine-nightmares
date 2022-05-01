@@ -9,6 +9,7 @@
 - [Abdominal aortic aneurysm - ruptured](aaa_ruptured.htm)
 - [Bronchoscopy](bronchoscopy.htm)
 - [Caesarean section - neuraxial](caesarean_section_neuraxial.htm)
+- [Cardiac surgery](cardiac_surgery.htm)
 - [Carotid endarterectomy](carotid_endarterectomy.htm)
 - [Clot retrieval](clot_retrieval.htm)
 - [Craniotomy - aneurysm clipping](craniotomy_aneurysm_clipping.htm)

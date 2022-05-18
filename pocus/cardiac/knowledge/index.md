@@ -5,10 +5,10 @@
 #### Knowledge
 
 ##### Anatomy
--[Parasternal long axis](anatomy/plax_view.htm)
--[Parasternal short axis](anatomy/psax_view.htm)
--[Apical](anatomy/apical.htm)
--[Subcostal](anatomy/subcostal.htm)
+- [Parasternal long axis](anatomy/plax_view.htm)
+- [Parasternal short axis](anatomy/psax_view.htm)
+- [Apical](anatomy/apical.htm)
+- [Subcostal](anatomy/subcostal.htm)
 
 ##### Physiology
 - [Diastology](physiology/diastology.htm)

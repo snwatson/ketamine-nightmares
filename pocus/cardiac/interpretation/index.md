@@ -9,7 +9,7 @@
 - [Right chambers](normal_values/right_chambers.htm)
 - [Aortic valve](normal_values/aortic_valve.htm)
 - [Mitral valve](normal_values/mitral_valve.htm)
-- [Pulmnonary valve](normal_values/pulmonary_valve.htm)
+- [Pulmonary valve](normal_values/pulmonary_valve.htm)
 - [Tricuspid valve](normal_values/tricuspid_valve.htm)
 
 ##### Pattern recognition

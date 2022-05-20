@@ -5,14 +5,15 @@
 #### Knowledge
 
 ##### Anatomy
+- [Left ventricle](anatomy/left_ventricle.htm)
 - [Parasternal long axis](anatomy/plax_view.htm)
 - [Parasternal short axis](anatomy/psax_view.htm)
-- [Apical](anatomy/apical.htm)
-- [Subcostal](anatomy/subcostal.htm)
+- [Apical](anatomy/apical_view.htm)
+- [Subcostal](anatomy/subcostal_view.htm)
 
 ##### Physiology
 - [Diastology](physiology/diastology.htm)
-- [PISA calculations](physiology/pisa_calculations)
+- [PISA calculations](physiology/pisa_calculations.htm)
 
 ##### Physics
 - [Equipment](physics/equipment.htm)

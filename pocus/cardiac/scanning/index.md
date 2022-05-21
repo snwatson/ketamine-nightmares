@@ -3,7 +3,7 @@
 ### Cardiac ultrasound
 
 #### Scanning
-- [Tips](tips.htm)
+- [Image optimisation](optimisation.htm)
 - [Parasternal long axis](plax.htm)
 - [Parasternal short axis](psax.htm)
 - [Apical](apical.htm)

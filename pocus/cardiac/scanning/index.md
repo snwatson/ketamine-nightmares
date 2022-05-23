@@ -5,16 +5,16 @@
 #### Scanning
 
 Views:
-- [Parasternal long axis](view/plax_view.htm)
-- [Parasternal short axis](psax_view.htm)
-- [Apical](apical_view.htm)
-- [Subcostal](subcostal_view.htm)
+- [Parasternal long axis](views/plax_view.htm)
+- [Parasternal short axis](views/psax_view.htm)
+- [Apical](views/apical_view.htm)
+- [Subcostal](views/subcostal_view.htm)
 
 Clips:
-- [Parasternal long axis](plax_clip.htm)
-- [Parasternal short axis](psax_clip.htm)
-- [Apical](apical_clip.htm)
-- [Subcostal](subcostal_clip.htm)
+- [Parasternal long axis](clips/plax_clip.htm)
+- [Parasternal short axis](clips/psax_clip.htm)
+- [Apical](clips/apical_clip.htm)
+- [Subcostal](clips/subcostal_clip.htm)
 
 Other:
 - [Equipment](other/equipment.htm)

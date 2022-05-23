@@ -11,10 +11,10 @@ Views:
 - [Subcostal](views/subcostal_view.htm)
 
 Clips:
-- [Parasternal long axis](clips/plax_clip.htm)
-- [Parasternal short axis](clips/psax_clip.htm)
-- [Apical](clips/apical_clip.htm)
-- [Subcostal](clips/subcostal_clip.htm)
+- [Parasternal long axis](clips/plax_clips.htm)
+- [Parasternal short axis](clips/psax_clips.htm)
+- [Apical](clips/apical_clips.htm)
+- [Subcostal](clips/subcostal_clips.htm)
 
 Other:
 - [Equipment](other/equipment.htm)

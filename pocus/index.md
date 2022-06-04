@@ -9,7 +9,7 @@
 ### Lung ultrasound
 - [tl;dr](lung/tldr/)
 - [Knowledge](lung/knowledge/)
-- [Scanning](lung/scanning/)
+- [Scanning](lung/scanning/)	
 - [Interpretation](lung/interpretation/)
 
 ### Gastric ultrasound

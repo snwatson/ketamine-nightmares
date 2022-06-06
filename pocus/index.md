@@ -7,7 +7,7 @@
 - [Interpretation](cardiac/interpretation/)
 
 ### Lung ultrasound
-- [tl;dr](lung/tldr/)
+- [tl;dr](https://litfl.com/ultrasound-library/lung/)
 - [Knowledge](lung/knowledge/)
 - [Scanning](lung/scanning/)	
 - [Interpretation](lung/interpretation/)

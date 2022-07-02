@@ -5,6 +5,7 @@
 #### Interpretation
 
 ##### Normal values
+- [Bonita Anderson's summary](normal_values/bonita_anderson.pdf)
 - [Left chambers](normal_values/left_chambers.htm)
 - [Right chambers](normal_values/right_chambers.htm)
 - [Aortic valve](normal_values/aortic_valve.htm)
@@ -13,7 +14,7 @@
 - [Tricuspid valve](normal_values/tricuspid_valve.htm)
 
 ##### Pattern recognition
-(links and answers to follow. Word docs with and without answers)
+(links and answers to follow. Not sure about format)
 - Left atrium (size)
 - Left ventricle (size, wall thickness, function)
 - Right atrium (size)

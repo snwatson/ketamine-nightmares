@@ -19,3 +19,4 @@ Clips:
 Other:
 - [Equipment](other/equipment.htm)
 - [Image optimisation](other/optimisation.htm)
+- [JASE guidelines](other/jase_guidelines.htm)

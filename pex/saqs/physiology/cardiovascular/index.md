@@ -23,7 +23,6 @@
 - [2015B09 Systemic circulation vs pulmonary circulation](2015B09_systemic_circulation_vs_pulmonary_circulation.htm)
 - [2016B02 Action potentials - pacemaker cell vs ventricular myocyte](2016B02_action_potentials_pacemaker_cell_vs_ventricular_myocyte.htm)
 - [2018B09 Autonomic innervation of the heart](2018B09_autonomic_innervation_of_the_heart.htm)
-- [2019A01 Intermittent positive pressure ventilation - effect on cardiac output](2019A01_intermittent_positive_pressure_ventilation_effect_on_cardiac_output.htm)
 - [2019B08 Neuraxial blockade - cardiovascular effects](2019B08_neuraxial_blockade_cardiovascular_effects.htm)
 - [2019B11 Pneumoperitoneum - cardiovascular effects](2019B11_pneumoperitoneum_cardiovascular_effects.htm)
 - [2020A08 Cardiac output coupling](2020A08_cardiac_output_coupling.htm)

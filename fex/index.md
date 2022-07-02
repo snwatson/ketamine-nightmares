@@ -14,7 +14,6 @@
 - [AHA/CCA Guidelines](summaries/aha_cca/index.md)
 - [Landmark Clinical Trials](summaries/trials/index.md)
 - [National Audit Projects](summaries/nap/index.md)
-- [Other Documents](summaries/other/index.md)
 
 ### Other Resources
 - [Curriculum](other/curriculum/index.md)

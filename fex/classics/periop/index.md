@@ -34,5 +34,6 @@
 - [Sepsis](sepsis.htm)
 - [SGLT2 inhibitors](sglt2i.htm)
 - [Sodium disorders](sodium_disorders.htm)
+- [Steroid replacement](steroid_replacement.htm)
 - [Thoracics - assessment](thoracics_assessment.htm)
 - [Thoracics - miscellaneous](thoracics_miscellaneous.htm)

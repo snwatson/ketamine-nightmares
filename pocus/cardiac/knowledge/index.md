@@ -5,6 +5,7 @@
 #### Knowledge
 
 ##### Anatomy
+- [TOE simulator](http://pie.med.utoronto.ca/TEE/TEE_content/assets/applications/teeSimulation/index.html)
 - [Left ventricle](anatomy/left_ventricle.htm)
 - [Parasternal long axis](anatomy/plax_view.htm)
 - [Parasternal short axis](anatomy/psax_view.htm)

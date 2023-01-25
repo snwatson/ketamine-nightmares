@@ -12,7 +12,7 @@
 - [2010A15 Cardiac output monitoring - thermodilution](2010A15_cardiac_output_monitoring_thermodilution.htm)
 - [2011B14 Respiratory function tests - small airway obstruction](2011B14_respiratory_function_tests_small_airway_obstruction.htm)
 - [2017A10 Arterial pressure waveforms](2017A10_arterial_pressure_waveforms.htm)
-- [2017A11 Respiratory flow-volume loops](2017A11_respiratory_flow_volume_loops.htm)
+- [2017A11 Respiratory flow-volume curves](2017A11_respiratory_flow_volume_curves.htm)
 - [2017A15 Liver function tests](2017A15_liver_function_tests.htm)
 - [2017B04 Electroencephalography in anaesthesia](2017B04_electroencephalography_in_anaesthesia.htm)
 - [2018B01 Non-invasive blood pressure measurement](2018B01_non_invasive_blood_pressure_measurement.htm)

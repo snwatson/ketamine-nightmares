@@ -5,6 +5,7 @@
 #### Miscellaneous
 
 - [Memorisation material](memorisation_eaddy.pdf) by Nick Eaddy
+- [Paediatrics dosing guide](paeds_dosing_guide.pdf)
 - [Research - KN notes](research_kn.htm)
 - [Statistics - KN notes](statistics_kn.htm)
 - [Statistics](statistics_mclintic.pdf) by [Alan McLintic](https://www.heraldscotland.com/opinion/18815592.obituary-dr-alan-mclintic-accomplished-all-rounder-made-career-new-zealand/)

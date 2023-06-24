@@ -1,642 +1,784 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:0cm;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 a:link, span.MsoHyperlink
-	{color:#0563C1;
-	text-decoration:underline;}
+        {color:#0563C1;
+        text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        {size:595.3pt 841.9pt;
+        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 ul
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-AU link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2020B01 a)
-Describe the immediate cardiovascular responses to the sudden loss of 30% blood
-volume in a healthy awake person. <br>
-b) How are these responses different if the patient is undergoing anaesthesia
-with sevoflurane?</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Intro</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Status awake</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Status with sevoflurane anaesthesia</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;text-indent:-18.0pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Other responses</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Intro:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=132 valign=top style='width:98.85pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Quantification</span></p>
-  </td>
-  <td width=469 valign=top style='width:351.95pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>30% blood loss (~1500mL) = Class 3 shock</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Severe, life-threatening</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>If awake</span></p>
-  </td>
-  <td width=469 valign=top style='width:351.95pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-size:12.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Immediate neural response</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Later hormonal and rheologic responses</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=132 valign=top style='width:98.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>If anaesthetised</span></p>
-  </td>
-  <td width=469 valign=top style='width:351.95pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>All responses attenuated</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>High risk of decompensation and death</span></p>
-  </td>
- </tr>
+<body lang="EN-AU" link="#0563C1" vlink="#954F72" style=
+'word-wrap:break-word'>
+<div class="WordSection1">
+<h1><span lang="EN-US" style=
+'font-size:15.0pt;line-height:107%'>2020B01 a) Describe the
+immediate cardiovascular responses to the sudden loss of 30% blood
+volume in a healthy awake person.<br>
+b) How are these responses different if the patient is undergoing
+anaesthesia with sevoflurane?</span></h1>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Intro</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Status awake</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Status with sevoflurane anaesthesia</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Other responses</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Intro:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="132" valign="top" style=
+'width:98.85pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Quantification</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:351.95pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">30% blood loss (~1500mL) = Class 3
+shock</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Severe, life-threatening</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.85pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">If awake</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:351.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-size:12.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Immediate neural response</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Later hormonal and rheologic
+responses</span></p>
+</td>
+</tr>
+<tr>
+<td width="132" valign="top" style=
+'width:98.85pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">If anaesthetised</span></p>
+</td>
+<td width="469" valign="top" style=
+'width:351.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">All responses attenuated</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">High risk of decompensation and death</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Effects of 30%
-blood loss:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Graph</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US><img width=336 height=316 id="Picture 2"
-  src="2020B01_haemorrhagic_shock_and_anaesthesia_files/image001.jpg"></span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>VR = (MSFP – RAP) / RVR</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>      VR: venous return</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>      MSFP: mean systemic filling pressure</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>      RAP: right atrial pressure</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>      RVR: resistance to venous return</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Direct effect</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓↓MSFP -&gt; ↓VR</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓Cardiac output</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓mAP</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓Tissue perfusion</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Baroreceptor response</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US style='font-family:Wingdings'>à</span><span lang=EN-US> ↑CO, ↑SVR,
-  ↑mAP</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Afferent limb:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Stretch-activated mechanoreceptors on C fibre
-  visceral afferents</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓Stretch -&gt; ↑output to medulla and
-  hypothalamus</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Arterial pressure: carotid and aortic sinuses</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Blood volume: receptors in atria and great
-  veins</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Efferent limb:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑SNS output from rostral ventrolateral medulla</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓PSNS output from vagal centres</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑ADH release</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓ANP release</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Blood reservoir mobilisation</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US style='font-family:Wingdings'>à</span><span lang=EN-US> ↑Blood
-  volume ~500mL -&gt; ↑MSFP</span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Source: spleen red pulp, liver sinusoids, skin
-  arterioles / venules / A-V anastomoses</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Mechanism: ↑SNS output -&gt; α<sub>1</sub>
-  -&gt; vasoconstriction</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Interstitial fluid reabsorption</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US style='font-family:Wingdings'>à</span><span lang=EN-US> ↑Blood
-  volume -&gt; ↑MSFP</span></p>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Mechanism: ↑SNS output -&gt; constriction of
-  pre-capillary sphincters -&gt; ↓capillary hydrostatic pressure -&gt; net
-  fluid reabsorption</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Restlessness</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US style='font-family:Wingdings'>à</span><span lang=EN-US> ↑MSFP,
-  ↑venous return</span></p>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑SNS -&gt; ↑skeletal muscle pump activity</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Central ischaemic response</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US style='font-family:Wingdings'>à</span><span lang=EN-US> ↑CO, ↑SVR,
-  ↑mAP</span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>CNS hypoperfusion -&gt; ↑↑SNS output</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>For redirection of flow to vital organs in
-  extremis</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Endocrine response</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>(minutes to hours)</span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑ADH -&gt; ↑H2O reabsorption from collecting
-  duct -&gt; water preservation</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑RAAS -&gt; ↑Na+/H2O reabsorption -&gt; ECF
-  preservation</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Rheologic response</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>(days to weeks)</span></p>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑Epo -&gt; ↑erythropoiesis -&gt; restoration
-  of red cell mass</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Effects of 30% blood
+loss:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Graph</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US"><img width="336" height="316" id="Picture 2"
+src="2020B01_haemorrhagic_shock_and_anaesthesia_files/image001.jpg"></span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">VR = (MSFP &acirc;&euro;&OpenCurlyDoubleQuote;
+RAP) / RVR</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang=
+"EN-US">&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;
+VR: venous return</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang=
+"EN-US">&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;
+MSFP: mean systemic filling pressure</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang=
+"EN-US">&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;
+RAP: right atrial pressure</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang=
+"EN-US">&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;
+RVR: resistance to venous return</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Direct effect</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;&acirc;&dagger;&OpenCurlyDoubleQuote;MSFP
+-&gt; &acirc;&dagger;&OpenCurlyDoubleQuote;VR</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Cardiac
+output</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;mAP</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Tissue
+perfusion</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Baroreceptor response</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Wingdings'>&Atilde;&nbsp;</span> <span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyQuote;CO,
+&acirc;&dagger;&OpenCurlyQuote;SVR,
+&acirc;&dagger;&OpenCurlyQuote;mAP</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Afferent limb:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Stretch-activated mechanoreceptors on C fibre
+visceral afferents</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Stretch
+-&gt; &acirc;&dagger;&OpenCurlyQuote;output to medulla and
+hypothalamus</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Arterial pressure: carotid and aortic
+sinuses</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Blood volume: receptors in atria and great
+veins</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Efferent limb:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;SNS output from
+rostral ventrolateral medulla</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;PSNS output
+from vagal centres</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;ADH
+release</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;ANP
+release</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Blood reservoir mobilisation</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Wingdings'>&Atilde;&nbsp;</span> <span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyQuote;Blood volume ~500mL -&gt;
+&acirc;&dagger;&OpenCurlyQuote;MSFP</span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Source: spleen red pulp, liver sinusoids, skin
+arterioles / venules / A-V anastomoses</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Mechanism: &acirc;&dagger;&OpenCurlyQuote;SNS
+output -&gt; &Icirc;&PlusMinus;<sub>1</sub> -&gt;
+vasoconstriction</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Interstitial fluid reabsorption</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Wingdings'>&Atilde;&nbsp;</span> <span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyQuote;Blood volume -&gt;
+&acirc;&dagger;&OpenCurlyQuote;MSFP</span></p>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Mechanism: &acirc;&dagger;&OpenCurlyQuote;SNS
+output -&gt; constriction of pre-capillary sphincters -&gt;
+&acirc;&dagger;&OpenCurlyDoubleQuote;capillary hydrostatic pressure
+-&gt; net fluid reabsorption</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Restlessness</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Wingdings'>&Atilde;&nbsp;</span> <span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyQuote;MSFP,
+&acirc;&dagger;&OpenCurlyQuote;venous return</span></p>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;SNS -&gt;
+&acirc;&dagger;&OpenCurlyQuote;skeletal muscle pump
+activity</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Central ischaemic response</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Wingdings'>&Atilde;&nbsp;</span> <span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyQuote;CO,
+&acirc;&dagger;&OpenCurlyQuote;SVR,
+&acirc;&dagger;&OpenCurlyQuote;mAP</span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">CNS hypoperfusion -&gt;
+&acirc;&dagger;&OpenCurlyQuote;&acirc;&dagger;&OpenCurlyQuote;SNS
+output</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">For redirection of flow to vital organs in
+extremis</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Endocrine response</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">(minutes to hours)</span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;ADH -&gt;
+&acirc;&dagger;&OpenCurlyQuote;H2O reabsorption from collecting
+duct -&gt; water preservation</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;RAAS -&gt;
+&acirc;&dagger;&OpenCurlyQuote;Na+/H2O reabsorption -&gt; ECF
+preservation</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Rheologic response</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">(days to weeks)</span></p>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;Epo -&gt;
+&acirc;&dagger;&OpenCurlyQuote;erythropoiesis -&gt; restoration of
+red cell mass</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>If anaesthetized
-with sevoflurane:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Cellular effects</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Inhibition of L-Ca<sup>2+</sup> channels
-  (heart and vasculature)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑Nitric oxide release (vasculature)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>GABA potentiation</span><span lang=EN-US>
-  -&gt; ↓medullary SNS output (heart and vasculature)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Physiological effects</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓Contractility</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Relative preservation of baroreceptor reflex
-  -&gt; ↑HR</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Venodilatation -&gt; ↓venous return, ↓preload</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Vasodilatation -&gt; ↓SVR, ↓afterload</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓Cardiac output</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓mAP</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Effects on shock</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Detrimental:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Direct effects exacerbated</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>All compensatory responses attenuated</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Effects are</span><span lang=EN-US>
-  dose-dependent</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Protective:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Relative preservation of baroreceptor reflex</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑SNS outp</span><span lang=EN-US>ut in
-  Guedel’s stage 2</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style='font-size:13.0pt;line-height:107%'>If
+anaesthetized with sevoflurane:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Cellular effects</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Inhibition of L-Ca<sup>2+</sup> channels (heart
+and vasculature)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;Nitric oxide
+release (vasculature)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">GABA potentiation</span> <span lang=
+"EN-US">-&gt; &acirc;&dagger;&OpenCurlyDoubleQuote;medullary SNS
+output (heart and vasculature)</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Physiological effects</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Contractility</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Relative preservation of baroreceptor reflex
+-&gt; &acirc;&dagger;&OpenCurlyQuote;HR</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Venodilatation -&gt;
+&acirc;&dagger;&OpenCurlyDoubleQuote;venous return,
+&acirc;&dagger;&OpenCurlyDoubleQuote;preload</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Vasodilatation -&gt;
+&acirc;&dagger;&OpenCurlyDoubleQuote;SVR,
+&acirc;&dagger;&OpenCurlyDoubleQuote;afterload</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Cardiac
+output</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;mAP</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Effects on shock</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Detrimental:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Direct effects exacerbated</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">All compensatory responses attenuated</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Effects are</span> <span lang=
+"EN-US">dose-dependent</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Protective:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Relative preservation of baroreceptor
+reflex</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;SNS
+outp</span><span lang="EN-US">ut in Guedel&acirc;&euro;&TRADE;s
+stage 2</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Other responses:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Decompensation</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑↑SNS</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑Metabolic rate (↑cardiac, respiratory,
-  skeletal muscle work)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↑Anaerobic metabolism</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓pH</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>↓inotropy, arrhythmia, death</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Greatly increased risk under sevoflurane
-  anaesthesia</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Ischaemic pre-conditioning</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Brief ischaemic episode improves tolerance of
-  subsequent episode</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Mechanism: activation of sarcolemmal and
-  mitochondrial K<sup>+</sup>-ATP channel</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Mimicked by volatile anaesthesia (anaesthetic
-  pre-conditioning)</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Other responses:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Decompensation</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyQuote;&acirc;&dagger;&OpenCurlyQuote;SNS</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;Metabolic rate
+(&acirc;&dagger;&OpenCurlyQuote;cardiac, respiratory, skeletal
+muscle work)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;Anaerobic
+metabolism</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;pH</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;inotropy,
+arrhythmia, death</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Greatly increased risk under sevoflurane
+anaesthesia</span></p>
+</td>
+</tr>
+<tr>
+<td width="160" valign="top" style=
+'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Ischaemic pre-conditioning</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Brief ischaemic episode improves tolerance of
+subsequent episode</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Mechanism: activation of sarcolemmal and
+mitochondrial K<sup>+</sup>-ATP channel</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.55pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Mimicked by volatile anaesthesia (anaesthetic
+pre-conditioning)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>Feedback welcome
-at </span><span lang=EN-GB><a href="mailto:ketaminenightmares@gmail.com"><span
-lang=EN-US>ketaminenightmares@gmail.com</span></a></span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">Feedback welcome at</span> <span lang="EN-GB"><a href=
+"mailto:ketaminenightmares@gmail.com"><span lang=
+"EN-US">ketaminenightmares@gmail.com</span></a></span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

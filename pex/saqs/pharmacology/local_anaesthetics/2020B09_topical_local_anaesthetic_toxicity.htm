@@ -1,650 +1,709 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:0cm;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 a:link, span.MsoHyperlink
-	{color:#0563C1;
-	text-decoration:underline;}
+        {color:#0563C1;
+        text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        {size:595.3pt 841.9pt;
+        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 ul
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-AU link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-GB style='font-size:14.0pt;line-height:107%'>2020B09 </span><span
-lang=EN-GB>Discuss factors that influence the toxicity of local anaesthetics <br>
+<body lang="EN-AU" link="#0563C1" vlink="#954F72" style=
+'word-wrap:break-word'>
+<div class="WordSection1">
+<h1><span lang="EN-GB" style=
+'font-size:14.0pt;line-height:107%'>2020B09</span> <span lang=
+"EN-GB">Discuss factors that influence the toxicity of local
+anaesthetics<br>
 when used for topical anaesthesia of skin and mucosa.</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-GB style='font-size:
-10.0pt;line-height:107%'>&nbsp;</span></p>
-
-<h3><span lang=EN-GB>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'><span lang=EN-GB
-style='font-size:10.0pt;line-height:107%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-GB style='font-size:10.0pt;line-height:107%'>Means of toxicity</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'><span lang=EN-GB
-style='font-size:10.0pt;line-height:107%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-GB style='font-size:10.0pt;line-height:107%'>Determinants of drug
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang="EN-GB"
+style='font-size: 10.0pt;line-height:107%'>&nbsp;</span></p>
+<h3><span lang="EN-GB">List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;line-height:107%;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt;line-height:107%'>Means
+of toxicity</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;line-height:107%;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt;line-height:107%'>Determinants of drug
 uptake</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'><span lang=EN-GB
-style='font-size:10.0pt;line-height:107%;font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-GB style='font-size:10.0pt;line-height:107%'>Determinants of LAST
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;line-height:107%;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt;line-height:107%'>Determinants of LAST
 susceptibility</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-GB style='font-size:
-10.0pt;line-height:107%'>&nbsp;</span></p>
-
-<h3><span lang=EN-GB>Means of toxicity:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>LAST</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Systemic blockade of voltage-gated Na+
-  channels (</span><span lang=EN-GB style='font-size:10.0pt;font-family:"Cambria Math",serif'>∝</span><span
-  lang=EN-GB style='font-size:10.0pt'> dose)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>CNS effects: e.g. seizure, coma</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>CVS effects: e.g. arrhythmia, arrest</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>Cocaine toxicity</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Effects mostly </span><span lang=EN-GB
-  style='font-size:10.0pt;font-family:"Cambria Math",serif'>∝</span><span
-  lang=EN-GB style='font-size:10.0pt'> dose</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Effects ? additive ? synergistic with
-  other local anesthetics (e.g. nasal surgery)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>CVS: ↑↑noradrenaline -&gt; ↑BP, ↑HR, coronary
-  vasoconstriction,<br>
-  Cardiomyopathy (? idiosyncratic)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>CNS: ↑↑dopamine -&gt; euphoria,
-  risk-taking</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Nasal: profound vasoconstriction -&gt;
-  ischaemic necrosis (</span><span lang=EN-GB style='font-size:10.0pt;
-  font-family:"Cambria Math",serif'>∝</span><span lang=EN-GB style='font-size:
-  10.0pt'> dose)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>Prilocaine toxicity</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>↑Methaemoglobin -&gt; Hb unable to bind O<sub>2</sub>
-  (</span><span lang=EN-GB style='font-size:10.0pt;font-family:"Cambria Math",serif'>∝</span><span
-  lang=EN-GB style='font-size:10.0pt'> dose)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>↑↑Risk of reductase deficiency: neonate,
-  congenital</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>Hypersensitivity</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>i.e. allergy, anaphylaxis
-  (dose-independent)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>e.g. PABA metabolite of esters</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>e.g. sodium metabisulfite preservative with
-  lignocaine</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang="EN-GB"
+style='font-size: 10.0pt;line-height:107%'>&nbsp;</span></p>
+<h3><span lang="EN-GB">Means of toxicity:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style='font-size:10.0pt'>LAST</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Systemic blockade of
+voltage-gated Na+ channels (</span><span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Cambria Math",serif'>&acirc;&circ;</span>
+<span lang="EN-GB" style='font-size:10.0pt'>dose)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>CNS effects: e.g.
+seizure, coma</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>CVS effects: e.g.
+arrhythmia, arrest</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style='font-size:10.0pt'>Cocaine
+toxicity</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Effects mostly</span>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Cambria Math",serif'>&acirc;&circ;</span>
+<span lang="EN-GB" style='font-size:10.0pt'>dose</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Effects ? additive ?
+synergistic with other local anesthetics (e.g. nasal
+surgery)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>CVS:
+&acirc;&dagger;&OpenCurlyQuote;&acirc;&dagger;&OpenCurlyQuote;noradrenaline
+-&gt; &acirc;&dagger;&OpenCurlyQuote;BP,
+&acirc;&dagger;&OpenCurlyQuote;HR, coronary vasoconstriction,<br>
+Cardiomyopathy (? idiosyncratic)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>CNS:
+&acirc;&dagger;&OpenCurlyQuote;&acirc;&dagger;&OpenCurlyQuote;dopamine
+-&gt; euphoria, risk-taking</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Nasal: profound
+vasoconstriction -&gt; ischaemic necrosis (</span><span lang=
+"EN-GB" style=
+'font-size:10.0pt; font-family:"Cambria Math",serif'>&acirc;&circ;</span>
+<span lang="EN-GB" style='font-size: 10.0pt'>dose)</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style='font-size:10.0pt'>Prilocaine
+toxicity</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;Methaemoglobin
+-&gt; Hb unable to bind O<sub>2</sub> (</span><span lang="EN-GB"
+style=
+'font-size:10.0pt;font-family:"Cambria Math",serif'>&acirc;&circ;</span>
+<span lang="EN-GB" style='font-size:10.0pt'>dose)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;&acirc;&dagger;&OpenCurlyQuote;Risk
+of reductase deficiency: neonate, congenital</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>Hypersensitivity</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>i.e. allergy,
+anaphylaxis (dose-independent)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>e.g. PABA metabolite of
+esters</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>e.g. sodium
+metabisulfite preservative with lignocaine</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-GB style='font-size:
-10.0pt;line-height:107%'>&nbsp;</span></p>
-
-<h3><span lang=EN-GB>Determinants of drug uptake:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-GB style='font-size:10.0pt'>Diffusion rate:</span></u></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><i><span
-  lang=EN-GB style='font-size:10.0pt'>Fick’s law:</span></i></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'><img width=357 height=67 id="Picture 9"
-  src="2020B09_topical_local_anaesthetic_toxicity_files/image001.jpg"></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>    - ↑C<sub>1</sub></span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>↑Drug concentration (e.g. 10% lignocaine
-  for airway topicalisation)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Eutectic mixture: optimal ratio -&gt; ↓melting
-  point -&gt; liquid state -&gt; ↑C<sub>1</sub> (cf. solution)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>EMLA: 2.5% lignocaine + 2.5% prilocaine, melting
-  point 18</span><span lang=EN-GB style='font-size:10.0pt'>°</span><span
-  lang=EN-GB style='font-size:10.0pt'>C</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>    - ↓C<sub>2</sub></span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>↑Tissue blood flow -&gt; ↓C<sub>2</sub>
-  but also offset of local effect</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Intrinsic: e.g. lower flow to foot cf.
-  scalp</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Drug additive: adrenaline -&gt; ↓rate of
-  absorption (e.g. nasal lignocaine)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Pathology: hypothermia, shock, heart
-  failure</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>    - ↑Area</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>↑Area of application -&gt; ↑total
-  absorption but ↔ absorption per unit area</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>    - ↓Thickness</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Extensor thicker than flexor</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Lower limb thicker than upper limb</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Mucous membrane -&gt; ↓↓thickness, ↑↑rate
-  of blood flow</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>Contraindication for EMLA, topical amethocaine</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>Risk of inadvertent overdose during topicalisation
-  for AFOI</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>    - ↑Diffusion</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>       coefficient</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>↑Lipid solubility -(lignocaine 150x,
-  prilocaine 50x procaine)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>↑% unionized</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>Drug: lignocaine 25%, prilocaine 33%, higher than
-  most</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>Additive: NaOH in EMLA -&gt; ↑pH</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>↓Molecular weight (all LA drugs have
-  similar MW 200-250g/mol)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-GB style='font-size:10.0pt'>Diffusion time:</span></u></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Uptake </span><span lang=EN-GB
-  style='font-family:"Cambria Math",serif;color:#202124;background:white'>∝</span><span
-  lang=EN-GB style='font-size:10.0pt'> application time</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>EMLA 30 mins for PIVC, 120 mins for skin
-  graft</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>2% lignocaine viscous gargle &lt; 1
-  minute for pharyngeal topicalisation</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang="EN-GB"
+style='font-size: 10.0pt;line-height:107%'>&nbsp;</span></p>
+<h3><span lang="EN-GB">Determinants of drug uptake:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-GB" style='font-size:10.0pt'>Diffusion
+rate:</span></u></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<i><span lang="EN-GB" style=
+'font-size:10.0pt'>Fick&acirc;&euro;&TRADE;s law:</span></i></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style='font-size:10.0pt'><img width="357"
+height="67" id="Picture 9" src=
+"2020B09_topical_local_anaesthetic_toxicity_files/image001.jpg"></span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp; -
+&acirc;&dagger;&OpenCurlyQuote;C<sub>1</sub></span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;Drug
+concentration (e.g. 10% lignocaine for airway
+topicalisation)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Eutectic mixture:
+optimal ratio -&gt; &acirc;&dagger;&OpenCurlyDoubleQuote;melting
+point -&gt; liquid state -&gt;
+&acirc;&dagger;&OpenCurlyQuote;C<sub>1</sub> (cf.
+solution)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>EMLA: 2.5% lignocaine + 2.5%
+prilocaine, melting point 18</span><span lang="EN-GB" style=
+'font-size:10.0pt'>&Acirc;&deg;</span><span lang="EN-GB" style=
+'font-size:10.0pt'>C</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp; -
+&acirc;&dagger;&OpenCurlyDoubleQuote;C<sub>2</sub></span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;Tissue blood flow
+-&gt; &acirc;&dagger;&OpenCurlyDoubleQuote;C<sub>2</sub> but also
+offset of local effect</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Intrinsic: e.g. lower
+flow to foot cf. scalp</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Drug additive:
+adrenaline -&gt; &acirc;&dagger;&OpenCurlyDoubleQuote;rate of
+absorption (e.g. nasal lignocaine)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Pathology: hypothermia,
+shock, heart failure</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp; -
+&acirc;&dagger;&OpenCurlyQuote;Area</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;Area of
+application -&gt; &acirc;&dagger;&OpenCurlyQuote;total absorption
+but &acirc;&dagger;&CloseCurlyDoubleQuote; absorption per unit
+area</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp; -
+&acirc;&dagger;&OpenCurlyDoubleQuote;Thickness</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Extensor thicker than
+flexor</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Lower limb thicker than
+upper limb</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Mucous membrane -&gt;
+&acirc;&dagger;&OpenCurlyDoubleQuote;&acirc;&dagger;&OpenCurlyDoubleQuote;thickness,
+&acirc;&dagger;&OpenCurlyQuote;&acirc;&dagger;&OpenCurlyQuote;rate
+of blood flow</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>Contraindication for EMLA, topical
+amethocaine</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>Risk of inadvertent overdose
+during topicalisation for AFOI</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp; -
+&acirc;&dagger;&OpenCurlyQuote;Diffusion</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;&Acirc;&nbsp;
+&Acirc;&nbsp;coefficient</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;Lipid solubility
+-(lignocaine 150x, prilocaine 50x procaine)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;%
+unionized</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>Drug: lignocaine 25%, prilocaine
+33%, higher than most</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>Additive: NaOH in EMLA -&gt;
+&acirc;&dagger;&OpenCurlyQuote;pH</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyDoubleQuote;Molecular
+weight (all LA drugs have similar MW 200-250g/mol)</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-GB" style='font-size:10.0pt'>Diffusion
+time:</span></u></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Uptake</span>
+<span lang="EN-GB" style=
+'font-family:"Cambria Math",serif;color:#202124;background:white'>&acirc;&circ;</span>
+<span lang="EN-GB" style='font-size:10.0pt'>application
+time</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>EMLA 30 mins for PIVC,
+120 mins for skin graft</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>2% lignocaine viscous
+gargle &lt; 1 minute for pharyngeal topicalisation</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-GB style='font-size:
-10.0pt;line-height:107%'>&nbsp;</span></p>
-
-<h3><span lang=EN-GB>Determinants of LAST susceptibility:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>Drug</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-GB style='font-size:10.0pt'>Pharmacokinetics (PK):</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Esters: rapid metabolism by BChE -&gt;
-  short t<sub>1/2</sub></span><sub><span lang=EN-GB style='font-size:10.0pt'>β</span></sub></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Amides: slow metabolism by liver -&gt;
-  long t<sub>1/2</sub></span><sub><span lang=EN-GB style='font-size:10.0pt'>β</span></sub></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-GB style='font-size:10.0pt'>Pharmacodynamics (PD):</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Toxicity threshold: bupiv 1.5mcg/mL,
-  ropiv 4mcg/mL, lignocaine 5mcg/mL</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>CC:CNS ratio – bupivacaine 3:1,
-  ropivacaine 5:1, lignocaine 7:1</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.65pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt'>Patient</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.15pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-GB style='font-size:10.0pt'>PK:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Absorption: see above</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Distribution: Cachexia -&gt; ↑plasma concentration
-  -&gt; ↑risk</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Metabolism: liver disease -&gt; ↓rate of
-  amide removal -&gt; ↑risk</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-GB style='font-size:10.0pt'>PD:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>Class 1 antiarrhythmics -&gt; ↑Na<sup>+</sup>
-  channel blockade -&gt; ↑risk</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>CVS</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>↑HR -&gt; ↑channel cycling rate -&gt; ↑risk</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>↓PaO<sub>2</sub>, ↓pH, ↑K<sup>+</sup> -&gt; ↑risk</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>IHD, channelopathy -&gt; ↑risk arrhythmias</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>AV conduction delay -&gt; ↑risk high grade block
-  from lignocaine</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB style='font-size:10.0pt'>CNS</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>↑PaCO<sub>2</sub> (↑CBF), ↓PaO<sub>2</sub>, ↓pH
-  -&gt; ↑risk</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>Pregnancy -&gt; ↑local anaesthetic sensitivity</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-GB style='font-size:10.0pt;font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB
-  style='font-size:10.0pt'>Epilepsy, tramadol -&gt; ↓seizure threshold</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang="EN-GB"
+style='font-size: 10.0pt;line-height:107%'>&nbsp;</span></p>
+<h3><span lang="EN-GB">Determinants of LAST
+susceptibility:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style='font-size:10.0pt'>Drug</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-GB" style='font-size:10.0pt'>Pharmacokinetics
+(PK):</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Esters: rapid
+metabolism by BChE -&gt; short
+t<sub>1/2</sub></span><sub><span lang="EN-GB" style=
+'font-size:10.0pt'>&Icirc;&sup2;</span></sub></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Amides: slow metabolism
+by liver -&gt; long t<sub>1/2</sub></span><sub><span lang="EN-GB"
+style='font-size:10.0pt'>&Icirc;&sup2;</span></sub></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-GB" style='font-size:10.0pt'>Pharmacodynamics
+(PD):</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Toxicity threshold:
+bupiv 1.5mcg/mL, ropiv 4mcg/mL, lignocaine 5mcg/mL</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>CC:CNS ratio
+&acirc;&euro;&OpenCurlyDoubleQuote; bupivacaine 3:1, ropivacaine
+5:1, lignocaine 7:1</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.65pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-GB" style='font-size:10.0pt'>Patient</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.15pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-GB" style='font-size:10.0pt'>PK:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Absorption: see
+above</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Distribution: Cachexia
+-&gt; &acirc;&dagger;&OpenCurlyQuote;plasma concentration -&gt;
+&acirc;&dagger;&OpenCurlyQuote;risk</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Metabolism: liver
+disease -&gt; &acirc;&dagger;&OpenCurlyDoubleQuote;rate of amide
+removal -&gt; &acirc;&dagger;&OpenCurlyQuote;risk</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-GB" style='font-size:10.0pt'>PD:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>Class 1 antiarrhythmics
+-&gt; &acirc;&dagger;&OpenCurlyQuote;Na<sup>+</sup> channel
+blockade -&gt; &acirc;&dagger;&OpenCurlyQuote;risk</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>CVS</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;HR
+-&gt; &acirc;&dagger;&OpenCurlyQuote;channel cycling rate -&gt;
+&acirc;&dagger;&OpenCurlyQuote;risk</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyDoubleQuote;PaO<sub>2</sub>,
+&acirc;&dagger;&OpenCurlyDoubleQuote;pH,
+&acirc;&dagger;&OpenCurlyQuote;K<sup>+</sup> -&gt;
+&acirc;&dagger;&OpenCurlyQuote;risk</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>IHD, channelopathy -&gt;
+&acirc;&dagger;&OpenCurlyQuote;risk arrhythmias</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>AV conduction delay -&gt;
+&acirc;&dagger;&OpenCurlyQuote;risk high grade block from
+lignocaine</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.9pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB" style='font-size:10.0pt'>CNS</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style=
+'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;PaCO<sub>2</sub>
+(&acirc;&dagger;&OpenCurlyQuote;CBF),
+&acirc;&dagger;&OpenCurlyDoubleQuote;PaO<sub>2</sub>,
+&acirc;&dagger;&OpenCurlyDoubleQuote;pH -&gt;
+&acirc;&dagger;&OpenCurlyQuote;risk</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>Pregnancy -&gt;
+&acirc;&dagger;&OpenCurlyQuote;local anaesthetic
+sensitivity</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.4pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-GB" style=
+'font-size:10.0pt;font-family:"Courier New"'>o </span><span lang=
+"EN-GB" style='font-size:10.0pt'>Epilepsy, tramadol -&gt;
+&acirc;&dagger;&OpenCurlyDoubleQuote;seizure threshold</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-GB style='font-size:
-10.0pt;line-height:107%'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-GB style='font-size:
-10.0pt;line-height:107%'>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-GB style='font-size:
-10.0pt;line-height:107%'>Feedback welcome at </span><span lang=EN-GB><a
-href="mailto:ketaminenightmares@gmail.com"><span style='font-size:10.0pt;
-line-height:107%'>ketaminenightmares@gmail.com</span></a></span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-GB style='font-size:
-10.0pt;line-height:107%'>&nbsp;</span></p>
-
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang="EN-GB"
+style='font-size: 10.0pt;line-height:107%'>&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang="EN-GB"
+style='font-size: 10.0pt;line-height:107%'>&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang="EN-GB"
+style='font-size: 10.0pt;line-height:107%'>Feedback welcome
+at</span> <span lang="EN-GB"><a href=
+"mailto:ketaminenightmares@gmail.com"><span style=
+'font-size:10.0pt; line-height:107%'>ketaminenightmares@gmail.com</span></a></span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang="EN-GB"
+style='font-size: 10.0pt;line-height:107%'>&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

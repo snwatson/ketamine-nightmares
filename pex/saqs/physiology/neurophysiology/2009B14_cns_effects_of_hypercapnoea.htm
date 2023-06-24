@@ -1,506 +1,587 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:0cm;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        {size:595.3pt 841.9pt;
+        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 ul
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-AU>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-GB style='font-size:15.0pt;line-height:107%'>2009B14 Outline
-the central nervous system effects on an awake person breathing air containing
+<body lang="EN-AU">
+<div class="WordSection1">
+<h1><span lang="EN-GB" style=
+'font-size:15.0pt;line-height:107%'>2009B14 Outline the central
+nervous system effects on an awake person breathing air containing
 carbon dioxide.</span></h1>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
+"EN-GB">&nbsp;</span></p>
+<h3><span lang="EN-GB" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-bottom:0cm;margin-bottom:.0001pt; text-indent:-18.0pt'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Intro</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0cm;margin-bottom: .0001pt;text-indent:-18.0pt'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Parenchymal effects</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-bottom:0cm;margin-bottom:.0001pt; text-indent:-18.0pt'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Neurovascular and pressure effects</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
+"EN-GB">&nbsp;</span></p>
+<h3><span lang="EN-GB" style=
+'font-size:13.0pt;line-height:107%'>Intro:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">CO<sub>2</sub></span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Colourless, odourless gas</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Product of Krebs cycle in mitochondrial matrix,
+aerobic respiration</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">Normal CO<sub>2</sub> concentrations</span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Inspired: 0.04% = 0.027mmHg</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Expired: 4% = 27mmHg</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">Sequential effects of
+&acirc;&dagger;&OpenCurlyQuote;FiCO<sub>2</sub></span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang=
+"EN-GB">&acirc;&dagger;&OpenCurlyQuote;FiCO<sub>2</sub></span>
+<span lang="EN-US" style='color:black'><img width="21" height="20"
+id="Picture 4" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image001.jpg"></span><span lang="EN-GB">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyQuote;PACO<sub>2</sub>
+<img width="20" height="21" id="Picture 5" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image002.jpg">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyQuote;PaCO<sub>2</sub>
+<img width="20" height="20" id="Picture 6" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image003.jpg">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyQuote;H<sup>+<br>
 
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
-lang=EN-GB>&nbsp;</span></p>
-
-<h3><span lang=EN-GB style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;margin-bottom:.0001pt;
-text-indent:-18.0pt'><span lang=EN-GB style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-GB>Intro</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
-.0001pt;text-indent:-18.0pt'><span lang=EN-GB style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-GB>Parenchymal effects</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;margin-bottom:.0001pt;
-text-indent:-18.0pt'><span lang=EN-GB style='font-family:Symbol'>·<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-GB>Neurovascular and pressure effects</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
-lang=EN-GB>&nbsp;</span></p>
-
-<h3><span lang=EN-GB style='font-size:13.0pt;line-height:107%'>Intro:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>CO<sub>2</sub></span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>Colourless, odourless gas</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>Product of Krebs cycle in mitochondrial matrix, aerobic
-  respiration</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>Normal CO<sub>2</sub> concentrations</span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>Inspired: 0.04% = 0.027mmHg</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>Expired: 4% = 27mmHg</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>Sequential effects of ↑FiCO<sub>2</sub></span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>↑FiCO<sub>2</sub> </span><span lang=EN-US
-  style='color:black'><img width=21 height=20 id="Picture 4"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image001.jpg"></span><span
-  lang=EN-GB> ↑PACO<sub>2</sub> <img width=20 height=21 id="Picture 5"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image002.jpg"> ↑PaCO<sub>2</sub>
-  <img width=20 height=20 id="Picture 6"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image003.jpg"> ↑H<sup>+<br>
-  <br>
-  </sup></span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.15pt;margin-bottom:.0001pt;text-indent:-8.15pt;
-  line-height:normal'><span lang=EN-GB>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>PACO<sub>2</sub> = PiCO<sub>2</sub> +
-  output/alveolar ventilation; hence ↑PiCO<sub>2</sub> -&gt; ↑PACO<sub>2</sub>
-  (alveolar air equation)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.15pt;margin-bottom:.0001pt;text-indent:-8.15pt;
-  line-height:normal'><span lang=EN-GB>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>highly lipid soluble, rapid equilibration</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.15pt;margin-bottom:.0001pt;text-indent:-8.15pt;
-  line-height:normal'><span lang=EN-GB>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>CO<sub>2</sub> + H<sub>2</sub>O &lt;-&gt; H<sub>2</sub>CO3
-  &lt;-&gt; H<sup>+</sup> + HCO<sub>3</sub><sup>-</sup>. CO<sub>2</sub> highly
-  lipid soluble; diffuses across BBB, ↑ECF and ICF [H<sup>+</sup>]</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>&nbsp;</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>↑PACO<sub>2</sub> </span><span lang=EN-US
-  style='color:black'><img width=21 height=20 id="Picture 12"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image001.jpg"></span><span
-  lang=EN-GB> ↓PAO<sub>2</sub> <img width=20 height=21 id="Picture 21"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image002.jpg"> ↓PaO<sub>2</sub>
-  (and ischaemia)<br>
-  <br>
-  </span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:7.85pt;margin-bottom:.0001pt;text-indent:-7.85pt;
-  line-height:normal'><span lang=EN-GB>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>PAO<sub>2</sub> = PiO<sub>2</sub> – PaCO<sub>2</sub>/0.8
-  (where PaCO<sub>2</sub> </span><span lang=EN-GB>≈</span><span lang=EN-GB>
-  PACO<sub>2</sub>)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:7.85pt;margin-bottom:.0001pt;text-indent:-7.85pt;
-  line-height:normal'><span lang=EN-GB>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>↓Partial pressure gradient for transfer into
-  pulmonary capillaries</span></p>
-  </td>
- </tr>
+<br></sup></span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.15pt;margin-bottom:.0001pt;text-indent:-8.15pt; line-height:normal'>
+<span lang="EN-GB">1.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">PACO<sub>2</sub> = PiCO<sub>2</sub> +
+output/alveolar ventilation; hence
+&acirc;&dagger;&OpenCurlyQuote;PiCO<sub>2</sub> -&gt;
+&acirc;&dagger;&OpenCurlyQuote;PACO<sub>2</sub> (alveolar air
+equation)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.15pt;margin-bottom:.0001pt;text-indent:-8.15pt; line-height:normal'>
+<span lang="EN-GB">2.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">highly lipid soluble, rapid
+equilibration</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.15pt;margin-bottom:.0001pt;text-indent:-8.15pt; line-height:normal'>
+<span lang="EN-GB">3.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">CO<sub>2</sub> + H<sub>2</sub>O &lt;-&gt;
+H<sub>2</sub>CO3 &lt;-&gt; H<sup>+</sup> +
+HCO<sub>3</sub><sup>-</sup>. CO<sub>2</sub> highly lipid soluble;
+diffuses across BBB, &acirc;&dagger;&OpenCurlyQuote;ECF and ICF
+[H<sup>+</sup>]</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang=
+"EN-GB">&acirc;&dagger;&OpenCurlyQuote;PACO<sub>2</sub></span>
+<span lang="EN-US" style='color:black'><img width="21" height="20"
+id="Picture 12" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image001.jpg"></span><span lang="EN-GB">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyDoubleQuote;PAO<sub>2</sub>
+<img width="20" height="21" id="Picture 21" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image002.jpg">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyDoubleQuote;PaO<sub>2</sub>
+(and ischaemia)<br>
+<br></span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.85pt;margin-bottom:.0001pt;text-indent:-7.85pt; line-height:normal'>
+<span lang="EN-GB">1.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">PAO<sub>2</sub> = PiO<sub>2</sub>
+&acirc;&euro;&OpenCurlyDoubleQuote; PaCO<sub>2</sub>/0.8 (where
+PaCO<sub>2</sub></span> <span lang=
+"EN-GB">&acirc;&permil;&circ;</span> <span lang=
+"EN-GB">PACO<sub>2</sub>)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.85pt;margin-bottom:.0001pt;text-indent:-7.85pt; line-height:normal'>
+<span lang="EN-GB">2.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">&acirc;&dagger;&OpenCurlyDoubleQuote;Partial
+pressure gradient for transfer into pulmonary
+capillaries</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
-lang=EN-GB>&nbsp;</span></p>
-
-<h3><span lang=EN-GB style='font-size:13.0pt;line-height:107%'>Parenchymal
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
+"EN-GB">&nbsp;</span></p>
+<h3><span lang="EN-GB" style=
+'font-size:13.0pt;line-height:107%'>Parenchymal
 effects:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>CNS neurons</span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>↑PaCO<sub>2</sub> -&gt; ↑brain ICF [H+]</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB>PaCO<sub>2</sub>
-  60-80mmHg: sedation</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB>PaCO<sub>2</sub>
-  &gt;80mmHg: coma, apnoea</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB>Normalisation
-  of brain ICF pH occurs over ~6 hours (↑HCO<sub>3</sub><sup>-</sup> influx?)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>↓PaO<sub>2</sub> -&gt; CNS ischaemia</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>Chemoreceptors and respiratory centre</span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>CO<sub>2</sub> diffuses into central chemoreceptors in ventral
-  medulla -&gt; ↑[H<sup>+</sup>] -&gt; ↑afferent to respiratory centre -&gt;
-  ↑RR, TV</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>CO2 stimulates peripheral chemoreceptors directly</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>&nbsp;</span></p>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
-  normal'><span lang=EN-GB style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>MV↑2-3L/min per +1mmHg PaCO<sub>2</sub></span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB><img width=339 height=265 id="Picture 7"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image004.jpg"></span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>Normal: ↑MV -&gt; ↓PaCO2 (PaCO2 = VCO<sub>2</sub>/V<sub>A</sub> x
-  k; PACO<sub>2</sub> = PaCO<sub>2</sub> at equilibrium if minimal shunt)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>If ↑FiCO<sub>2</sub>: ↑MV may not ↓PaCO<sub>2</sub></span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>If chronic: ↑CSF or brain ECF [HCO<sub>3</sub><sup>-</sup>] -&gt;
-  normalised activity of chemoreceptors</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>Sympathetic nervous system</span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>CO<sub>2</sub> diffuses into neurons -&gt; ↑[H<sup>+</sup>] -&gt;
-  ↑SNS output -&gt; ↑plasma [adrenaline], [noradrenaline]</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-GB>Clinical effects:</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB>↑HR, ↑BP
-  </span><span lang=EN-GB style='font-family:"Cambria Math",serif'>∝</span><span
-  lang=EN-GB> [H<sup>+</sup>]</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB>Arrhythmias</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-GB>Bounding
-  pulse</span></p>
-  </td>
- </tr>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">CNS neurons</span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">&acirc;&dagger;&OpenCurlyQuote;PaCO<sub>2</sub>
+-&gt; &acirc;&dagger;&OpenCurlyQuote;brain ICF [H+]</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style='font-family:"Courier New"'>o
+</span><span lang="EN-GB">PaCO<sub>2</sub> 60-80mmHg:
+sedation</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style='font-family:"Courier New"'>o
+</span><span lang="EN-GB">PaCO<sub>2</sub> &gt;80mmHg: coma,
+apnoea</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style='font-family:"Courier New"'>o
+</span><span lang="EN-GB">Normalisation of brain ICF pH occurs over
+~6 hours
+(&acirc;&dagger;&OpenCurlyQuote;HCO<sub>3</sub><sup>-</sup>
+influx?)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-GB">&acirc;&dagger;&OpenCurlyDoubleQuote;PaO<sub>2</sub> -&gt;
+CNS ischaemia</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">Chemoreceptors and respiratory centre</span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">CO<sub>2</sub> diffuses into central
+chemoreceptors in ventral medulla -&gt;
+&acirc;&dagger;&OpenCurlyQuote;[H<sup>+</sup>] -&gt;
+&acirc;&dagger;&OpenCurlyQuote;afferent to respiratory centre -&gt;
+&acirc;&dagger;&OpenCurlyQuote;RR, TV</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">CO2 stimulates peripheral chemoreceptors
+directly</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">&nbsp;</span></p>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">MV&acirc;&dagger;&OpenCurlyQuote;2-3L/min per
++1mmHg PaCO<sub>2</sub></span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB"><img width="339" height="265" id="Picture 7"
+src="2009B14_cns_effects_of_hypercapnoea_files/image004.jpg"></span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Normal: &acirc;&dagger;&OpenCurlyQuote;MV -&gt;
+&acirc;&dagger;&OpenCurlyDoubleQuote;PaCO2 (PaCO2 =
+VCO<sub>2</sub>/V<sub>A</sub> x k; PACO<sub>2</sub> =
+PaCO<sub>2</sub> at equilibrium if minimal shunt)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">If
+&acirc;&dagger;&OpenCurlyQuote;FiCO<sub>2</sub>:
+&acirc;&dagger;&OpenCurlyQuote;MV may not
+&acirc;&dagger;&OpenCurlyDoubleQuote;PaCO<sub>2</sub></span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">If chronic: &acirc;&dagger;&OpenCurlyQuote;CSF
+or brain ECF [HCO<sub>3</sub><sup>-</sup>] -&gt; normalised
+activity of chemoreceptors</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">Sympathetic nervous system</span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">CO<sub>2</sub> diffuses into neurons -&gt;
+&acirc;&dagger;&OpenCurlyQuote;[H<sup>+</sup>] -&gt;
+&acirc;&dagger;&OpenCurlyQuote;SNS output -&gt;
+&acirc;&dagger;&OpenCurlyQuote;plasma [adrenaline],
+[noradrenaline]</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Clinical effects:</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style='font-family:"Courier New"'>o
+</span><span lang="EN-GB">&acirc;&dagger;&OpenCurlyQuote;HR,
+&acirc;&dagger;&OpenCurlyQuote;BP</span> <span lang="EN-GB" style=
+'font-family:"Cambria Math",serif'>&acirc;&circ;</span> <span lang=
+"EN-GB">[H<sup>+</sup>]</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style='font-family:"Courier New"'>o
+</span><span lang="EN-GB">Arrhythmias</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.55pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB" style='font-family:"Courier New"'>o
+</span><span lang="EN-GB">Bounding pulse</span></p>
+</td>
+</tr>
 </table>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
+"EN-GB">&nbsp;</span></p>
+<h3><span lang="EN-GB" style=
+'font-size:13.0pt;line-height:107%'>Neurovascular and pressure
+effects:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">Sequential neurovascular effects of
+&acirc;&dagger;&OpenCurlyQuote;PaCO<sub>2</sub></span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">&acirc;&dagger;&OpenCurlyQuote;PaCO<sub>2</sub>
+<img width="22" height="21" id="Picture 1" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image005.jpg">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyQuote;Brain
+ECF/CSF [H<sup>+</sup>] <img width="22" height="22" id="Picture 2"
+src=
+"2009B14_cns_effects_of_hypercapnoea_files/image006.jpg">&Acirc;&nbsp;Vasodilatation
+<img width="21" height="21" id="Picture 3" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image007.jpg">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyDoubleQuote;CVR
+<img width="22" height="22" id="Picture 8" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image008.jpg">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyQuote;CBF
+<img width="22" height="23" id="Picture 9" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image009.jpg">&Acirc;&nbsp;&acirc;&dagger;&OpenCurlyQuote;CBV
+<img width="22" height="22" id="Picture 10" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image010.jpg">&Acirc;&nbsp;</span><span lang="EN-GB">&Acirc;&PlusMinus;</span><span lang="EN-GB">&acirc;&dagger;&OpenCurlyQuote;ICP<br>
 
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
-lang=EN-GB>&nbsp;</span></p>
-
-<h3><span lang=EN-GB style='font-size:13.0pt;line-height:107%'>Neurovascular
-and pressure effects:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>Sequential neurovascular effects of ↑PaCO<sub>2</sub></span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>↑PaCO<sub>2</sub> <img width=22 height=21
-  id="Picture 1" src="2009B14_cns_effects_of_hypercapnoea_files/image005.jpg"> ↑Brain
-  ECF/CSF [H<sup>+</sup>] <img width=22 height=22 id="Picture 2"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image006.jpg"> Vasodilatation <img
-  width=21 height=21 id="Picture 3"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image007.jpg"> ↓CVR <img
-  width=22 height=22 id="Picture 8"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image008.jpg"> ↑CBF <img
-  width=22 height=23 id="Picture 9"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image009.jpg"> ↑CBV <img
-  width=22 height=22 id="Picture 10"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image010.jpg"> </span><span
-  lang=EN-GB>±</span><span lang=EN-GB>↑ICP<br>
-  <br>
-  </span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt;
-  line-height:normal'><span lang=EN-GB>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>Henderson-Hasselbalch equation: pH = 6.1 +
-  [HCO<sub>3</sub><sup>-</sup>]/PaCO<sub>2</sub></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.05pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-GB>a.<span style='font:7.0pt "Times New Roman"'>
-  </span></span><span lang=EN-GB>Note CO<sub>2</sub> can cross BBB, H<sup>+</sup>
-  can’t</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt;
-  line-height:normal'><span lang=EN-GB>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>↑H<sup>+</sup> -&gt; ↓activity of L-Ca<sup>2+</sup>
-  channel, ↑nNOs activity -&gt; ↑NO</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt;
-  line-height:normal'><span lang=EN-GB>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>Poiseuille’s law: Resistance = (8 x length x
-  viscosity) / </span><span lang=EN-GB>π</span><span lang=EN-GB> x radius<sup>4</sup>)
-  note power of 4</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt;
-  line-height:normal'><span lang=EN-GB>4.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>Ohm’s law: CBF = (mAP – CVP or ICP) / CVR</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt;
-  line-height:normal'><span lang=EN-GB>5.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>↑Vessel radius -&gt; ↑volume</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt;
-  line-height:normal'><span lang=EN-GB>6.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-GB>Monroe-Kellie doctrine: after compensation
-  exhausted, ↑volume one intracranial substance -&gt; ↑↑ intracranial pressure</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>Effect on CBF</span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>Ratio: +1mmHg ↑PaCO<sub>2</sub> -&gt; +2-3% ↑CBF</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB><img width=316 height=254 id="Picture 11"
-  src="2009B14_cns_effects_of_hypercapnoea_files/image011.jpg"></span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB style='font-size:9.0pt'>(Modified from Miller’s
-  Anaesthesia)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB>Effect on ICP</span></p>
-  </td>
-  <td width=690 valign=top style='width:517.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-GB style='font-size:9.0pt'><img width=336 height=256
-  id="Picture 15" src="2009B14_cns_effects_of_hypercapnoea_files/image012.jpg"></span></p>
-  </td>
- </tr>
+<br></span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt; line-height:normal'>
+<span lang="EN-GB">1.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Henderson-Hasselbalch equation: pH = 6.1 +
+[HCO<sub>3</sub><sup>-</sup>]/PaCO<sub>2</sub></span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.05pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-GB">a. </span><span lang="EN-GB">Note CO<sub>2</sub>
+can cross BBB, H<sup>+</sup> can&acirc;&euro;&TRADE;t</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt; line-height:normal'>
+<span lang="EN-GB">2.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">&acirc;&dagger;&OpenCurlyQuote;H<sup>+</sup>
+-&gt; &acirc;&dagger;&OpenCurlyDoubleQuote;activity of
+L-Ca<sup>2+</sup> channel, &acirc;&dagger;&OpenCurlyQuote;nNOs
+activity -&gt; &acirc;&dagger;&OpenCurlyQuote;NO</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt; line-height:normal'>
+<span lang="EN-GB">3.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Poiseuille&acirc;&euro;&TRADE;s law: Resistance
+= (8 x length x viscosity) /</span> <span lang=
+"EN-GB">&Iuml;&euro;</span> <span lang="EN-GB">x
+radius<sup>4</sup>) note power of 4</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt; line-height:normal'>
+<span lang="EN-GB">4.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Ohm&acirc;&euro;&TRADE;s law: CBF = (mAP
+&acirc;&euro;&OpenCurlyDoubleQuote; CVP or ICP) / CVR</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt; line-height:normal'>
+<span lang="EN-GB">5.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">&acirc;&dagger;&OpenCurlyQuote;Vessel radius
+-&gt; &acirc;&dagger;&OpenCurlyQuote;volume</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.05pt;margin-bottom:.0001pt;text-indent:-8.05pt; line-height:normal'>
+<span lang="EN-GB">6.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-GB">Monroe-Kellie doctrine: after compensation
+exhausted, &acirc;&dagger;&OpenCurlyQuote;volume one intracranial
+substance -&gt;
+&acirc;&dagger;&OpenCurlyQuote;&acirc;&dagger;&OpenCurlyQuote;
+intracranial pressure</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">Effect on CBF</span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">Ratio: +1mmHg
+&acirc;&dagger;&OpenCurlyQuote;PaCO<sub>2</sub> -&gt; +2-3%
+&acirc;&dagger;&OpenCurlyQuote;CBF</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB"><img width="316" height="254" id="Picture 11"
+src=
+"2009B14_cns_effects_of_hypercapnoea_files/image011.jpg"></span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB" style='font-size:9.0pt'>(Modified from
+Miller&acirc;&euro;&TRADE;s Anaesthesia)</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB">Effect on ICP</span></p>
+</td>
+<td width="690" valign="top" style=
+'width:517.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-GB" style='font-size:9.0pt'><img width="336" height=
+"256" id="Picture 15" src=
+"2009B14_cns_effects_of_hypercapnoea_files/image012.jpg"></span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
-lang=EN-GB>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
-lang=EN-GB>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
-lang=EN-GB>&nbsp;</span></p>
-
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
+"EN-GB">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
+"EN-GB">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
+"EN-GB">&nbsp;</span></p>
 </div>
-
-<p class="MsoNormal">Feedback welcome at <a href="mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
+<p class="MsoNormal">Feedback welcome at <a href=
+"mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
 </body>
-
 </html>

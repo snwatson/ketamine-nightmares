@@ -1,608 +1,667 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=utf-8">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:0cm;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	margin-bottom:.0001pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        margin-bottom:.0001pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        {size:595.3pt 841.9pt;
+        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 ul
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-AU>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2008B04 Briefly
-outline the pharmacology of ketamine with reference to its use as an analgesic
+<body lang="EN-AU">
+<div class="WordSection1">
+<h1><span lang="EN-US" style=
+'font-size:15.0pt;line-height:107%'>2008B04 Briefly outline the
+pharmacology of ketamine with reference to its use as an analgesic
 agent in the post-operative period.</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Physicochemical</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Pharmacokinetic</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
-lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Pharmacodynamic</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Pharmaceutics:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;margin-bottom:.0001pt;
-text-align:justify;text-indent:-18.0pt'><span lang=EN-US style='font-family:
-Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Stable in solution</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
-.0001pt;text-align:justify;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>No toxic additives (benzethonium chloride:
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Physicochemical</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Pharmacokinetic</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Pharmacodynamic</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Pharmaceutics:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-bottom:0cm;margin-bottom:.0001pt; text-align:justify;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Stable in solution</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0cm;margin-bottom: .0001pt;text-align:justify;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">No toxic additives (benzethonium chloride:
 theoretical risk of neurotoxicity)</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
-.0001pt;text-align:justify;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Low risk of bacterial growth (suitable for slow
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0cm;margin-bottom: .0001pt;text-align:justify;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Low risk of bacterial growth (suitable for slow
 infusion in single syringe)</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
-.0001pt;text-align:justify;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>No precipitation</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
-.0001pt;text-align:justify;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Low risk anaphylaxis</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;margin-bottom:.0001pt;
-text-align:justify;text-indent:-18.0pt'><span lang=EN-US style='font-family:
-Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Not painful on injection (suitable for
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0cm;margin-bottom: .0001pt;text-align:justify;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">No precipitation</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-bottom:0cm;margin-bottom: .0001pt;text-align:justify;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Low risk anaphylaxis</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-bottom:0cm;margin-bottom:.0001pt; text-align:justify;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Not painful on injection (suitable for
 peripheral IV)</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Pharmacokinetics:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Administration</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Common routes for analgesia (not just post-op…)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>IV bolus 0.1-0.3mg/kg (e.g. rescue in PACU, fracture manipulation
-  in A&amp;E)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>IV infusion 0.1-0.2mg/kg/h (e.g. days 1-2 post-op)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:66.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Wingdings'>§<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Useful if NBM</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:66.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Wingdings'>§<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Titratable</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:66.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Wingdings'>§<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Avoids peaks/troughs hence toxicity e.g. delirium</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Sublingual PRN: 0.3mg/kg q5min (e.g. dressing changes)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>PO: 0.5mg/kg tds (e.g. on ward)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>IN 0.5-1mg/kg q15mins (e.g. procedural sedation in children)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Time course</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>IV: onset 30 seconds, peak 90 seconds, duration varies</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>SL: onset 10-30 mins, duration 2-4 hours</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>PO: onset 30 mins, duration 2-4 hours</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Absorption (bioav)</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>PO: 16% (first pass ++)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>SL ~30%</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>IN 50%</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>PR 25%</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Distribution</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Rapid effect site equilibration (t<sub>1/2ke0</sub> 0.5 mins)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Highly lipid soluble (5-10x thiopentone) – crosses placenta</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Low plasma protein binding (25%)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Hence suitable for small rescue bolus in PACU</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Large V<sub>DSS</sub> 3L/kg and rapid distribution</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Hence intra-operative loading dose recommended</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Metabolism</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Hepatic phase 1, CYP3A4 N-demethylation &gt; other</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Active metabolite norketamine (30% as active)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>May prolong duration</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Inactivated by hydroxylation then conjugation</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>t<sub>1/2</sub></span><sub><span lang=EN-US>β</span></sub><span
-  lang=EN-US> 4 hours</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Rapid Clearance 17mL/kg/min, short t1/2b 2 hours</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Suitable for infusion</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Risk of hepatotoxicity if infused</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Check LFTs second daily</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Excretion</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;text-indent:
-  -9.0pt;line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Active and inactive metabolites renally excreted</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Pharmacokinetics:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Administration</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Common routes for analgesia (not just
+post-op&acirc;&euro;&brvbar;)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">IV bolus 0.1-0.3mg/kg (e.g. rescue in
+PACU, fracture manipulation in A&amp;E)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">IV infusion 0.1-0.2mg/kg/h (e.g. days 1-2
+post-op)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:66.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: Wingdings'>&Acirc;&sect;
+</span><span lang="EN-US">Useful if NBM</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:66.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: Wingdings'>&Acirc;&sect;
+</span><span lang="EN-US">Titratable</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:66.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: Wingdings'>&Acirc;&sect;
+</span><span lang="EN-US">Avoids peaks/troughs hence toxicity e.g.
+delirium</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Sublingual PRN: 0.3mg/kg q5min (e.g.
+dressing changes)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">PO: 0.5mg/kg tds (e.g. on
+ward)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">IN 0.5-1mg/kg q15mins (e.g. procedural
+sedation in children)</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Time course</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">IV: onset 30 seconds, peak 90 seconds, duration
+varies</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">SL: onset 10-30 mins, duration 2-4
+hours</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">PO: onset 30 mins, duration 2-4 hours</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Absorption (bioav)</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">PO: 16% (first pass ++)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">SL ~30%</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">IN 50%</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">PR 25%</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Distribution</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Rapid effect site equilibration
+(t<sub>1/2ke0</sub> 0.5 mins)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Highly lipid soluble (5-10x thiopentone)
+&acirc;&euro;&OpenCurlyDoubleQuote; crosses placenta</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Low plasma protein binding
+(25%)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Hence suitable for small rescue bolus in
+PACU</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Large V<sub>DSS</sub> 3L/kg and rapid
+distribution</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Hence intra-operative loading dose
+recommended</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Metabolism</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Hepatic phase 1, CYP3A4 N-demethylation &gt;
+other</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Active metabolite norketamine (30% as
+active)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">May prolong duration</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Inactivated by hydroxylation then
+conjugation</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">t<sub>1/2</sub></span><sub><span lang=
+"EN-US">&Icirc;&sup2;</span></sub> <span lang="EN-US">4
+hours</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Rapid Clearance 17mL/kg/min, short t1/2b 2
+hours</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Suitable for infusion</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Risk of hepatotoxicity if infused</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Check LFTs second daily</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Excretion</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;text-indent: -9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Active and inactive metabolites renally
+excreted</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Analgesia:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Mechanisms</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Primary: non-competitive NMDA antagonist at PCP site</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Post-synaptic inhibition at dorsal horn</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Short term: ↓excitability, ↓wind-up</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
-  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Long
-  term: ↓synaptic reinforcement, ↓long-term potentiation</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Secondary: ↓Monoamine reuptake, ↓VDNaC, ↑mu opioid</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>S-ketamine 2-4x more potent than R-ketamine</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>Effects</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>↓Acute and chronic pain</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>↓Somatic and neuropathic pain</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>↓Hyperalgaesia and allodynia</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>↓</span><i><span lang=EN-US>Risk</span></i><span lang=EN-US> of
-  chronic pain, phantom pain</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>↓Opioid requirement</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>“Re-set” opioid sensitivity in opioid-induced hyperalgaesia</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Analgesia:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Mechanisms</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Primary: non-competitive NMDA antagonist at PCP
+site</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Post-synaptic inhibition at dorsal
+horn</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Short term:
+&acirc;&dagger;&OpenCurlyDoubleQuote;excitability,
+&acirc;&dagger;&OpenCurlyDoubleQuote;wind-up</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">Long term:
+&acirc;&dagger;&OpenCurlyDoubleQuote;synaptic reinforcement,
+&acirc;&dagger;&OpenCurlyDoubleQuote;long-term
+potentiation</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Secondary:
+&acirc;&dagger;&OpenCurlyDoubleQuote;Monoamine reuptake,
+&acirc;&dagger;&OpenCurlyDoubleQuote;VDNaC,
+&acirc;&dagger;&OpenCurlyQuote;mu opioid</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">S-ketamine 2-4x more potent than
+R-ketamine</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">Effects</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Acute and
+chronic pain</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Somatic and
+neuropathic pain</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Hyperalgaesia and
+allodynia</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang=
+"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;</span><i><span lang=
+"EN-US">Risk</span></i> <span lang="EN-US">of chronic pain, phantom
+pain</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Opioid
+requirement</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&euro;&oelig;Re-set&acirc;&euro; opioid
+sensitivity in opioid-induced hyperalgaesia</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Side effects:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-  justify;line-height:normal'><span lang=EN-US>CNS</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Delirium: nightmares, hallucinations</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>Dose-dependent</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>May be attenuated by midazolam (e.g. 1mg with 200mg ketamine)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>High risk of psychiatric illness</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  "Courier New"'>o<span style='font:7.0pt "Times New Roman"'> </span></span><span
-  lang=EN-US>R-ketamine &gt; S-ketamine</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>↑CMRO<sub>2</sub>, ↑CBF, +/- ICP (contraindicated if CNS bleed,
-  tumour with ↑ICP)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Dependence, addiction</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.25pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
-  normal'><span lang=EN-US>Uncommon at analgesic dose</span></p>
-  </td>
-  <td width=526 valign=top style='width:394.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>CNS: dissociative anaesthesia, nausea/vomiting</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify;
-  text-indent:-9.0pt;line-height:normal'><span lang=EN-US style='font-family:
-  Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>CVS: SNS stimulation, direct negative inotropy, vasodilation (R
-  &gt; S-ketamine)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
-  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
-  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
-  lang=EN-US>Resp: mild ↓minute ventilation, ↑airway secretions,
-  bronchodilation<br>
-  (bronchodilation R &gt; S-ketamine)</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Side effects:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify;line-height:normal'>
+<span lang="EN-US">CNS</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Delirium: nightmares, hallucinations</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">Dose-dependent</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">May be attenuated by midazolam (e.g. 1mg
+with 200mg ketamine)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">High risk of psychiatric
+illness</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family: "Courier New"'>o
+</span><span lang="EN-US">R-ketamine &gt; S-ketamine</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;CMRO<sub>2</sub>,
+&acirc;&dagger;&OpenCurlyQuote;CBF, +/- ICP (contraindicated if CNS
+bleed, tumour with &acirc;&dagger;&OpenCurlyQuote;ICP)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Dependence, addiction</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
+<span lang="EN-US">Uncommon at analgesic dose</span></p>
+</td>
+<td width="526" valign="top" style=
+'width:394.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">CNS: dissociative anaesthesia,
+nausea/vomiting</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-align:justify; text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family: Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">CVS: SNS stimulation, direct negative inotropy,
+vasodilation (R &gt; S-ketamine)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&Acirc;&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Resp: mild
+&acirc;&dagger;&OpenCurlyDoubleQuote;minute ventilation,
+&acirc;&dagger;&OpenCurlyQuote;airway secretions,
+bronchodilation<br>
+(bronchodilation R &gt; S-ketamine)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;text-align:
-justify'><span lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style=
+'margin-bottom:0cm;margin-bottom:.0001pt;text-align: justify'>
+<span lang="EN-US">&nbsp;</span></p>
 </div>
-
-<p class="MsoNormal">Feedback welcome at <a href="mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
+<p class="MsoNormal">Feedback welcome at <a href=
+"mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
 </body>
-
 </html>

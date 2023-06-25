@@ -1,586 +1,531 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:0cm;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-AU">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2008A09 The skin, the kidneys
-and the carotid bodies are examples of where<br>
-specific organ blood flow is far in excess of that
-organ&acirc;&euro;&TRADE;s metabolic requirement.<br>
-For each example, explain what the physiological role of the high
-organ blood flow is,<br>
-why this high flow might be an advantage to the person<br>
+
+<body lang=EN-AU>
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2008A09 The
+skin, the kidneys and the carotid bodies are examples of where <br>
+specific organ blood flow is far in excess of that organ’s metabolic
+requirement. <br>
+For each example, explain what the physiological role of the high organ blood
+flow is, <br>
+why this high flow might be an advantage to the person <br>
 and a brief description of the mechanism involved.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Numbers:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="160" valign="top" style=
-'width:120.1pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">&nbsp;</span></b></p>
-</td>
-<td width="208" valign="top" style=
-'width:155.95pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">Skin</span></b></p>
-</td>
-<td width="198" valign="top" style=
-'width:148.8pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">Kidneys</span></b></p>
-</td>
-<td width="236" valign="top" style=
-'width:177.2pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">Carotid bodies</span></b></p>
-</td>
-</tr>
-<tr>
-<td width="160" valign="top" style=
-'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Absolute blood flow</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(mL/min)</span></p>
-</td>
-<td width="208" valign="top" style=
-'width:155.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">500 (can &acirc;&dagger;&OpenCurlyQuote;30x,
-&acirc;&dagger;&OpenCurlyDoubleQuote;10x)</span></p>
-</td>
-<td width="198" valign="top" style=
-'width:148.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">1100</span></p>
-</td>
-<td width="236" valign="top" style=
-'width:177.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">0.3</span></p>
-</td>
-</tr>
-<tr>
-<td width="160" valign="top" style=
-'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Relative blood flow</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(mL/min/100g)</span></p>
-</td>
-<td width="208" valign="top" style=
-'width:155.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">12.5</span></p>
-</td>
-<td width="198" valign="top" style=
-'width:148.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">420 average</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">500 cortex</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">20 medulla</span></p>
-</td>
-<td width="236" valign="top" style=
-'width:177.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">2000</span></p>
-</td>
-</tr>
-<tr>
-<td width="160" valign="top" style=
-'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Absolute VO<sub>2</sub></span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(mL/min)</span></p>
-</td>
-<td width="208" valign="top" style=
-'width:155.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">12</span></p>
-</td>
-<td width="198" valign="top" style=
-'width:148.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">18</span></p>
-</td>
-<td width="236" valign="top" style=
-'width:177.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Minimal</span></p>
-</td>
-</tr>
-<tr>
-<td width="160" valign="top" style=
-'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Relative VO<sub>2</sub></span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(mL/min/100g)</span></p>
-</td>
-<td width="208" valign="top" style=
-'width:155.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">0.3</span></p>
-</td>
-<td width="198" valign="top" style=
-'width:148.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">6</span></p>
-</td>
-<td width="236" valign="top" style=
-'width:177.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Minimal</span></p>
-</td>
-</tr>
-<tr>
-<td width="160" valign="top" style=
-'width:120.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">EO<sub>2</sub></span></p>
-</td>
-<td width="208" valign="top" style=
-'width:155.95pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">0.125</span></p>
-</td>
-<td width="198" valign="top" style=
-'width:148.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">0.2 cortex</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">0.8 medulla</span></p>
-</td>
-<td width="236" valign="top" style=
-'width:177.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Minimal</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Numbers:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>&nbsp;</span></b></p>
+  </td>
+  <td width=208 valign=top style='width:155.95pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>Skin</span></b></p>
+  </td>
+  <td width=198 valign=top style='width:148.8pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>Kidneys</span></b></p>
+  </td>
+  <td width=236 valign=top style='width:177.2pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>Carotid bodies</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Absolute blood flow</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(mL/min)</span></p>
+  </td>
+  <td width=208 valign=top style='width:155.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>500 (can ↑30x, ↓10x)</span></p>
+  </td>
+  <td width=198 valign=top style='width:148.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>1100</span></p>
+  </td>
+  <td width=236 valign=top style='width:177.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>0.3</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Relative blood flow</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(mL/min/100g)</span></p>
+  </td>
+  <td width=208 valign=top style='width:155.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>12.5</span></p>
+  </td>
+  <td width=198 valign=top style='width:148.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>420 average</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>500 cortex</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>20 medulla</span></p>
+  </td>
+  <td width=236 valign=top style='width:177.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>2000</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Absolute VO<sub>2</sub></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(mL/min)</span></p>
+  </td>
+  <td width=208 valign=top style='width:155.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>12</span></p>
+  </td>
+  <td width=198 valign=top style='width:148.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>18</span></p>
+  </td>
+  <td width=236 valign=top style='width:177.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Minimal</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Relative VO<sub>2</sub></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(mL/min/100g)</span></p>
+  </td>
+  <td width=208 valign=top style='width:155.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>0.3</span></p>
+  </td>
+  <td width=198 valign=top style='width:148.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>6</span></p>
+  </td>
+  <td width=236 valign=top style='width:177.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Minimal</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=160 valign=top style='width:120.1pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>EO<sub>2</sub></span></p>
+  </td>
+  <td width=208 valign=top style='width:155.95pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>0.125</span></p>
+  </td>
+  <td width=198 valign=top style='width:148.8pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>0.2 cortex</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>0.8 medulla</span></p>
+  </td>
+  <td width=236 valign=top style='width:177.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Minimal</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Purpose and
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Purpose and
 mechanism:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="66" valign="top" style=
-'width:49.25pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">&nbsp;</span></b></p>
-</td>
-<td width="350" valign="top" style=
-'width:262.2pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">Why: purpose and explanation</span></b></p>
-</td>
-<td width="387" valign="top" style=
-'width:290.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<b><span lang="EN-US">How: mechanism</span></b></p>
-</td>
-</tr>
-<tr>
-<td width="66" valign="top" style=
-'width:49.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Skin</span></p>
-</td>
-<td width="350" valign="top" style=
-'width:262.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(1)Thermostasis: control of blood flow and
-sweating</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Preserves enzyme rate and function</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;T: too
-slow, dysfunction</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;T: too fast,
-&acirc;&dagger;&OpenCurlyQuote;MR, denaturing</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Preserves pH hence protein function</span></p>
-<p class="MsoNormal" style=
-'margin-top:0cm;margin-right:0cm;margin-bottom:0cm; margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span lang="EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(2)Blood reservoir</span></p>
-</td>
-<td width="387" valign="top" style=
-'width:290.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Hypothalamic cutaneous SNS output</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Response to heat:</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang=
-"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;SNS</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Dilatation of AV anastomoses and precapillary
-sphincters</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Resistance
--&gt; &acirc;&dagger;&OpenCurlyQuote;skin blood flow and
-volume</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">&acirc;&dagger;&OpenCurlyQuote;Radiation,
-convection, conduction, sweat production</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Response to cold: opposite</span></p>
-</td>
-</tr>
-<tr>
-<td width="66" valign="top" style=
-'width:49.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Renal cortex</span></p>
-</td>
-<td width="350" valign="top" style=
-'width:262.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">High flow:</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Ensure high GFR</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Fluid, electrolyte, acid-base
-regulation</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Selective reabsorption of water and
-solute</span></p>
-</td>
-<td width="387" valign="top" style=
-'width:290.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Low resistance:</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Short, wide renal arteries</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Branches ++</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Glomerular fenestrae -&gt; filtration</span></p>
-</td>
-</tr>
-<tr>
-<td width="66" valign="top" style=
-'width:49.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Renal medulla</span></p>
-</td>
-<td width="350" valign="top" style=
-'width:262.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Low flow:</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Prevents washout of interstitium</span></p>
-</td>
-<td width="387" valign="top" style=
-'width:290.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">High efferent arteriolar tone</span></p>
-</td>
-</tr>
-<tr>
-<td width="66" valign="top" style=
-'width:49.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Carotid bodies</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-<td width="350" valign="top" style=
-'width:262.2pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">O<sub>2</sub> supply only by dissolved
-O<sub>2</sub></span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Allows PaO<sub>2</sub> responsiveness</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Note unaffected by Hb-bound O<sub>2</sub> hence
-anaemia, CO poisoning</span></p>
-</td>
-<td width="387" valign="top" style=
-'width:290.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Small size, short diffusion distance</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Location in large vessels (aortic and
-carotid)</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>&nbsp;</span></b></p>
+  </td>
+  <td width=350 valign=top style='width:262.2pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>Why: purpose and explanation</span></b></p>
+  </td>
+  <td width=387 valign=top style='width:290.6pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><b><span lang=EN-US>How: mechanism</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Skin</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(1)Thermostasis: control of blood flow and sweating</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Preserves enzyme rate and function</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↓T: too slow, dysfunction</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑T: too fast, ↑MR, denaturing</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Preserves pH hence protein function</span></p>
+  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
+  margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span lang=EN-US>&nbsp;</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(2)Blood reservoir</span></p>
+  </td>
+  <td width=387 valign=top style='width:290.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Hypothalamic cutaneous SNS output</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Response to heat:</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↓SNS</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Dilatation of AV anastomoses and precapillary sphincters</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↓Resistance -&gt; ↑skin blood flow and volume</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>↑Radiation, convection, conduction, sweat production</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Response to cold: opposite</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Renal cortex</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>High flow:</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Ensure high GFR</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Fluid, electrolyte, acid-base regulation</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Selective reabsorption of water and solute</span></p>
+  </td>
+  <td width=387 valign=top style='width:290.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Low resistance:</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Short, wide renal arteries</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Branches ++</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Glomerular fenestrae -&gt; filtration</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Renal medulla</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Low flow:</span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Prevents washout of interstitium</span></p>
+  </td>
+  <td width=387 valign=top style='width:290.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>High efferent arteriolar tone</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=66 valign=top style='width:49.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Carotid bodies</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=350 valign=top style='width:262.2pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>O<sub>2</sub> supply only by dissolved O<sub>2</sub></span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Allows PaO<sub>2</sub> responsiveness</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Note unaffected by Hb-bound O<sub>2</sub> hence anaemia, CO
+  poisoning</span></p>
+  </td>
+  <td width=387 valign=top style='width:290.6pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Small size, short diffusion distance</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.45pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  lang=EN-US>Location in large vessels (aortic and carotid)</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
 </div>
-<p class="MsoNormal">Feedback welcome at <a href=
-"mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
+
+<p class="MsoNormal">Feedback welcome at <a href="mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
 </body>
+
 </html>

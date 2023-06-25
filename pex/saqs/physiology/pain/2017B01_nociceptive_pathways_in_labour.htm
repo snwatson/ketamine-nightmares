@@ -1,651 +1,602 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:0cm;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 a:link, span.MsoHyperlink
-        {color:#0563C1;
-        text-decoration:underline;}
+	{color:#0563C1;
+	text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-AU" link="#0563C1" vlink="#954F72">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2017B01 Describe the visceral
-and somatic pain of labour with particular reference<br>
+
+<body lang=EN-AU link="#0563C1" vlink="#954F72">
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2017B01 Describe
+the visceral and somatic pain of labour with particular reference <br>
 to the anatomy of the pain pathways.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-bottom:0cm;margin-bottom:.0001pt; text-indent:-18.0pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Types of pain</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;margin-bottom: .0001pt;text-indent:-18.0pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Pain pathways</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;margin-bottom: .0001pt;text-indent:-18.0pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Stage 1 pain</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;margin-bottom: .0001pt;text-indent:-18.0pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Stage 2&amp;3 pain</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-bottom:0cm;margin-bottom:.0001pt; text-indent:-18.0pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Analgesia</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Types of pain:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Somatic pain</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Mainly A</span><span lang=
-"EN-US">&Icirc;&DiacriticalAcute;</span> <span lang=
-"EN-US">fibres</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Fast, sharp, well localized</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Triggers withdrawal</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Visceral pain</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Mainly C fibres</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Slow, dull, poorly localized</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Elicits guarding</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Referred pain</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Pain perceived at a location distal to the site of
-insult</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Due to convergence of somatic and visceral
-1</span><span lang="EN-US">&Acirc;&deg;</span> <span lang=
-"EN-US">afferents on same WDR projection neurons</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Types of pain</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
+.0001pt;text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Pain pathways</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
+.0001pt;text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Stage 1 pain</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;margin-bottom:
+.0001pt;text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Stage 2&amp;3 pain</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;margin-bottom:.0001pt;
+text-indent:-18.0pt'><span lang=EN-US style='font-family:Symbol'>·<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Analgesia</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Types of pain:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Somatic pain</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Mainly
+  A</span><span lang=EN-US>δ</span><span lang=EN-US> fibres</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Fast,
+  sharp, well localized</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Triggers
+  withdrawal</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Visceral pain</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Mainly
+  C fibres</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Slow,
+  dull, poorly localized</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Elicits
+  guarding</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Referred pain</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Pain
+  perceived at a location distal to the site of insult</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Due
+  to convergence of somatic and visceral 1</span><span lang=EN-US>°</span><span
+  lang=EN-US> afferents on same WDR projection neurons</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Pathways:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Somatic afferent</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Nociceptive receptor in tissues e.g. perineum</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">1</span><span lang="EN-US">&Acirc;&deg;</span> <span lang=
-"EN-US">afferent: soma in dorsal root ganglion, synapse at dorsal
-horn (e.g. via sacral nerve roots)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">2</span><span lang="EN-US">&Acirc;&deg;</span> <span lang=
-"EN-US">afferent: decussates in anterior commissure and ascends via
-spinothalamic tract</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">3</span><span lang="EN-US">&Acirc;&deg;</span> <span lang=
-"EN-US">afferent: to cortex (somatic) and subcortex (visceral,
-autonomic centres)</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">General visceral afferent</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Nociceptive receptor in tissue e.g. cervix</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">1</span><span lang="EN-US">&Acirc;&deg;</span> <span lang=
-"EN-US">afferent: piggybacks onto autonomic efferents</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">With SNS</span><span lang="EN-US">: via
-white ramus communicans to spinal cord T1-L2</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">With PSNS: via sacral nerves to S2-4
-(also cranial)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Direct synapse with wide dynamic range
-2</span><span lang="EN-US">&Acirc;&deg;</span> <span lang=
-"EN-US">afferents in deeper layers</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Convergence onto somatic
-nociceptive-specific 2</span><span lang="EN-US">&Acirc;&deg;
-afferents in superficial layers</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">2</span><span lang="EN-US">&Acirc;&deg;</span> <span lang=
-"EN-US">afferent:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Decussation via anterior commissure
-(incomplete for older pathways)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Ascent via multiple spinothalamic
-tracts</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">3</span><span lang="EN-US">&Acirc;&deg;</span> <span lang=
-"EN-US">afferent:</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">From brainstem or diencephalon to higher
-structures</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Pathways:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Somatic afferent</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Nociceptive
+  receptor in tissues e.g. perineum</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>1</span><span
+  lang=EN-US>°</span><span lang=EN-US> afferent: soma in dorsal root ganglion,
+  synapse at dorsal horn (e.g. via sacral nerve roots)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>2</span><span
+  lang=EN-US>°</span><span lang=EN-US> afferent: decussates in anterior
+  commissure and ascends via spinothalamic tract</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>3</span><span
+  lang=EN-US>°</span><span lang=EN-US> afferent: to cortex (somatic) and
+  subcortex (visceral, autonomic centres)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>General visceral afferent</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Nociceptive
+  receptor in tissue e.g. cervix</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>1</span><span
+  lang=EN-US>°</span><span lang=EN-US> afferent: piggybacks onto autonomic
+  efferents</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>With SNS</span><span
+  lang=EN-US>: via white ramus communicans to spinal cord T1-L2</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>With
+  PSNS: via sacral nerves to S2-4 (also cranial)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Direct
+  synapse with wide dynamic range 2</span><span lang=EN-US>°</span><span
+  lang=EN-US> afferents in deeper layers</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Convergence
+  onto somatic nociceptive-specific 2</span><span lang=EN-US>° afferents in
+  superficial layers</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>2</span><span
+  lang=EN-US>°</span><span lang=EN-US> afferent:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Decussation
+  via anterior commissure (incomplete for older pathways)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Ascent
+  via multiple spinothalamic tracts</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>3</span><span
+  lang=EN-US>°</span><span lang=EN-US> afferent:</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>From
+  brainstem or diencephalon to higher structures</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Stage 1:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Definition</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Until cervix effaced and 10cm dilated</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Somatic pain</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Minimal</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Visceral pain</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Rhythmic myometrial contraction
-&acirc;&euro;&OpenCurlyDoubleQuote; distension of lower segment and
-cervix</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">GVA pathway: T10-12 via ovarian and inferior hypogastric
-plexuses</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Location: lower abdomen, sacrum, back</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Stage 1:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Definition</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>Until cervix effaced and 10cm dilated</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Somatic pain</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>Minimal</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Visceral pain</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Rhythmic
+  myometrial contraction – distension of lower segment and cervix</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>GVA
+  pathway: T10-12 via ovarian and inferior hypogastric plexuses</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Location:
+  lower abdomen, sacrum, back</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Stage 2&amp;3:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Definitions:</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">2: Until baby is delivered</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">3: Until placenta is delivered</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Somatic pain</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Continuous stretching and tearing of perineum and outer 1/3
-vagina</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Pathway: pudendal nerve (S2-4), ilioinguinal and
-genitofemoral nerves (L1-2)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Location: perineum and vagina</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Visceral pain</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Continuous pressure on pelvic viscera</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">GVA pathway: T10-L1 via ovarian and inferior hypogastric
-plexuses; S2-4 via sacral plexus</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Location: pelvis, inner thigh</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Stage 2&amp;3:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Definitions:</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>2:
+  Until baby is delivered</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>3:
+  Until placenta is delivered</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Somatic pain</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Continuous
+  stretching and tearing of perineum and outer 1/3 vagina</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Pathway:
+  pudendal nerve (S2-4), ilioinguinal and genitofemoral nerves (L1-2)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Location:
+  perineum and vagina</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Visceral pain</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Continuous
+  pressure on pelvic viscera</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>GVA
+  pathway: T10-L1 via ovarian and inferior hypogastric plexuses; S2-4 via
+  sacral plexus</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Location:
+  pelvis, inner thigh</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Analgesia:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Endogenous</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Ascending: via non-pain modalities</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Activation of inhibitory
-interneurons</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Descending: by NAd &gt; 5-HT from brainstem nuclei (e.g.
-periaqueductal grey)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Disinhibition of brainstem nuclei by
-endogenous opioids</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Neuraxial</span></p>
-</td>
-<td width="575" valign="top" style=
-'width:431.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Local anaesthetic:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Spinal nerve roots</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Dorsal horn</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Spinal cord</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Opioid:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Dorsal horn</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Brain via CSF</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Systemic absorption</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Analgesia:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Endogenous</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Ascending:
+  via non-pain modalities</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Activation
+  of inhibitory interneurons</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Descending:
+  by NAd &gt; 5-HT from brainstem nuclei (e.g. periaqueductal grey)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Disinhibition
+  of brainstem nuclei by endogenous opioids</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Neuraxial</span></p>
+  </td>
+  <td width=575 valign=top style='width:431.1pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Local
+  anaesthetic:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Spinal
+  nerve roots</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Dorsal
+  horn</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Spinal
+  cord</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.0pt;margin-bottom:.0001pt;text-indent:-8.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Opioid:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Dorsal
+  horn</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Brain
+  via CSF</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.5pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Systemic
+  absorption</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">Feedback welcome at <a href=
-"mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>Feedback welcome at <a href="mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
 </div>
+
 </body>
+
 </html>

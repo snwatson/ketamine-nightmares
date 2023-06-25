@@ -1,617 +1,567 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:0cm;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-AU">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2015B04 Discuss the concepts of
-half life and context-sensitive half times<br>
+
+<body lang=EN-AU>
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2015B04 Discuss
+the concepts of half life and context-sensitive half times <br>
 with examples from anaesthetic pharmacology.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang="EN-US">For
-each:</span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Intro</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Use</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Limitation</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Graphs</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">(Equation)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Factors increasing it</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Factors decreasing it</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Half life:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Definitions</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Half life: time taken for plasma concentration C -&gt;
-C/2</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">t<sub>1/2</sub></span><sub><span lang=
-"EN-US">&Icirc;&PlusMinus;</span></sub><span lang="EN-US">: during
-distribution phase (</span><span lang="EN-US" style=
-'font-family:"Cambria Math",serif'>&acirc;&circ;</span> <span lang=
-"EN-US">1/distribution x metabolism)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">t<sub>1/2</sub></span><sub><span lang=
-"EN-US">&Icirc;&sup2;</span></sub><span lang="EN-US">: during
-terminal elimination phase (</span><span lang="EN-US" style=
-'font-family:"Cambria Math",serif'>&acirc;&circ;</span> <span lang=
-"EN-US">redistribution / metabolism)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Time constant: time taken for plasma concentration C -&gt;
-C/e</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">These are fixed values</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Use</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Provide some indication of likely time to offset</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Determine dosing frequency: e.g. every half life</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Determine time to steady state: 5 x t<sub>1/2</sub>, 3
-x</span> <span lang="EN-US">&Iuml;&bdquo;</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Limitation</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;line-height: normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Poor indication of time to offset after bolus or short
-infusion</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Equation</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">t<sub>1/2</sub> =</span> <span lang=
-"EN-US">&Iuml;&bdquo;</span> <span lang="EN-US">x loge2</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&Iuml;&bdquo;</span> <span lang="EN-US">= 1/k</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Cl = k x V<sub>D</sub></span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Hence t<sub>1/2</sub> = V<sub>D</sub>/Cl x
-log<sub>e</sub>2</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Graph</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US" style='font-size:12.0pt'><img width="277"
-height="196" id="Picture 2" src=
-"2015B04_half_life_vs_context_sensitive_half_time_files/image001.jpg"></span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Increased if</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&acirc;&dagger;&OpenCurlyQuote;V<sub>D</sub>:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Small</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Non-polar (e.g. propofol)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Low plasma protein binding</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">ICF sequestration (e.g.
-amiodarone)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;Metabolism</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Low HER: e.g. thiopentone Cl
-3.5mL/kg/min</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Decreased if</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&acirc;&dagger;&OpenCurlyDoubleQuote;V<sub>D</sub>:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Large (e.g. suxamethonium)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Polar (e.g. heparin)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">High plasma protein binding (e.g.
-warfarin)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&acirc;&dagger;&OpenCurlyQuote;Metabolism</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">High HER (e.g. propofol)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Ubiquitous enzyme (e.g. adenosine
-deaminase, plasma cholinesterase for suxameth)</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>For each:</span></p>
+
+<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Intro</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Use</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Limitation</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Graphs</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>(Equation)</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Factors increasing it</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+margin-bottom:0cm;margin-left:22.5pt;margin-bottom:.0001pt;text-indent:-13.5pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Factors decreasing it</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Half life:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Definitions</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Half
+  life: time taken for plasma concentration C -&gt; C/2</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>t<sub>1/2</sub></span><sub><span
+  lang=EN-US>α</span></sub><span lang=EN-US>: during distribution phase (</span><span
+  lang=EN-US style='font-family:"Cambria Math",serif'>∝</span><span lang=EN-US>
+  1/distribution x metabolism)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>t<sub>1/2</sub></span><sub><span
+  lang=EN-US>β</span></sub><span lang=EN-US>: during terminal elimination phase
+  (</span><span lang=EN-US style='font-family:"Cambria Math",serif'>∝</span><span
+  lang=EN-US> redistribution / metabolism)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Time
+  constant: time taken for plasma concentration C -&gt; C/e</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>These
+  are fixed values</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Use</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Provide
+  some indication of likely time to offset</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Determine
+  dosing frequency: e.g. every half life</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Determine
+  time to steady state: 5 x t<sub>1/2</sub>, 3 x </span><span lang=EN-US>τ</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Limitation</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
+  0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;line-height:
+  normal'><span lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>Poor indication of time to offset after bolus
+  or short infusion</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Equation</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>t<sub>1/2</sub>
+  = </span><span lang=EN-US>τ</span><span lang=EN-US> x loge2</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>τ</span><span
+  lang=EN-US> = 1/k</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Cl
+  = k x V<sub>D</sub></span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Hence
+  t<sub>1/2</sub> = V<sub>D</sub>/Cl x log<sub>e</sub>2</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Graph</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US style='font-size:12.0pt'><img width=277 height=196
+  id="Picture 2"
+  src="2015B04_half_life_vs_context_sensitive_half_time_files/image001.jpg"></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Increased if</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>↑V<sub>D</sub>:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Small</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Non-polar
+  (e.g. propofol)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Low
+  plasma protein binding</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>ICF
+  sequestration (e.g. amiodarone)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>↓Metabolism</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Low HER:
+  e.g. thiopentone Cl 3.5mL/kg/min</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Decreased if</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>↓V<sub>D</sub>:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Large
+  (e.g. suxamethonium)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Polar
+  (e.g. heparin)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>High
+  plasma protein binding (e.g. warfarin)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>↑Metabolism</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>High HER
+  (e.g. propofol)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>Ubiquitous
+  enzyme (e.g. adenosine deaminase, plasma cholinesterase for suxameth)</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Context-sensitive half
-time:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Definition</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Time taken for plasma concentration C &gt; C/2 as a
-function of duration of infusion</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Not fixed but dependent on duration of infusion</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Approaches but in theory does not reach
-t<sub>1/2</sub></span><sub><span lang=
-"EN-US">&Icirc;&sup2;</span></sub></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Use</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Better than half life as an indicator of likely duration of
-action</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Predict suitability for short infusion:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">e.g. fentanyl (highly LS 600x morphine
--&gt; large V<sub>D</sub> 4L/kg)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Predict suitability for long infusion:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">e.g. remifentanil: small V<sub>D</sub>
-0.3L/kg, high Cl (40mL/kg/min), max CSHT &lt;10 mins</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">TCI modelling: estimate time to propofol emergence (e.g.
-Cet 1mcg/mL)</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Limitation</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">No account of active metabolites (e.g. diazepam)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">No account of prolonged receptor effects (e.g.
-aspirin)</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Graph</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US"><img width="301" height="213" id="Picture 3"
-src="2015B04_half_life_vs_context_sensitive_half_time_files/image002.jpg"></span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(using two compartment model)</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">(Note not a textbook graph, just my
-interpretation)</span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Increased if</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Long infusion</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Other factors as for t<sub>1/2</sub></span></p>
-</td>
-</tr>
-<tr>
-<td width="84" valign="top" style=
-'width:62.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt;line-height: normal'>
-<span lang="EN-US">Decreased if</span></p>
-</td>
-<td width="568" valign="top" style=
-'width:425.9pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Short infusion</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt; line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Other factors as for t<sub>1/2</sub></span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Context-sensitive
+half time:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Definition</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Time
+  taken for plasma concentration C &gt; C/2 as a function of duration of
+  infusion</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Not
+  fixed but dependent on duration of infusion</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Approaches
+  but in theory does not reach t<sub>1/2</sub></span><sub><span lang=EN-US>β</span></sub></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Use</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Better
+  than half life as an indicator of likely duration of action</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Predict
+  suitability for short infusion:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>e.g.
+  fentanyl (highly LS 600x morphine -&gt; large V<sub>D</sub> 4L/kg)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Predict
+  suitability for long infusion:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:30.6pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span lang=EN-US style='font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span lang=EN-US>e.g.
+  remifentanil: small V<sub>D</sub> 0.3L/kg, high Cl (40mL/kg/min), max CSHT
+  &lt;10 mins</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>TCI
+  modelling: estimate time to propofol emergence (e.g. Cet 1mcg/mL)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Limitation</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>No
+  account of active metabolites (e.g. diazepam)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>No
+  account of prolonged receptor effects (e.g. aspirin)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Graph</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US><img width=301 height=213 id="Picture 3"
+  src="2015B04_half_life_vs_context_sensitive_half_time_files/image002.jpg"></span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(using two compartment model)</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>(Note not a textbook graph, just my interpretation)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Increased if</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Long
+  infusion</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Other
+  factors as for t<sub>1/2</sub></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=84 valign=top style='width:62.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt;line-height:
+  normal'><span lang=EN-US>Decreased if</span></p>
+  </td>
+  <td width=568 valign=top style='width:425.9pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Short
+  infusion</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:8.2pt;margin-bottom:.0001pt;text-indent:-8.2pt;
+  line-height:normal'><span lang=EN-US style='font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp; </span></span><span lang=EN-US>Other
+  factors as for t<sub>1/2</sub></span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0cm;margin-bottom:.0001pt'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm;margin-bottom:.0001pt'><span
+lang=EN-US>&nbsp;</span></p>
+
 </div>
-<p class="MsoNormal">Feedback welcome at <a href=
-"mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
+
+<p class="MsoNormal">Feedback welcome at <a href="mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
 </body>
+
 </html>

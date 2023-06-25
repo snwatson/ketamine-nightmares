@@ -1,484 +1,469 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:0cm;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 a:link, span.MsoHyperlink
-        {color:#0563C1;
-        text-decoration:underline;}
+	{color:#0563C1;
+	text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-AU" link="#0563C1" vlink="#954F72">
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2019A04 Describe the ways in
-which carbon dioxide is carried in the blood.</span></h1>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Key numbers</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Carriage</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Variable CO<sub>2</sub> affinity</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Key numbers:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="188" valign="top" style=
-'width:141.35pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">&nbsp;</span></b></p>
-</td>
-<td width="255" valign="top" style=
-'width:191.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">Arterial</span></b></p>
-</td>
-<td width="246" valign="top" style=
-'width:184.25pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">A-V difference</span></b></p>
-</td>
-</tr>
-<tr>
-<td width="188" valign="top" style=
-'width:141.35pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">As HCO<sub>3</sub><sup>-</sup></span></p>
-</td>
-<td width="255" valign="top" style=
-'width:191.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">90%</span></p>
-</td>
-<td width="246" valign="top" style=
-'width:184.25pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">60%</span></p>
-</td>
-</tr>
-<tr>
-<td width="188" valign="top" style=
-'width:141.35pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">As carbamino compound</span></p>
-</td>
-<td width="255" valign="top" style=
-'width:191.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">5%</span></p>
-</td>
-<td width="246" valign="top" style=
-'width:184.25pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">30%</span></p>
-</td>
-</tr>
-<tr>
-<td width="188" valign="top" style=
-'width:141.35pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">As dissolved CO<sub>2</sub></span></p>
-</td>
-<td width="255" valign="top" style=
-'width:191.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">5%</span></p>
-</td>
-<td width="246" valign="top" style=
-'width:184.25pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">10%</span></p>
-</td>
-</tr>
-<tr>
-<td width="188" valign="top" style=
-'width:141.35pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-<td width="255" valign="top" style=
-'width:191.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-<td width="246" valign="top" style=
-'width:184.25pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-</tr>
-<tr>
-<td width="188" valign="top" style=
-'width:141.35pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Tension</span></p>
-</td>
-<td width="255" valign="top" style=
-'width:191.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">40mmHg</span></p>
-</td>
-<td width="246" valign="top" style=
-'width:184.25pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">6mmHg</span></p>
-</td>
-</tr>
-<tr>
-<td width="188" valign="top" style=
-'width:141.35pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Content</span></p>
-</td>
-<td width="255" valign="top" style=
-'width:191.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">48mL/100mL</span></p>
-</td>
-<td width="246" valign="top" style=
-'width:184.25pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">4mL/100mL</span></p>
-</td>
-</tr>
+
+<body lang=EN-AU link="#0563C1" vlink="#954F72">
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2019A04 Describe
+the ways in which carbon dioxide is carried in the blood.</span></h1>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Key numbers</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Carriage</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Variable CO<sub>2</sub> affinity</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Key numbers:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=188 valign=top style='width:141.35pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>&nbsp;</span></b></p>
+  </td>
+  <td width=255 valign=top style='width:191.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>Arterial</span></b></p>
+  </td>
+  <td width=246 valign=top style='width:184.25pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>A-V difference</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=188 valign=top style='width:141.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>As HCO<sub>3</sub><sup>-</sup></span></p>
+  </td>
+  <td width=255 valign=top style='width:191.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>90%</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>60%</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=188 valign=top style='width:141.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>As carbamino compound</span></p>
+  </td>
+  <td width=255 valign=top style='width:191.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>5%</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>30%</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=188 valign=top style='width:141.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>As dissolved CO<sub>2</sub></span></p>
+  </td>
+  <td width=255 valign=top style='width:191.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>5%</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>10%</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=188 valign=top style='width:141.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=255 valign=top style='width:191.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>&nbsp;</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=188 valign=top style='width:141.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Tension</span></p>
+  </td>
+  <td width=255 valign=top style='width:191.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>40mmHg</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>6mmHg</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=188 valign=top style='width:141.35pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Content</span></p>
+  </td>
+  <td width=255 valign=top style='width:191.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>48mL/100mL</span></p>
+  </td>
+  <td width=246 valign=top style='width:184.25pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>4mL/100mL</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Carriage:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="103" valign="top" style=
-'width:77.6pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">As HCO<sub>3</sub><sup>-</sup></span></p>
-</td>
-<td width="586" valign="top" style=
-'width:439.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Location:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Haemoglobin (140g/L, 39 imidazoles per
-molecule)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Plasma proteins (70g/L, 13 imidazoles per
-molecule)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Purpose:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">Maintain partial pressure gradient for
-CO<sub>2</sub> from tissues into capillary blood</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Mechanism:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">CO<sub>2</sub> + H<sub>2</sub>O &lt;
--&gt; H<sup>+</sup> + HCO<sub>3</sub><sup>-</sup> (catalysed by
-carbonic anhydrase in RBC)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">KHb + H<sup>+</sup> &lt;-&gt; HHb +
-K<sup>+</sup> (buffering by imidazole groups of histidine
-residues)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">HCO<sub>3</sub><sup>-</sup> exchanged for
-Cl<sup>-</sup> at membrane (Hamburger effect, facilitates above
-reactions)</span></p>
-</td>
-</tr>
-<tr>
-<td width="103" valign="top" style=
-'width:77.6pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">As carbamino compound</span></p>
-</td>
-<td width="586" valign="top" style=
-'width:439.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Location: same</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Purpose: same</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Mechanism: NH<sub>2</sub> + CO<sub>2</sub>
-&lt;-&gt; NHCOO<sup>-</sup> + H<sup>+</sup></span></p>
-</td>
-</tr>
-<tr>
-<td width="103" valign="top" style=
-'width:77.6pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">As dissolved</span></p>
-</td>
-<td width="586" valign="top" style=
-'width:439.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Amount dissolved = PaCO<sub>2</sub> x k
-(Henry&acirc;&euro;&TRADE;s law)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Solubility coefficient k: 0.03mmol/L/mmHg at
-37</span><span lang="EN-US">&Acirc;&deg;</span><span lang=
-"EN-US">C</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Note &acirc;&dagger;&OpenCurlyQuote;temp -&gt;
-&acirc;&dagger;&OpenCurlyDoubleQuote;solubility -&gt;
-&acirc;&dagger;&OpenCurlyQuote;PaCO<sub>2</sub>:CaCO<sub>2</sub></span></p>
-</td>
-</tr>
-<tr>
-<td width="103" valign="top" style=
-'width:77.6pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Illustration</span></p>
-</td>
-<td width="586" valign="top" style=
-'width:439.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US" style='font-size:15.0pt'><img width="331"
-height="279" id="Picture 1" src=
-"2019A04_co2_carriage_in_blood_files/image001.jpg"></span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Carriage:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=103 valign=top style='width:77.6pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>As HCO<sub>3</sub><sup>-</sup></span></p>
+  </td>
+  <td width=586 valign=top style='width:439.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Location:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
+  </span></span><span lang=EN-US>Haemoglobin (140g/L, 39 imidazoles per
+  molecule)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
+  </span></span><span lang=EN-US>Plasma proteins (70g/L, 13 imidazoles per
+  molecule)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Purpose: </span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
+  </span></span><span lang=EN-US>Maintain partial pressure gradient for CO<sub>2</sub>
+  from tissues into capillary blood</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Mechanism:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
+  </span></span><span lang=EN-US>CO<sub>2</sub> + H<sub>2</sub>O &lt; -&gt; H<sup>+</sup>
+  + HCO<sub>3</sub><sup>-</sup> (catalysed by carbonic anhydrase in RBC)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
+  </span></span><span lang=EN-US>KHb + H<sup>+</sup> &lt;-&gt; HHb + K<sup>+</sup>
+  (buffering by imidazole groups of histidine residues)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
+  </span></span><span lang=EN-US>HCO<sub>3</sub><sup>-</sup> exchanged for Cl<sup>-</sup>
+  at membrane (Hamburger effect, facilitates above reactions)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=103 valign=top style='width:77.6pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>As carbamino compound</span></p>
+  </td>
+  <td width=586 valign=top style='width:439.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Location: same</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Purpose: same</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Mechanism: NH<sub>2</sub> + CO<sub>2</sub>
+  &lt;-&gt; NHCOO<sup>-</sup> + H<sup>+</sup></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=103 valign=top style='width:77.6pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>As dissolved</span></p>
+  </td>
+  <td width=586 valign=top style='width:439.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Amount dissolved = PaCO<sub>2</sub> x k
+  (Henry’s law)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Solubility coefficient k: 0.03mmol/L/mmHg at
+  37</span><span lang=EN-US>°</span><span lang=EN-US>C</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Note ↑temp -&gt; ↓solubility -&gt; ↑PaCO<sub>2</sub>:CaCO<sub>2</sub></span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=103 valign=top style='width:77.6pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Illustration</span></p>
+  </td>
+  <td width=586 valign=top style='width:439.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US style='font-size:15.0pt'><img width=331 height=279 id="Picture 1"
+  src="2019A04_co2_carriage_in_blood_files/image001.jpg"></span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Variable CO<sub>2</sub>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Variable CO<sub>2</sub>
 affinity:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="103" valign="top" style=
-'width:77.6pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Haldane effect</span></p>
-</td>
-<td width="586" valign="top" style=
-'width:439.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Higher uptake of CO<sub>2</sub> and
-H<sup>+</sup> in HHb c.f. HbO<sub>2</sub>:</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">70% of increment due to 3.5x
-&acirc;&dagger;&OpenCurlyQuote;carbamino formation</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style='font-family:"Courier New"'>o
-</span><span lang="EN-US">30% of increment due to
-&acirc;&dagger;&OpenCurlyQuote;buffering (imidazole pKa 6.6 -&gt;
-8.2)</span></p>
-</td>
-</tr>
-<tr>
-<td width="103" valign="top" style=
-'width:77.6pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Isohydric buffering</span></p>
-</td>
-<td width="586" valign="top" style=
-'width:439.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">For each mol O<sub>2</sub> unloaded by Hb,
-0.7mol H<sup>+</sup> can be added without
-&acirc;&dagger;&OpenCurlyDoubleQuote; plasma pH</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&Acirc;&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Due to Haldane effect</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=103 valign=top style='width:77.6pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Haldane effect</span></p>
+  </td>
+  <td width=586 valign=top style='width:439.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Higher uptake of CO<sub>2</sub> and H<sup>+</sup>
+  in HHb c.f. HbO<sub>2</sub>:</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
+  </span></span><span lang=EN-US>70% of increment due to 3.5x ↑carbamino
+  formation</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:39.4pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
+  </span></span><span lang=EN-US>30% of increment due to ↑buffering (imidazole
+  pKa 6.6 -&gt; 8.2)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=103 valign=top style='width:77.6pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Isohydric buffering</span></p>
+  </td>
+  <td width=586 valign=top style='width:439.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>For each mol O<sub>2</sub> unloaded by Hb,
+  0.7mol H<sup>+</sup> can be added without ↓ plasma pH</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:12.65pt;text-indent:-9.0pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
+  </span></span><span lang=EN-US>Due to Haldane effect</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">Feedback welcome at <a href=
-"mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></span></p>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>Feedback welcome
+at <a href="mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
 </div>
+
 </body>
+
 </html>

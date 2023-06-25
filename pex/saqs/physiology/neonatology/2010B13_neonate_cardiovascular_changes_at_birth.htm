@@ -1,574 +1,558 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:0cm;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:0cm;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:0cm;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:0cm;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 a:link, span.MsoHyperlink
-        {color:#0563C1;
-        text-decoration:underline;}
+	{color:#0563C1;
+	text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:0cm;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0cm;
-        margin-right:0cm;
-        margin-bottom:8.0pt;
-        margin-left:36.0pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:8.0pt;
+	margin-left:36.0pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+	{size:595.3pt 841.9pt;
+	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 ul
-        {margin-bottom:0cm;}
+	{margin-bottom:0cm;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-AU" link="#0563C1" vlink="#954F72" style=
-'word-wrap:break-word'>
-<div class="WordSection1">
-<h1><span lang="EN-US" style=
-'font-size:15.0pt;line-height:107%'>2010B13 Describe the
-cardiovascular changes that occur in the neonate at
-birth.</span></h1>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>List:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Foetal circulation summary</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Foetal circulation adaptations</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Physical changes at birth</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Circulatory changes at birth</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Neonatal circulation: normal and
-reversion</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Foetal circulation
-summary:</span></h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Placenta allows exchange of gases, nutrient,
+
+<body lang=EN-AU link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
+
+<div class=WordSection1>
+
+<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2010B13 Describe
+the cardiovascular changes that occur in the neonate at birth.</span></h1>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Foetal circulation summary</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Foetal circulation adaptations</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Physical changes at birth</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Circulatory changes at birth</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Neonatal circulation: normal and reversion</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Foetal
+circulation summary:</span></h3>
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Placenta allows exchange of gases, nutrient,
 waste product</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Lungs are dormant</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">Massive R-&gt;L shunt</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-bottom:0cm;text-indent:-18.0pt'><span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span lang="EN-US">R and L circulations mostly in parallel, not in
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Lungs are dormant</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>Massive R-&gt;L shunt</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0cm;text-indent:-18.0pt'><span
+lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span lang=EN-US>R and L circulations mostly in parallel, not in
 series</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Foetal circulation
-adaptations:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">&nbsp;</span></b></p>
-</td>
-<td width="222" valign="top" style=
-'width:166.5pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">Location/path</span></b></p>
-</td>
-<td width="235" valign="top" style=
-'width:176.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">Function</span></b></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Umbilical arteries (UA) x 2</span></p>
-</td>
-<td width="222" valign="top" style=
-'width:166.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">From internal iliac arteries to
-placenta</span></p>
-</td>
-<td width="235" valign="top" style=
-'width:176.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Umbilical vein (UV) x 1</span></p>
-</td>
-<td width="222" valign="top" style=
-'width:166.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">From placenta to IVC and liver</span></p>
-</td>
-<td width="235" valign="top" style=
-'width:176.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">&nbsp;</span></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Ductus venosus (DV)</span></p>
-</td>
-<td width="222" valign="top" style=
-'width:166.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">From UV to IVC</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Near confluence of UV and left portal
-vein</span></p>
-</td>
-<td width="235" valign="top" style=
-'width:176.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Allows 50% DV blood to bypass liver</span></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Foramen ovale (FO)</span></p>
-</td>
-<td width="222" valign="top" style=
-'width:166.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Hole between left atrium (LA) and right atrium
-(RA)</span></p>
-</td>
-<td width="235" valign="top" style=
-'width:176.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">60% IVC blood guided by Eustachian valve across
-FO to LA.</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Brain receives most oxygenated blood</span></p>
-</td>
-</tr>
-<tr>
-<td width="144" valign="top" style=
-'width:107.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Ductus arteriosus (DA)</span></p>
-</td>
-<td width="222" valign="top" style=
-'width:166.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Between main pulmonary artery and aortic
-arch</span></p>
-</td>
-<td width="235" valign="top" style=
-'width:176.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Allow 90% RV output to bypass lungs</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Foetal
+circulation adaptations:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>&nbsp;</span></b></p>
+  </td>
+  <td width=222 valign=top style='width:166.5pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>Location/path</span></b></p>
+  </td>
+  <td width=235 valign=top style='width:176.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>Function</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Umbilical arteries (UA) x 2</span></p>
+  </td>
+  <td width=222 valign=top style='width:166.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>From internal iliac arteries to placenta</span></p>
+  </td>
+  <td width=235 valign=top style='width:176.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Umbilical vein (UV) x 1</span></p>
+  </td>
+  <td width=222 valign=top style='width:166.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>From placenta to IVC and liver</span></p>
+  </td>
+  <td width=235 valign=top style='width:176.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>&nbsp;</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Ductus venosus (DV)</span></p>
+  </td>
+  <td width=222 valign=top style='width:166.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>From UV to IVC</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Near confluence of UV and left portal vein</span></p>
+  </td>
+  <td width=235 valign=top style='width:176.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Allows 50% DV blood to bypass liver</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Foramen ovale (FO)</span></p>
+  </td>
+  <td width=222 valign=top style='width:166.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Hole between left atrium (LA) and right atrium (RA)</span></p>
+  </td>
+  <td width=235 valign=top style='width:176.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>60% IVC blood guided by Eustachian valve across FO to LA.</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Brain receives most oxygenated blood</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=144 valign=top style='width:107.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Ductus arteriosus (DA)</span></p>
+  </td>
+  <td width=222 valign=top style='width:166.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Between main pulmonary artery and aortic arch</span></p>
+  </td>
+  <td width=235 valign=top style='width:176.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Allow 90% RV output to bypass lungs</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Physical changes at
-birth:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Breathing</span></p>
-</td>
-<td width="505" valign="top" style=
-'width:379.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Aeration of alveoli, &ShortUpArrow;PAO2,
-&ShortUpArrow;PaO2</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&DownArrow;HPV, &DownArrow;PVR</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Cord clamping</span></p>
-</td>
-<td width="505" valign="top" style=
-'width:379.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Physical clamp and hypothermia-induced contraction of
-Wharton&CloseCurlyQuote;s jelly</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&ShortUpArrow;&ShortUpArrow;SVR and loss of maternal
-prostaglandins</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Physical changes
+at birth:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Breathing</span></p>
+  </td>
+  <td width=505 valign=top style='width:379.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>Aeration of alveoli, &#8593;PAO2, &#8593;PaO2</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>&#8595;HPV, &#8595;PVR</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Cord clamping</span></p>
+  </td>
+  <td width=505 valign=top style='width:379.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>Physical clamp and hypothermia-induced
+  contraction of Wharton’s jelly</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>&#8593;&#8593;SVR and loss of maternal
+  prostaglandins</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Circulatory changes at
-birth:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">&nbsp;</span></b></p>
-</td>
-<td width="234" valign="top" style=
-'width:175.5pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">Functional closure</span></b></p>
-</td>
-<td width="270" valign="top" style=
-'width:202.5pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<b><span lang="EN-US">Permanent closure</span></b></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">UA</span></p>
-</td>
-<td width="234" valign="top" style=
-'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Minutes</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(Clamp, WJ contract,
-&ShortUpArrow;PaO<sub>2</sub>)</span></p>
-</td>
-<td width="270" valign="top" style=
-'width:202.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Days</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(Fibrosis)</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">UV</span></p>
-</td>
-<td width="234" valign="top" style=
-'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Hours</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(Clamp, WJ contract)</span></p>
-</td>
-<td width="270" valign="top" style=
-'width:202.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">3-10 days</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(Fibrosis)</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">DV</span></p>
-</td>
-<td width="234" valign="top" style=
-'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Hours</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(Stasis)</span></p>
-</td>
-<td width="270" valign="top" style=
-'width:202.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">3-10 days</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(Fibrosis -&gt; ligamentum teres)</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">FO</span></p>
-</td>
-<td width="234" valign="top" style=
-'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Minutes, when RAP = LAP</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(&DownArrow;PVR/RAP,
-&ShortUpArrow;SVR/LAP)</span></p>
-</td>
-<td width="270" valign="top" style=
-'width:202.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">4-6/52</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(Fibrosis)</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">DA</span></p>
-</td>
-<td width="234" valign="top" style=
-'width:175.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">12-24 hours</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(&ShortUpArrow;PaO<sub>2</sub>,
-&DownArrow;PG)</span></p>
-</td>
-<td width="270" valign="top" style=
-'width:202.5pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">2-3/52</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">(Fibrosis)</span></p>
-</td>
-</tr>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Circulatory
+changes at birth:</span></h3>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>&nbsp;</span></b></p>
+  </td>
+  <td width=234 valign=top style='width:175.5pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>Functional closure</span></b></p>
+  </td>
+  <td width=270 valign=top style='width:202.5pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><b><span
+  lang=EN-US>Permanent closure</span></b></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>UA</span></p>
+  </td>
+  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Minutes</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(Clamp, WJ contract, &#8593;PaO<sub>2</sub>)</span></p>
+  </td>
+  <td width=270 valign=top style='width:202.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Days</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(Fibrosis)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>UV</span></p>
+  </td>
+  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Hours</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(Clamp, WJ contract)</span></p>
+  </td>
+  <td width=270 valign=top style='width:202.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>3-10 days</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(Fibrosis)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>DV</span></p>
+  </td>
+  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Hours</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(Stasis)</span></p>
+  </td>
+  <td width=270 valign=top style='width:202.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>3-10 days</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(Fibrosis -&gt; ligamentum teres)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>FO</span></p>
+  </td>
+  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Minutes, when RAP = LAP</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(&#8595;PVR/RAP, &#8593;SVR/LAP)</span></p>
+  </td>
+  <td width=270 valign=top style='width:202.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>4-6/52</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(Fibrosis)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>DA</span></p>
+  </td>
+  <td width=234 valign=top style='width:175.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>12-24 hours</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(&#8593;PaO<sub>2</sub>, &#8595;PG)</span></p>
+  </td>
+  <td width=270 valign=top style='width:202.5pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>2-3/52</span></p>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>(Fibrosis)</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<h3><span lang="EN-US" style=
-'font-size:13.0pt;line-height:107%'>Neonatal
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Neonatal
 circulation:</span></h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Normal parameters</span></p>
-</td>
-<td width="505" valign="top" style=
-'width:379.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">HR 120-160 (cf. 60-90 in adult)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">SV fixed</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">CO 280mL/kg/min (cf. 70 in adult)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">SBP 70-90mmHg (cf. 120mmHg adult)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">Physiological shunt 20% (cf. 7% in adult)</span></p>
-</td>
-</tr>
-<tr>
-<td width="96" valign="top" style=
-'width:71.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
-<span lang="EN-US">Reversion to foetal circulation</span></p>
-</td>
-<td width="505" valign="top" style=
-'width:379.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&DownArrow;PaO<sub>2</sub> -&gt; re-open DA</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'>
-<span lang="EN-US" style=
-'font-family:Symbol'>&CenterDot;<span style=
-'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
-"EN-US">&DownArrow;PaO<sub>2</sub>, &ShortUpArrow;PaCO<sub>2</sub>,
-&DownArrow;pH, &DownArrow;temp -&gt; &ShortUpArrow;PVR -&gt;
-&ShortUpArrow;RAP -&gt; re-open FO</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Normal parameters</span></p>
+  </td>
+  <td width=505 valign=top style='width:379.05pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>HR 120-160 (cf. 60-90 in adult)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>SV fixed</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>CO 280mL/kg/min (cf. 70 in adult)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>SBP 70-90mmHg (cf. 120mmHg adult)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>Physiological shunt 20% (cf. 7% in adult)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=96 valign=top style='width:71.75pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
+  lang=EN-US>Reversion to foetal circulation</span></p>
+  </td>
+  <td width=505 valign=top style='width:379.05pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0cm 5.4pt 0cm 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>&#8595;PaO<sub>2</sub> -&gt; re-open DA</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
+  margin-bottom:0cm;margin-left:7.95pt;text-indent:-7.95pt;line-height:normal'><span
+  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
+  </span></span><span lang=EN-US>&#8595;PaO<sub>2</sub>, &#8593;PaCO<sub>2</sub>,
+  &#8595;pH, &#8595;temp -&gt; &#8593;PVR -&gt; &#8593;RAP -&gt; re-open FO</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">Feedback welcome at</span> <span lang="EN-GB"><a href=
-"mailto:ketaminenightmares@gmail.com"><span lang=
-"EN-US">ketaminenightmares@gmail.com</span></a></span></p>
-<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
-"EN-US">&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>Feedback welcome
+at </span><span lang=EN-GB><a href="mailto:ketaminenightmares@gmail.com"><span
+lang=EN-US>ketaminenightmares@gmail.com</span></a></span></p>
+
+<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
+
 </div>
+
 </body>
+
 </html>

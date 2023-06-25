@@ -1,744 +1,711 @@
-<!DOCTYPE html>
 <html>
+
 <head>
-<meta name="generator" content=
-"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
-<meta http-equiv="Content-Type" content=
-"text/html; charset=us-ascii">
-<meta name="Generator" content="Microsoft Word 15 (filtered)">
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-        {font-family:Wingdings;
-        panose-1:5 0 0 0 0 0 0 0 0 0;}
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-        {font-family:"Cambria Math";
-        panose-1:2 4 5 3 5 4 6 3 2 4;}
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-        {font-family:Calibri;
-        panose-1:2 15 5 2 2 2 4 3 2 4;}
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-        {font-family:"Calibri Light";
-        panose-1:2 15 3 2 2 2 4 3 2 4;}
+	{font-family:"Calibri Light";
+	panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:0in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:0in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 h1
-        {mso-style-link:"Heading 1 Char";
-        margin-top:12.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:16.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;
-        font-weight:normal;}
+	{mso-style-link:"Heading 1 Char";
+	margin-top:12.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:16.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;
+	font-weight:normal;}
 h3
-        {mso-style-link:"Heading 3 Char";
-        margin-top:2.0pt;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:0in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        page-break-after:avoid;
-        font-size:12.0pt;
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;
-        font-weight:normal;}
+	{mso-style-link:"Heading 3 Char";
+	margin-top:2.0pt;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:0in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	page-break-after:avoid;
+	font-size:12.0pt;
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;
+	font-weight:normal;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:0in;
-        margin-left:.5in;
-        margin-bottom:.0001pt;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:0in;
+	margin-left:.5in;
+	margin-bottom:.0001pt;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-        {margin-top:0in;
-        margin-right:0in;
-        margin-bottom:8.0pt;
-        margin-left:.5in;
-        line-height:107%;
-        font-size:11.0pt;
-        font-family:"Calibri",sans-serif;}
+	{margin-top:0in;
+	margin-right:0in;
+	margin-bottom:8.0pt;
+	margin-left:.5in;
+	line-height:107%;
+	font-size:11.0pt;
+	font-family:"Calibri",sans-serif;}
 span.Heading1Char
-        {mso-style-name:"Heading 1 Char";
-        mso-style-link:"Heading 1";
-        font-family:"Calibri Light",sans-serif;
-        color:#2F5496;}
+	{mso-style-name:"Heading 1 Char";
+	mso-style-link:"Heading 1";
+	font-family:"Calibri Light",sans-serif;
+	color:#2F5496;}
 span.Heading3Char
-        {mso-style-name:"Heading 3 Char";
-        mso-style-link:"Heading 3";
-        font-family:"Calibri Light",sans-serif;
-        color:#1F3763;}
+	{mso-style-name:"Heading 3 Char";
+	mso-style-link:"Heading 3";
+	font-family:"Calibri Light",sans-serif;
+	color:#1F3763;}
 .MsoChpDefault
-        {font-family:"Calibri",sans-serif;}
+	{font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-        {margin-bottom:8.0pt;
-        line-height:107%;}
+	{margin-bottom:8.0pt;
+	line-height:107%;}
 @page WordSection1
-        {size:595.3pt 841.9pt;
-        margin:1.0in 1.0in 1.0in 1.0in;}
+	{size:595.3pt 841.9pt;
+	margin:1.0in 1.0in 1.0in 1.0in;}
 div.WordSection1
-        {page:WordSection1;}
+	{page:WordSection1;}
  /* List Definitions */
  ol
-        {margin-bottom:0in;}
+	{margin-bottom:0in;}
 ul
-        {margin-bottom:0in;}
+	{margin-bottom:0in;}
 -->
 </style>
-<title></title>
+
 </head>
-<body lang="EN-GB">
-<div class="WordSection1">
-<h1><span style='font-size:14.0pt;line-height:107%'>2013B04 Discuss
-the physiological significance of the blood brain
-barrier.</span></h1>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span style=
-'font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
+<body lang=EN-GB>
+
+<div class=WordSection1>
+
+<h1><span style='font-size:14.0pt;line-height:107%'>2013B04 Discuss the
+physiological significance of the blood brain barrier.</span></h1>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
 <h3>List:</h3>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
-<span style=
-'font-size:10.0pt;line-height:107%;font-family: Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt;line-height:107%'>Intro:
-BBB</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span style=
-'font-size:10.0pt;line-height:107%; font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span style=
-'font-size:10.0pt;line-height:107%'>Components</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span style=
-'font-size:10.0pt;line-height:107%; font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt;line-height:107%'>Circumventricular
+
+<p class=MsoListParagraphCxSpFirst style='margin-bottom:0in;margin-bottom:.0001pt;
+text-indent:-.25in'><span style='font-size:10.0pt;line-height:107%;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;line-height:107%'>Intro: BBB</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+.0001pt;text-indent:-.25in'><span style='font-size:10.0pt;line-height:107%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;line-height:107%'>Components</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+.0001pt;text-indent:-.25in'><span style='font-size:10.0pt;line-height:107%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;line-height:107%'>Circumventricular
 organs</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span style=
-'font-size:10.0pt;line-height:107%; font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt;line-height:107%'>Freely
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+.0001pt;text-indent:-.25in'><span style='font-size:10.0pt;line-height:107%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;line-height:107%'>Freely permeable</span></p>
+
+<p class=MsoListParagraphCxSpMiddle style='margin-bottom:0in;margin-bottom:
+.0001pt;text-indent:-.25in'><span style='font-size:10.0pt;line-height:107%;
+font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;line-height:107%'>Selectively
 permeable</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-bottom:0in;margin-bottom: .0001pt;text-indent:-.25in'>
-<span style=
-'font-size:10.0pt;line-height:107%; font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt;line-height:107%'>Selectively
-permeable</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-bottom:0in;margin-bottom:.0001pt; text-indent:-.25in'>
-<span style=
-'font-size:10.0pt;line-height:107%;font-family: Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
-<span style=
-'font-size:10.0pt;line-height:107%'>Impermeable</span></p>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span style=
-'font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoListParagraphCxSpLast style='margin-bottom:0in;margin-bottom:.0001pt;
+text-indent:-.25in'><span style='font-size:10.0pt;line-height:107%;font-family:
+Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-size:10.0pt;line-height:107%'>Impermeable</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
 <h3>Intro: blood-brain barrier</h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Function</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Barrier between blood and brain ECF
-for homeostasis and protection</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Multiple components</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Variable permeability</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Entry by diffusion or active
-transport</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Dysfunction</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Neonate: immaturity</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Elderly: degeneration</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Profound hypertension:
-damage</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Meningeal disease: inflammation
-(MS), infection (meningitis) -&gt; damage</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Factors conferring
-permeability</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'><img width="350" height="68" id=
-"Picture 2" src=
-"2013B04_blood_brain_barrier_files/image001.jpg"></span></p>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style=
-'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;C<sub>1</sub>
-(e.g. &acirc;&dagger;&OpenCurlyQuote;dose)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style=
-'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyDoubleQuote;C<sub>2</sub>
-(e.g. glucose utilisation)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;Area
-(not under control)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style=
-'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyDoubleQuote;Thickness
-(e.g. dysfunction)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>&acirc;&dagger;&OpenCurlyQuote;Lipid
-solubility (e.g. propofol)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style=
-'font-size:10.0pt'>&acirc;&dagger;&OpenCurlyDoubleQuote;Molecular
-weight (e.g. O<sub>2</sub>)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Unionised (e.g. propofol
-98%)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Non-polar (e.g.
-CO<sub>2</sub>)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Not protein bound (e.g.
-ketamine)</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Function</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Barrier between blood and brain ECF for homeostasis
+  and protection</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Multiple components</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Variable permeability</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Entry by diffusion or active transport</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Dysfunction</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Neonate: immaturity</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Elderly: degeneration</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Profound hypertension: damage</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Meningeal disease: inflammation (MS), infection (meningitis)
+  -&gt; damage</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Factors conferring permeability</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'><img width=350 height=68 id="Picture 2"
+  src="2013B04_blood_brain_barrier_files/image001.jpg"></span></p>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>↑C<sub>1</sub> (e.g. ↑dose)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>↓C<sub>2</sub> (e.g. glucose utilisation)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>↑Area (not under control)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>↓Thickness (e.g. dysfunction)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>↑Lipid solubility (e.g. propofol)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>↓Molecular weight (e.g. O<sub>2</sub>)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Unionised (e.g. propofol 98%)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Non-polar (e.g. CO<sub>2</sub>)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Not protein bound (e.g. ketamine)</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span style=
-'font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
 <h3>Components of blood-brain-barrier</h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Physical barrier</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Endothelial cells: tight junctions,
-no fenestrae, low rate of transcytosis</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Basement membrane: negative
-charge</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Astrocyte foot processes</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;line-height:normal'>
-<span style='font-size:10.0pt'>(cf. blood-CSF barrier: tight
-junctions between choroid epithelioctes)</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Immune cells</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Astrocytes = antigen-presenting
-cell: activates T and B cells</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Microglia = macrophage:
-phagocytosis, inflammation, chemotaxis</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Transporters</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>GLUT-1: constitutively expressed,
-ensures priority supply of glucose</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Ion channels: control
-[Na<sup>+</sup>], [K<sup>+</sup>], [Ca<sup>2+</sup>]
-&acirc;&euro;&OpenCurlyDoubleQuote; preserve polarity, prevent
-excitotoxicity</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Enzymes</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>e.g. MAO, AChE</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Prevent circulating
-neurotransmitters from entering brain</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Physical barrier</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Endothelial cells: tight junctions, no fenestrae,
+  low rate of transcytosis</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Basement membrane: negative charge</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Astrocyte foot processes</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;line-height:normal'><span
+  style='font-size:10.0pt'>(cf. blood-CSF barrier: tight junctions between
+  choroid epithelioctes)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Immune cells</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Astrocytes = antigen-presenting cell: activates T
+  and B cells</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Microglia = macrophage: phagocytosis, inflammation,
+  chemotaxis</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Transporters</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>GLUT-1: constitutively expressed, ensures priority
+  supply of glucose</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Ion channels: control [Na<sup>+</sup>], [K<sup>+</sup>],
+  [Ca<sup>2+</sup>] – preserve polarity, prevent excitotoxicity</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Enzymes</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>e.g. MAO, AChE</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Prevent circulating neurotransmitters from entering
+  brain</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span style=
-'font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
 <h3>Circumventricular organs:</h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Significance</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style=
-'font-size:10.0pt'>&acirc;&euro;&oelig;Outside&acirc;&euro; the
-blood-brain barrier, near the fourth ventricle</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>i.e. permeable vessels allow contact
-with blood</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Function</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Posterior pituitary: secretes ADH,
-oxytocin</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Area postrema (contains CTZ):
-circulating toxin induces vomiting</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>OVLT, SFO:
-&acirc;&dagger;&OpenCurlyQuote;osmolality -&gt;
-&acirc;&dagger;&OpenCurlyQuote;activation of hypothalamus -&gt;
-&acirc;&dagger;&OpenCurlyQuote;ADH release</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Pineal gland: secretes
-melatonin</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Medial eminence</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Significance</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>“Outside” the blood-brain barrier, near the fourth
+  ventricle</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>i.e. permeable vessels allow contact with blood</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Function</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Posterior pituitary: secretes ADH, oxytocin</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Area postrema (contains CTZ): circulating toxin
+  induces vomiting</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>OVLT, SFO: ↑osmolality -&gt; ↑activation of
+  hypothalamus -&gt; ↑ADH release</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Pineal gland: secretes melatonin</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Medial eminence</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span style=
-'font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
 <h3>Free permeability:</h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Water</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Travels up osmotic
-gradient</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Very low MW</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>e.g. O<sub>2</sub></span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>e.g. CO<sub>2</sub> (e.g.
-CO<sub>2</sub> -&gt; H<sup>+</sup> for control of
-breathing)</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Very lipid soluble</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>e.g. ketones, propofol</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Water</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+  0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Travels up osmotic gradient</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Very low MW</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>e.g. O<sub>2</sub></span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>e.g. CO<sub>2</sub> (e.g. CO<sub>2</sub> -&gt; H<sup>+</sup>
+  for control of breathing)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Very lipid soluble</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+  0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>e.g. ketones, propofol</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span style=
-'font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
 <h3>Selective permeability = homeostasis:</h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Electrolytes</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Ions are charged hence
-impermeable</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Active influx (e.g. Mg<sup>2+</sup>,
-Cl<sup>-</sup>) and efflux</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>For control of ECF environment (e.g.
-metabolic acidosis in exercise -&gt;
-&acirc;&dagger;&OpenCurlyQuote;H<sup>+</sup>)</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>For preservation of cell
-polarity</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>For preservation of brain cell
-volume, proportional to brain ECF [Na<sup>+</sup>]</span></p>
-</td>
-</tr>
-<tr>
-<td width="114" valign="top" style=
-'width:85.25pt;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Macronutrients</span></p>
-</td>
-<td width="487" valign="top" style=
-'width:365.55pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Glucose: via GLUT1, limited
-capacity</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.75pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style='font-size:10.0pt;font-family:"Courier New"'>o
-</span><span style='font-size: 10.0pt'>Too much -&gt;
-glycosylation</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:39.75pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style='font-size:10.0pt;font-family:"Courier New"'>o
-</span><span style='font-size: 10.0pt'>Too little -&gt;
-unconsciousness</span></p>
-<p class="MsoListParagraphCxSpMiddle" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Amino acids: for neurotransmitter
-synthesis</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Lipids: for membrane
-maintenance</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Electrolytes</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Ions are charged hence impermeable</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Active influx (e.g. Mg<sup>2+</sup>, Cl<sup>-</sup>)
+  and efflux</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>For control of ECF environment (e.g. metabolic
+  acidosis in exercise -&gt; ↑H<sup>+</sup>)</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>For preservation of cell polarity</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>For preservation of brain cell volume, proportional
+  to brain ECF [Na<sup>+</sup>]</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=114 valign=top style='width:85.25pt;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Macronutrients</span></p>
+  </td>
+  <td width=487 valign=top style='width:365.55pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Glucose: via GLUT1, limited capacity</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:39.75pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span style='font-size:
+  10.0pt'>Too much -&gt; glycosylation</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:39.75pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:"Courier New"'>o<span
+  style='font:7.0pt "Times New Roman"'> </span></span><span style='font-size:
+  10.0pt'>Too little -&gt; unconsciousness</span></p>
+  <p class=MsoListParagraphCxSpMiddle style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Amino acids: for neurotransmitter synthesis</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Lipids: for membrane maintenance</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt'><span style=
-'font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt'><span
+style='font-size:10.0pt;line-height:107%'>&nbsp;</span></p>
+
 <h3>Impermeability = protection:</h3>
-<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
-"0" style='border-collapse:collapse;border:none'>
-<tr>
-<td width="115" valign="top" style=
-'width:1.2in;border:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Neurotransmitters</span></p>
-</td>
-<td width="486" valign="top" style=
-'width:364.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Brain NTs barred from circulation
-(e.g. brain noradrenaline metabolized by MAO)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Peripheral NTs barred from brain
-(e.g. ingested serotonin metabolized by MAO)</span></p>
-</td>
-</tr>
-<tr>
-<td width="115" valign="top" style=
-'width:1.2in;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Proteins</span></p>
-</td>
-<td width="486" valign="top" style=
-'width:364.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Endogenous neurotoxins (e.g.
-bilirubin)</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Exogenous neurotoxins (e.g. cholera
-toxin)</span></p>
-</td>
-</tr>
-<tr>
-<td width="115" valign="top" style=
-'width:1.2in;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Pathogens</span></p>
-</td>
-<td width="486" valign="top" style=
-'width:364.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraphCxSpFirst" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Physical barrier</span></p>
-<p class="MsoListParagraphCxSpLast" style=
-'margin-top:0in;margin-right:0in; margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt; line-height:normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>Immune cells</span></p>
-</td>
-</tr>
-<tr>
-<td width="115" valign="top" style=
-'width:1.2in;border:solid windowtext 1.0pt; border-top:none;padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoNormal" style=
-'margin-bottom:0in;margin-bottom:.0001pt;line-height: normal'>
-<span style='font-size:10.0pt'>Many drugs</span></p>
-</td>
-<td width="486" valign="top" style=
-'width:364.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0in 5.4pt 0in 5.4pt'>
-<p class="MsoListParagraph" style=
-'margin-top:0in;margin-right:0in;margin-bottom: 0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height: normal'>
-<span style=
-'font-size:10.0pt;font-family:Symbol'>&Acirc;&CenterDot;<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
-<span style='font-size:10.0pt'>e.g. muscle relaxants (large,
-polar)</span></p>
-</td>
-</tr>
+
+<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
+ style='border-collapse:collapse;border:none'>
+ <tr>
+  <td width=115 valign=top style='width:1.2in;border:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Neurotransmitters</span></p>
+  </td>
+  <td width=486 valign=top style='width:364.4pt;border:solid windowtext 1.0pt;
+  border-left:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Brain NTs barred from circulation (e.g. brain
+  noradrenaline metabolized by MAO)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Peripheral NTs barred from brain (e.g. ingested
+  serotonin metabolized by MAO)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=115 valign=top style='width:1.2in;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Proteins</span></p>
+  </td>
+  <td width=486 valign=top style='width:364.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Endogenous neurotoxins (e.g. bilirubin)</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Exogenous neurotoxins (e.g. cholera toxin)</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=115 valign=top style='width:1.2in;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Pathogens</span></p>
+  </td>
+  <td width=486 valign=top style='width:364.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraphCxSpFirst style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Physical barrier</span></p>
+  <p class=MsoListParagraphCxSpLast style='margin-top:0in;margin-right:0in;
+  margin-bottom:0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;
+  line-height:normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>Immune cells</span></p>
+  </td>
+ </tr>
+ <tr>
+  <td width=115 valign=top style='width:1.2in;border:solid windowtext 1.0pt;
+  border-top:none;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal style='margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal'><span style='font-size:10.0pt'>Many drugs</span></p>
+  </td>
+  <td width=486 valign=top style='width:364.4pt;border-top:none;border-left:
+  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
+  padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoListParagraph style='margin-top:0in;margin-right:0in;margin-bottom:
+  0in;margin-left:12.8pt;margin-bottom:.0001pt;text-indent:-9.0pt;line-height:
+  normal'><span style='font-size:10.0pt;font-family:Symbol'>·<span
+  style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp; </span></span><span
+  style='font-size:10.0pt'>e.g. muscle relaxants (large, polar)</span></p>
+  </td>
+ </tr>
 </table>
-<p class="MsoNormal">&nbsp;</p>
+
+<p class=MsoNormal>&nbsp;</p>
+
 </div>
-<p class="MsoNormal">Feedback welcome at <a href=
-"mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
+
+<p class="MsoNormal">Feedback welcome at <a href="mailto:ketaminenightmares@gmail.com">ketaminenightmares@gmail.com</a></p>
 </body>
+
 </html>

@@ -1,562 +1,639 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:0cm;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 a:link, span.MsoHyperlink
-	{color:#0563C1;
-	text-decoration:underline;}
+        {color:#0563C1;
+        text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        {size:595.3pt 841.9pt;
+        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 ul
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-AU link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<h1>2021B07 Describe the normal regulation of cerebral blood flow and outline
-physiological factors which may alter it. DO NOT discuss the effect of
-medications or pathology.</h1>
-
-<p class=MsoNormal>&nbsp;</p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Intro</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Flow dynamics</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Regulation of vascular resistance</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Regulation of arterial pressure</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Anatomical factors</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Intro: the brain</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Physiology</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.05pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Highly active: CMRO2 46mL/min = 3.3mL/min/100g</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Highly perfused: CBF 15% cardiac output =
-  750mL/min = 58mL/min/100g</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Pathology</span></p>
-  </td>
-  <td width=488 valign=top style='width:366.05pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Interruption to flow -&gt; unconsciousness,
-  head injury, ischaemia</span></p>
-  </td>
- </tr>
+<body lang="EN-AU" link="#0563C1" vlink="#954F72" style=
+'word-wrap:break-word'>
+<div class="WordSection1">
+<h1>2021B07 Describe the normal regulation of cerebral blood flow
+and outline physiological factors which may alter it. DO NOT
+discuss the effect of medications or pathology.</h1>
+<p class="MsoNormal">&nbsp;</p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Intro</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Flow dynamics</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Regulation of vascular resistance</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Regulation of arterial pressure</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:27.0pt;text-indent:-18.0pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Anatomical factors</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Intro: the brain</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Physiology</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.05pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Highly active: CMRO2 46mL/min =
+3.3mL/min/100g</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Highly perfused: CBF 15% cardiac output =
+750mL/min = 58mL/min/100g</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Pathology</span></p>
+</td>
+<td width="488" valign="top" style=
+'width:366.05pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Interruption to flow -&gt; unconsciousness, head
+injury, ischaemia</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Cerebral blood
-flow dynamics:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Ohm’s law</span></p>
-  </td>
-  <td width=516 colspan=2 valign=top style='width:387.35pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Cerebral blood flow (CBF) = (mAP – ICP or CVP) / cerebral vascular
-  resistance</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>&nbsp;</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Hence factors &#8595;CBF:</span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595; mAP</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593; ICP / &#8593; CVP (Starling resistor –
-  whichever is higher)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593; CVR</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Poiseuille’s law</span></p>
-  </td>
-  <td width=515 valign=top style='width:386.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Resistance = (8 x length x viscosity) / (</span><span lang=EN-US>&#960;</span><span
-  lang=EN-US> x radius<sup>4</sup>) – assuming laminar flow</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>&nbsp;</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Hence factors &#8593;resistance:</span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;Radius (note power of 4, most
-  important)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;Length (not under control)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;Viscosity</span></p>
-  </td>
-  <td style='border:none;padding:0cm 0cm 0cm 0cm' width=1><p class='MsoNormal'>&nbsp;</td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Cerebral blood flow
+dynamics:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Ohm&CloseCurlyQuote;s law</span></p>
+</td>
+<td width="516" colspan="2" valign="top" style=
+'width:387.35pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Cerebral blood flow (CBF) = (mAP &ndash; ICP or
+CVP) / cerebral vascular resistance</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Hence factors &DownArrow;CBF:</span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow; mAP</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow; ICP / &ShortUpArrow; CVP
+(Starling resistor &ndash; whichever is higher)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow; CVR</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Poiseuille&CloseCurlyQuote;s law</span></p>
+</td>
+<td width="515" valign="top" style=
+'width:386.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Resistance = (8 x length x viscosity) /
+(</span><span lang="EN-US">&pi;</span> <span lang="EN-US">x
+radius<sup>4</sup>) &ndash; assuming laminar flow</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Hence factors
+&ShortUpArrow;resistance:</span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;Radius (note power of 4, most
+important)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Length (not under
+control)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Viscosity</span></p>
+</td>
+<td style='border:none;padding:0cm 0cm 0cm 0cm' width="1">
+<p class='MsoNormal'>&nbsp;</p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Regulation of
-cerebral vascular resistance:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Autoregulation</span></p>
-  </td>
-  <td width=515 valign=top style='width:386.3pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Myogenic:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Global CNS blood flow constant 58mL/min/100g</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;flow -&gt; &#8593;stretch -&gt; reflex
-  contraction -&gt; &#8595;radius -&gt; &#8595;flow</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Effective for perfusion pressure 50-150mmHg</span></p>
-  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
-  margin-left:3.65pt;line-height:normal'><span lang=EN-US><img width=261
-  height=208 id="Picture 4"
-  src="2021B07_cerebral_blood_flow_regulation_files/image001.jpg"
-  alt="Chart, line chart&#10;&#10;Description automatically generated"></span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>&nbsp;</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Metabolic:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Regional blood flow </span><span lang=EN-US
-  style='font-family:"Cambria Math",serif'>&#8733;</span><span lang=EN-US> cerebral
-  metabolic rate (CMR)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;MR -&gt; &#8595;H<sup>+</sup>/K<sup>+</sup>/adenosine/lactate/pCO<sub>2</sub>
-  and &#8593;pO<sub>2</sub> -&gt; local vasoconstriction -&gt; &#8595;radius
-  -&gt; &#8595;flow</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Physiological variables</span></p>
-  </td>
-  <td width=515 valign=top style='width:386.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Oxygen:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;PaO<sub>2</sub> &lt;50mmHg -&gt;
-  vasodilate -&gt; &#8593;radius -&gt; &#8593;CBF</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Non-linear response</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Carbon dioxide:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;PaCO<sub>2</sub> -&gt; vasodilate</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Linear response 20-80mmHg</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Temperature:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;Temp: &#8595;CMR -&gt; &#8595;CBF via metabolic
-  autoregulation</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Near linear response: &#8595;7% per 1</span><span
-  lang=EN-US>°</span><span lang=EN-US>C</span></p>
-  <p class=MsoNormal style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;
-  margin-left:3.65pt;line-height:normal'><span lang=EN-US>&nbsp;</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US><img width=238 height=193 id="Picture 5"
-  src="2021B07_cerebral_blood_flow_regulation_files/image002.jpg"
-  alt="Chart, line chart&#10;&#10;Description automatically generated"><img
-  width=240 height=194 id="Picture 1"
-  src="2021B07_cerebral_blood_flow_regulation_files/image003.jpg"
-  alt="Chart, line chart&#10;&#10;Description automatically generated"></span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Other</span></p>
-  </td>
-  <td width=515 valign=top style='width:386.3pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Neural: noradrenaline at </span><span
-  lang=EN-US>&#945;<sub>1</sub></span><span lang=EN-US> -&gt; vasoconstriction
-  (minor)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Hormonal: adrenaline -&gt; mixed effects at </span><span
-  lang=EN-US>&#945;</span><sub><span lang=EN-US>1</span></sub><span lang=EN-US>,
-  </span><span lang=EN-US>&#946;<sub>1</sub></span><span lang=EN-US> (minor)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Rheologic: &#8593;Hct -&gt; &#8593;viscosity
-  -&gt; CVR</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Regulation of cerebral vascular
+resistance:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Autoregulation</span></p>
+</td>
+<td width="515" valign="top" style=
+'width:386.3pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Myogenic:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Global CNS blood flow constant
+58mL/min/100g</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;flow -&gt; &ShortUpArrow;stretch
+-&gt; reflex contraction -&gt; &DownArrow;radius -&gt;
+&DownArrow;flow</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Effective for perfusion pressure
+50-150mmHg</span></p>
+<p class="MsoNormal" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom:0cm; margin-left:3.65pt;line-height:normal'>
+<span lang="EN-US"><img width="261" height="208" id="Picture 4"
+src="2021B07_cerebral_blood_flow_regulation_files/image001.jpg"
+alt="Chart, line chart  Description automatically generated"></span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Metabolic:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Regional blood flow</span> <span lang="EN-US"
+style='font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">cerebral metabolic rate (CMR)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;MR -&gt;
+&DownArrow;H<sup>+</sup>/K<sup>+</sup>/adenosine/lactate/pCO<sub>2</sub>
+and &ShortUpArrow;pO<sub>2</sub> -&gt; local vasoconstriction -&gt;
+&DownArrow;radius -&gt; &DownArrow;flow</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Physiological variables</span></p>
+</td>
+<td width="515" valign="top" style=
+'width:386.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Oxygen:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;PaO<sub>2</sub> &lt;50mmHg -&gt;
+vasodilate -&gt; &ShortUpArrow;radius -&gt;
+&ShortUpArrow;CBF</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Non-linear response</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Carbon dioxide:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;PaCO<sub>2</sub> -&gt;
+vasodilate</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Linear response 20-80mmHg</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Temperature:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;Temp: &DownArrow;CMR -&gt;
+&DownArrow;CBF via metabolic autoregulation</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Near linear response: &DownArrow;7% per
+1</span><span lang="EN-US">&deg;</span><span lang=
+"EN-US">C</span></p>
+<p class="MsoNormal" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom:0cm; margin-left:3.65pt;line-height:normal'>
+<span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US"><img width="238" height="193" id="Picture 5"
+src="2021B07_cerebral_blood_flow_regulation_files/image002.jpg"
+alt="Chart, line chart  Description automatically generated"><img width="240"
+height="194" id="Picture 1" src=
+"2021B07_cerebral_blood_flow_regulation_files/image003.jpg" alt=
+"Chart, line chart  Description automatically generated"></span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Other</span></p>
+</td>
+<td width="515" valign="top" style=
+'width:386.3pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Neural: noradrenaline at</span> <span lang=
+"EN-US">&alpha;<sub>1</sub></span> <span lang="EN-US">-&gt;
+vasoconstriction (minor)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Hormonal: adrenaline -&gt; mixed effects
+at</span> <span lang="EN-US">&alpha;</span><sub><span lang=
+"EN-US">1</span></sub><span lang="EN-US">,</span> <span lang=
+"EN-US">&beta;<sub>1</sub></span> <span lang=
+"EN-US">(minor)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Rheologic: &ShortUpArrow;Hct -&gt;
+&ShortUpArrow;viscosity -&gt; CVR</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Regulation of
-arterial pressure:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Baroreceptor response</span></p>
-  </td>
-  <td width=516 valign=top style='width:387.35pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Stretch-activated mechanoreceptors in walls of
-  aortic arch and carotid sinuses</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;mAP -&gt; &#8595;stretch -&gt;
-  &#8595;activation -&gt; &#8595;inhibition of SNS -&gt; </span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Vasoconstriction -&gt; &#8593;SVR</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Venoconstriction -&gt; &#8593;preload</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>&#8593;HR, &#8593;contractility</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.2pt;line-height:normal'><span lang=EN-US>-&gt;
-  &#8593;mAP</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Important for maintaining CBF during posture
-  change</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>CNS ischaemic response</span></p>
-  </td>
-  <td width=516 valign=top style='width:387.35pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;&#8595;CBF -&gt; brainstem ischaemia
-  -&gt; &#8593;&#8593;SNS activity</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>&#8593;BP</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>&#8595;HR (reflex)</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Regulation of arterial
+pressure:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Baroreceptor response</span></p>
+</td>
+<td width="516" valign="top" style=
+'width:387.35pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Stretch-activated mechanoreceptors in walls of
+aortic arch and carotid sinuses</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;mAP -&gt; &DownArrow;stretch -&gt;
+&DownArrow;activation -&gt; &DownArrow;inhibition of SNS
+-&gt;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Vasoconstriction -&gt; &ShortUpArrow;SVR</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Venoconstriction -&gt; &ShortUpArrow;preload</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">&ShortUpArrow;HR, &ShortUpArrow;contractility</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.2pt;line-height:normal'>
+<span lang="EN-US">-&gt; &ShortUpArrow;mAP</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Important for maintaining CBF during posture
+change</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">CNS ischaemic response</span></p>
+</td>
+<td width="516" valign="top" style=
+'width:387.35pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;&DownArrow;CBF -&gt; brainstem
+ischaemia -&gt; &ShortUpArrow;&ShortUpArrow;SNS activity</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">&ShortUpArrow;BP</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.2pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">&DownArrow;HR (reflex)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Anatomical
-factors:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Arterial supply</span></p>
-  </td>
-  <td width=516 valign=top style='width:387.35pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Circle of Willis:</span></u></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US><img width=178 height=271 id="Picture 6"
-  src="2021B07_cerebral_blood_flow_regulation_files/image004.jpg"
-  alt="Diagram&#10;&#10;Description automatically generated"></span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Supply design:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Chicane-like arteries supply the circle of Willis</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Turbulent flow -&gt; &#8593;pressure drop
-  -&gt; &#8595;effective arteriolar pressure</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Prevents massive rise in cerebral perfusion
-  pressure during SNS activation</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=113 valign=top style='width:84.75pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Venous drainage</span></p>
-  </td>
-  <td width=516 valign=top style='width:387.35pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Dural venous sinuses:</span></u></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US><img width=308 height=154 id="Picture 9"
-  src="2021B07_cerebral_blood_flow_regulation_files/image005.jpg"
-  alt="Diagram&#10;&#10;Description automatically generated"></span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><u><span
-  lang=EN-US>Drainage design:</span></u></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>No valves: allows equilibration of venous
-  pressure</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Elastic and distensible: minimizes resistance
-  to flow</span></p>
-  </td>
- </tr>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Anatomical factors:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Arterial supply</span></p>
+</td>
+<td width="516" valign="top" style=
+'width:387.35pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Circle of Willis:</span></u></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US"><img width="178" height="271" id="Picture 6"
+src="2021B07_cerebral_blood_flow_regulation_files/image004.jpg"
+alt="Diagram  Description automatically generated"></span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Supply design:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Chicane-like arteries supply the circle of
+Willis</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Turbulent flow -&gt; &ShortUpArrow;pressure drop
+-&gt; &DownArrow;effective arteriolar pressure</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Prevents massive rise in cerebral perfusion
+pressure during SNS activation</span></p>
+</td>
+</tr>
+<tr>
+<td width="113" valign="top" style=
+'width:84.75pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Venous drainage</span></p>
+</td>
+<td width="516" valign="top" style=
+'width:387.35pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Dural venous sinuses:</span></u></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US"><img width="308" height="154" id="Picture 9"
+src="2021B07_cerebral_blood_flow_regulation_files/image005.jpg"
+alt="Diagram  Description automatically generated"></span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<u><span lang="EN-US">Drainage design:</span></u></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">No valves: allows equilibration of venous
+pressure</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:15.95pt;text-indent:-12.3pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Elastic and distensible: minimizes resistance to
+flow</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>Feedback welcome
-at </span><a href="mailto:ketaminenightmares@gmail.com"><span lang=EN-US>ketaminenightmares@gmail.com</span></a></p>
-
-<p class=MsoNormal>&nbsp;</p>
-
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">Feedback welcome at</span> <a href=
+"mailto:ketaminenightmares@gmail.com"><span lang=
+"EN-US">ketaminenightmares@gmail.com</span></a></p>
+<p class="MsoNormal">&nbsp;</p>
 </div>
-
 </body>
-
 </html>

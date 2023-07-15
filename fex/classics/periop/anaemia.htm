@@ -1,620 +1,721 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:0cm;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h2
-	{mso-style-link:"Heading 2 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:13.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 2 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:13.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 a:link, span.MsoHyperlink
-	{color:#0563C1;
-	text-decoration:underline;}
+        {color:#0563C1;
+        text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-link:"Heading 2";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 2 Char";
+        mso-style-link:"Heading 2";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        {size:595.3pt 841.9pt;
+        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 ul
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-AU link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US>Pre-operative anaemia</span></h1>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h2><span lang=EN-US>Summary:</span></h2>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Definition</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&lt;130g/L men</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&lt;120g/L women</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&lt;110g/L pregnant</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Anaemia is common</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>In major elective surgery patients:</span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>33% anaemic</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>20% not anaemic but iron deficient</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Anaemia is harmful</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;Infection</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;Thrombotic events</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;Blood transfusion</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;Mortality</span></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>(even iron deficiency without anaemia is bad)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Transfusion is harmful</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Adverse reactions</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Wound infection</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Pneumonia</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Sepsis</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Cardiac event</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Death</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Transfusion is preventable</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Iron</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Vit B12</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Folate</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Epo</span></p>
-  </td>
- </tr>
+<body lang="EN-AU" link="#0563C1" vlink="#954F72" style=
+'word-wrap:break-word'>
+<div class="WordSection1">
+<h1><span lang="EN-US">Pre-operative anaemia</span></h1>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h2><span lang="EN-US">Summary:</span></h2>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Definition</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&lt;130g/L men</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&lt;120g/L women</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&lt;110g/L pregnant</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Anaemia is common</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">In major elective surgery patients:</span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">33% anaemic</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">20% not anaemic but iron deficient</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Anaemia is harmful</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Infection</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Thrombotic events</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Blood transfusion</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Mortality</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">(even iron deficiency without anaemia is
+bad)</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Transfusion is harmful</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Adverse reactions</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Wound infection</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Pneumonia</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Sepsis</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Cardiac event</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Death</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Transfusion is preventable</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Iron</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Vit B12</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Folate</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Epo</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h2><span lang=EN-US>Classification:</span></h2>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Microcytic</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><b><span lang=EN-US>**Iron deficiency**</span></b></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Dx: Fn &lt;30, or Fn &lt;100 with CRP &gt;5,
-  TF Sat &lt;20, &#8593;Retic</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Ax: gastroscopy and colonoscopy</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Rx: IV iron polymaltose ~1.5g</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Calculate by weight and Hb increment</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Takes 3/52 to restore Hb</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Thalassaemia</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Very low MCV</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Normocytic</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><b><span lang=EN-US>**Chronic disease**</span></b></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Dx: context</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Organ failure (bone marrow, kidney, liver,
-  thyroid)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Dx: UEC, LFT, TFT, +/- marrow biopsy</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Rx: Epo in renal failure</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Macrocytic</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>B12 or folate deficiency</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Dx: serum B12, RBC folate</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Rx:replace</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Alcohol</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h2><span lang="EN-US">Classification:</span></h2>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Microcytic</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<b><span lang="EN-US">**Iron deficiency**</span></b></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Dx: Fn &lt;30, or Fn &lt;100 with CRP &gt;5, TF Sat &lt;20,
+&ShortUpArrow;Retic</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Ax: gastroscopy and colonoscopy</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Rx: IV iron polymaltose ~1.5g</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Calculate by weight and Hb increment</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Takes 3/52 to restore Hb</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Thalassaemia</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Very low MCV</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Normocytic</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<b><span lang="EN-US">**Chronic disease**</span></b></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Dx: context</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Organ failure (bone marrow, kidney, liver,
+thyroid)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Dx: UEC, LFT, TFT, +/- marrow biopsy</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Rx: Epo in renal failure</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Macrocytic</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">B12 or folate deficiency</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Dx: serum B12, RBC folate</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:37.35pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Rx:replace</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:23.15pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Alcohol</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h2><span lang=EN-US>Investigation:</span></h2>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Erythrocytes</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>MCV</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>RCDW</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>MCH</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Reticulocyte count</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Reticulocyte Hb</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Haematinics</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Iron</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Ferritin</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Transferrin saturation</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>B12</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Folate</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Organs</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>UEC</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>LFT</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>TFT</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Bone marrow biopsy</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Inflammation</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>CRP</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Referral</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Gastro (if needing scopes)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Haem (if not iron deficiency or chronic
-  disease)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Renal (if needing Epo)</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h2><span lang="EN-US">Investigation:</span></h2>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Erythrocytes</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">MCV</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">RCDW</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">MCH</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Reticulocyte count</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Reticulocyte Hb</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Haematinics</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Iron</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Ferritin</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Transferrin saturation</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">B12</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Folate</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Organs</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">UEC</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">LFT</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">TFT</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Bone marrow biopsy</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Inflammation</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">CRP</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Referral</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Gastro (if needing scopes)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Haem (if not iron deficiency or chronic
+disease)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Renal (if needing Epo)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h2><span lang=EN-US>Functional iron deficiency:</span></h2>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Normal physiology</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Absorbed in duodenum</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Stored as ferritin in enterocytes,
-  macrophages, hepatocytes</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Exported by ferroportin in absence of hepcidin</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Circulates bound to transferrin, available for
-  erythropoiesis</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Pathophysiology</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Systemic inflammation or organ dysfunction</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;Hepcidin, &#8593;Ferritin</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;Absorption, &#8595;release, &#8593;sequestering</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Hence iron unavailable for erythropoiesis</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.1pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Biochemical profile</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.7pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Ferritin &lt;30   <i><u>OR</u></i>   30-100 with
-  &#8593;CRP</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Transferrin saturation &lt;20%</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;MCV</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;RCDW</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;Reticulocyte Hb</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h2><span lang="EN-US">Functional iron deficiency:</span></h2>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Normal physiology</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Absorbed in duodenum</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Stored as ferritin in enterocytes, macrophages,
+hepatocytes</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Exported by ferroportin in absence of
+hepcidin</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Circulates bound to transferrin, available for
+erythropoiesis</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Pathophysiology</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Systemic inflammation or organ
+dysfunction</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Hepcidin,
+&ShortUpArrow;Ferritin</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;Absorption, &DownArrow;release,
+&ShortUpArrow;sequestering</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Hence iron unavailable for
+erythropoiesis</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.1pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Biochemical profile</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.7pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Ferritin &lt;30&nbsp;&nbsp;
+<i><u>OR</u></i>&nbsp;&nbsp; 30-100 with
+&ShortUpArrow;CRP</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Transferrin saturation &lt;20%</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;MCV</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;RCDW</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;Reticulocyte Hb</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>Feedback welcome at </span><a
-href="mailto:ketaminenightmares@gmail.com"><span lang=EN-US>ketaminenightmares@gmail.com</span></a></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">Feedback welcome at</span>
+<a href="mailto:ketaminenightmares@gmail.com"><span lang=
+"EN-US">ketaminenightmares@gmail.com</span></a></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

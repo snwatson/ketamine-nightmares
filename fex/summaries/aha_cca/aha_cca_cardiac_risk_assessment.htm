@@ -1,786 +1,898 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:0cm;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h2
-	{mso-style-link:"Heading 2 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:13.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 2 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:13.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 a:link, span.MsoHyperlink
-	{color:#0563C1;
-	text-decoration:underline;}
+        {color:#0563C1;
+        text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-link:"Heading 2";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 2 Char";
+        mso-style-link:"Heading 2";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
 @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        {size:595.3pt 841.9pt;
+        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 ul
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-AU link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US>Peri-operative cardiac risk assessment</span></h1>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h2><span lang=EN-US>AHA/CCA Approach</span></h2>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='text-indent:-18.0pt'><span
-lang=EN-US>1.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Define functional capacity</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
-lang=EN-US>2.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Identify risk factors</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='text-indent:-18.0pt'><span
-lang=EN-US>3.<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Plug into calculator</span></p>
-
-<p class=MsoListParagraphCxSpLast style='text-indent:-18.0pt'><span lang=EN-US>4.<span
-style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
-lang=EN-US>Decide how to proceed</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>1. Define functional capacity:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>METs</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>1: self-care</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>4: one flight of stairs, walk 6km/h</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>4-10: two flights of stairs, heavy housework</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&gt;10: sports</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>DASI</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Self-care</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Various intensities of ambulation</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Various intensities of housework</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Various intensities of recreational activity</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Conversion</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>DASI x 0.43 + 9.6 = VO2</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>VO2 / 3.5 = METs</span></p>
-  </td>
- </tr>
+<body lang="EN-AU" link="#0563C1" vlink="#954F72" style=
+'word-wrap:break-word'>
+<div class="WordSection1">
+<h1><span lang="EN-US">Peri-operative cardiac risk
+assessment</span></h1>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h2><span lang="EN-US">AHA/CCA Approach</span></h2>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style='text-indent:-18.0pt'>
+<span lang="EN-US">1.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Define functional capacity</span></p>
+<p class="MsoListParagraphCxSpMiddle" style='text-indent:-18.0pt'>
+<span lang="EN-US">2.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Identify risk factors</span></p>
+<p class="MsoListParagraphCxSpMiddle" style='text-indent:-18.0pt'>
+<span lang="EN-US">3.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Plug into calculator</span></p>
+<p class="MsoListParagraphCxSpLast" style='text-indent:-18.0pt'>
+<span lang="EN-US">4.<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Decide how to proceed</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">1. Define functional capacity:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">METs</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">1: self-care</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">4: one flight of stairs, walk 6km/h</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">4-10: two flights of stairs, heavy
+housework</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&gt;10: sports</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">DASI</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Self-care</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Various intensities of ambulation</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Various intensities of housework</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Various intensities of recreational
+activity</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Conversion</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">DASI x 0.43 + 9.6 = VO2</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">VO2 / 3.5 = METs</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>2a. Identify patient risk factors:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Global</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Elderly</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>ASA ++</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Poor functional status</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Specific</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>IHD</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Heart failure</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>CVD</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>T2DM insulin</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>CKD</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>(AF)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>(Obesity)</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">2a. Identify patient risk
+factors:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Global</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Elderly</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">ASA ++</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Poor functional status</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Specific</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">IHD</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Heart failure</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">CVD</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">T2DM insulin</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">CKD</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">(AF)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">(Obesity)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>2b. Identify surgical risk factors:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Low</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Day case</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Endoscopy</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Superficial</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Cataracts</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Breast</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Mod</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Carotid endarterectomy</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Head and neck</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Orthopaedic</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Prostate</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>High</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Intraperitoneal</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Intrathoracic</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Supra-inguinal vascular</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">2b. Identify surgical risk
+factors:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Low</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Day case</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Endoscopy</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Superficial</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Cataracts</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Breast</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Mod</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Carotid endarterectomy</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Head and neck</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Orthopaedic</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Prostate</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">High</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Intraperitoneal</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Intrathoracic</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Supra-inguinal vascular</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>3. Calculate risk:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><i><span
-  lang=EN-US>Scoring:</span></i></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><i><span
-  lang=EN-US>Low risk: &lt;1% MACE</span></i></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><i><span
-  lang=EN-US>Mod risk: 1-5% MACE</span></i></p>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><i><span
-  lang=EN-US>High risk: &gt;5% MACE</span></i></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>RCRI</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>High risk surgery (as above)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>IHD</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Heart failure</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>CVD</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>T2DM insulin</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>CKD (creat &gt;180)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>MICA</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Age</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Functional status</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>ASA</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Creat</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Surgery type</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>NSQIP</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Complex online tool</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>General inputs: e.g. age, ASA, emergency vs
-  elective</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Specific inputs: comorbidities</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>General output: complication, death, rehab
-  facility</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Specific outputs: CVS complication, wound
-  infection, VTE</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">3. Calculate risk:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<i><span lang="EN-US">Scoring:</span></i></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<i><span lang="EN-US">Low risk: &lt;1% MACE</span></i></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<i><span lang="EN-US">Mod risk: 1-5% MACE</span></i></p>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<i><span lang="EN-US">High risk: &gt;5% MACE</span></i></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">RCRI</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">High risk surgery (as above)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">IHD</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Heart failure</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">CVD</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">T2DM insulin</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">CKD (creat &gt;180)</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">MICA</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Age</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Functional status</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">ASA</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Creat</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Surgery type</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">NSQIP</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Complex online tool</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">General inputs: e.g. age, ASA, emergency vs
+elective</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Specific inputs: comorbidities</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">General output: complication, death, rehab
+facility</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Specific outputs: CVS complication, wound
+infection, VTE</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>4. Decide how to proceed:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Go ahead if any of:</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Emergency surgery</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Low risk</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Asymptomatic at &gt;4 METs</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Not for PCI/CAGs</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Do Stress TTE if all of:</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Moderate or high risk</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Exercise capacity &lt;4 METs or unknown</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Would be for PCI/CAGs</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">4. Decide how to proceed:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Go ahead if any of:</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Emergency surgery</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Low risk</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Asymptomatic at &gt;4 METs</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Not for PCI/CAGs</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Do Stress TTE if all of:</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Moderate or high risk</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Exercise capacity &lt;4 METs or
+unknown</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Would be for PCI/CAGs</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>5. Ignore all the above</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Problem</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Peri-op AMIs are almost always type 2 events</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Prophylactic PCI and CAGs are unhelpful for
-  most patients</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Prophylactic studies have excluded patient
-  with left main or triple vessel disease</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=170 valign=top style='width:127.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Recommendation</span></p>
-  </td>
-  <td width=431 valign=top style='width:323.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Do stress TTE if the patient needs it anyway
-  (e.g. angina FI)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Do PCI/CAGs if the patient needs it anyway
-  (e.g. LMCA or TVD)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>If unsure, discuss with PMU or a cardiologist</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">5. Ignore all the above</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Problem</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Peri-op AMIs are almost always type 2
+events</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Prophylactic PCI and CAGs are unhelpful for most
+patients</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Prophylactic studies have excluded patient with
+left main or triple vessel disease</span></p>
+</td>
+</tr>
+<tr>
+<td width="170" valign="top" style=
+'width:127.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Recommendation</span></p>
+</td>
+<td width="431" valign="top" style=
+'width:323.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Do stress TTE if the patient needs it anyway
+(e.g. angina FI)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Do PCI/CAGs if the patient needs it anyway (e.g.
+LMCA or TVD)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.85pt;text-indent:-14.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">If unsure, discuss with PMU or a
+cardiologist</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h1><span lang=EN-US>Canadian Approach</span></h1>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>NT-proBNP:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=151 valign=top style='width:113.0pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Indications</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.8pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&gt;65y</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>45-65y with CVS disease</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>RCRI </span><span lang=EN-US>&#8805;</span><span
-  lang=EN-US>1</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.0pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>If abnormal BNP<br>
-  (or can’t get one)</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>ECG in recovery</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Daily TNI for 48-72 hours</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Consider HDU or similar</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.0pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>If abnormal TNI</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Lifelong aspirin</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Lifelong statin</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h1><span lang="EN-US">Canadian Approach</span></h1>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">NT-proBNP:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="151" valign="top" style=
+'width:113.0pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Indications</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.8pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&gt;65y</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">45-65y with CVS disease</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">RCRI</span> <span lang=
+"EN-US">&GreaterEqual;</span><span lang="EN-US">1</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.0pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">If abnormal BNP<br>
+(or can&CloseCurlyQuote;t get one)</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">ECG in recovery</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Daily TNI for 48-72 hours</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Consider HDU or similar</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.0pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">If abnormal TNI</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Lifelong aspirin</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Lifelong statin</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US>Other recommendations:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=151 valign=top style='width:113.0pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Tests</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.8pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>No TTE</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>No stress test</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>No angiography</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=151 valign=top style='width:113.0pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Medications</span></p>
-  </td>
-  <td width=450 valign=top style='width:337.8pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Continue aspirin only if a) recent stent b)
-  for CEA</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Don’t start a beta blocker soon before surgery</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Withhold ACEi and ARB on day of surgery</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US">Other recommendations:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="151" valign="top" style=
+'width:113.0pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Tests</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.8pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">No TTE</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">No stress test</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">No angiography</span></p>
+</td>
+</tr>
+<tr>
+<td width="151" valign="top" style=
+'width:113.0pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Medications</span></p>
+</td>
+<td width="450" valign="top" style=
+'width:337.8pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Continue aspirin only if a) recent stent b) for
+CEA</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Don&CloseCurlyQuote;t start a beta blocker soon
+before surgery</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.8pt;text-indent:-14.15pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Withhold ACEi and ARB on day of
+surgery</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>Feedback welcome at </span><a
-href="mailto:ketaminenightmares@gmail.com"><span lang=EN-US>ketaminenightmares@gmail.com</span></a></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">Feedback welcome at</span>
+<a href="mailto:ketaminenightmares@gmail.com"><span lang=
+"EN-US">ketaminenightmares@gmail.com</span></a></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

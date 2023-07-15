@@ -1,716 +1,830 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
-<meta name=Generator content="Microsoft Word 15 (filtered)">
+<meta name="generator" content=
+"HTML Tidy for HTML5 for Apple macOS version 5.8.0">
+<meta http-equiv="Content-Type" content=
+"text/html; charset=us-ascii">
+<meta name="Generator" content="Microsoft Word 15 (filtered)">
 <style>
 <!--
  /* Font Definitions */
  @font-face
-	{font-family:Wingdings;
-	panose-1:5 0 0 0 0 0 0 0 0 0;}
+        {font-family:Wingdings;
+        panose-1:5 0 0 0 0 0 0 0 0 0;}
 @font-face
-	{font-family:"Cambria Math";
-	panose-1:2 4 5 3 5 4 6 3 2 4;}
+        {font-family:"Cambria Math";
+        panose-1:2 4 5 3 5 4 6 3 2 4;}
 @font-face
-	{font-family:Calibri;
-	panose-1:2 15 5 2 2 2 4 3 2 4;}
+        {font-family:Calibri;
+        panose-1:2 15 5 2 2 2 4 3 2 4;}
 @font-face
-	{font-family:"Calibri Light";
-	panose-1:2 15 3 2 2 2 4 3 2 4;}
+        {font-family:"Calibri Light";
+        panose-1:2 15 3 2 2 2 4 3 2 4;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:0cm;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:0cm;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 h1
-	{mso-style-link:"Heading 1 Char";
-	margin-top:12.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:16.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 1 Char";
+        margin-top:12.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:16.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h2
-	{mso-style-link:"Heading 2 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:13.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;
-	font-weight:normal;}
+        {mso-style-link:"Heading 2 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:13.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;
+        font-weight:normal;}
 h3
-	{mso-style-link:"Heading 3 Char";
-	margin-top:2.0pt;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:0cm;
-	line-height:107%;
-	page-break-after:avoid;
-	font-size:12.0pt;
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;
-	font-weight:normal;}
+        {mso-style-link:"Heading 3 Char";
+        margin-top:2.0pt;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:0cm;
+        line-height:107%;
+        page-break-after:avoid;
+        font-size:12.0pt;
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;
+        font-weight:normal;}
 a:link, span.MsoHyperlink
-	{color:#0563C1;
-	text-decoration:underline;}
+        {color:#0563C1;
+        text-decoration:underline;}
 p.MsoListParagraph, li.MsoListParagraph, div.MsoListParagraph
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpFirst, li.MsoListParagraphCxSpFirst, div.MsoListParagraphCxSpFirst
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpMiddle, li.MsoListParagraphCxSpMiddle, div.MsoListParagraphCxSpMiddle
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:0cm;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:0cm;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 p.MsoListParagraphCxSpLast, li.MsoListParagraphCxSpLast, div.MsoListParagraphCxSpLast
-	{margin-top:0cm;
-	margin-right:0cm;
-	margin-bottom:8.0pt;
-	margin-left:36.0pt;
-	line-height:107%;
-	font-size:11.0pt;
-	font-family:"Calibri",sans-serif;}
+        {margin-top:0cm;
+        margin-right:0cm;
+        margin-bottom:8.0pt;
+        margin-left:36.0pt;
+        line-height:107%;
+        font-size:11.0pt;
+        font-family:"Calibri",sans-serif;}
 span.Heading1Char
-	{mso-style-name:"Heading 1 Char";
-	mso-style-link:"Heading 1";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 1 Char";
+        mso-style-link:"Heading 1";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 span.Heading3Char
-	{mso-style-name:"Heading 3 Char";
-	mso-style-link:"Heading 3";
-	font-family:"Calibri Light",sans-serif;
-	color:#1F3763;}
+        {mso-style-name:"Heading 3 Char";
+        mso-style-link:"Heading 3";
+        font-family:"Calibri Light",sans-serif;
+        color:#1F3763;}
 span.Heading2Char
-	{mso-style-name:"Heading 2 Char";
-	mso-style-link:"Heading 2";
-	font-family:"Calibri Light",sans-serif;
-	color:#2F5496;}
+        {mso-style-name:"Heading 2 Char";
+        mso-style-link:"Heading 2";
+        font-family:"Calibri Light",sans-serif;
+        color:#2F5496;}
 .MsoChpDefault
-	{font-family:"Calibri",sans-serif;}
+        {font-family:"Calibri",sans-serif;}
 .MsoPapDefault
-	{margin-bottom:8.0pt;
-	line-height:107%;}
+        {margin-bottom:8.0pt;
+        line-height:107%;}
  /* Page Definitions */
  @page WordSection1
-	{size:595.3pt 841.9pt;
-	margin:72.0pt 72.0pt 72.0pt 72.0pt;}
+        {size:595.3pt 841.9pt;
+        margin:72.0pt 72.0pt 72.0pt 72.0pt;}
 div.WordSection1
-	{page:WordSection1;}
+        {page:WordSection1;}
  /* List Definitions */
  ol
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 ul
-	{margin-bottom:0cm;}
+        {margin-bottom:0cm;}
 -->
 </style>
-
+<title></title>
 </head>
-
-<body lang=EN-AU link="#0563C1" vlink="#954F72" style='word-wrap:break-word'>
-
-<div class=WordSection1>
-
-<h1><span lang=EN-US style='font-size:15.0pt;line-height:107%'>2010B11 Explain
-the physical principles of ultrasound imaging.</span></h1>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>List:</span></h3>
-
-<p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Ultrasound waves</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Ultrasound machine</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Tissue interactions</span></p>
-
-<p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Imaging properties</span></p>
-
-<p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'><span lang=EN-US
-style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
-</span></span><span lang=EN-US>Doppler effect</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Ultrasound
-waves:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=131 valign=top style='width:98.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Definition</span></p>
-  </td>
-  <td width=470 valign=top style='width:352.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Wave of pressurization and rarefaction through
-  a medium</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Frequency is &gt;20kHz (but probes are 2-15MHz)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Speed is ~1540m/s through tissue</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=131 valign=top style='width:98.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Equations</span></p>
-  </td>
-  <td width=470 valign=top style='width:352.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Speed = distance/time</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Propagation velocity = wavelength / period<br>
-  (where period = 1/frequency)</span></p>
-  </td>
- </tr>
+<body lang="EN-AU" link="#0563C1" vlink="#954F72" style=
+'word-wrap:break-word'>
+<div class="WordSection1">
+<h1><span lang="EN-US" style=
+'font-size:15.0pt;line-height:107%'>2010B11 Explain the physical
+principles of ultrasound imaging.</span></h1>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>List:</span></h3>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Ultrasound waves</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Ultrasound machine</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Tissue interactions</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Imaging properties</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:22.5pt;text-indent:-13.5pt'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Doppler effect</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Ultrasound waves:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="131" valign="top" style=
+'width:98.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Definition</span></p>
+</td>
+<td width="470" valign="top" style=
+'width:352.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Wave of pressurization and rarefaction through a
+medium</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Frequency is &gt;20kHz (but probes are
+2-15MHz)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Speed is ~1540m/s through tissue</span></p>
+</td>
+</tr>
+<tr>
+<td width="131" valign="top" style=
+'width:98.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Equations</span></p>
+</td>
+<td width="470" valign="top" style=
+'width:352.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Speed = distance/time</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Propagation velocity = wavelength / period<br>
+(where period = 1/frequency)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h2><span lang=EN-US>Ultrasound machine:</span></h2>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=131 valign=top style='width:98.2pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Probe</span></p>
-  </td>
-  <td width=470 valign=top style='width:352.6pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Array of piezoelectric crystals (PZT = lead
-  zirconate titanate)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Matching layer (reduces impedance gradient
-  between probe and body)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Acoustic lens (focuses waves toward field)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Damping block (attenuates oscillation of
-  crystals)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Metal and plastic housing (protection and
-  acoustic insulation)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=131 valign=top style='width:98.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Piezoelectric effect</span></p>
-  </td>
-  <td width=470 valign=top style='width:352.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Emission: alternating current -&gt; crystal
-  oscillation -&gt; emitted US wave</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Detection: reflected US wave -&gt; crystal oscillation
-  -&gt; alternating current</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Emission and detection are repeated many times
-  per second</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=131 valign=top style='width:98.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Regular modes</span></p>
-  </td>
-  <td width=470 valign=top style='width:352.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>A (amplitude): one crystal, display graph of
-  amplitude vs depth (rare use)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>M (motion): one crystal, display ‘ice pick’ vs
-  time (for timing, e.g. TAPSE)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>B (brightness): array of crystals, 2D display;
-  still or real-time</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>3D: 2D images-&gt; volumetric dataset; still
-  or real-time</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=131 valign=top style='width:98.2pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Doppler modes</span></p>
-  </td>
-  <td width=470 valign=top style='width:352.6pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Colour: indicate direction and velocity (not
-  quantity) of flow (e.g. regurg)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Pulse wave: measure velocity at a specified
-  location (e.g. LVOT VTI)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Continuous wave: measure all velocities along
-  a line (e.g. through the AV)</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h2><span lang="EN-US">Ultrasound machine:</span></h2>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="131" valign="top" style=
+'width:98.2pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Probe</span></p>
+</td>
+<td width="470" valign="top" style=
+'width:352.6pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Array of piezoelectric crystals (PZT = lead
+zirconate titanate)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Matching layer (reduces impedance gradient
+between probe and body)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Acoustic lens (focuses waves toward
+field)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Damping block (attenuates oscillation of
+crystals)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Metal and plastic housing (protection and
+acoustic insulation)</span></p>
+</td>
+</tr>
+<tr>
+<td width="131" valign="top" style=
+'width:98.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Piezoelectric effect</span></p>
+</td>
+<td width="470" valign="top" style=
+'width:352.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Emission: alternating current -&gt; crystal
+oscillation -&gt; emitted US wave</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Detection: reflected US wave -&gt; crystal
+oscillation -&gt; alternating current</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Emission and detection are repeated many times
+per second</span></p>
+</td>
+</tr>
+<tr>
+<td width="131" valign="top" style=
+'width:98.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Regular modes</span></p>
+</td>
+<td width="470" valign="top" style=
+'width:352.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">A (amplitude): one crystal, display graph of
+amplitude vs depth (rare use)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">M (motion): one crystal, display
+&OpenCurlyQuote;ice pick&CloseCurlyQuote; vs time (for timing, e.g.
+TAPSE)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">B (brightness): array of crystals, 2D display;
+still or real-time</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">3D: 2D images-&gt; volumetric dataset; still or
+real-time</span></p>
+</td>
+</tr>
+<tr>
+<td width="131" valign="top" style=
+'width:98.2pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Doppler modes</span></p>
+</td>
+<td width="470" valign="top" style=
+'width:352.6pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Colour: indicate direction and velocity (not
+quantity) of flow (e.g. regurg)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Pulse wave: measure velocity at a specified
+location (e.g. LVOT VTI)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Continuous wave: measure all velocities along a
+line (e.g. through the AV)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Tissue
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Tissue
 interactions:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Wave fate</span></p>
-  </td>
-  <td width=474 valign=top style='width:355.4pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Reflection -&gt; <i>detection by probe</i></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Transmission</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Diffraction</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Scattering</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Absorption as heat</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Acoustic attenuation</span></p>
-  </td>
-  <td width=474 valign=top style='width:355.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Decay in amplitude with passage through a
-  tissue</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Occurs due to absorption, scattering etc.</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Can be overcome by ‘time gain compensation’</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Units dB/m. Blood 20, fat 60, muscle 180.</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Attenuation (I) = I<sub>0</sub>e<sup>-ax</sup></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.3pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
-  </span></span><span lang=EN-US>x = distance travelled</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:35.3pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:"Courier New"'>o<span style='font:7.0pt "Times New Roman"'>
-  </span></span><span lang=EN-US>a = attenuation coefficient</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:62.3pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>
-  </span></span><span lang=EN-US style='font-family:"Cambria Math",serif'>&#8733;
-  </span><span lang=EN-US>frequency</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:62.3pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>
-  </span></span><span lang=EN-US style='font-family:"Cambria Math",serif'>&#8733;
-  </span><span lang=EN-US>viscosity</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:62.3pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Wingdings'>§<span style='font:7.0pt "Times New Roman"'>
-  </span></span><span lang=EN-US style='font-family:"Cambria Math",serif'>&#8733;
-  </span><span lang=EN-US>1/elasticity</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=127 valign=top style='width:95.4pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Acoustic impedance</span></p>
-  </td>
-  <td width=474 valign=top style='width:355.4pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Degree of resistance to passage of US wave</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Units: half power distance (&lt;0.1cm air,
-  &lt;1cm bone, 380cm water)<br>
-  <i>High impedance of air -&gt; use ultrasound gel</i></span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Impedance (Z) = velocity x density</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Reflection coefficient = [(Z2-Z1)/(Z2+Z1)]<sup>2</sup></span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.95pt;line-height:normal'><span lang=EN-US>(i.e.
-  reflection </span><span lang=EN-US style='font-family:"Cambria Math",serif'>&#8733;</span><span
-  lang=EN-US> &#916; acoustic impedance)</span></p>
-  </td>
- </tr>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="127" valign="top" style=
+'width:95.4pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Wave fate</span></p>
+</td>
+<td width="474" valign="top" style=
+'width:355.4pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Reflection -&gt; <i>detection by
+probe</i></span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Transmission</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Diffraction</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Scattering</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Absorption as heat</span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top" style=
+'width:95.4pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Acoustic attenuation</span></p>
+</td>
+<td width="474" valign="top" style=
+'width:355.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Decay in amplitude with passage through a
+tissue</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Occurs due to absorption, scattering
+etc.</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Can be overcome by &OpenCurlyQuote;time gain
+compensation&CloseCurlyQuote;</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Units dB/m. Blood 20, fat 60, muscle
+180.</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Attenuation (I) =
+I<sub>0</sub>e<sup>-ax</sup></span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.3pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">x = distance travelled</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:35.3pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family:"Courier New"'>o
+</span><span lang="EN-US">a = attenuation coefficient</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:62.3pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family:Wingdings'>&sect;
+</span><span lang="EN-US" style=
+'font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">frequency</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:62.3pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family:Wingdings'>&sect;
+</span><span lang="EN-US" style=
+'font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">viscosity</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:62.3pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style='font-family:Wingdings'>&sect;
+</span><span lang="EN-US" style=
+'font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">1/elasticity</span></p>
+</td>
+</tr>
+<tr>
+<td width="127" valign="top" style=
+'width:95.4pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Acoustic impedance</span></p>
+</td>
+<td width="474" valign="top" style=
+'width:355.4pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Degree of resistance to passage of US
+wave</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Units: half power distance (&lt;0.1cm air,
+&lt;1cm bone, 380cm water)<br>
+<i>High impedance of air -&gt; use ultrasound gel</i></span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Impedance (Z) = velocity x density</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Reflection coefficient =
+[(Z2-Z1)/(Z2+Z1)]<sup>2</sup></span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.95pt;line-height:normal'>
+<span lang="EN-US">(i.e. reflection</span> <span lang="EN-US"
+style='font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">&Delta; acoustic impedance)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<h2><span lang=EN-US>Image properties:</span></h2>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=126 valign=top style='width:94.7pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Latency</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.1pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Time to detection </span><span lang=EN-US
-  style='font-family:"Cambria Math",serif'>&#8733;</span><span lang=EN-US>
-  distance from probe</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.7pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Intensity</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.1pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Intensity of signal </span><span lang=EN-US
-  style='font-family:"Cambria Math",serif'>&#8733;</span><span lang=EN-US> amount
-  reflected</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Reflection occurs if </span><span lang=EN-US>&#916;</span><span
-  lang=EN-US> acoustic impedance = </span><span lang=EN-US>&#916;</span><span
-  lang=EN-US> tissue density</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Water density 1000kg/m<sup>3</sup>, fat
-  952kg/m<sup>3</sup>, muscle 1078kg/m<sup>3</sup></span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Reflection back to probe is greatest if object
-  is perpendicular to USS waves</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.7pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Resolution</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.1pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Temporal: shallow field (&#8595;latency),
-  narrow field (&#8593;pulse repetition freq)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Axial: &#8595;depth (&#8593;frequency -&gt;
-  &#8593;tissue interactions)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Lateral: &#8595;sector width (&#8593;line
-  density*), focal point (i.e. USS convergence)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=126 valign=top style='width:94.7pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Trade off</span></p>
-  </td>
-  <td width=475 valign=top style='width:356.1pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>Frequency </span><span lang=EN-US
-  style='font-family:"Cambria Math",serif'>&#8733;</span><span lang=EN-US>
-  tissue interactions </span><span lang=EN-US style='font-family:"Cambria Math",serif'>&#8733;</span><span
-  lang=EN-US> attenuation</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8593;Freq: &#8593;resolution but
-  &#8595;depth</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;
-  </span></span><span lang=EN-US>&#8595;Freq: &#8595;resolution but
-  &#8593;depth</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<h2><span lang="EN-US">Image properties:</span></h2>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="126" valign="top" style=
+'width:94.7pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Latency</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.1pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Time to detection</span> <span lang="EN-US"
+style='font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">distance from probe</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.7pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Intensity</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Intensity of signal</span> <span lang="EN-US"
+style='font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">amount reflected</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Reflection occurs if</span> <span lang=
+"EN-US">&Delta;</span> <span lang="EN-US">acoustic impedance
+=</span> <span lang="EN-US">&Delta;</span> <span lang=
+"EN-US">tissue density</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Water density 1000kg/m<sup>3</sup>, fat
+952kg/m<sup>3</sup>, muscle 1078kg/m<sup>3</sup></span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Reflection back to probe is greatest if object
+is perpendicular to USS waves</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.7pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Resolution</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Temporal: shallow field (&DownArrow;latency),
+narrow field (&ShortUpArrow;pulse repetition freq)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Axial: &DownArrow;depth (&ShortUpArrow;frequency
+-&gt; &ShortUpArrow;tissue interactions)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Lateral: &DownArrow;sector width
+(&ShortUpArrow;line density*), focal point (i.e. USS
+convergence)</span></p>
+</td>
+</tr>
+<tr>
+<td width="126" valign="top" style=
+'width:94.7pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Trade off</span></p>
+</td>
+<td width="475" valign="top" style=
+'width:356.1pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">Frequency</span> <span lang="EN-US" style=
+'font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">tissue interactions</span> <span lang="EN-US"
+style='font-family:"Cambria Math",serif'>&Proportional;</span>
+<span lang="EN-US">attenuation</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&ShortUpArrow;Freq: &ShortUpArrow;resolution but
+&DownArrow;depth</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:9.0pt;text-indent:-9.0pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;&nbsp;</span></span>
+<span lang="EN-US">&DownArrow;Freq: &DownArrow;resolution but
+&ShortUpArrow;depth</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>(*phased array transducer only)</span></p>
-
-<h3><span lang=EN-US style='font-size:13.0pt;line-height:107%'>Doppler effect:</span></h3>
-
-<table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
- style='border-collapse:collapse;border:none'>
- <tr>
-  <td width=122 valign=top style='width:91.85pt;border:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Definition</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border:solid windowtext 1.0pt;
-  border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraph style='margin-top:0cm;margin-right:0cm;margin-bottom:
-  0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Apparent frequency &#8593;/&#8595;if source is
-  moving towards/away from probe</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=122 valign=top style='width:91.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Use</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Demonstrate flow and direction of flow</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Calculate velocity (e.g. aortic jet)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Calculate distance by integration (e.g. VTI)</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=122 valign=top style='width:91.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Equation</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>V = </span><span lang=EN-US>&#8710;</span><span lang=EN-US>F x C
-  /2F<sub>0</sub>cos</span><span lang=EN-US>&#952;</span></p>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>V: velocity</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>&#8710;</span><span lang=EN-US>F: change in
-  frequency between emission and detection</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>C: speed of sound</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>2x: ultrasound wave does a return trip</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>F<sub>0</sub>: emitted frequency</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>cos</span><span lang=EN-US>&#952;</span><span
-  lang=EN-US>: correction for incident angle<br>
-  N.B. ultrasound does not correct for angle.<br>
-  Need &lt;20</span><span lang=EN-US>° angle for &lt;6% inaccuracy.</span></p>
-  </td>
- </tr>
- <tr>
-  <td width=122 valign=top style='width:91.85pt;border:solid windowtext 1.0pt;
-  border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoNormal style='margin-bottom:0cm;line-height:normal'><span
-  lang=EN-US>Modes</span></p>
-  </td>
-  <td width=482 valign=top style='width:361.45pt;border-top:none;border-left:
-  none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt;
-  padding:0cm 5.4pt 0cm 5.4pt'>
-  <p class=MsoListParagraphCxSpFirst style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Colour mode: recognize abnormal motion (e.g. valvular
-  regurgitation)</span></p>
-  <p class=MsoListParagraphCxSpMiddle style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Pulse wave: specified depth, low velocity
-  (e.g. LVOT VTI)</span></p>
-  <p class=MsoListParagraphCxSpLast style='margin-top:0cm;margin-right:0cm;
-  margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'><span
-  lang=EN-US style='font-family:Symbol'>·<span style='font:7.0pt "Times New Roman"'>&nbsp;
-  </span></span><span lang=EN-US>Continuous wave: unspecified depth, high
-  velocity (e.g. LVOT PSV)</span></p>
-  </td>
- </tr>
+<p class="MsoNormal"><span lang="EN-US">(*phased array transducer
+only)</span></p>
+<h3><span lang="EN-US" style=
+'font-size:13.0pt;line-height:107%'>Doppler effect:</span></h3>
+<table class="MsoTableGrid" border="1" cellspacing="0" cellpadding=
+"0" style='border-collapse:collapse;border:none'>
+<tr>
+<td width="122" valign="top" style=
+'width:91.85pt;border:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Definition</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border:solid windowtext 1.0pt; border-left:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraph" style=
+'margin-top:0cm;margin-right:0cm;margin-bottom: 0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Apparent frequency &ShortUpArrow;/&DownArrow;if source is
+moving towards/away from probe</span></p>
+</td>
+</tr>
+<tr>
+<td width="122" valign="top" style=
+'width:91.85pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Use</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Demonstrate flow and direction of flow</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Calculate velocity (e.g. aortic jet)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Calculate distance by integration (e.g. VTI)</span></p>
+</td>
+</tr>
+<tr>
+<td width="122" valign="top" style=
+'width:91.85pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Equation</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">V =</span> <span lang=
+"EN-US">&#8710;</span><span lang="EN-US">F x C
+/2F<sub>0</sub>cos</span><span lang="EN-US">&theta;</span></p>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">V: velocity</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">&#8710;</span><span lang="EN-US">F: change in frequency
+between emission and detection</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">C: speed of sound</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">2x: ultrasound wave does a return trip</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">F<sub>0</sub>: emitted frequency</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">cos</span><span lang="EN-US">&theta;</span><span lang=
+"EN-US">: correction for incident angle<br>
+N.B. ultrasound does not correct for angle.<br>
+Need &lt;20</span><span lang="EN-US">&deg; angle for &lt;6%
+inaccuracy.</span></p>
+</td>
+</tr>
+<tr>
+<td width="122" valign="top" style=
+'width:91.85pt;border:solid windowtext 1.0pt; border-top:none;padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoNormal" style='margin-bottom:0cm;line-height:normal'>
+<span lang="EN-US">Modes</span></p>
+</td>
+<td width="482" valign="top" style=
+'width:361.45pt;border-top:none;border-left: none;border-bottom:solid windowtext 1.0pt;border-right:solid windowtext 1.0pt; padding:0cm 5.4pt 0cm 5.4pt'>
+<p class="MsoListParagraphCxSpFirst" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Colour mode: recognize abnormal motion (e.g. valvular
+regurgitation)</span></p>
+<p class="MsoListParagraphCxSpMiddle" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Pulse wave: specified depth, low velocity (e.g. LVOT
+VTI)</span></p>
+<p class="MsoListParagraphCxSpLast" style=
+'margin-top:0cm;margin-right:0cm; margin-bottom:0cm;margin-left:8.2pt;text-indent:-8.2pt;line-height:normal'>
+<span lang="EN-US" style=
+'font-family:Symbol'>&CenterDot;<span style=
+'font:7.0pt "Times New Roman"'>&nbsp;</span></span> <span lang=
+"EN-US">Continuous wave: unspecified depth, high velocity (e.g.
+LVOT PSV)</span></p>
+</td>
+</tr>
 </table>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal><span lang=EN-US>&nbsp;</span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>Feedback welcome
-at </span><span lang=EN-GB><a href="mailto:ketaminenightmares@gmail.com"><span
-lang=EN-US>ketaminenightmares@gmail.com</span></a></span></p>
-
-<p class=MsoNormal style='margin-bottom:0cm'><span lang=EN-US>&nbsp;</span></p>
-
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal"><span lang="EN-US">&nbsp;</span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">Feedback welcome at</span> <span lang="EN-GB"><a href=
+"mailto:ketaminenightmares@gmail.com"><span lang=
+"EN-US">ketaminenightmares@gmail.com</span></a></span></p>
+<p class="MsoNormal" style='margin-bottom:0cm'><span lang=
+"EN-US">&nbsp;</span></p>
 </div>
-
 </body>
-
 </html>

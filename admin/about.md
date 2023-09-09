@@ -21,14 +21,14 @@ I would like to thank:
 - My study companions Perdita Gregory, Kevin Murphy, Lauren Smith, Tim Williams and Harsh Dubey
 - The Departments of Anaesthesia at Box Hill Hospital and St. Vincent’s Hospital
 - The convenors of the Primary Exam Course at the Waikato Hospital in Hamilton, New Zealand – Aidan O’Donnell, James Clark and Jeffrey Hoskins
-- All those who have contributed amendments - Emma Paxton, Jin Sern Toh, Wei Ling Law, Simon Leckenby, Pat Stapleton, Pooja Agrawal, Tim Basevi, Craig Beaman, Tim Hall, Pat Lloyd-Donald, Christine Ma, Thomas Pearson, Alec Beresford, Kieran Easter, Emma Walker, Tom Scodellaro, Jessie Wang, Catherine Hampton, Stan Tay, Pranav Varma, Bryan Yip, Jake Barlow, Daniel Gillespie, David Wang, James Kim, Hazem Hamdan, Jamahal Luxford, Meredith Davies, Steven McGuigan, Phil Sugden, Jason Kong, Joseph de Zylva, Tim Williams, Stephen Sharp, Alex Peng, Amanda Bunn, Catherine Rickard, Tim Tran, Bhanuka Jayathilaka, Ryan Adams, Faraaz de Belder, Barney Jayathilaka, Jadon Hart, Julian Smyth, Lachlan Poiner, Sarah Wong, Merredith Cully, Vib Manchanda, Noah Freelander, Lachlan Poiner, Erin McKergow, Chris Masters, Antonia Yarnton, Stephanie Mulligan, Laletha Velayutham, Philip Chua, Jono Paulin, Owen Tomasek, Rob Greaves, Simone Besseling, Sam Mathias, Cassie Roberts, Melissa Lee
+- All those who have contributed amendments - Emma Paxton, Jin Sern Toh, Wei Ling Law, Simon Leckenby, Pat Stapleton, Pooja Agrawal, Tim Basevi, Craig Beaman, Tim Hall, Pat Lloyd-Donald, Christine Ma, Thomas Pearson, Alec Beresford, Kieran Easter, Emma Walker, Tom Scodellaro, Jessie Wang, Catherine Hampton, Stan Tay, Pranav Varma, Bryan Yip, Jake Barlow, Daniel Gillespie, David Wang, James Kim, Hazem Hamdan, Jamahal Luxford, Meredith Davies, Steven McGuigan, Phil Sugden, Jason Kong, Joseph de Zylva, Tim Williams, Stephen Sharp, Alex Peng, Amanda Bunn, Catherine Rickard, Tim Tran, Bhanuka Jayathilaka, Ryan Adams, Faraaz de Belder, Barney Jayathilaka, Jadon Hart, Julian Smyth, Lachlan Poiner, Sarah Wong, Merredith Cully, Vib Manchanda, Noah Freelander, Lachlan Poiner, Erin McKergow, Chris Masters, Antonia Yarnton, Stephanie Mulligan, Laletha Velayutham, Philip Chua, Jono Paulin, Owen Tomasek, Rob Greaves, Simone Besseling, Sam Mathias, Cassie Roberts, Melissa Lee, Pradeep, 
  
 ### Disclaimers:
 - This website is intended as an aid to exam preparation
 - It should not be considered gospel truth
 - It should not be taken as a guide to the practice of anaesthesia
 - It should not be used to inform your own treatment, if that were even possible
-- There will be some mistakes as a result of ignorance, fatigue, textbook disparity or typo's; if you find one, please [let me know](mailto:ketaminenightmares@gmail.com)
+- There will be some mistakes as a result of ignorance, fatigue, textbook disparity or carelessness; if you find one, please [let me know](mailto:ketaminenightmares@gmail.com)
 
 ### Copyright:
 - [Creative Commons License](copyright.md)

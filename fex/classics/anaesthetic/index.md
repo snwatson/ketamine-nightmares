@@ -18,7 +18,7 @@
 - [Nasal intubation](nasal_intubation.htm)
 - [One lung ventilation](one_lung_ventilation.htm)
 - [Positioning - beach chair](positioning_beach_chair.htm)
-- [Positioining - prone](positioning_prone.htm)
+- [Positioning - prone](positioning_prone.htm)
 - [Positioning - steep Trendelenburg](positioning_steep_trendelenburg.htm)
 - [Regional anaesthesia - approach](regional_approach.htm)
 - [Regional anaesthesia - complications](regional_complications.htm)

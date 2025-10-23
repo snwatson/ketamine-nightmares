@@ -23,3 +23,4 @@
 - [2020A09 Intrathecal opioids](2020A09_intrathecal_opioids.htm)
 - [2021A10 Non-steroidal anti-inflammatory drugs](2021A10_nsaids.htm)
 - [2021B09 Morphine vs fentanyl PCA](2021B09_morphine_vs_fentanyl_pca.htm)
+- [2025ADVANCE Methadone](2025ADVANCE_methadone.htm)

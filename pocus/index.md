@@ -11,7 +11,7 @@
 - [Interpretation](lung/interpretation/)
 
 ### Gastric ultrasound
-- [Knowledge](gastric/knowledge/)
-- [Scanning](gastric/scanning/)
-- [Interpretation](gastric/interpretation/)
+- [Knowledge](gastric/knowledge.htm/)
+- [Scanning](gastric/scanning.htm/)
+- [Interpretation](gastric/interpretation.htm/)
 

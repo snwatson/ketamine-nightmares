@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="bgGrad" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#f5f5f0"/>
+      <stop offset="100%" stop-color="#e0e0d8"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000040"/>
+    </filter>
+  </defs>
+  <circle cx="150" cy="150" r="140" fill="url(#bgGrad)" stroke="#ddd" stroke-width="1"/>
+  <!-- Left arrowhead -->
+  <polygon points="55,150 135,80 135,220" fill="#555550" filter="url(#shadow)"/>
+  <!-- Shaft -->
+  <rect x="135" y="120" width="30" height="60" fill="#555550"/>
+  <!-- Right arrowhead -->
+  <polygon points="245,150 165,80 165,220" fill="#555550" filter="url(#shadow)"/>
+</svg>

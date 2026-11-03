@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="outerWall" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#e8e8e8"/>
+      <stop offset="100%" stop-color="#a0a0a0"/>
+    </radialGradient>
+    <radialGradient id="muscularis" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#4a4a5a"/>
+      <stop offset="100%" stop-color="#2a2a3a"/>
+    </radialGradient>
+    <radialGradient id="lumenBase" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#1a1a2a"/>
+      <stop offset="100%" stop-color="#0d0d18"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000040"/>
+    </filter>
+    <clipPath id="lumenClip">
+      <ellipse cx="150" cy="147" rx="57" ry="44"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="140" fill="#f5f5f0" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Layer 1: Echogenic outer wall -->
+  <ellipse cx="150" cy="148" rx="108" ry="90" fill="url(#outerWall)" filter="url(#shadow)"/>
+  <!-- Layer 2: Muscularis propria -->
+  <ellipse cx="150" cy="148" rx="95" ry="78" fill="url(#muscularis)"/>
+  <!-- Layer 3: Submucosa -->
+  <ellipse cx="150" cy="148" rx="82" ry="66" fill="#c8c8c0"/>
+  <!-- Layer 4: Mucosa -->
+  <ellipse cx="150" cy="148" rx="70" ry="55" fill="#5a5a68"/>
+  <!-- Layer 5: Lumen base - dark -->
+  <ellipse cx="150" cy="147" rx="57" ry="44" fill="url(#lumenBase)"/>
+
+  <!-- Lots of small circles of varying grey (whiter end) clipped to lumen -->
+  <g clip-path="url(#lumenClip)">
+    <!-- Row 1 -->
+    <circle cx="104" cy="133" r="4.5" fill="#b0b0b0"/>
+    <circle cx="114" cy="130" r="3.8" fill="#d8d8d8"/>
+    <circle cx="123" cy="134" r="5.0" fill="#c4c4c4"/>
+    <circle cx="133" cy="129" r="3.5" fill="#e2e2e2"/>
+    <circle cx="142" cy="132" r="4.2" fill="#b8b8b8"/>
+    <circle cx="151" cy="130" r="5.2" fill="#d0d0d0"/>
+    <circle cx="161" cy="133" r="3.8" fill="#e8e8e8"/>
+    <circle cx="170" cy="130" r="4.5" fill="#c0c0c0"/>
+    <circle cx="179" cy="134" r="3.5" fill="#dcdcdc"/>
+    <circle cx="188" cy="131" r="4.0" fill="#b4b4b4"/>
+    <circle cx="197" cy="135" r="3.8" fill="#e0e0e0"/>
+
+    <!-- Row 2 -->
+    <circle cx="100" cy="143" r="3.5" fill="#d4d4d4"/>
+    <circle cx="109" cy="141" r="5.0" fill="#bcbcbc"/>
+    <circle cx="119" cy="144" r="4.0" fill="#e6e6e6"/>
+    <circle cx="128" cy="140" r="5.5" fill="#c8c8c8"/>
+    <circle cx="138" cy="143" r="3.8" fill="#dedede"/>
+    <circle cx="147" cy="141" r="4.8" fill="#b6b6b6"/>
+    <circle cx="157" cy="144" r="5.0" fill="#e4e4e4"/>
+    <circle cx="166" cy="140" r="4.2" fill="#cccccc"/>
+    <circle cx="176" cy="143" r="3.5" fill="#d8d8d8"/>
+    <circle cx="185" cy="141" r="5.2" fill="#bebebe"/>
+    <circle cx="195" cy="144" r="4.0" fill="#eaeaea"/>
+    <circle cx="204" cy="141" r="3.8" fill="#c6c6c6"/>
+
+    <!-- Row 3 -->
+    <circle cx="105" cy="153" r="4.8" fill="#e0e0e0"/>
+    <circle cx="115" cy="151" r="3.5" fill="#c2c2c2"/>
+    <circle cx="124" cy="154" r="5.2" fill="#d6d6d6"/>
+    <circle cx="134" cy="151" r="4.0" fill="#ebebeb"/>
+    <circle cx="143" cy="154" r="5.0" fill="#bababa"/>
+    <circle cx="153" cy="151" r="3.8" fill="#e2e2e2"/>
+    <circle cx="162" cy="154" r="4.5" fill="#c8c8c8"/>
+    <circle cx="172" cy="151" r="5.0" fill="#d4d4d4"/>
+    <circle cx="181" cy="154" r="3.5" fill="#eeeeee"/>
+    <circle cx="190" cy="151" r="4.2" fill="#b8b8b8"/>
+    <circle cx="199" cy="154" r="4.8" fill="#dcdcdc"/>
+
+    <!-- Row 4 -->
+    <circle cx="110" cy="163" r="3.8" fill="#c4c4c4"/>
+    <circle cx="120" cy="161" r="5.0" fill="#e8e8e8"/>
+    <circle cx="129" cy="164" r="4.2" fill="#b2b2b2"/>
+    <circle cx="139" cy="161" r="3.5" fill="#d0d0d0"/>
+    <circle cx="148" cy="164" r="5.2" fill="#e4e4e4"/>
+    <circle cx="158" cy="161" r="4.0" fill="#bcbcbc"/>
+    <circle cx="167" cy="164" r="4.8" fill="#d8d8d8"/>
+    <circle cx="177" cy="161" r="3.8" fill="#ececec"/>
+    <circle cx="186" cy="164" r="5.0" fill="#c0c0c0"/>
+    <circle cx="195" cy="161" r="3.5" fill="#e0e0e0"/>
+
+    <!-- Row 5 (shorter - bottom of ellipse) -->
+    <circle cx="120" cy="173" r="4.0" fill="#d2d2d2"/>
+    <circle cx="130" cy="171" r="3.5" fill="#e6e6e6"/>
+    <circle cx="140" cy="174" r="4.8" fill="#bdbdbd"/>
+    <circle cx="150" cy="171" r="4.2" fill="#e0e0e0"/>
+    <circle cx="160" cy="174" r="5.0" fill="#c6c6c6"/>
+    <circle cx="170" cy="171" r="3.8" fill="#dedede"/>
+    <circle cx="180" cy="174" r="4.0" fill="#b0b0b0"/>
+  </g>
+
+  <!-- Label -->
+</svg>

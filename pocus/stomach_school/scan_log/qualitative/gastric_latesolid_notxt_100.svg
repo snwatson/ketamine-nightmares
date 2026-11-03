@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 300 300">
+  <defs>
+    <radialGradient id="outerWall" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#e8e8e8"/>
+      <stop offset="100%" stop-color="#a0a0a0"/>
+    </radialGradient>
+    <radialGradient id="muscularis" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#4a4a5a"/>
+      <stop offset="100%" stop-color="#2a2a3a"/>
+    </radialGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#00000040"/>
+    </filter>
+    <!-- Clip to the full lumen including mucosa layer -->
+    <clipPath id="fullLumenClip">
+      <ellipse cx="150" cy="148" rx="72" ry="57"/>
+    </clipPath>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="140" fill="#f5f5f0" stroke="#ddd" stroke-width="1"/>
+
+  <!-- Layer 1: Echogenic outer wall -->
+  <ellipse cx="150" cy="148" rx="110" ry="92" fill="url(#outerWall)" filter="url(#shadow)"/>
+  <!-- Layer 2: Muscularis propria -->
+  <ellipse cx="150" cy="148" rx="97" ry="80" fill="url(#muscularis)"/>
+  <!-- Layer 3: Submucosa -->
+  <ellipse cx="150" cy="148" rx="84" ry="68" fill="#c8c8c0"/>
+
+  <!-- Lumen base (fills everything inside submucosa) -->
+  <ellipse cx="150" cy="148" rx="72" ry="57" fill="#707068"/>
+
+  <!-- Heterogeneous lumpy blobs filling the ENTIRE lumen area -->
+  <g clip-path="url(#fullLumenClip)">
+
+    <!-- Outermost ring of blobs -->
+    <ellipse cx="150" cy="95"  rx="16" ry="10" fill="#b0b0a6" transform="rotate(5,150,95)"/>
+    <ellipse cx="172" cy="99"  rx="12" ry="9"  fill="#888880" transform="rotate(20,172,99)"/>
+    <ellipse cx="190" cy="112" rx="13" ry="9"  fill="#c0c0b6" transform="rotate(-15,190,112)"/>
+    <ellipse cx="200" cy="130" rx="10" ry="13" fill="#787870" transform="rotate(10,200,130)"/>
+    <ellipse cx="204" cy="150" rx="9"  ry="12" fill="#a4a49a" transform="rotate(-8,204,150)"/>
+    <ellipse cx="198" cy="170" rx="12" ry="9"  fill="#bcbcb2" transform="rotate(25,198,170)"/>
+    <ellipse cx="183" cy="185" rx="13" ry="8"  fill="#686860" transform="rotate(-20,183,185)"/>
+    <ellipse cx="163" cy="196" rx="11" ry="9"  fill="#9e9e94" transform="rotate(12,163,196)"/>
+    <ellipse cx="140" cy="200" rx="14" ry="8"  fill="#c8c8be" transform="rotate(-5,140,200)"/>
+    <ellipse cx="118" cy="196" rx="11" ry="9"  fill="#808078" transform="rotate(18,118,196)"/>
+    <ellipse cx="100" cy="185" rx="12" ry="8"  fill="#b4b4aa" transform="rotate(-22,100,185)"/>
+    <ellipse cx="88"  cy="168" rx="10" ry="12" fill="#747470" transform="rotate(8,88,168)"/>
+    <ellipse cx="84"  cy="148" rx="9"  ry="13" fill="#aeaea4" transform="rotate(-12,84,148)"/>
+    <ellipse cx="90"  cy="128" rx="11" ry="9"  fill="#d0d0c6" transform="rotate(30,90,128)"/>
+    <ellipse cx="104" cy="110" rx="13" ry="8"  fill="#868680" transform="rotate(-18,104,110)"/>
+    <ellipse cx="125" cy="98"  rx="14" ry="9"  fill="#a0a096" transform="rotate(15,125,98)"/>
+
+    <!-- Middle ring -->
+    <ellipse cx="150" cy="107" rx="13" ry="8"  fill="#c4c4ba" transform="rotate(-10,150,107)"/>
+    <ellipse cx="168" cy="111" rx="10" ry="13" fill="#767670" transform="rotate(22,168,111)"/>
+    <ellipse cx="182" cy="124" rx="12" ry="9"  fill="#aaaaa0" transform="rotate(-8,182,124)"/>
+    <ellipse cx="188" cy="142" rx="9"  ry="12" fill="#888882" transform="rotate(15,188,142)"/>
+    <ellipse cx="186" cy="160" rx="11" ry="8"  fill="#bbbbb1" transform="rotate(-25,186,160)"/>
+    <ellipse cx="175" cy="175" rx="13" ry="9"  fill="#6e6e68" transform="rotate(10,175,175)"/>
+    <ellipse cx="158" cy="184" rx="10" ry="7"  fill="#c6c6bc" transform="rotate(-15,158,184)"/>
+    <ellipse cx="140" cy="187" rx="12" ry="8"  fill="#929288" transform="rotate(20,140,187)"/>
+    <ellipse cx="122" cy="182" rx="10" ry="8"  fill="#7e7e78" transform="rotate(-5,122,182)"/>
+    <ellipse cx="107" cy="172" rx="11" ry="9"  fill="#b8b8ae" transform="rotate(28,107,172)"/>
+    <ellipse cx="98"  cy="156" rx="9"  ry="12" fill="#848480" transform="rotate(-18,98,156)"/>
+    <ellipse cx="98"  cy="137" rx="10" ry="9"  fill="#d4d4ca" transform="rotate(8,98,137)"/>
+    <ellipse cx="108" cy="120" rx="12" ry="8"  fill="#707068" transform="rotate(-30,108,120)"/>
+    <ellipse cx="126" cy="109" rx="11" ry="8"  fill="#a8a89e" transform="rotate(12,126,109)"/>
+
+    <!-- Inner blobs -->
+    <ellipse cx="138" cy="118" rx="14" ry="9"  fill="#9c9c92" transform="rotate(-8,138,118)"/>
+    <ellipse cx="158" cy="116" rx="11" ry="14" fill="#c2c2b8" transform="rotate(18,158,116)"/>
+    <ellipse cx="173" cy="130" rx="13" ry="9"  fill="#787872" transform="rotate(-22,173,130)"/>
+    <ellipse cx="178" cy="148" rx="9"  ry="13" fill="#aeaea4" transform="rotate(10,178,148)"/>
+    <ellipse cx="172" cy="165" rx="13" ry="8"  fill="#c8c8be" transform="rotate(-15,172,165)"/>
+    <ellipse cx="158" cy="176" rx="10" ry="8"  fill="#868680" transform="rotate(25,158,176)"/>
+    <ellipse cx="141" cy="178" rx="13" ry="7"  fill="#b2b2a8" transform="rotate(-10,141,178)"/>
+    <ellipse cx="124" cy="173" rx="10" ry="9"  fill="#6c6c66" transform="rotate(20,124,173)"/>
+    <ellipse cx="112" cy="160" rx="11" ry="9"  fill="#d8d8ce" transform="rotate(-8,112,160)"/>
+    <ellipse cx="108" cy="143" rx="9"  ry="12" fill="#909086" transform="rotate(15,108,143)"/>
+    <ellipse cx="113" cy="126" rx="12" ry="8"  fill="#bcbcb2" transform="rotate(-28,113,126)"/>
+    <ellipse cx="127" cy="115" rx="10" ry="8"  fill="#747470" transform="rotate(8,127,115)"/>
+
+    <!-- Central blobs -->
+    <ellipse cx="148" cy="128" rx="16" ry="10" fill="#a0a096" transform="rotate(-12,148,128)"/>
+    <ellipse cx="165" cy="138" rx="12" ry="16" fill="#c0c0b6" transform="rotate(22,165,138)"/>
+    <ellipse cx="168" cy="158" rx="14" ry="10" fill="#7a7a74" transform="rotate(-8,168,158)"/>
+    <ellipse cx="152" cy="167" rx="16" ry="9"  fill="#aeaea4" transform="rotate(15,152,167)"/>
+    <ellipse cx="133" cy="161" rx="12" ry="15" fill="#d0d0c6" transform="rotate(-20,133,161)"/>
+    <ellipse cx="128" cy="142" rx="14" ry="10" fill="#888882" transform="rotate(10,128,142)"/>
+    <ellipse cx="138" cy="130" rx="10" ry="14" fill="#b6b6ac" transform="rotate(-30,138,130)"/>
+    <ellipse cx="155" cy="148" rx="18" ry="12" fill="#929288" transform="rotate(5,155,148)"/>
+
+  </g>
+
+  <!-- Label -->
+</svg>
